@@ -8,24 +8,81 @@
 
     <ImageButton
         android:id="@+id/languageImageButton1"
-        android:layout_width="368dp"
-        android:layout_height="271dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
         android:src="@mipmap/united_kingdom"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toBottomOf="@+id/languageImageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/languageImageButton2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/languageImageButton2" />
 
     <ImageButton
         android:id="@+id/languageImageButton2"
-        android:layout_width="368dp"
-        android:layout_height="272dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="69dp"
+        android:layout_marginEnd="3dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
         android:src="@mipmap/spain"
+        app:layout_constraintBottom_toTopOf="@+id/languageImageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/languageImageButton1"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <ImageButton
+        android:id="@+id/languageImageButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/france"
+        app:layout_constraintBottom_toBottomOf="@+id/languageImageButton4"
+        app:layout_constraintEnd_toStartOf="@+id/languageImageButton4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/languageImageButton4" />
+
+    <ImageButton
+        android:id="@+id/languageImageButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="61dp"
+        android:layout_marginEnd="3dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/germany"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/languageImageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/languageImageButton2" />
 
+    <ImageView
+        android:id="@+id/activitySplash1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/candy_splash"
+        app:layout_constraintBottom_toTopOf="@+id/textView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="16dp"
+        android:text="Let's choose a language to learn!"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        app:layout_constraintBottom_toTopOf="@+id/languageImageButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activitySplash1" />
 </android.support.constraint.ConstraintLayout>
