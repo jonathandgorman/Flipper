@@ -17,7 +17,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/languageImageButton2"
         app:layout_constraintEnd_toStartOf="@+id/languageImageButton2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/languageImageButton2" />
+        app:layout_constraintTop_toTopOf="@+id/languageImageButton2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/languageImageButton2"

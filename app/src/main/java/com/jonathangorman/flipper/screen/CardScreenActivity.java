@@ -10,6 +10,7 @@ import com.jonathangorman.flipper.R;
 
 public class CardScreenActivity extends AppCompatActivity {
 
+    private static final String TAG = "CardScreenActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

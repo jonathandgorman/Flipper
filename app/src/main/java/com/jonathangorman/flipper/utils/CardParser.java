@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class CardParser {
+    private static final String TAG = "CardParser";
     private static final int RESOURCE_POS = 2;
     private Card currCard = null;
     private String parseLang = "";
@@ -25,7 +26,7 @@ public class CardParser {
     {
         if (cardList.isEmpty())
         {
-            Log.i(LOG, "The card list is empty. Must call parse() first.");
+            Log.i(TAG, "The card list is empty. Must call parse() first.");
             return null;
         }
         return cardList;
@@ -38,7 +39,7 @@ public class CardParser {
         String currLine;
         if (!new File(CONFIG_FILE).exists())
         {
-            Log.e(LOG, "Error, unable to find configuration file @" + CONFIG_FILE);
+            Log.e(TAG, "Error, unable to find configuration file @" + CONFIG_FILE);
             return ERROR;
         }
 
@@ -50,7 +51,7 @@ public class CardParser {
                 addCardToCardList(currCard);
             }
         } catch (IOException e) {
-            Log.e(LOG, "Error, IO exception has occurred: " + e );
+            Log.e(TAG, "Error, IO exception has occurred: " + e );
             return ERROR;
         }
         return TRUE;
@@ -59,7 +60,7 @@ public class CardParser {
     // Converts a line of the config file to a Card
     private Card convertLineToConfig(String input)
     {
-        Log.i(LOG, "Converting config line to card: " + input);
+        Log.i(TAG, "Converting config line to card: " + input);
         Card newCard = null;
         String[] lineSplit;
 
@@ -75,7 +76,7 @@ public class CardParser {
             case "vegetables":
                 break;
             default:
-                Log.e(LOG, "Error, unable to determine card type from line: " + input);
+                Log.e(TAG, "Error, unable to determine card type from line: " + input);
                 return null;
         }
 

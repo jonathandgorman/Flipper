@@ -9,17 +9,16 @@ import android.widget.ImageView;
 
 import com.jonathangorman.flipper.R;
 
-import static com.jonathangorman.flipper.utils.Constants.LOG;
-
 public class LanguageChoiceActivity extends Activity {
 
+    private static final String TAG = "LanguageChoiceActivity";
     private static final String SPANISH_ES = "spanish_es";
     private static final String ENGLISH_UK = "english_uk";
     protected String languageChoice = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.i(LOG, "ACTIVITY CREATE: Creating LanguageChoiceActivity");
+        Log.i(TAG, "ACTIVITY CREATE: Creating LanguageChoiceActivity");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language_choice);
     }
@@ -27,7 +26,7 @@ public class LanguageChoiceActivity extends Activity {
     @Override
     protected void onStart()
     {
-        Log.d(LOG, "Starting LanguageChoiceActivity");
+        Log.d(TAG, "Starting LanguageChoiceActivity");
         super.onStart();
 
         //Allow the user to select a language, then changing to the category choice activity
@@ -38,7 +37,7 @@ public class LanguageChoiceActivity extends Activity {
         englishImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(LOG, "Language chosen: " + languageChoice);
+                Log.d(TAG, "Language chosen: " + languageChoice);
                 languageChoice = SPANISH_ES;
                 Intent goToCategoryChoice = new Intent(getApplicationContext(), CategoryChoiceActivity.class);
                 goToCategoryChoice.putExtra("LANGUAGE", languageChoice);
@@ -50,7 +49,7 @@ public class LanguageChoiceActivity extends Activity {
         spanishLanguageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(LOG, "Language chosen: " + languageChoice);
+                Log.d(TAG, "Language chosen: " + languageChoice);
                 languageChoice = ENGLISH_UK;
                 Intent goToCategoryChoice = new Intent(getApplicationContext(), CategoryChoiceActivity.class);
                 startActivity(goToCategoryChoice);

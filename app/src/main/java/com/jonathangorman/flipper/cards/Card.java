@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public abstract class Card implements Serializable{
 
+    private static final String TAG = "Card";
     private String name = "";
     private String imagePath = "";
     private String audioPath = "";
