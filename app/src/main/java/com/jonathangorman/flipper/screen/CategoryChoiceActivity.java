@@ -19,6 +19,8 @@ public class CategoryChoiceActivity extends Activity {
     protected String categoryChosen = "";
     protected String languageChosen = "";
     protected CardList cardList;
+    ArrayList<String> recyclerImagesList = new ArrayList<String>();
+    ArrayList<String> recyclerNamesList = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,9 @@ public class CategoryChoiceActivity extends Activity {
         Intent intentLanguageChoice = getIntent();
         languageChosen = intentLanguageChoice.getStringExtra("LANGUAGE");
         Log.d(TAG, "Intent received from LanguageChoiceActivity: " + languageChosen);
+
+        // Initialise lists once for the recyclerView
+        initLists();
     }
 
     @Override
@@ -37,43 +42,9 @@ public class CategoryChoiceActivity extends Activity {
         Log.d(TAG, "Starting categoryChoiceActivity");
         super.onStart();
 
-        ArrayList<String> imagesList = new ArrayList<String>();
-        ArrayList<String> namesList = new ArrayList<String>();
-        imagesList.add(String.valueOf(R.mipmap.apple));
-         namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-        imagesList.add(String.valueOf(R.mipmap.apple));
-        namesList.add("Name 1");
-
-
+        // Initialise and create recycler view and adapter to show the category choices
         RecyclerView recyclerView = findViewById(R.id.recyclerView1);
-        CategoryChoiceRecyclerViewAdapter adapter = new CategoryChoiceRecyclerViewAdapter(imagesList,namesList,this);
-
+        CategoryChoiceRecyclerViewAdapter adapter = new CategoryChoiceRecyclerViewAdapter(recyclerImagesList, recyclerNamesList,this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -112,5 +83,35 @@ public class CategoryChoiceActivity extends Activity {
         parser.setParserLang(lang);
         parser.start();
         return parser.getCardList();
+    }
+
+    // Initialises the lists required by the recyclerView
+    void initLists()
+    {
+        if (languageChosen.equals("english_uk"))
+        {
+            recyclerNamesList.add("Fruit");
+            recyclerNamesList.add("Vegetables");
+            recyclerNamesList.add("Animals");
+            recyclerNamesList.add("Professions");
+            recyclerNamesList.add("Transport");
+            recyclerNamesList.add("Fast food");
+        }
+        else if (languageChosen.equals("spanish_es"))
+        {
+            recyclerNamesList.add("Fruta");
+            recyclerNamesList.add("Verduras");
+            recyclerNamesList.add("Animales");
+            recyclerNamesList.add("Profesiones");
+            recyclerNamesList.add("Transporte");
+            recyclerNamesList.add("Comida rápida");
+
+        }
+        recyclerImagesList.add(String.valueOf(R.mipmap.watermelon_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.red_pepper_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.cat_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.firefighter_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.car_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.hamburger_layer));
     }
 }

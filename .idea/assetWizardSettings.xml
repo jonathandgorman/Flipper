@@ -71,9 +71,9 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="invisible_background" />
-                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Country Flags\197373-countrys-flags\png\france.png" />
-                                      <entry key="foregroundLayerName" value="france_layer" />
-                                      <entry key="outputName" value="france" />
+                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Transport\png\automobile-1.png" />
+                                      <entry key="foregroundLayerName" value="car_layer" />
+                                      <entry key="outputName" value="car" />
                                     </map>
                                   </option>
                                 </PersistentState>

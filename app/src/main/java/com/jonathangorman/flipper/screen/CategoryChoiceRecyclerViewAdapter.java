@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.jonathangorman.flipper.R;
 
 import java.util.ArrayList;
@@ -30,24 +29,22 @@ public class CategoryChoiceRecyclerViewAdapter extends RecyclerView.Adapter<Cate
         this.context = context;
     }
 
-
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         ImageView imageView;
         TextView textView;
         ConstraintLayout constraintLayout;
 
-        // holds wigits in memory
+        // holds widgits in memory
         public ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.category_imageView1);
             constraintLayout = itemView.findViewById(R.id.category_parent_layout);
-            textView = itemView.findViewById(R.id.category_textView3);
-
+            textView = itemView.findViewById(R.id.category_textView1);
         }
     }
 
-    // responsible for inflating the view
+    // Responsible for inflating the view
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.category_item, viewGroup, false);
@@ -55,16 +52,18 @@ public class CategoryChoiceRecyclerViewAdapter extends RecyclerView.Adapter<Cate
         return holder;
     }
 
-    // changes bae on layouts
+    // Sets the holder values
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
-        Log.d(TAG,"New item in the list");
+        Log.d(TAG,"New item added at position: " + i);
         viewHolder.imageView.setImageResource(Integer.valueOf(imagesList.get(i)));
         viewHolder.textView.setText(namesList.get(i));
     }
+
+    // Returns the number of items
     @Override
     public int getItemCount() {
-        return imagesList.size();
+        return namesList.size();
     }
 }
