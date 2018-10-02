@@ -5,6 +5,8 @@
     android:id="@+id/category_parent_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/ic_launcher_background"
     android:visibility="visible"
     tools:background="@android:color/white"
     tools:layout_editor_absoluteY="25dp">

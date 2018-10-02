@@ -1,57 +1,79 @@
 package com.jonathangorman.flipper.screen;
 
-import android.media.MediaPlayer;
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageButton;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 import com.jonathangorman.flipper.R;
+import com.jonathangorman.flipper.adapters.CardChoiceAdapter;
+import com.jonathangorman.flipper.adapters.CategoryChoiceAdapter;
 
-public class CardScreenActivity extends AppCompatActivity {
+import java.util.ArrayList;
+
+import static com.jonathangorman.flipper.utils.Constants.CARDS_PER_ROW;
+
+public class CardScreenActivity extends Activity {
 
     private static final String TAG = "CardScreenActivity";
+    ArrayList<String> recyclerImagesList = new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_screen);
+
+        // Initialise lists once for the recyclerView
+        initLists();
     }
 
     protected void onStart() {
         super.onStart();
 
-        // Set the button images according to the selected category
-        ImageButton img1 = (ImageButton) findViewById(R.id.languageImageButton1);
-        img1.setImageResource(R.mipmap.apple);
-        ImageButton img2 = (ImageButton) findViewById(R.id.languageImageButton2);
-        img2.setImageResource(R.mipmap.apricot);
-        ImageButton img3 = (ImageButton) findViewById(R.id.imageButton3);
-        img3.setImageResource(R.mipmap.banana);
-        ImageButton img4 = (ImageButton) findViewById(R.id.imageButton4);
-        img4.setImageResource(R.mipmap.blueberry);
-        ImageButton img5 = (ImageButton) findViewById(R.id.imageButton5);
-        img5.setImageResource(R.mipmap.cherry);
-        ImageButton img6 = (ImageButton) findViewById(R.id.imageButton6);
-        img6.setImageResource(R.mipmap.coconut);
-        ImageButton img7 = (ImageButton) findViewById(R.id.imageButton7);
-        img7.setImageResource(R.mipmap.grapes);
-        ImageButton img8 = (ImageButton) findViewById(R.id.imageButton8);
-        img8.setImageResource(R.mipmap.kiwi);
-        ImageButton img9 = (ImageButton) findViewById(R.id.imageButton9);
-        img9.setImageResource(R.mipmap.lemon);
-        ImageButton img10 = (ImageButton) findViewById(R.id.imageButton10);
-        img10.setImageResource(R.mipmap.orange);
-        ImageButton img11 = (ImageButton) findViewById(R.id.imageButton11);
-        img11.setImageResource(R.mipmap.pineapple);
-        ImageButton img12 = (ImageButton) findViewById(R.id.imageButton12);
-        img12.setImageResource(R.mipmap.watermelon);
+        // Initialise and create recycler view and adapter to show the category choices
+        RecyclerView recyclerView = findViewById(R.id.recycler_view_card_screen);
+        CardChoiceAdapter adapter = new CardChoiceAdapter(recyclerImagesList,this);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new GridLayoutManager(this, CARDS_PER_ROW));
+    }
 
-        img1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.alarm);
-                mp.start();
-            }
-        });
+    // Initialises the lists required by the recyclerView
+    void initLists()
+    {
+        recyclerImagesList.add(String.valueOf(R.mipmap.apple_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.banana_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.mango_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.watermelon_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.kiwi_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.blueberry_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.coconut_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.apricot_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.lemon_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.grapes_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.pineapple_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.cherry_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.orange_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.carambola_layer));
+
+        recyclerImagesList.add(String.valueOf(R.mipmap.chestnut_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.dates_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.dragon_fruit_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.fig_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.goji_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.gooseberry_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.grapefruit_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.guava_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.kumquat_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.lime_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.mangosteen_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.melon_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.papaya_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.passion_fruit_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.persimmion_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.plum_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.quince_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.rambutan_fruit_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.rasberry_layer));
     }
 }

@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import com.jonathangorman.flipper.R;
+import com.jonathangorman.flipper.adapters.CategoryChoiceAdapter;
 import com.jonathangorman.flipper.utils.CardParser;
 import com.jonathangorman.flipper.cards.CardList;
 
@@ -44,35 +45,9 @@ public class CategoryChoiceActivity extends Activity {
 
         // Initialise and create recycler view and adapter to show the category choices
         RecyclerView recyclerView = findViewById(R.id.recyclerView1);
-        CategoryChoiceRecyclerViewAdapter adapter = new CategoryChoiceRecyclerViewAdapter(recyclerImagesList, recyclerNamesList,this);
+        CategoryChoiceAdapter adapter = new CategoryChoiceAdapter(recyclerImagesList, recyclerNamesList,this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        /*
-        // Listen for category choice, create card list, and then change activity
-        ImageView fruitCategoryButton = (ImageView) findViewById(R.id.categoryImageButton1);
-        fruitCategoryButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                categoryChosen = FRUIT;
-                Log.d(TAG, "Category chosen: " + categoryChosen);
-
-                // using the language and category choice, parse the config to return a card list corresponding to the choices
-                cardList = populateCardList(languageChosen,categoryChosen);
-                if (cardList == null)
-                {
-                    // In the case that the card list is null, the previous activity should be accessed
-                    Log.e(TAG, "Error, The cardList is empty. Unable to continue to next activity.");
-                    Toast.makeText(getApplicationContext(), "Oops, this looks bad. A fatal error has occurred.", Toast.LENGTH_LONG).show();
-                    Intent returnToLanguageChoice = new Intent(getApplicationContext(), LanguageChoiceActivity.class);
-                    startActivity(returnToLanguageChoice);
-                }
-                Log.d(TAG, "Card list has been retrieved, accessing next activity.");
-                Intent goToCardScreen = new Intent(getApplicationContext(), CardScreenActivity.class);
-                goToCardScreen.putExtra("CARDLIST",cardList);
-                startActivity(goToCardScreen);
-            }
-        });*/
     }
 
     // Creates a card parser and returns a car list

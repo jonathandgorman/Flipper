@@ -71,9 +71,9 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="invisible_background" />
-                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Transport\png\automobile-1.png" />
-                                      <entry key="foregroundLayerName" value="car_layer" />
-                                      <entry key="outputName" value="car" />
+                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Fruit and Veg\png\059-passion-fruit-1.png" />
+                                      <entry key="foregroundLayerName" value="passion_fruit_layer" />
+                                      <entry key="outputName" value="passion_fruit" />
                                     </map>
                                   </option>
                                 </PersistentState>
