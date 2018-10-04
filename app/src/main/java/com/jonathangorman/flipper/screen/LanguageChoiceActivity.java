@@ -1,26 +1,29 @@
 package com.jonathangorman.flipper.screen;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.View;
-import android.widget.ImageView;
 
 import com.jonathangorman.flipper.R;
+import com.jonathangorman.flipper.adapters.LanguageChoiceAdapter;
+
+import java.util.ArrayList;
 
 public class LanguageChoiceActivity extends Activity {
 
     private static final String TAG = "LanguageChoiceActivity";
-    private static final String SPANISH_ES = "spanish_es";
-    private static final String ENGLISH_UK = "english_uk";
-    protected String languageChoice = "";
+
+    ArrayList<Integer> languagesImagesList = new ArrayList<Integer>();
+    ArrayList<String> languageNameList = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i(TAG, "ACTIVITY CREATE: Creating LanguageChoiceActivity");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language_choice);
+        initViewLists(); // initialise view lists
     }
 
     @Override
@@ -29,32 +32,27 @@ public class LanguageChoiceActivity extends Activity {
         Log.d(TAG, "Starting LanguageChoiceActivity");
         super.onStart();
 
-        //Allow the user to select a language, then changing to the category choice activity
-        ImageView englishImageView = (ImageView) findViewById(R.id.languageImageButton1);
-        ImageView spanishLanguageView = (ImageView) findViewById(R.id.languageImageButton2);
+        // Initialise and create recycler view and adapter to show the language choices
+        RecyclerView recyclerView = findViewById(R.id.language_recycle_view);
+        LanguageChoiceAdapter adapter = new LanguageChoiceAdapter(this, this.languagesImagesList, this.languageNameList);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
 
-        // English language chosen
-        englishImageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(TAG, "Language chosen: " + languageChoice);
-                languageChoice = ENGLISH_UK;
-                Intent goToCategoryChoice = new Intent(getApplicationContext(), CategoryChoiceActivity.class);
-                goToCategoryChoice.putExtra("LANGUAGE", languageChoice);
-                startActivity(goToCategoryChoice);
-            }
-        });
-
-        // Spanish language chosen
-        spanishLanguageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(TAG, "Language chosen: " + languageChoice);
-                languageChoice = SPANISH_ES;
-                Intent goToCategoryChoice = new Intent(getApplicationContext(), CategoryChoiceActivity.class);
-                goToCategoryChoice.putExtra("LANGUAGE", languageChoice);
-                startActivity(goToCategoryChoice);
-            }
-        });
+    // Initialise lists of data for the view
+    private void initViewLists()
+    {
+        languagesImagesList.add(R.mipmap.united_kingdom_layer);
+        languageNameList.add("ENGLISH");
+        languagesImagesList.add(R.mipmap.spain_layer);
+        languageNameList.add("ESPAÑOL");
+        languagesImagesList.add(R.mipmap.france_layer);
+        languageNameList.add("FRANÇAIS");
+        languagesImagesList.add(R.mipmap.germany_layer);
+        languageNameList.add("DEUTSCH");
+        languagesImagesList.add(R.mipmap.italy_layer);
+        languageNameList.add("ITALIANO");
+        languagesImagesList.add(R.mipmap.portugal_layer);
+        languageNameList.add("PORTUGUÊS");
     }
 }

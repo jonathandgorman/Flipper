@@ -16,10 +16,7 @@ import java.util.ArrayList;
 public class CategoryChoiceActivity extends Activity {
 
     private static final String TAG = "CategoryChoiceActivity";
-    private static final String FRUIT = "fruit";
-    protected String categoryChosen = "";
     protected String languageChosen = "";
-    protected CardList cardList;
     ArrayList<String> recyclerImagesList = new ArrayList<String>();
     ArrayList<String> recyclerNamesList = new ArrayList<String>();
 
@@ -63,7 +60,7 @@ public class CategoryChoiceActivity extends Activity {
     // Initialises the lists required by the recyclerView
     void initLists()
     {
-        if (languageChosen.equals("english_uk"))
+        if (languageChosen.equals("english"))
         {
             recyclerNamesList.add("Fruit");
             recyclerNamesList.add("Vegetables");

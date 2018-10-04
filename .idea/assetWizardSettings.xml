@@ -71,9 +71,9 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="invisible_background" />
-                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Fruit and Veg\png\059-passion-fruit-1.png" />
-                                      <entry key="foregroundLayerName" value="passion_fruit_layer" />
-                                      <entry key="outputName" value="passion_fruit" />
+                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Country Flags\197373-countrys-flags\png\portugal.png" />
+                                      <entry key="foregroundLayerName" value="portugal_layer" />
+                                      <entry key="outputName" value="portugal" />
                                     </map>
                                   </option>
                                 </PersistentState>
