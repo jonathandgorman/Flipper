@@ -60,7 +60,7 @@ public class CategoryChoiceActivity extends Activity {
     // Initialises the lists required by the recyclerView
     void initLists()
     {
-        if (languageChosen.equals("english"))
+        if (languageChosen.equalsIgnoreCase("united_kingdom"))
         {
             recyclerNamesList.add("Fruit");
             recyclerNamesList.add("Vegetables");
@@ -69,7 +69,7 @@ public class CategoryChoiceActivity extends Activity {
             recyclerNamesList.add("Transport");
             recyclerNamesList.add("Fast food");
         }
-        else if (languageChosen.equals("spanish_es"))
+        else if (languageChosen.equalsIgnoreCase("spain"))
         {
             recyclerNamesList.add("Fruta");
             recyclerNamesList.add("Verduras");
@@ -77,8 +77,44 @@ public class CategoryChoiceActivity extends Activity {
             recyclerNamesList.add("Profesiones");
             recyclerNamesList.add("Transporte");
             recyclerNamesList.add("Comida rápida");
-
         }
+        else if (languageChosen.equalsIgnoreCase("france"))
+        {
+            recyclerNamesList.add("Fruits");
+            recyclerNamesList.add("Légumes");
+            recyclerNamesList.add("Animaux");
+            recyclerNamesList.add("Professions");
+            recyclerNamesList.add("Transport");
+            recyclerNamesList.add("Restauration Rapide");
+        }
+        else if (languageChosen.equalsIgnoreCase("germany"))
+        {
+            recyclerNamesList.add("Obst");
+            recyclerNamesList.add("Gemüse");
+            recyclerNamesList.add("Tiere");
+            recyclerNamesList.add("Profesiones");
+            recyclerNamesList.add("Berufe");
+            recyclerNamesList.add("'Fast Food'");
+        }
+        else if (languageChosen.equalsIgnoreCase("italy"))
+        {
+            recyclerNamesList.add("Frutta");
+            recyclerNamesList.add("Verdura");
+            recyclerNamesList.add("Animali");
+            recyclerNamesList.add("Professioni");
+            recyclerNamesList.add("Trasporti");
+            recyclerNamesList.add("'Fast Food'");
+        }
+        else if (languageChosen.equalsIgnoreCase("portugal"))
+        {
+            recyclerNamesList.add("Fruit");
+            recyclerNamesList.add("Vegetais");
+            recyclerNamesList.add("Animals");
+            recyclerNamesList.add("Profissões");
+            recyclerNamesList.add("Transport");
+            recyclerNamesList.add("'Fast Food'");
+        }
+
         recyclerImagesList.add(String.valueOf(R.mipmap.watermelon_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.red_pepper_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.cat_layer));

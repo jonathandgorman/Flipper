@@ -13,7 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.screen.CardScreenActivity;
 import com.jonathangorman.flipper.screen.CategoryChoiceActivity;
 
 import java.util.ArrayList;
@@ -24,16 +23,17 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
     private static final String TAG = "LanguageChoiceAdapter";
     private Context context;
     private ArrayList<Integer> languageImageList;
-    private ArrayList<String> languageTextList;
+    private ArrayList<String> languageDisplayTextList;
+    ArrayList<String> languageNameList = new ArrayList<String>();
 
-    public LanguageChoiceAdapter(Context context, ArrayList<Integer> imagesList, ArrayList<String> textList) {
+    public LanguageChoiceAdapter(Context context, ArrayList<Integer> imagesList, ArrayList<String> displayTextList,  ArrayList<String> languageNameList) {
         this.context = context;
         this.languageImageList = imagesList;
-        this.languageTextList = textList;
+        this.languageDisplayTextList = displayTextList;
+        this.languageNameList = languageNameList;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
-
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         ImageView imageView;
         TextView textView;
         ConstraintLayout constraintLayout;
@@ -45,39 +45,38 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
             textView = itemView.findViewById(R.id.language_text_view);
             constraintLayout = itemView.findViewById(R.id.language_constraint_layout);
         }
+
+        // On click listener that provides the next activity with the language chosen in the form of an intent
+        @Override
+        public void onClick(View v) {
+            Intent toCategoryChoice = new Intent(context, CategoryChoiceActivity.class);
+            toCategoryChoice.putExtra("LANGUAGE", languageNameList.get(getAdapterPosition())); // adapter position is removed from the list and added to intent
+            context.startActivity(toCategoryChoice);
+        }
     }
 
     // Responsible for inflating the view
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.language_card, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.language_item, viewGroup, false);
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
 
     // Sets the holder values
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull final ViewHolder viewHolder, int i) {
 
         Log.d(TAG,"New item added at position: " + i);
-        viewHolder.textView.setText(languageTextList.get(i));
+        viewHolder.textView.setText(languageDisplayTextList.get(i));
         viewHolder.imageView.setImageResource(languageImageList.get(i));
 
-        viewHolder.constraintLayout.setOnClickListener( new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view)
-            {
-                Intent toCategoryChoice = new Intent(context, CategoryChoiceActivity.class);
-                toCategoryChoice.putExtra("LANGUAGE","english");
-                context.startActivity(toCategoryChoice);
-            }
-        });
+        viewHolder.constraintLayout.setOnClickListener(viewHolder);
     }
 
     // Returns the number of items
     @Override
     public int getItemCount() {
-        return languageTextList.size();
+        return languageDisplayTextList.size();
     }
 }

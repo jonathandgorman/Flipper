@@ -16,6 +16,7 @@ public class LanguageChoiceActivity extends Activity {
     private static final String TAG = "LanguageChoiceActivity";
 
     ArrayList<Integer> languagesImagesList = new ArrayList<Integer>();
+    ArrayList<String> languageDisplayTextList = new ArrayList<String>();
     ArrayList<String> languageNameList = new ArrayList<String>();
 
     @Override
@@ -34,7 +35,7 @@ public class LanguageChoiceActivity extends Activity {
 
         // Initialise and create recycler view and adapter to show the language choices
         RecyclerView recyclerView = findViewById(R.id.language_recycle_view);
-        LanguageChoiceAdapter adapter = new LanguageChoiceAdapter(this, this.languagesImagesList, this.languageNameList);
+        LanguageChoiceAdapter adapter = new LanguageChoiceAdapter(this, this.languagesImagesList, this.languageDisplayTextList, this.languageNameList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -43,16 +44,27 @@ public class LanguageChoiceActivity extends Activity {
     private void initViewLists()
     {
         languagesImagesList.add(R.mipmap.united_kingdom_layer);
-        languageNameList.add("ENGLISH");
+        languageDisplayTextList.add("ENGLISH");
+        languageNameList.add("united_kingdom");
+
         languagesImagesList.add(R.mipmap.spain_layer);
-        languageNameList.add("ESPAÑOL");
+        languageDisplayTextList.add("ESPAÑOL");
+        languageNameList.add("spain");
+
         languagesImagesList.add(R.mipmap.france_layer);
-        languageNameList.add("FRANÇAIS");
+        languageDisplayTextList.add("FRANÇAIS");
+        languageNameList.add("france");
+
         languagesImagesList.add(R.mipmap.germany_layer);
-        languageNameList.add("DEUTSCH");
+        languageDisplayTextList.add("DEUTSCH");
+        languageNameList.add("germany");
+
         languagesImagesList.add(R.mipmap.italy_layer);
-        languageNameList.add("ITALIANO");
+        languageDisplayTextList.add("ITALIANO");
+        languageNameList.add("italy");
+
         languagesImagesList.add(R.mipmap.portugal_layer);
-        languageNameList.add("PORTUGUÊS");
+        languageDisplayTextList.add("PORTUGUÊS");
+        languageNameList.add("portugal");
     }
 }
