@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.screen.CardScreenActivity;
+import com.jonathangorman.flipper.screen.CategoryChoiceActivity;
 
 import java.util.ArrayList;
 
@@ -21,28 +22,40 @@ import java.util.ArrayList;
 public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAdapter.ViewHolder>{
 
     private static final String TAG = "CategoryChoiceAdapter";
-    ArrayList<String> imagesList;
-    ArrayList<String> namesList;
+    private ArrayList<Integer> categoryImagesList;
+    private ArrayList<String> categoryTextList;
+    private ArrayList<String> categoryNameList;
+    private String languageChosen;
     Context context;
 
-    public CategoryChoiceAdapter(ArrayList<String> imagesList, ArrayList<String> namesList, Context context) {
-        this.imagesList = imagesList;
-        this.namesList = namesList;
+    public CategoryChoiceAdapter(Context context, String languageChosen, ArrayList<String> nameList, ArrayList<String> textList, ArrayList<Integer> imagesList) {
+        this.categoryImagesList = imagesList;
+        this.categoryTextList = textList;
+        this.categoryNameList = nameList;
+        this.languageChosen = languageChosen;
         this.context = context;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         ImageView imageView;
         TextView textView;
         ConstraintLayout constraintLayout;
 
-        // holds widgits in memory
+        // holds widgets in memory
         public ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.category_imageView1);
             constraintLayout = itemView.findViewById(R.id.category_parent_layout);
             textView = itemView.findViewById(R.id.category_textView1);
+        }
+
+        @Override
+        public void onClick(View v) {
+            Intent toCardScreen = new Intent(context, CardScreenActivity.class);
+            toCardScreen.putExtra("CATEGORY", categoryNameList.get(getAdapterPosition())); // adapter position is removed from the list and added to intent
+            toCardScreen.putExtra("LANGUAGE", languageChosen); // add language
+            context.startActivity(toCardScreen);
         }
     }
 
@@ -59,8 +72,8 @@ public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAd
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
         Log.d(TAG,"New item added at position: " + i);
-        viewHolder.imageView.setImageResource(Integer.valueOf(imagesList.get(i)));
-        viewHolder.textView.setText(namesList.get(i));
+        viewHolder.imageView.setImageResource(categoryImagesList.get(i));
+        viewHolder.textView.setText(categoryTextList.get(i));
 
         viewHolder.constraintLayout.setOnClickListener( new View.OnClickListener() {
 
@@ -76,6 +89,6 @@ public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAd
     // Returns the number of items
     @Override
     public int getItemCount() {
-        return namesList.size();
+        return categoryTextList.size();
     }
 }

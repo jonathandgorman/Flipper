@@ -24,7 +24,7 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
     private Context context;
     private ArrayList<Integer> languageImageList;
     private ArrayList<String> languageDisplayTextList;
-    ArrayList<String> languageNameList = new ArrayList<String>();
+    ArrayList<String> languageNameList;
 
     public LanguageChoiceAdapter(Context context, ArrayList<Integer> imagesList, ArrayList<String> displayTextList,  ArrayList<String> languageNameList) {
         this.context = context;

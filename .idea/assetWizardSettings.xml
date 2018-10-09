@@ -71,9 +71,24 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="invisible_background" />
-                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Country Flags\197373-countrys-flags\png\portugal.png" />
-                                      <entry key="foregroundLayerName" value="portugal_layer" />
-                                      <entry key="outputName" value="portugal" />
+                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Fruit and Veg\png\003-tomato.png" />
+                                      <entry key="foregroundLayerName" value="tomato" />
+                                      <entry key="generateWebIcon" value="false" />
+                                      <entry key="legacyIconShape" value="NONE" />
+                                      <entry key="outputName" value="tomato_icon" />
+                                      <entry key="webIconShape" value="NONE" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="iconShape" value="NONE" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -1,15 +1,12 @@
 package com.jonathangorman.flipper.screen;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.adapters.CardChoiceAdapter;
-import com.jonathangorman.flipper.adapters.CategoryChoiceAdapter;
 
 import java.util.ArrayList;
 
@@ -41,14 +38,14 @@ public class CardScreenActivity extends Activity {
     // Initialises the lists required by the recyclerView
     void initLists()
     {
-        recyclerImagesList.add(String.valueOf(R.mipmap.apple_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.apple));
         recyclerImagesList.add(String.valueOf(R.mipmap.banana_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.mango_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.watermelon_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.watermelon));
         recyclerImagesList.add(String.valueOf(R.mipmap.kiwi_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.blueberry_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.coconut_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.apricot_layer));
+        recyclerImagesList.add(String.valueOf(R.mipmap.apricot));
         recyclerImagesList.add(String.valueOf(R.mipmap.lemon_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.grapes_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.pineapple_layer));
