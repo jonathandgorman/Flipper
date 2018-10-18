@@ -34,7 +34,7 @@ public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.Vi
         ImageView imageView;
         ConstraintLayout constraintLayout;
 
-        // holds widgits in memory
+        // holds widgets in memory
         public ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.card_image);

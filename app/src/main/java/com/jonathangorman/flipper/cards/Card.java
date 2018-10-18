@@ -2,7 +2,7 @@ package com.jonathangorman.flipper.cards;
 
 import java.io.Serializable;
 
-public abstract class Card implements Serializable{
+public class Card implements Serializable{
 
     private static final String TAG = "Card";
     private String name = "";
@@ -18,7 +18,7 @@ public abstract class Card implements Serializable{
     public void setCategory(String category) {
         this.category = category;
     }
-    public void setImage(String imagePath) {
+    public void setImageName(String imagePath) {
         this.imagePath = imagePath;
     }
     public void setLanguage(String language) {
@@ -33,7 +33,7 @@ public abstract class Card implements Serializable{
     public String getCategory() {
         return category;
     }
-    public String getImagePath() {
+    public String getImageString() {
         return imagePath;
     }
     public String getLanguage() {

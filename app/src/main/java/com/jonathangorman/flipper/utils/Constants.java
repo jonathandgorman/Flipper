@@ -5,6 +5,5 @@ public class Constants {
     public static final int TRUE = 1;
     public static final int FALSE = 0;
     public static final int ERROR = -1;
-    public static final String CONFIG_FILE = "raw//config.txt";
     public static final int CARDS_PER_ROW = 3;
 }

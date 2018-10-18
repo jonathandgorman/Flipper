@@ -1,7 +1,9 @@
 package com.jonathangorman.flipper.utils;
 
+import android.content.Context;
 import android.util.Log;
 
+import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.cards.Card;
 import com.jonathangorman.flipper.cards.CardList;
 import com.jonathangorman.flipper.cards.FoodCard;
@@ -11,22 +13,29 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class CardParser {
     private static final String TAG = "CardParser";
-    private static final int RESOURCE_POS = 2;
+
+    private static final int LANGUAGE_POS = 0;
+    private static final int CATEGORY_POS = 1;
+    private static final int ID_POS = 2;
+    private static final int AUDIO_POS = 3;
+    private static final int IMAGE_POS = 4;
+
+    private Context context = null;
     private Card currCard = null;
     private String parseLang = "";
     private String parseCat = "";
     private CardList cardList = new CardList();
 
     // Returns the cardList
-    public CardList getCardList()
-    {
-        if (cardList.isEmpty())
-        {
-            Log.i(TAG, "The card list is empty. Must call parse() first.");
+    public CardList getCardList() {
+        if (cardList.isEmpty()) {
+            Log.i(TAG, "The card list is empty. Must call start() first.");
             return null;
         }
         return cardList;
@@ -35,66 +44,62 @@ public class CardParser {
     // starts the parsing process
     public int start()
     {
-        // Check that the config file exists
+        String language;
+        String category;
         String currLine;
-        if (!new File(CONFIG_FILE).exists())
-        {
-            Log.e(TAG, "Error, unable to find configuration file @" + CONFIG_FILE);
-            return ERROR;
-        }
 
-        //
-        try (BufferedReader br = new BufferedReader(new FileReader(CONFIG_FILE))) {
+        // Check that the config file exists
+        InputStream is = context.getResources().openRawResource(R.raw.config);
+        InputStreamReader isr = new InputStreamReader(is);
+        BufferedReader br = new BufferedReader(isr, 8192);
+
+        try {
             while ((currLine = br.readLine()) != null) {
+
+                currCard = new Card();
+                // parse the input line to keywords based on ";"
+                String[] lineSplit;
+                lineSplit = currLine.split(";");
+
+                // If the language and category of the line do not comply, we check the next line
+                language = lineSplit[LANGUAGE_POS];
+                if (!language.equalsIgnoreCase(parseLang)) {
+                    continue;
+                }
+                category = lineSplit[CATEGORY_POS];
+                if (!category.equalsIgnoreCase(parseCat)) {
+                    continue;
+                }
+
+                // Add details to the card
+                currCard.setLanguage(language);
+                currCard.setCategory(category);
+                currCard.setName(lineSplit[ID_POS]);
+                currCard.setAudio(lineSplit[AUDIO_POS]);
+                currCard.setImageName(lineSplit[IMAGE_POS]);
+
                 // Take a line and convert it to a card, then add it to a cardList
-                currCard = convertLineToConfig(currLine);
                 addCardToCardList(currCard);
             }
-        } catch (IOException e) {
-            Log.e(TAG, "Error, IO exception has occurred: " + e );
-            return ERROR;
+        } catch (Exception e) {
+            return FALSE;
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    return FALSE;
+                }
+            }
         }
         return TRUE;
     }
 
-    // Converts a line of the config file to a Card
-    private Card convertLineToConfig(String input)
-    {
-        Log.i(TAG, "Converting config line to card: " + input);
-        Card newCard = null;
-        String[] lineSplit;
-
-        // parse the input line to keywords
-        lineSplit = input.split(";");
-        String resourceName = lineSplit[RESOURCE_POS];
-
-        // choose the type of cards according to the category
-        switch (parseCat) {
-            case "fruit":
-                newCard = new FoodCard();
-                break;
-            case "vegetables":
-                break;
-            default:
-                Log.e(TAG, "Error, unable to determine card type from line: " + input);
-                return null;
-        }
-
-        // Set the new card details
-        newCard.setName(resourceName);
-        newCard.setAudio(resourceName);
-        newCard.setImage(resourceName);
-        newCard.setCategory(parseCat);
-        newCard.setLanguage(parseLang);
-
-        return newCard;
-    }
 
     // Adds a card to the list
-    ArrayList<Card> addCardToCardList(Card card)
+    void addCardToCardList(Card card)
     {
         cardList.add(card);
-        return cardList;
     }
 
     public void setParserLang(String inputLang)
@@ -105,5 +110,10 @@ public class CardParser {
     public void setParserCategory(String inputCat)
     {
         this.parseCat = inputCat;
+    }
+
+    public void setContext(Context context)
+    {
+        this.context = context;
     }
 }

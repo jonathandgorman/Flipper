@@ -14,7 +14,6 @@ import android.widget.TextView;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.screen.CardScreenActivity;
-import com.jonathangorman.flipper.screen.CategoryChoiceActivity;
 
 import java.util.ArrayList;
 
@@ -45,9 +44,9 @@ public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAd
         // holds widgets in memory
         public ViewHolder(View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.category_imageView1);
+            imageView = itemView.findViewById(R.id.category_imageView);
             constraintLayout = itemView.findViewById(R.id.category_parent_layout);
-            textView = itemView.findViewById(R.id.category_textView1);
+            textView = itemView.findViewById(R.id.category_textView);
         }
 
         @Override
@@ -74,16 +73,7 @@ public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAd
         Log.d(TAG,"New item added at position: " + i);
         viewHolder.imageView.setImageResource(categoryImagesList.get(i));
         viewHolder.textView.setText(categoryTextList.get(i));
-
-        viewHolder.constraintLayout.setOnClickListener( new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view)
-            {
-                Intent goToCardScreen = new Intent(context, CardScreenActivity.class);
-                context.startActivity(goToCardScreen);
-            }
-        });
+        viewHolder.constraintLayout.setOnClickListener(viewHolder);
     }
 
     // Returns the number of items

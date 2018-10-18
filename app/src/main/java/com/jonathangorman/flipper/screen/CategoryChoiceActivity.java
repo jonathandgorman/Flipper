@@ -48,16 +48,6 @@ public class CategoryChoiceActivity extends Activity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
-    // Creates a card parser and returns a car list
-    protected CardList populateCardList(String lang, String cat)
-    {
-        CardParser parser = new CardParser();
-        parser.setParserCategory(cat);
-        parser.setParserLang(lang);
-        parser.start();
-        return parser.getCardList();
-    }
-
     // Initialises the lists required by the recyclerView
     void initLists()
     {
@@ -121,7 +111,7 @@ public class CategoryChoiceActivity extends Activity {
         recyclerImagesList.add(R.mipmap.red_pepper_layer);
         recyclerNameList.add("vegetables");
         recyclerImagesList.add(R.mipmap.cat_layer);
-        recyclerNameList.add("animales");
+        recyclerNameList.add("animals");
         recyclerImagesList.add(R.mipmap.firefighter_layer);
         recyclerNameList.add("professions");
         recyclerImagesList.add(R.mipmap.car_layer);

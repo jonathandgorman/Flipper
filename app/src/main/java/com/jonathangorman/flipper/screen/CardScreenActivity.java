@@ -1,12 +1,17 @@
 package com.jonathangorman.flipper.screen;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.adapters.CardChoiceAdapter;
+import com.jonathangorman.flipper.cards.Card;
+import com.jonathangorman.flipper.cards.CardList;
+import com.jonathangorman.flipper.utils.CardParser;
 
 import java.util.ArrayList;
 
@@ -15,14 +20,21 @@ import static com.jonathangorman.flipper.utils.Constants.CARDS_PER_ROW;
 public class CardScreenActivity extends Activity {
 
     private static final String TAG = "CardScreenActivity";
+    public String languageChosen = "";
+    public String categoryChosen = "";
     ArrayList<String> recyclerImagesList = new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_screen);
 
+        Intent intentLanguageChoice = getIntent();
+        languageChosen = intentLanguageChoice.getStringExtra("LANGUAGE");
+        categoryChosen = intentLanguageChoice.getStringExtra("CATEGORY");
+        Log.d(TAG, "Intent received from categoryChoiceActivity: " + languageChosen + " and " + categoryChosen);
+
         // Initialise lists once for the recyclerView
-        initLists();
+        initLists(languageChosen, categoryChosen);
     }
 
     protected void onStart() {
@@ -36,10 +48,24 @@ public class CardScreenActivity extends Activity {
     }
 
     // Initialises the lists required by the recyclerView
-    void initLists()
+    void initLists(String languageChosen, String categoryChosen)
     {
-        recyclerImagesList.add(String.valueOf(R.mipmap.apple));
-        recyclerImagesList.add(String.valueOf(R.mipmap.banana_layer));
+        CardParser parser = new CardParser();
+        CardList cardList;
+        parser.setContext(this);
+        parser.setParserLang(languageChosen);
+        parser.setParserCategory(categoryChosen);
+        parser.start();
+        cardList = parser.getCardList();
+
+        Card currCard;
+        for (int i = 0; i < cardList.size(); i++)
+        {
+         currCard = (Card) cardList.get(i);
+         recyclerImagesList.add(String.valueOf(this.getResources().getIdentifier(currCard.getImageString(), "mipmap", this.getPackageName())));
+        }
+        /*recyclerImagesList.add(String.valueOf(R.mipmap.apple));
+
         recyclerImagesList.add(String.valueOf(R.mipmap.mango_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.watermelon));
         recyclerImagesList.add(String.valueOf(R.mipmap.kiwi_layer));
@@ -72,5 +98,6 @@ public class CardScreenActivity extends Activity {
         recyclerImagesList.add(String.valueOf(R.mipmap.quince_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.rambutan_fruit_layer));
         recyclerImagesList.add(String.valueOf(R.mipmap.rasberry_layer));
+        */
     }
 }
