@@ -33,7 +33,7 @@
                 android:id="@+id/language_image_view"
                 android:layout_width="95dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@mipmap/united_kingdom_layer" />
+                app:srcCompat="@mipmap/united_kingdom" />
 
             <TextView
                 android:id="@+id/language_text_view"

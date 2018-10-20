@@ -59,45 +59,9 @@ public class CardScreenActivity extends Activity {
         cardList = parser.getCardList();
 
         Card currCard;
-        for (int i = 0; i < cardList.size(); i++)
-        {
-         currCard = (Card) cardList.get(i);
-         recyclerImagesList.add(String.valueOf(this.getResources().getIdentifier(currCard.getImageString(), "mipmap", this.getPackageName())));
+        for (int i = 0; i < cardList.size(); i++) {
+            currCard = (Card) cardList.get(i);
+            recyclerImagesList.add(String.valueOf(this.getResources().getIdentifier(currCard.getImageString(), "drawable", this.getPackageName())));
         }
-        /*recyclerImagesList.add(String.valueOf(R.mipmap.apple));
-
-        recyclerImagesList.add(String.valueOf(R.mipmap.mango_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.watermelon));
-        recyclerImagesList.add(String.valueOf(R.mipmap.kiwi_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.blueberry_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.coconut_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.apricot));
-        recyclerImagesList.add(String.valueOf(R.mipmap.lemon_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.grapes_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.pineapple_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.cherry_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.orange_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.carambola_layer));
-
-        recyclerImagesList.add(String.valueOf(R.mipmap.chestnut_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.dates_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.dragon_fruit_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.fig_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.goji_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.gooseberry_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.grapefruit_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.guava_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.kumquat_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.lime_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.mangosteen_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.melon_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.papaya_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.passion_fruit_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.persimmion_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.plum_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.quince_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.rambutan_fruit_layer));
-        recyclerImagesList.add(String.valueOf(R.mipmap.rasberry_layer));
-        */
     }
 }

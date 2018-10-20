@@ -43,27 +43,27 @@ public class LanguageChoiceActivity extends Activity {
     // Initialise lists of data for the view
     private void initViewLists()
     {
-        languagesImagesList.add(R.mipmap.united_kingdom_layer);
+        languagesImagesList.add(R.mipmap.united_kingdom);
         languageDisplayTextList.add("ENGLISH");
         languageNameList.add("united_kingdom");
 
-        languagesImagesList.add(R.mipmap.spain_layer);
+        languagesImagesList.add(R.mipmap.spain);
         languageDisplayTextList.add("ESPAÑOL");
         languageNameList.add("spain");
 
-        languagesImagesList.add(R.mipmap.france_layer);
+        languagesImagesList.add(R.mipmap.france);
         languageDisplayTextList.add("FRANÇAIS");
         languageNameList.add("france");
 
-        languagesImagesList.add(R.mipmap.germany_layer);
+        languagesImagesList.add(R.mipmap.germany);
         languageDisplayTextList.add("DEUTSCH");
         languageNameList.add("germany");
 
-        languagesImagesList.add(R.mipmap.italy_layer);
+        languagesImagesList.add(R.mipmap.italy);
         languageDisplayTextList.add("ITALIANO");
         languageNameList.add("italy");
 
-        languagesImagesList.add(R.mipmap.portugal_layer);
+        languagesImagesList.add(R.mipmap.portugal);
         languageDisplayTextList.add("PORTUGUÊS");
         languageNameList.add("portugal");
     }

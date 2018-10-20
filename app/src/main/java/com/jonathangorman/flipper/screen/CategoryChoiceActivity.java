@@ -9,8 +9,6 @@ import android.util.Log;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.adapters.CategoryChoiceAdapter;
-import com.jonathangorman.flipper.utils.CardParser;
-import com.jonathangorman.flipper.cards.CardList;
 
 import java.util.ArrayList;
 public class CategoryChoiceActivity extends Activity {
@@ -58,7 +56,8 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Animals");
             recyclerTextList.add("Professions");
             recyclerTextList.add("Transport");
-            recyclerTextList.add("Fast food");
+            recyclerTextList.add("Weather");
+            recyclerTextList.add("Furniture");
         }
         else if (languageChosen.equalsIgnoreCase("spain"))
         {
@@ -67,7 +66,8 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Animales");
             recyclerTextList.add("Profesiones");
             recyclerTextList.add("Transporte");
-            recyclerTextList.add("Comida rápida");
+            recyclerTextList.add("Tiempo");
+            recyclerTextList.add("Muebles");
         }
         else if (languageChosen.equalsIgnoreCase("france"))
         {
@@ -76,7 +76,8 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Animaux");
             recyclerTextList.add("Professions");
             recyclerTextList.add("Transport");
-            recyclerTextList.add("Restauration Rapide");
+            recyclerTextList.add("Météo");
+            recyclerTextList.add("Meubles");
         }
         else if (languageChosen.equalsIgnoreCase("germany"))
         {
@@ -85,7 +86,8 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Tiere");
             recyclerTextList.add("Profesiones");
             recyclerTextList.add("Berufe");
-            recyclerTextList.add("'Fast Food'");
+            recyclerTextList.add("Wetter");
+            recyclerTextList.add("Möbel");
         }
         else if (languageChosen.equalsIgnoreCase("italy"))
         {
@@ -94,7 +96,8 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Animali");
             recyclerTextList.add("Professioni");
             recyclerTextList.add("Trasporti");
-            recyclerTextList.add("'Fast Food'");
+            recyclerTextList.add("Tempo");
+            recyclerTextList.add("Mobilia");
         }
         else if (languageChosen.equalsIgnoreCase("portugal"))
         {
@@ -103,20 +106,23 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Animals");
             recyclerTextList.add("Profissões");
             recyclerTextList.add("Transport");
-            recyclerTextList.add("'Fast Food'");
+            recyclerTextList.add("Tempo");
+            recyclerTextList.add("Mobília");
         }
         // add values for the images and identifier
         recyclerImagesList.add(R.mipmap.watermelon);
         recyclerNameList.add("fruit");
-        recyclerImagesList.add(R.mipmap.red_pepper_layer);
+        recyclerImagesList.add(R.mipmap.red_pepper);
         recyclerNameList.add("vegetables");
-        recyclerImagesList.add(R.mipmap.cat_layer);
+        recyclerImagesList.add(R.mipmap.cat);
         recyclerNameList.add("animals");
-        recyclerImagesList.add(R.mipmap.firefighter_layer);
+        recyclerImagesList.add(R.mipmap.firefighter);
         recyclerNameList.add("professions");
-        recyclerImagesList.add(R.mipmap.car_layer);
+        recyclerImagesList.add(R.mipmap.car);
         recyclerNameList.add("transport");
-        recyclerImagesList.add(R.mipmap.hamburger_layer);
-        recyclerNameList.add("fastfood");
+        recyclerImagesList.add(R.mipmap.cloudy);
+        recyclerNameList.add("weather");
+        recyclerImagesList.add(R.mipmap.couch);
+        recyclerNameList.add("furniture");
     }
 }

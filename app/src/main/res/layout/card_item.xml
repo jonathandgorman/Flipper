@@ -34,6 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/ic_launcher_background"
-            tools:srcCompat="@mipmap/lemon_layer" />
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            tools:srcCompat="@drawable/bug" />
     </android.support.v7.widget.CardView>
 </android.support.constraint.ConstraintLayout>

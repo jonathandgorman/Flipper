@@ -70,12 +70,11 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="backgroundLayerName" value="invisible_background" />
-                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Fruit and Veg\png\003-tomato.png" />
-                                      <entry key="foregroundLayerName" value="tomato" />
-                                      <entry key="generateWebIcon" value="false" />
+                                      <entry key="backgroundLayerName" value="invisible_layer" />
+                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Weather\png\cloudy.png" />
+                                      <entry key="foregroundLayerName" value="cloudy" />
                                       <entry key="legacyIconShape" value="NONE" />
-                                      <entry key="outputName" value="tomato_icon" />
+                                      <entry key="outputName" value="cloudy_icon" />
                                       <entry key="webIconShape" value="NONE" />
                                     </map>
                                   </option>
