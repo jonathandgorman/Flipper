@@ -71,10 +71,10 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="invisible_layer" />
-                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Weather\png\cloudy.png" />
-                                      <entry key="foregroundLayerName" value="cloudy" />
+                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Transport\png\car.png" />
+                                      <entry key="foregroundLayerName" value="car" />
                                       <entry key="legacyIconShape" value="NONE" />
-                                      <entry key="outputName" value="cloudy_icon" />
+                                      <entry key="outputName" value="car_icon" />
                                       <entry key="webIconShape" value="NONE" />
                                     </map>
                                   </option>
