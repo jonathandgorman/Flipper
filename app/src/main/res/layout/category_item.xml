@@ -8,6 +8,7 @@
     android:layout_margin="4dp"
     android:background="@color/ic_launcher_background"
     android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
     android:elevation="4dp"
     android:visibility="visible"
     tools:background="@android:color/white"

@@ -6,16 +6,13 @@ import android.util.Log;
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.cards.Card;
 import com.jonathangorman.flipper.cards.CardList;
-import com.jonathangorman.flipper.cards.FoodCard;
+
 import static com.jonathangorman.flipper.utils.Constants.*;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
 public class CardParser {
     private static final String TAG = "CardParser";
