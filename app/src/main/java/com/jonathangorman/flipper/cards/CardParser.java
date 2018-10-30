@@ -1,11 +1,11 @@
-package com.jonathangorman.flipper.utils;
+package com.jonathangorman.flipper.cards;
 
 import android.content.Context;
+import android.content.res.Resources;
+import android.support.v4.content.res.ResourcesCompat;
 import android.util.Log;
 
 import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.cards.Card;
-import com.jonathangorman.flipper.cards.CardList;
 
 import static com.jonathangorman.flipper.utils.Constants.*;
 
@@ -46,7 +46,7 @@ public class CardParser {
         String currLine;
 
         // Check that the config file exists
-        InputStream is = context.getResources().openRawResource(R.raw.config);
+        InputStream is = getConfigStream(this.parseLang);
         InputStreamReader isr = new InputStreamReader(is);
         BufferedReader br = new BufferedReader(isr, 8192);
 
@@ -112,5 +112,36 @@ public class CardParser {
     public void setContext(Context context)
     {
         this.context = context;
+    }
+
+    private InputStream getConfigStream(String language)
+    {
+        InputStream is = null;
+        // set locale according to language
+        switch (language)
+        {
+            case ("united_kingdom"):
+                 is = context.getResources().openRawResource(R.raw.config_united_kingdom);
+                 break;
+            case ("spain"):
+                is = context.getResources().openRawResource(R.raw.config_spain);
+                break;
+            case ("france"):
+                is = context.getResources().openRawResource(R.raw.config_france);
+                break;
+            case ("germany"):
+                is = context.getResources().openRawResource(R.raw.config_germany);
+                break;
+            case ("italy"):
+                is = context.getResources().openRawResource(R.raw.config_italy);
+                break;
+            case ("portugal"):
+                is = context.getResources().openRawResource(R.raw.config_portugal);
+                break;
+            default:
+
+        }
+        return is;
+
     }
 }

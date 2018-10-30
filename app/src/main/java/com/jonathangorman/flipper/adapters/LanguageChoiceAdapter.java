@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.screen.CategoryChoiceActivity;
+import com.jonathangorman.flipper.activities.CategoryChoiceActivity;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,8 @@
 package com.jonathangorman.flipper.adapters;
 
 import android.content.Context;
+import android.content.Intent;
+import android.speech.tts.TextToSpeech;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.RecyclerView;
@@ -9,36 +11,61 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import com.jonathangorman.flipper.R;
+import com.jonathangorman.flipper.activities.CardScreenActivity;
 import com.jonathangorman.flipper.cards.Card;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Locale;
 
 // adapts individual items to main container layout
 public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.ViewHolder>{
 
     private static final String TAG = "CardChoiceAdapter";
-    Context context;
-    ArrayList<String> cardList;
+    private Context context;
+    private ArrayList<String> imageList;
+    private ArrayList<String> nameList;
+    private String speechText = "";
+    private Locale currLocale;
 
-    public CardChoiceAdapter(ArrayList<String> cardList, Context context) {
+    public CardChoiceAdapter(Context context, ArrayList<String> imageList, ArrayList<String> nameList) {
         this.context = context;
-        this.cardList = cardList;
+        this.imageList = imageList;
+        this.nameList = nameList;
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, TextToSpeech.OnInitListener {
 
         ImageView imageView;
         ConstraintLayout constraintLayout;
+        TextToSpeech tts = null;
 
         // holds widgets in memory
         public ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.card_image);
             constraintLayout = itemView.findViewById(R.id.card_parent_layout);
+        }
+
+        @Override
+        public void onClick(View v) {
+            // if the view is clicked the name should be returned and spoken via TTS
+            speechText = nameList.get(getAdapterPosition());
+            tts = new TextToSpeech(context, this);
+            Toast.makeText(context, speechText, Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        public void onInit(int status) {
+            if(status == TextToSpeech.SUCCESS) {
+                if (!tts.isSpeaking()) {
+                    if (currLocale == null) currLocale = Locale.getDefault();
+                    tts.setLanguage(currLocale);
+                    tts.speak(speechText, TextToSpeech.QUEUE_ADD, null);
+                }
+            }
         }
     }
 
@@ -55,12 +82,20 @@ public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.Vi
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
         Log.d(TAG,"New item added at position: " + i);
-        viewHolder.imageView.setImageResource(Integer.valueOf(cardList.get(i)));
+        viewHolder.imageView.setImageResource(Integer.valueOf(imageList.get(i)));
+        viewHolder.constraintLayout.setOnClickListener(viewHolder);
     }
 
     // Returns the number of items
     @Override
     public int getItemCount() {
-        return cardList.size();
+        return imageList.size();
+    }
+
+    public void setCurrLocale(Locale currLocale) {
+        this.currLocale = currLocale;
+    }
+    public Locale getCurrLocale() {
+       return this.currLocale;
     }
 }

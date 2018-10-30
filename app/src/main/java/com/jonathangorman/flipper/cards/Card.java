@@ -7,13 +7,13 @@ public class Card implements Serializable{
     private static final String TAG = "Card";
     private String name = "";
     private String imagePath = "";
-    private String audioPath = "";
+    private String audioString = "";
     private String language = "";
     private String category = "";
 
     // card getters and setter
-    public void setAudio(String audioPath) {
-        this.audioPath = audioPath;
+    public void setAudio(String audioString) {
+        this.audioString = audioString;
     }
     public void setCategory(String category) {
         this.category = category;
@@ -27,8 +27,8 @@ public class Card implements Serializable{
     public void setName(String name) {
         this.name = name;
     }
-    public String getAudioPath() {
-        return audioPath;
+    public String getAudio() {
+        return this.audioString;
     }
     public String getCategory() {
         return category;

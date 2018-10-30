@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         android:theme="
-        <activity android:name=".screen.LanguageChoiceActivity">
+        <activity android:name=".activities.LanguageChoiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,9 +19,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".screen.CardScreenActivity"/>
+            android:name=".activities.CardScreenActivity"/>
         <activity
-            android:name=".screen.CategoryChoiceActivity"
+            android:name=".activities.CategoryChoiceActivity"
             android:label="@string/title_activity_category_choice"></activity>
     </application>
 

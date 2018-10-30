@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.screen;
+package com.jonathangorman.flipper.activities;
 
 import android.os.Bundle;
 import android.app.Activity;

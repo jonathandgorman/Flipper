@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.screen;
+package com.jonathangorman.flipper.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,9 +11,10 @@ import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.adapters.CardChoiceAdapter;
 import com.jonathangorman.flipper.cards.Card;
 import com.jonathangorman.flipper.cards.CardList;
-import com.jonathangorman.flipper.utils.CardParser;
+import com.jonathangorman.flipper.cards.CardParser;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 import static com.jonathangorman.flipper.utils.Constants.CARDS_PER_ROW;
 
@@ -23,10 +24,12 @@ public class CardScreenActivity extends Activity {
     public String languageChosen = "";
     public String categoryChosen = "";
     ArrayList<String> recyclerImagesList = new ArrayList<String>();
+    ArrayList<String> recyclerAudioList = new ArrayList<String>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen);
+        setContentView(R.layout.activity_card_screen);
 
         Intent intentLanguageChoice = getIntent();
         languageChosen = intentLanguageChoice.getStringExtra("LANGUAGE");
@@ -42,7 +45,33 @@ public class CardScreenActivity extends Activity {
 
         // Initialise and create recycler view and adapter to show the category choices
         RecyclerView recyclerView = findViewById(R.id.recycler_view_card_screen);
-        CardChoiceAdapter adapter = new CardChoiceAdapter(recyclerImagesList,this);
+        CardChoiceAdapter adapter = new CardChoiceAdapter(this, recyclerImagesList, recyclerAudioList);
+
+        // set locale according to language
+        switch (this.languageChosen)
+        {
+            case ("united_kingdom"):
+                adapter.setCurrLocale(new Locale("en_UK"));
+                break;
+            case ("spain"):
+                adapter.setCurrLocale(new Locale("es_ES"));
+                break;
+            case ("france"):
+                adapter.setCurrLocale(new Locale("fr_FR"));
+                break;
+            case ("germany"):
+                adapter.setCurrLocale(new Locale("de_DE"));
+                break;
+            case ("italy"):
+                adapter.setCurrLocale(new Locale("it_IT"));
+                break;
+            case ("portugal"):
+                adapter.setCurrLocale(new Locale("pt_PT"));
+                break;
+            default:
+                adapter.setCurrLocale(Locale.getDefault());
+        }
+
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new GridLayoutManager(this, CARDS_PER_ROW));
     }
@@ -62,6 +91,7 @@ public class CardScreenActivity extends Activity {
         for (int i = 0; i < cardList.size(); i++) {
             currCard = (Card) cardList.get(i);
             recyclerImagesList.add(String.valueOf(this.getResources().getIdentifier(currCard.getImageString(), "drawable", this.getPackageName())));
+            recyclerAudioList.add(currCard.getAudio());
         }
     }
 }
