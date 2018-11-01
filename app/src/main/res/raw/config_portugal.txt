@@ -1,311 +1,321 @@
-portugal;fruit;apple;the apple;apple;
-portugal;fruit;apricot;the apricot;apricot;
-portugal;fruit;banana;the banana;banana;
-portugal;fruit;blueberry;the blueberry;blueberry;
-portugal;fruit;carambola;the carambola;carambola;
-portugal;fruit;cherry;the cherry;cherry;
-portugal;fruit;chestnut;the chestnut;chestnut;
-portugal;fruit;coconut;the coconut;coconut;
-portugal;fruit;dates;the dates;dates;
-portugal;fruit;dragon_fruit;the dragon fruit;dragon_fruit;
-portugal;fruit;fig;the fig;fig;
-portugal;fruit;goji;the goji berry;goji;
-portugal;fruit;gooseberry;the gooseberry;gooseberry;
-portugal;fruit;grapefruit;the grapefruit;grapefruit;
-portugal;fruit;grapes;the grapes;grapes;
-portugal;fruit;guava;the guava;guava;
-portugal;fruit;kiwi;the kiwi;kiwi;
-portugal;fruit;kumquat;the kumquat;kumquat;
-portugal;fruit;lemon;the lemon;lemon;
-portugal;fruit;lime;the lime;lime;
-portugal;fruit;mango;the mango;mango;
-portugal;fruit;mangosteen;the mangosteen;mangosteen;
-portugal;fruit;melon;the melon;melon;
-portugal;fruit;orange;the orange;orange;
-portugal;fruit;papaya;the papaya;papaya;
-portugal;fruit;passion_fruit;the passion fruit;passion_fruit;
-portugal;fruit;peach;the peach;peach;
-portugal;fruit;pear;the pear;pear;
-portugal;fruit;persimmion;the persimmion;persimmion;
-portugal;fruit;pineapple;the pineapple;pineapple;
-portugal;fruit;plum;the plum;plum;
-portugal;fruit;quince;the quince;quince;
-portugal;fruit;rambutan;the rambutan;rambutan;
-portugal;fruit;rasberry;the rasberry;rasberry;
-portugal;fruit;strawberry;the strawberry;strawberry;
-portugal;fruit;watermelon;the watermelon;watermelon;
-portugal;vegetables;asparagus;the asparagus;asparagus;
-portugal;vegetables;aubergine;the aubergine;aubergine;
-portugal;vegetables;avocado;the avocado;avocado;
-portugal;vegetables;basil;the basil;basil;
-portugal;vegetables;beetroot;the beetroot;beetroot;
-portugal;vegetables;broccoli;the broccoli;broccoli;
-portugal;vegetables;brussel_sprouts;the brussel sprouts;brussel_sprouts;
-portugal;vegetables;cabbage;the cabbage;cabbage;
-portugal;vegetables;caper;the caper;caper;
-portugal;vegetables;carrot;the carrot;carrot;
-portugal;vegetables;cauliflower;the cauliflower;cauliflower;
-portugal;vegetables;celery;the celery;celery;
-portugal;vegetables;chili_pepper;the chili pepper;chili_pepper;
-portugal;vegetables;corn;the corn;corn;
-portugal;vegetables;courgette;the courgette;courgette;
-portugal;vegetables;cucumber;the cucumber;cucumber;
-portugal;vegetables;dill;the dill;dill;
-portugal;vegetables;garlic;the garlic;garlic;
-portugal;vegetables;ginger;the ginger;ginger;
-portugal;vegetables;horseradish;the horseradish;horseradish;
-portugal;vegetables;kohlrabi;the kohlrabi;kohlrabi;
-portugal;vegetables;leek;the leek;leek;
-portugal;vegetables;olives;the olives;olives;
-portugal;vegetables;parsley;the parsley;parsley;
-portugal;vegetables;peas;the peas;peas;
-portugal;vegetables;potato;the potato;potato;
-portugal;vegetables;pumpkin;the pumpkin;pumpkin;
-portugal;vegetables;radish;the radish;radish;
-portugal;vegetables;red_pepper;the red pepper;red_pepper;
-portugal;vegetables;rhubarb;the rhubarb;rhubarb;
-portugal;vegetables;rocket;the rocket;rocket;
-portugal;vegetables;spinach;the spinach;spinach;
-portugal;vegetables;squash;the squash;squash;
-portugal;vegetables;sweet_potato;the sweet potato;sweet_potato;
-portugal;vegetables;tomato;the tomato;tomato;
-portugal;vegetables;turnip;the turnip;turnip;
-portugal;vegetables;white_garlic;the white garlic;white_garlic;
-portugal;animals;albatross;the albatross;albatross;
-portugal;animals;angler;the anglerfish;angler;
-portugal;animals;anteater;the anteater;anteater;
-portugal;animals;baboon;the baboon;baboon;
-portugal;animals;bear;the bear;bear;
-portugal;animals;bee;the bee;bee;
-portugal;animals;beetle;the beetle;beetle;
-portugal;animals;boar;the boar;boar;
-portugal;animals;bison;the bison;bison;
-portugal;animals;bullfinch;the bullfinch;bullfinch;
-portugal;animals;butterfly;the butterfly;butterfly;
-portugal;animals;capybara;the capybara;capybara;
-portugal;animals;cat;the cat;cat;
-portugal;animals;centipede;the centipede;centipede;
-portugal;animals;chameleon;the chameleon;chameleon;
-portugal;animals;chimpanzee;the chimpanzee;chimpanzee;
-portugal;animals;colibri;the colibri;colibri;
-portugal;animals;crab;the crab;crab;
-portugal;animals;crane;the crane;crane;
-portugal;animals;crocodile;the crocodile;crocodile;
-portugal;animals;deer;the deer;deer;
-portugal;animals;dog;the dog;dog;
-portugal;animals;dolphin;the dolphin;dolphin;
-portugal;animals;dragonfly;the dragonfly;dragonfly;
-portugal;animals;duck;the duck;duck;
-portugal;animals;eagle;the eagle;eagle;
-portugal;animals;elephant;the elephant;elephant;
-portugal;animals;fennec;the fennec;fennec;
-portugal;animals;flounder;the flounder;flounder;
-portugal;animals;fly;the fly;fly;
-portugal;animals;fox;the fox;fox;
-portugal;animals;frog;the frog;frog;
-portugal;animals;giraffe;the giraffe;giraffe;
-portugal;animals;goat;the goat;goat;
-portugal;animals;goldfish;the goldfish;goldfish;
-portugal;animals;guinea_pig;the guinea_pig;guinea_pig;
-portugal;animals;hedgehog;the hedgehog;hedgehog;
-portugal;animals;hippopotamus;the hippopotamus;hippopotamus;
-portugal;animals;horse;the horse;horse;
-portugal;animals;hyena;the hyena;hyena;
-portugal;animals;kangaroo;the kangaroo;kangaroo;
-portugal;animals;koala;the koala;koala;
-portugal;animals;ladybird;the ladybird;ladybird;
-portugal;animals;lemur;the lemur;lemur;
-portugal;animals;lion;the lion;lion;
-portugal;animals;llama;the llama;llama;
-portugal;animals;mink;the mink;mink;
-portugal;animals;mite;the mite;mite;
-portugal;animals;mole;the mole;mole;
-portugal;animals;moose;the moose;moose;
-portugal;animals;moray;the moray eel;moray;
-portugal;animals;mosquito;the mosquito;mosquito;
-portugal;animals;moth;the moth;moth;
-portugal;animals;mouse;the mouse;mouse;
-portugal;animals;orca;the orca;orca;
-portugal;animals;ostrich;the ostrich;ostrich;
-portugal;animals;owl;the owl;owl;
-portugal;animals;parrot;the parrot;parrot;
-portugal;animals;penguin;the penguin;penguin;
-portugal;animals;perch;the perch;perch;
-portugal;animals;pig;the pig;pig;
-portugal;animals;pigeon;the pigeon;pigeon;
-portugal;animals;pike;the pike;pike;
-portugal;animals;piranha;the piranha;piranha;
-portugal;animals;platypus;the platypus;platypus;
-portugal;animals;pufferfish;the pufferfish;pufferfish;
-portugal;animals;puffin;the puffin;puffin;
-portugal;animals;rabbit;the rabbit;rabbit;
-portugal;animals;raccoon;the raccoon;raccoon;
-portugal;animals;rooster;the rooster;rooster;
-portugal;animals;salmon;the salmon;salmon;
-portugal;animals;sea_urchin;the sea urchin;sea_urchin;
-portugal;animals;seal;the seal;seal;
-portugal;animals;shark;the shark;shark;
-portugal;animals;sheep;the sheep;sheep;
-portugal;animals;prawn;the prawn;prawn;
-portugal;animals;silverfish;the silverfish;silverfish;
-portugal;animals;skunk;the skunk;skunk;
-portugal;animals;sloth;the sloth;sloth;
-portugal;animals;snake;the snake;snake;
-portugal;animals;sparrow;the sparrow;sparrow;
-portugal;animals;spider;the spider;spider;
-portugal;animals;squid;the squid;squid;
-portugal;animals;panda_bear;the panda;panda_bear;
-portugal;animals;squirrel;the panda;squirrel;
-portugal;animals;starfish;the starfish;starfish;
-portugal;animals;swan;the swan;swan;
-portugal;animals;swordfish;the swordfish;swordfish;
-portugal;animals;tiger;the tiger;tiger;
-portugal;animals;tuna;the tuna;tuna;
-portugal;animals;turtle;the turtle;turtle;
-portugal;animals;wasp;the wasp;wasp;
-portugal;animals;wolf;the wolf;wolf;
-portugal;animals;zander;the zander;zander;
-portugal;professions;artist;the artist;artist;
-portugal;professions;astronaut;the astronaut;astronaut;
-portugal;professions;athlete;the athlete;athlete;
-portugal;professions;basketball_player;the basketball player;basketball_player;
-portugal;professions;butler;the butler;butler;
-portugal;professions;cabin_crew;the cabin crew member;cabin_crew;
-portugal;professions;captain;the captain;captain;
-portugal;professions;chef;the chef;chef;
-portugal;professions;clown;the clown;clown;
-portugal;professions;cook;the cook;cook;
-portugal;professions;courier;the courier;courier;
-portugal;professions;detective;the detective;detective;
-portugal;professions;diver;the diver;diver;
-portugal;professions;doctor;the doctor;doctor;
-portugal;professions;engineer;the engineer;engineer;
-portugal;professions;farmer;the farmer;farmer;
-portugal;professions;firefighter;the firefighter;firefighter;
-portugal;professions;hacker;the hacker;hacker;
-portugal;professions;hunter;the hunter;hunter;
-portugal;professions;judge;the judge;judge;
-portugal;professions;lumberjack;the lumberjack;lumberjack;
-portugal;professions;mafia;the mafia;mafia;
-portugal;professions;maid;the maid;maid;
-portugal;professions;mechanic;the mechanic;mechanic;
-portugal;professions;military_pilot;the military pilot;military_pilot;
-portugal;professions;nun;the nun;nun;
-portugal;professions;nurse;the nurse;nurse;
-portugal;professions;office_worker;the office worker;office_worker;
-portugal;professions;photographer;the photographer;photographer;
-portugal;professions;pilot;the pilot;pilot;
-portugal;professions;police_officer;the police officer;police_officer;
-portugal;professions;postman;the postman;postman;
-portugal;professions;priest;the priest;priest;
-portugal;professions;race_car_driver;the race car driver;race_car_driver;
-portugal;professions;sailor;the sailor;sailor;
-portugal;professions;scientist;the scientist;scientist;
-portugal;professions;secretary;the secretary;secretary;
-portugal;professions;singer;the singer;singer;
-portugal;professions;software_developer;the software developer;software_developer;
-portugal;professions;soldier;the soldier;soldier;
-portugal;professions;student;the student;student;
-portugal;professions;surgeon;the surgeon;surgeon;
-portugal;professions;taxi_driver;the taxi driver;taxi_driver;
-portugal;professions;teacher;the teacher;teacher;
-portugal;professions;telemarketer;the telemarketer;telemarketer;
-portugal;professions;thief;the thief;thief;
-portugal;professions;tour_guide;the tour guide;tour_guide;
-portugal;professions;waiter;the waiter;waiter;
-portugal;professions;welder;the welder;welder;
-portugal;professions;wrestler;the wrestler;wrestler;
-portugal;transport;airplane;the airplane;airplane;
-portugal;transport;bike;the bike;bike;
-portugal;transport;bin_truck;the bin truck;bin_truck;
-portugal;transport;boat;the boat;boat;
-portugal;transport;bus;the bus;bus;
-portugal;transport;cable_car;the cable car;cable_car;
-portugal;transport;camper_van;the campervan;camper_van;
-portugal;transport;car;the car;car;
-portugal;transport;cargo_ship;the cargo ship;cargo_ship;
-portugal;transport;cement_truck;the cement truck;cement_truck;
-portugal;transport;cruise_ship;the cruise ship;cruise_ship;
-portugal;transport;drone;the drone;drone;
-portugal;transport;dump_truck;the dump truck;dump_truck;
-portugal;transport;firetruck;the firetruck;firetruck;
-portugal;transport;forklift;the forklift;forklift;
-portugal;transport;helicopter;the helicopter;helicopter;
-portugal;transport;hot_air_balloon;the hot air balloon;hot_air_balloon;
-portugal;transport;hovercraft;the hovercraft;hovercraft;
-portugal;transport;jet_ski;the jet ski;jet_ski;
-portugal;transport;monorail;the monorail;monorail;
-portugal;transport;motorbike;the motorbike;motorbike;
-portugal;transport;quad;the quad;quad;
-portugal;transport;racing_car;the racing car;racing_car;
-portugal;transport;rocket_ship;the rocketship;rocket_ship;
-portugal;transport;sailboat;the sailboat;sailboat;
-portugal;transport;scooter;the scooter;scooter;
-portugal;transport;sidecar;the sidecar;sidecar;
-portugal;transport;steam_engine;the steamengine;steam_engine;
-portugal;transport;submarine;the submarine;submarine;
-portugal;transport;tanker;the tanker;tanker;
-portugal;transport;taxi;the taxi;taxi;
-portugal;transport;train;the train;train;
-portugal;transport;tram;the tram;tram;
-portugal;transport;truck;the truck;truck;
-portugal;transport;van;the van;van;
-portugal;transport;yacht;the yacht;yacht;
-portugal;weather;cloudy;cloudy;cloudy;
-portugal;weather;cold;cold;cold;
-portugal;weather;flood;flood;flood;
-portugal;weather;fog;fog;fog;
-portugal;weather;hail;hail;hail;
-portugal;weather;hot;hot;hot;
-portugal;weather;humidity;humidity;humidity;
-portugal;weather;hurricane;hurricane;hurricane;
-portugal;weather;lightning;lightning;lightning;
-portugal;weather;moon;the moon;moon;
-portugal;weather;partially_cloudy;partially cloudy;partially_cloudy;
-portugal;weather;rain_shower;rain shower;rain_shower;
-portugal;weather;snow;snow;snow;
-portugal;weather;snowflake;snowflake;snowflake;
-portugal;weather;star;the star;star;
-portugal;weather;storm;stormy;storm;
-portugal;weather;sunny;sunny;sunny;
-portugal;weather;sunrise;the sunrise;sunrise;
-portugal;weather;sunset;the sunset;sunset;
-portugal;weather;tornado;tornado;tornado;
-portugal;weather;warm;warm;warm;
-portugal;weather;windy;windy;windy;
-spain;fruit;apple;la manzana;apple;
-spain;fruit;apricot;el albaricoque;apricot;
-spain;fruit;banana;el plátano;banana;
-spain;fruit;blueberry;el arándano;blueberry;
-spain;fruit;carambola;la carambola;carambola;
-spain;fruit;cherry;la cereza;cherry;
-spain;fruit;chestnut;la castaña;chestnut;
-spain;fruit;coconut;the coconut;coconut;
-spain;fruit;dates;la palma datilera;dates;
-spain;fruit;dragon_fruit;la fruta del dragón;dragon_fruit;
-spain;fruit;fig;el higo;fig;
-spain;fruit;goji;la baya de goji;goji;
-spain;fruit;gooseberry;la grosella;gooseberry;
-spain;fruit;grapefruit;la toronja;grapefruit;
-spain;fruit;grapes;las uvas;grapes;
-spain;fruit;guava;the guayaba;guava;
-spain;fruit;kiwi;the kiwi;kiwi;
-spain;fruit;kumquat;the kumquat;kumquat;
-spain;fruit;lemon;the limón;lemon;
-spain;fruit;lime;la lima;lime;
-spain;fruit;mango;el mango;mango;
-spain;fruit;mangosteen;el mangostán;mangosteen;
-spain;fruit;melon;el melón;melon;
-spain;fruit;orange;la naranja;orange;
-spain;fruit;papaya;la papaya;papaya;
-spain;fruit;passion_fruit;la fruta de la pasión;passion_fruit;
-spain;fruit;peach;el melocotón;peach;
-spain;fruit;pear;la pera;pear;
-spain;fruit;persimmion;La Persimmion;persimmion;
-spain;fruit;pineapple;la piña;pineapple;
-spain;fruit;plum;la ciruela;plum;
-spain;fruit;quince;el membrillo;quince;
-spain;fruit;rambutan;el rambután;rambutan;
-spain;fruit;rasberry;la frambuesa;rasberry;
-spain;fruit;strawberry;la fresa;strawberry;
-spain;fruit;watermelon;la sandía;watermelon;
+portugal;fruit;apple;a maçã;apple
+portugal;fruit;apricot;o damasco;apricot
+portugal;fruit;banana;a banana;banana
+portugal;fruit;blueberry;o mirtilo;blueberry
+portugal;fruit;carambola;a carambola;carambola
+portugal;fruit;cherry;a cereja;cherry
+portugal;fruit;chestnut;a castanha;chestnut
+portugal;fruit;coconut;o coco;coconut
+portugal;fruit;dates;as datas;dates
+portugal;fruit;dragon_fruit;a fruta do dragão;dragon_fruit
+portugal;fruit;fig;o figo;fig
+portugal;fruit;goji;o fruto do goji;goji
+portugal;fruit;gooseberry;a groselha;gooseberry
+portugal;fruit;grapefruit;a toranja;grapefruit
+portugal;fruit;grapes;as uvas;grapes
+portugal;fruit;guava;a goiaba;guava
+portugal;fruit;kiwi;o kiwi;kiwi
+portugal;fruit;kumquat;o kumquat;kumquat
+portugal;fruit;lemon;o limão;lemon
+portugal;fruit;lime;o limão;lime
+portugal;fruit;mango;a manga;mango
+portugal;fruit;mangosteen;o mangostão;mangosteen
+portugal;fruit;melon;o melão;melon
+portugal;fruit;orange;a laranja;orange
+portugal;fruit;papaya;o mamão;papaya
+portugal;fruit;passion_fruit;o maracujá;passion_fruit
+portugal;fruit;peach;o pêssego;peach
+portugal;fruit;pear;a pêra;pear
+portugal;fruit;persimmion;o persimmion;persimmion
+portugal;fruit;pineapple;o abacaxi;pineapple
+portugal;fruit;plum;a ameixa;plum
+portugal;fruit;quince;o marmelo;quince
+portugal;fruit;rambutan;o rambutan;rambutan
+portugal;fruit;rasberry;o rasberry;rasberry
+portugal;fruit;strawberry;o morango;strawberry
+portugal;fruit;watermelon;a melancia;watermelon
+portugal;vegetables;asparagus;os espargos;asparagus
+portugal;vegetables;aubergine;a beringela;aubergine
+portugal;vegetables;avocado;o abacate;avocado
+portugal;vegetables;basil;o manjericão;basil
+portugal;vegetables;beetroot;a beterraba;beetroot
+portugal;vegetables;broccoli;o brocólis;broccoli
+portugal;vegetables;brussel_sprouts;os couves de Bruxelas;brussel_sprouts
+portugal;vegetables;cabbage;o repolho;cabbage
+portugal;vegetables;caper;a alcaparra;caper
+portugal;vegetables;carrot;a cenoura;carrot
+portugal;vegetables;cauliflower;a couve-flor;cauliflower
+portugal;vegetables;celery;o aipo;celery
+portugal;vegetables;chili_pepper;a pimenta;chili_pepper
+portugal;vegetables;corn;o milho;corn
+portugal;vegetables;courgette;a abobrinha;courgette
+portugal;vegetables;cucumber;o pepino;cucumber
+portugal;vegetables;dill;o aneto;dill
+portugal;vegetables;garlic;o alho;garlic
+portugal;vegetables;ginger;o gengibre;ginger
+portugal;vegetables;horseradish;o rabanete;horseradish
+portugal;vegetables;kohlrabi;a couve-rábano;kohlrabi
+portugal;vegetables;leek;o alho-porro;leek
+portugal;vegetables;olives;as azeitonas;olives
+portugal;vegetables;parsley;a salsa;parsley
+portugal;vegetables;peas;as ervilhas;peas
+portugal;vegetables;potato;a batata;potato
+portugal;vegetables;pumpkin;a abóbora;pumpkin
+portugal;vegetables;radish;o rabanete;radish
+portugal;vegetables;red_pepper;a pimenta vermelha;red_pepper
+portugal;vegetables;rhubarb;o ruibarbo;rhubarb
+portugal;vegetables;rocket;o foguete;rocket
+portugal;vegetables;spinach;o espinafre;spinach
+portugal;vegetables;squash;a abóbora;squash
+portugal;vegetables;sweet_potato;a batata doce;sweet_potato
+portugal;vegetables;tomato;o tomate;tomato
+portugal;vegetables;turnip;o nabo;turnip
+portugal;vegetables;white_garlic;o alho branco;white_garlic
+portugal;animals;albatross;o albatroz;albatross
+portugal;animals;angler;o tamboril;angler
+portugal;animals;anteater;o tamanduá;anteater
+portugal;animals;baboon;o babuíno;baboon
+portugal;animals;bear;o urso;bear
+portugal;animals;bee;a abelha;bee
+portugal;animals;beetle;o besouro;beetle
+portugal;animals;boar;o javali;boar
+portugal;animals;bison;o bisonte;bison
+portugal;animals;bullfinch;o bullfinch;bullfinch
+portugal;animals;butterfly;a borboleta;butterfly
+portugal;animals;capybara;a capivara;capybara
+portugal;animals;cat;o gato;cat
+portugal;animals;centipede;a centopeia;centipede
+portugal;animals;chameleon;o camaleão;chameleon
+portugal;animals;chimpanzee;o chimpanzé;chimpanzee
+portugal;animals;colibri;o colibri;colibri
+portugal;animals;crab;o caranguejo;crab
+portugal;animals;crane;o guindaste;crane
+portugal;animals;crocodile;o crocodilo;crocodile
+portugal;animals;deer;o veado;deer
+portugal;animals;dog;o cachorro;dog
+portugal;animals;dolphin;o golfinho;dolphin
+portugal;animals;dragonfly;a libélula;dragonfly
+portugal;animals;duck;o pato;duck
+portugal;animals;eagle;a águia;eagle
+portugal;animals;elephant;o elefante;elephant
+portugal;animals;fennec;o fennec;fennec
+portugal;animals;flounder;o linguado;flounder
+portugal;animals;fly;o voo;fly
+portugal;animals;fox;a Raposa;fox
+portugal;animals;frog;o sapo;frog
+portugal;animals;giraffe;a girafa;giraffe
+portugal;animals;goat;a cabra;goat
+portugal;animals;goldfish;o peixinho;goldfish
+portugal;animals;guinea_pig;a cobaia;guinea_pig
+portugal;animals;hedgehog;o ouriço;hedgehog
+portugal;animals;hippopotamus;o hipopótamo;hippopotamus
+portugal;animals;horse;o cavalo;horse
+portugal;animals;hyena;a hiena;hyena
+portugal;animals;kangaroo;o canguru;kangaroo
+portugal;animals;koala;o coala;koala
+portugal;animals;ladybird;a joaninha;ladybird
+portugal;animals;lemur;o lêmure;lemur
+portugal;animals;lion;o Leão;lion
+portugal;animals;llama;o lhama;llama
+portugal;animals;mink;o vison;mink
+portugal;animals;mite;o ácaro;mite
+portugal;animals;mole;a toupeira;mole
+portugal;animals;moose;o alce;moose
+portugal;animals;moray;a moreia;moray
+portugal;animals;mosquito;o mosquito;mosquito
+portugal;animals;moth;a mariposa;moth
+portugal;animals;mouse;o rato;mouse
+portugal;animals;orca;a orca;orca
+portugal;animals;ostrich;o avestruz;ostrich
+portugal;animals;owl;a coruja;owl
+portugal;animals;parrot;o papagaio;parrot
+portugal;animals;penguin;o pinguim;penguin
+portugal;animals;perch;o poleiro;perch
+portugal;animals;pig;o porco;pig
+portugal;animals;pigeon;o pombo;pigeon
+portugal;animals;pike;o lúcio;pike
+portugal;animals;piranha;a piranha;piranha
+portugal;animals;platypus;o ornitorrinco;platypus
+portugal;animals;pufferfish;o baiacu;pufferfish
+portugal;animals;puffin;o papagaio;puffin
+portugal;animals;rabbit;o Coelho;rabbit
+portugal;animals;raccoon;o guaxinim;raccoon
+portugal;animals;rooster;o Galo;rooster
+portugal;animals;salmon;o salmão;salmon
+portugal;animals;sea_urchin;o ouriço-do-mar;sea_urchin
+portugal;animals;seal;o selo;seal
+portugal;animals;shark;o tubarão;shark
+portugal;animals;sheep;as ovelhas;sheep
+portugal;animals;prawn;o camarão;prawn
+portugal;animals;silverfish;o peixe prateado;silverfish
+portugal;animals;skunk;o gambá;skunk
+portugal;animals;sloth;a preguiça;sloth
+portugal;animals;snake;a cobra;snake
+portugal;animals;sparrow;o pardal;sparrow
+portugal;animals;spider;a aranha;spider
+portugal;animals;squid;a lula;squid
+portugal;animals;panda_bear;o panda;panda_bear
+portugal;animals;squirrel;o esquilo;squirrel
+portugal;animals;starfish;a estrela do mar;starfish
+portugal;animals;swan;o cisne;swan
+portugal;animals;swordfish;o espadarte;swordfish
+portugal;animals;tiger;o Tigre;tiger
+portugal;animals;tuna;o atum;tuna
+portugal;animals;turtle;a tartaruga;turtle
+portugal;animals;wasp;a vespa;wasp
+portugal;animals;wolf;o lobo;wolf
+portugal;animals;zander;o zander;zander
+portugal;professions;artist;o artista;artist
+portugal;professions;astronaut;o astronauta;astronaut
+portugal;professions;athlete;o atleta;athlete
+portugal;professions;basketball_player;o jogador de basquete;basketball_player
+portugal;professions;butler;o mordomo;butler
+portugal;professions;cabin_crew;o membro da tripulação de cabina;cabin_crew
+portugal;professions;captain;o capitão;captain
+portugal;professions;chef;o chefe;chef
+portugal;professions;clown;o palhaço;clown
+portugal;professions;cook;o cozinheiro;cook
+portugal;professions;courier;o correio;courier
+portugal;professions;detective;o detetive;detective
+portugal;professions;diver;o mergulhador;diver
+portugal;professions;doctor;o médico;doctor
+portugal;professions;engineer;o engenheiro;engineer
+portugal;professions;farmer;o fazendeiro;farmer
+portugal;professions;firefighter;o bombeiro;firefighter
+portugal;professions;hacker;o hacker;hacker
+portugal;professions;hunter;o caçador;hunter
+portugal;professions;judge;o juiz;judge
+portugal;professions;lumberjack;o lenhador;lumberjack
+portugal;professions;mafia;a máfia;mafia
+portugal;professions;maid;a empregada;maid
+portugal;professions;mechanic;o mecânico;mechanic
+portugal;professions;military_pilot;o piloto militar;military_pilot
+portugal;professions;nun;a freira;nun
+portugal;professions;nurse;a enfermeira;nurse
+portugal;professions;office_worker;o trabalhador de escritório;office_worker
+portugal;professions;photographer;o fotógrafo;photographer
+portugal;professions;pilot;o piloto;pilot
+portugal;professions;police_officer;o policial;police_officer
+portugal;professions;postman;o carteiro;postman
+portugal;professions;priest;o padre;priest
+portugal;professions;race_car_driver;o motorista de carro de corrida;race_car_driver
+portugal;professions;sailor;o marinheiro;sailor
+portugal;professions;scientist;o cientista;scientist
+portugal;professions;secretary;a secretária;secretary
+portugal;professions;singer;o cantor;singer
+portugal;professions;software_developer;o desenvolvedor de software;software_developer
+portugal;professions;soldier;o soldado;soldier
+portugal;professions;student;o estudante;student
+portugal;professions;surgeon;o cirurgião;surgeon
+portugal;professions;taxi_driver;o motorista de taxi;taxi_driver
+portugal;professions;teacher;o professor;teacher
+portugal;professions;telemarketer;o operador de telemarketing;telemarketer
+portugal;professions;thief;o ladrão;thief
+portugal;professions;tour_guide;o guia turístico;tour_guide
+portugal;professions;waiter;o garçom;waiter
+portugal;professions;welder;o soldador;welder
+portugal;professions;wrestler;o lutador;wrestler
+portugal;transport;airplane;o avião;airplane
+portugal;transport;bike;a bicicleta;bike
+portugal;transport;bin_truck;o caminhão de lixo;bin_truck
+portugal;transport;boat;o barco;boat
+portugal;transport;bus;o ônibus;bus
+portugal;transport;cable_car;o teleférico;cable_car
+portugal;transport;camper_van;o campervan;camper_van
+portugal;transport;car;o carro;car
+portugal;transport;cargo_ship;o cargueiro;cargo_ship
+portugal;transport;cement_truck;o caminhão de cimento;cement_truck
+portugal;transport;cruise_ship;o navio de cruzeiro;cruise_ship
+portugal;transport;drone;o zangão;drone
+portugal;transport;dump_truck;o caminhão de lixo;dump_truck
+portugal;transport;firetruck;o caminhão de bombeiros;firetruck
+portugal;transport;forklift;a empilhadeira;forklift
+portugal;transport;helicopter;o helicóptero;helicopter
+portugal;transport;hot_air_balloon;o balão de ar quente;hot_air_balloon
+portugal;transport;hovercraft;o hovercraft;hovercraft
+portugal;transport;jet_ski;o jet ski;jet_ski
+portugal;transport;monorail;o monotrilho;monorail
+portugal;transport;motorbike;a moto;motorbike
+portugal;transport;quad;o quad;quad
+portugal;transport;racing_car;o carro de corrida;racing_car
+portugal;transport;rocket_ship;o foguete;rocket_ship
+portugal;transport;sailboat;o veleiro;sailboat
+portugal;transport;scooter;a scooter;scooter
+portugal;transport;sidecar;o sidecar;sidecar
+portugal;transport;steam_engine;o motor a vapor;steam_engine
+portugal;transport;submarine;o submarino;submarine
+portugal;transport;tanker;o petroleiro;tanker
+portugal;transport;taxi;o táxi;taxi
+portugal;transport;train;o trem;train
+portugal;transport;tram;o bonde;tram
+portugal;transport;truck;o camião;truck
+portugal;transport;van;a van;van
+portugal;transport;yacht;o iate;yacht
+portugal;weather;cloudy;nublado;cloudy
+portugal;weather;cold;frio;cold
+portugal;weather;flood;inundar;flood
+portugal;weather;fog;névoa;fog
+portugal;weather;hail;saudar;hail
+portugal;weather;hot;quente;hot
+portugal;weather;humidity;umidade;humidity
+portugal;weather;hurricane;furacão;hurricane
+portugal;weather;lightning;relâmpago;lightning
+portugal;weather;moon;a lua;moon
+portugal;weather;partially_cloudy;parcialmente nublado;partially_cloudy
+portugal;weather;rain_shower;banho de chuva;rain_shower
+portugal;weather;snow;neve;snow
+portugal;weather;snowflake;floco de neve;snowflake
+portugal;weather;star;a estrela;star
+portugal;weather;storm;tormentoso;storm
+portugal;weather;sunny;ensolarado;sunny
+portugal;weather;sunrise;o nascer do sol;sunrise
+portugal;weather;sunset;o pôr do sol;sunset
+portugal;weather;tornado;tornado;tornado
+portugal;weather;warm;caloroso;warm
+portugal;household;air_conditioning;o ar condicionado;air_conditioning
+portugal;household;armchair;a poltrona;armchair
+portugal;household;bathtub;a banheira;bathtub
+portugal;household;bed;a cama;bed
+portugal;household;bedside_table;mesa de cabeceira;bedside_table
+portugal;household;blender;o liquidificador;blender
+portugal;household;bookcase;a estante de livros;bookcase
+portugal;household;chair;a cadeira;chair
+portugal;household;chest_of_drawers;a cômoda;chest_of_drawers
+portugal;household;coat_rack;o cabide;coat_rack
+portugal;household;coffee_machine;a cafeteira;coffee_machine
+portugal;household;coffee_table;a mesa de centro;coffee_table
+portugal;household;couch;o sofá;couch
+portugal;household;desk_lamp;a luminária de mesa;desk_lamp
+portugal;household;dishwasher;o lava-louças;dishwasher
+portugal;household;door;a porta;door
+portugal;household;dresser;o armário;dresser
+portugal;household;extractor_hood;o exaustor;extractor_hood
+portugal;household;fan;o fã;fan
+portugal;household;fireplace;a lareira;fireplace
+portugal;household;fridge;a geladeira;fridge
+portugal;household;garage;a garagem;garage
+portugal;household;dresser;a luminária pendurada;hanging_lamp
+portugal;household;heater;o aquecedor;heater
+portugal;household;hoover;o hoover;hoover
+portugal;household;iron;o ferro;iron
+portugal;household;juicer;o espremedor;juicer
+portugal;household;kettle;a chaleira;kettle
+portugal;household;kitchen_table;a mesa da cozinha;kitchen_table
+portugal;household;lamp;a lâmpada;lamp
+portugal;household;light_bulb;a lâmpada;light_bulb
+portugal;household;microwave;o microondas;microwave
+portugal;household;mixer;o misturador;mixer
+portugal;household;oven;o forno;oven
+portugal;household;radiator;o radiador;radiator
+portugal;household;shower;o banho;shower
+portugal;household;sink;a pia;sink
+portugal;household;stairs;as escadas;stairs
+portugal;household;stool;o banquinho;stool
+portugal;household;stove;o fogão;stove
+portugal;household;tap;a torneira;tap
+portugal;household;television;a televisão;television
+portugal;household;toilet;o banheiro;toilet
+portugal;household;wardrobe;o armário;wardrobe
+portugal;household;washing_machine;a máquina de lavar;washing_machine
+portugal;household;water_heater;o aquecedor de água;water_heater
+portugal;household;window;a janela;window

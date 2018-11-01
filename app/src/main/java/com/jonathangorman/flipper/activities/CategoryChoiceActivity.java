@@ -57,7 +57,7 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Professions");
             recyclerTextList.add("Transport");
             recyclerTextList.add("Weather");
-            recyclerTextList.add("Furniture");
+            recyclerTextList.add("Household");
         }
         else if (languageChosen.equalsIgnoreCase("spain"))
         {
@@ -67,7 +67,7 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Profesiones");
             recyclerTextList.add("Transporte");
             recyclerTextList.add("Tiempo");
-            recyclerTextList.add("Muebles");
+            recyclerTextList.add("Casa");
         }
         else if (languageChosen.equalsIgnoreCase("france"))
         {
@@ -77,7 +77,7 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Professions");
             recyclerTextList.add("Transport");
             recyclerTextList.add("Météo");
-            recyclerTextList.add("Meubles");
+            recyclerTextList.add("Ménage");
         }
         else if (languageChosen.equalsIgnoreCase("germany"))
         {
@@ -87,7 +87,7 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Profesiones");
             recyclerTextList.add("Berufe");
             recyclerTextList.add("Wetter");
-            recyclerTextList.add("Möbel");
+            recyclerTextList.add("Haushalt");
         }
         else if (languageChosen.equalsIgnoreCase("italy"))
         {
@@ -97,7 +97,7 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Professioni");
             recyclerTextList.add("Trasporti");
             recyclerTextList.add("Tempo");
-            recyclerTextList.add("Mobilia");
+            recyclerTextList.add("Domestico");
         }
         else if (languageChosen.equalsIgnoreCase("portugal"))
         {
@@ -107,7 +107,7 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Profissões");
             recyclerTextList.add("Transport");
             recyclerTextList.add("Tempo");
-            recyclerTextList.add("Mobília");
+            recyclerTextList.add("Casa");
         }
         // add values for the images and identifier
         recyclerImagesList.add(R.mipmap.watermelon);
@@ -123,6 +123,6 @@ public class CategoryChoiceActivity extends Activity {
         recyclerImagesList.add(R.mipmap.cloudy);
         recyclerNameList.add("weather");
         recyclerImagesList.add(R.mipmap.couch);
-        recyclerNameList.add("furniture");
+        recyclerNameList.add("household");
     }
 }

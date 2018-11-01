@@ -1,311 +1,321 @@
-france;fruit;apple;the apple;apple;
-france;fruit;apricot;the apricot;apricot;
-france;fruit;banana;the banana;banana;
-france;fruit;blueberry;the blueberry;blueberry;
-france;fruit;carambola;the carambola;carambola;
-france;fruit;cherry;the cherry;cherry;
-france;fruit;chestnut;the chestnut;chestnut;
-france;fruit;coconut;the coconut;coconut;
-france;fruit;dates;the dates;dates;
-france;fruit;dragon_fruit;the dragon fruit;dragon_fruit;
-france;fruit;fig;the fig;fig;
-france;fruit;goji;the goji berry;goji;
-france;fruit;gooseberry;the gooseberry;gooseberry;
-france;fruit;grapefruit;the grapefruit;grapefruit;
-france;fruit;grapes;the grapes;grapes;
-france;fruit;guava;the guava;guava;
-france;fruit;kiwi;the kiwi;kiwi;
-france;fruit;kumquat;the kumquat;kumquat;
-france;fruit;lemon;the lemon;lemon;
-france;fruit;lime;the lime;lime;
-france;fruit;mango;the mango;mango;
-france;fruit;mangosteen;the mangosteen;mangosteen;
-france;fruit;melon;the melon;melon;
-france;fruit;orange;the orange;orange;
-france;fruit;papaya;the papaya;papaya;
-france;fruit;passion_fruit;the passion fruit;passion_fruit;
-france;fruit;peach;the peach;peach;
-france;fruit;pear;the pear;pear;
-france;fruit;persimmion;the persimmion;persimmion;
-france;fruit;pineapple;the pineapple;pineapple;
-france;fruit;plum;the plum;plum;
-france;fruit;quince;the quince;quince;
-france;fruit;rambutan;the rambutan;rambutan;
-france;fruit;rasberry;the rasberry;rasberry;
-france;fruit;strawberry;the strawberry;strawberry;
-france;fruit;watermelon;the watermelon;watermelon;
-france;vegetables;asparagus;the asparagus;asparagus;
-france;vegetables;aubergine;the aubergine;aubergine;
-france;vegetables;avocado;the avocado;avocado;
-france;vegetables;basil;the basil;basil;
-france;vegetables;beetroot;the beetroot;beetroot;
-france;vegetables;broccoli;the broccoli;broccoli;
-france;vegetables;brussel_sprouts;the brussel sprouts;brussel_sprouts;
-france;vegetables;cabbage;the cabbage;cabbage;
-france;vegetables;caper;the caper;caper;
-france;vegetables;carrot;the carrot;carrot;
-france;vegetables;cauliflower;the cauliflower;cauliflower;
-france;vegetables;celery;the celery;celery;
-france;vegetables;chili_pepper;the chili pepper;chili_pepper;
-france;vegetables;corn;the corn;corn;
-france;vegetables;courgette;the courgette;courgette;
-france;vegetables;cucumber;the cucumber;cucumber;
-france;vegetables;dill;the dill;dill;
-france;vegetables;garlic;the garlic;garlic;
-france;vegetables;ginger;the ginger;ginger;
-france;vegetables;horseradish;the horseradish;horseradish;
-france;vegetables;kohlrabi;the kohlrabi;kohlrabi;
-france;vegetables;leek;the leek;leek;
-france;vegetables;olives;the olives;olives;
-france;vegetables;parsley;the parsley;parsley;
-france;vegetables;peas;the peas;peas;
-france;vegetables;potato;the potato;potato;
-france;vegetables;pumpkin;the pumpkin;pumpkin;
-france;vegetables;radish;the radish;radish;
-france;vegetables;red_pepper;the red pepper;red_pepper;
-france;vegetables;rhubarb;the rhubarb;rhubarb;
-france;vegetables;rocket;the rocket;rocket;
-france;vegetables;spinach;the spinach;spinach;
-france;vegetables;squash;the squash;squash;
-france;vegetables;sweet_potato;the sweet potato;sweet_potato;
-france;vegetables;tomato;the tomato;tomato;
-france;vegetables;turnip;the turnip;turnip;
-france;vegetables;white_garlic;the white garlic;white_garlic;
-france;animals;albatross;the albatross;albatross;
-france;animals;angler;the anglerfish;angler;
-france;animals;anteater;the anteater;anteater;
-france;animals;baboon;the baboon;baboon;
-france;animals;bear;the bear;bear;
-france;animals;bee;the bee;bee;
-france;animals;beetle;the beetle;beetle;
-france;animals;boar;the boar;boar;
-france;animals;bison;the bison;bison;
-france;animals;bullfinch;the bullfinch;bullfinch;
-france;animals;butterfly;the butterfly;butterfly;
-france;animals;capybara;the capybara;capybara;
-france;animals;cat;the cat;cat;
-france;animals;centipede;the centipede;centipede;
-france;animals;chameleon;the chameleon;chameleon;
-france;animals;chimpanzee;the chimpanzee;chimpanzee;
-france;animals;colibri;the colibri;colibri;
-france;animals;crab;the crab;crab;
-france;animals;crane;the crane;crane;
-france;animals;crocodile;the crocodile;crocodile;
-france;animals;deer;the deer;deer;
-france;animals;dog;the dog;dog;
-france;animals;dolphin;the dolphin;dolphin;
-france;animals;dragonfly;the dragonfly;dragonfly;
-france;animals;duck;the duck;duck;
-france;animals;eagle;the eagle;eagle;
-france;animals;elephant;the elephant;elephant;
-france;animals;fennec;the fennec;fennec;
-france;animals;flounder;the flounder;flounder;
-france;animals;fly;the fly;fly;
-france;animals;fox;the fox;fox;
-france;animals;frog;the frog;frog;
-france;animals;giraffe;the giraffe;giraffe;
-france;animals;goat;the goat;goat;
-france;animals;goldfish;the goldfish;goldfish;
-france;animals;guinea_pig;the guinea_pig;guinea_pig;
-france;animals;hedgehog;the hedgehog;hedgehog;
-france;animals;hippopotamus;the hippopotamus;hippopotamus;
-france;animals;horse;the horse;horse;
-france;animals;hyena;the hyena;hyena;
-france;animals;kangaroo;the kangaroo;kangaroo;
-france;animals;koala;the koala;koala;
-france;animals;ladybird;the ladybird;ladybird;
-france;animals;lemur;the lemur;lemur;
-france;animals;lion;the lion;lion;
-france;animals;llama;the llama;llama;
-france;animals;mink;the mink;mink;
-france;animals;mite;the mite;mite;
-france;animals;mole;the mole;mole;
-france;animals;moose;the moose;moose;
-france;animals;moray;the moray eel;moray;
-france;animals;mosquito;the mosquito;mosquito;
-france;animals;moth;the moth;moth;
-france;animals;mouse;the mouse;mouse;
-france;animals;orca;the orca;orca;
-france;animals;ostrich;the ostrich;ostrich;
-france;animals;owl;the owl;owl;
-france;animals;parrot;the parrot;parrot;
-france;animals;penguin;the penguin;penguin;
-france;animals;perch;the perch;perch;
-france;animals;pig;the pig;pig;
-france;animals;pigeon;the pigeon;pigeon;
-france;animals;pike;the pike;pike;
-france;animals;piranha;the piranha;piranha;
-france;animals;platypus;the platypus;platypus;
-france;animals;pufferfish;the pufferfish;pufferfish;
-france;animals;puffin;the puffin;puffin;
-france;animals;rabbit;the rabbit;rabbit;
-france;animals;raccoon;the raccoon;raccoon;
-france;animals;rooster;the rooster;rooster;
-france;animals;salmon;the salmon;salmon;
-france;animals;sea_urchin;the sea urchin;sea_urchin;
-france;animals;seal;the seal;seal;
-france;animals;shark;the shark;shark;
-france;animals;sheep;the sheep;sheep;
-france;animals;prawn;the prawn;prawn;
-france;animals;silverfish;the silverfish;silverfish;
-france;animals;skunk;the skunk;skunk;
-france;animals;sloth;the sloth;sloth;
-france;animals;snake;the snake;snake;
-france;animals;sparrow;the sparrow;sparrow;
-france;animals;spider;the spider;spider;
-france;animals;squid;the squid;squid;
-france;animals;panda_bear;the panda;panda_bear;
-france;animals;squirrel;the panda;squirrel;
-france;animals;starfish;the starfish;starfish;
-france;animals;swan;the swan;swan;
-france;animals;swordfish;the swordfish;swordfish;
-france;animals;tiger;the tiger;tiger;
-france;animals;tuna;the tuna;tuna;
-france;animals;turtle;the turtle;turtle;
-france;animals;wasp;the wasp;wasp;
-france;animals;wolf;the wolf;wolf;
-france;animals;zander;the zander;zander;
-france;professions;artist;the artist;artist;
-france;professions;astronaut;the astronaut;astronaut;
-france;professions;athlete;the athlete;athlete;
-france;professions;basketball_player;the basketball player;basketball_player;
-france;professions;butler;the butler;butler;
-france;professions;cabin_crew;the cabin crew member;cabin_crew;
-france;professions;captain;the captain;captain;
-france;professions;chef;the chef;chef;
-france;professions;clown;the clown;clown;
-france;professions;cook;the cook;cook;
-france;professions;courier;the courier;courier;
-france;professions;detective;the detective;detective;
-france;professions;diver;the diver;diver;
-france;professions;doctor;the doctor;doctor;
-france;professions;engineer;the engineer;engineer;
-france;professions;farmer;the farmer;farmer;
-france;professions;firefighter;the firefighter;firefighter;
-france;professions;hacker;the hacker;hacker;
-france;professions;hunter;the hunter;hunter;
-france;professions;judge;the judge;judge;
-france;professions;lumberjack;the lumberjack;lumberjack;
-france;professions;mafia;the mafia;mafia;
-france;professions;maid;the maid;maid;
-france;professions;mechanic;the mechanic;mechanic;
-france;professions;military_pilot;the military pilot;military_pilot;
-france;professions;nun;the nun;nun;
-france;professions;nurse;the nurse;nurse;
-france;professions;office_worker;the office worker;office_worker;
-france;professions;photographer;the photographer;photographer;
-france;professions;pilot;the pilot;pilot;
-france;professions;police_officer;the police officer;police_officer;
-france;professions;postman;the postman;postman;
-france;professions;priest;the priest;priest;
-france;professions;race_car_driver;the race car driver;race_car_driver;
-france;professions;sailor;the sailor;sailor;
-france;professions;scientist;the scientist;scientist;
-france;professions;secretary;the secretary;secretary;
-france;professions;singer;the singer;singer;
-france;professions;software_developer;the software developer;software_developer;
-france;professions;soldier;the soldier;soldier;
-france;professions;student;the student;student;
-france;professions;surgeon;the surgeon;surgeon;
-france;professions;taxi_driver;the taxi driver;taxi_driver;
-france;professions;teacher;the teacher;teacher;
-france;professions;telemarketer;the telemarketer;telemarketer;
-france;professions;thief;the thief;thief;
-france;professions;tour_guide;the tour guide;tour_guide;
-france;professions;waiter;the waiter;waiter;
-france;professions;welder;the welder;welder;
-france;professions;wrestler;the wrestler;wrestler;
-france;transport;airplane;the airplane;airplane;
-france;transport;bike;the bike;bike;
-france;transport;bin_truck;the bin truck;bin_truck;
-france;transport;boat;the boat;boat;
-france;transport;bus;the bus;bus;
-france;transport;cable_car;the cable car;cable_car;
-france;transport;camper_van;the campervan;camper_van;
-france;transport;car;the car;car;
-france;transport;cargo_ship;the cargo ship;cargo_ship;
-france;transport;cement_truck;the cement truck;cement_truck;
-france;transport;cruise_ship;the cruise ship;cruise_ship;
-france;transport;drone;the drone;drone;
-france;transport;dump_truck;the dump truck;dump_truck;
-france;transport;firetruck;the firetruck;firetruck;
-france;transport;forklift;the forklift;forklift;
-france;transport;helicopter;the helicopter;helicopter;
-france;transport;hot_air_balloon;the hot air balloon;hot_air_balloon;
-france;transport;hovercraft;the hovercraft;hovercraft;
-france;transport;jet_ski;the jet ski;jet_ski;
-france;transport;monorail;the monorail;monorail;
-france;transport;motorbike;the motorbike;motorbike;
-france;transport;quad;the quad;quad;
-france;transport;racing_car;the racing car;racing_car;
-france;transport;rocket_ship;the rocketship;rocket_ship;
-france;transport;sailboat;the sailboat;sailboat;
-france;transport;scooter;the scooter;scooter;
-france;transport;sidecar;the sidecar;sidecar;
-france;transport;steam_engine;the steamengine;steam_engine;
-france;transport;submarine;the submarine;submarine;
-france;transport;tanker;the tanker;tanker;
-france;transport;taxi;the taxi;taxi;
-france;transport;train;the train;train;
-france;transport;tram;the tram;tram;
-france;transport;truck;the truck;truck;
-france;transport;van;the van;van;
-france;transport;yacht;the yacht;yacht;
-france;weather;cloudy;cloudy;cloudy;
-france;weather;cold;cold;cold;
-france;weather;flood;flood;flood;
-france;weather;fog;fog;fog;
-france;weather;hail;hail;hail;
-france;weather;hot;hot;hot;
-france;weather;humidity;humidity;humidity;
-france;weather;hurricane;hurricane;hurricane;
-france;weather;lightning;lightning;lightning;
-france;weather;moon;the moon;moon;
-france;weather;partially_cloudy;partially cloudy;partially_cloudy;
-france;weather;rain_shower;rain shower;rain_shower;
-france;weather;snow;snow;snow;
-france;weather;snowflake;snowflake;snowflake;
-france;weather;star;the star;star;
-france;weather;storm;stormy;storm;
-france;weather;sunny;sunny;sunny;
-france;weather;sunrise;the sunrise;sunrise;
-france;weather;sunset;the sunset;sunset;
-france;weather;tornado;tornado;tornado;
-france;weather;warm;warm;warm;
-france;weather;windy;windy;windy;
-spain;fruit;apple;la manzana;apple;
-spain;fruit;apricot;el albaricoque;apricot;
-spain;fruit;banana;el plátano;banana;
-spain;fruit;blueberry;el arándano;blueberry;
-spain;fruit;carambola;la carambola;carambola;
-spain;fruit;cherry;la cereza;cherry;
-spain;fruit;chestnut;la castaña;chestnut;
-spain;fruit;coconut;the coconut;coconut;
-spain;fruit;dates;la palma datilera;dates;
-spain;fruit;dragon_fruit;la fruta del dragón;dragon_fruit;
-spain;fruit;fig;el higo;fig;
-spain;fruit;goji;la baya de goji;goji;
-spain;fruit;gooseberry;la grosella;gooseberry;
-spain;fruit;grapefruit;la toronja;grapefruit;
-spain;fruit;grapes;las uvas;grapes;
-spain;fruit;guava;the guayaba;guava;
-spain;fruit;kiwi;the kiwi;kiwi;
-spain;fruit;kumquat;the kumquat;kumquat;
-spain;fruit;lemon;the limón;lemon;
-spain;fruit;lime;la lima;lime;
-spain;fruit;mango;el mango;mango;
-spain;fruit;mangosteen;el mangostán;mangosteen;
-spain;fruit;melon;el melón;melon;
-spain;fruit;orange;la naranja;orange;
-spain;fruit;papaya;la papaya;papaya;
-spain;fruit;passion_fruit;la fruta de la pasión;passion_fruit;
-spain;fruit;peach;el melocotón;peach;
-spain;fruit;pear;la pera;pear;
-spain;fruit;persimmion;La Persimmion;persimmion;
-spain;fruit;pineapple;la piña;pineapple;
-spain;fruit;plum;la ciruela;plum;
-spain;fruit;quince;el membrillo;quince;
-spain;fruit;rambutan;el rambután;rambutan;
-spain;fruit;rasberry;la frambuesa;rasberry;
-spain;fruit;strawberry;la fresa;strawberry;
-spain;fruit;watermelon;la sandía;watermelon;
+france;fruit;apple;la pomme;apple
+france;fruit;apricot;l'abricot;apricot
+france;fruit;banana;la banane;banana
+france;fruit;blueberry;la myrtille;blueberry
+france;fruit;carambola;la carambole;carambola
+france;fruit;cherry;la cerise;cherry
+france;fruit;chestnut;la châtaigne;chestnut
+france;fruit;coconut;la noix de coco;coconut
+france;fruit;dates;les dates;dates
+france;fruit;dragon_fruit;le fruit du dragon;dragon_fruit
+france;fruit;fig;la figue;fig
+france;fruit;goji;la baie de goji;goji
+france;fruit;gooseberry;la groseille;gooseberry
+france;fruit;grapefruit;le pamplemousse;grapefruit
+france;fruit;grapes;les raisins;grapes
+france;fruit;guava;la goyave;guava
+france;fruit;kiwi;le kiwi;kiwi
+france;fruit;kumquat;le kumquat;kumquat
+france;fruit;lemon;le citron;lemon
+france;fruit;lime;la chaux;lime
+france;fruit;mango;la mangue;mango
+france;fruit;mangosteen;le mangoustan;mangosteen
+france;fruit;melon;le melon;melon
+france;fruit;orange;l'orange;orange
+france;fruit;papaya;la papaye;papaya
+france;fruit;passion_fruit;le fruit de la passion;passion_fruit
+france;fruit;peach;la pêche;peach
+france;fruit;pear;La poire;pear
+france;fruit;persimmion;le kaki;persimmion
+france;fruit;pineapple;l'ananas;pineapple
+france;fruit;plum;la prune;plum
+france;fruit;quince;le coing;quince
+france;fruit;rambutan;le ramboutan;rambutan
+france;fruit;rasberry;la framboise;rasberry
+france;fruit;strawberry;la fraise;strawberry
+france;fruit;watermelon;le melon d'eau;watermelon
+france;vegetables;asparagus;les asperges;asparagus
+france;vegetables;aubergine;l'aubergine;aubergine
+france;vegetables;avocado;l'avocat;avocado
+france;vegetables;basil;le basilic;basil
+france;vegetables;beetroot;la betterave;beetroot
+france;vegetables;broccoli;le brocoli;broccoli
+france;vegetables;brussel_sprouts;les choux de bruxelles;brussel_sprouts
+france;vegetables;cabbage;le chou;cabbage
+france;vegetables;caper;la câpre;caper
+france;vegetables;carrot;la carotte;carrot
+france;vegetables;cauliflower;le chou-fleur;cauliflower
+france;vegetables;celery;le céleri;celery
+france;vegetables;chili_pepper;le piment;chili_pepper
+france;vegetables;corn;le mais;corn
+france;vegetables;courgette;la courgette;courgette
+france;vegetables;cucumber;le concombre;cucumber
+france;vegetables;dill;l'aneth;dill
+france;vegetables;garlic;l'ail;garlic
+france;vegetables;ginger;le gingembre;ginger
+france;vegetables;horseradish;le raifort;horseradish
+france;vegetables;kohlrabi;le chou-rave;kohlrabi
+france;vegetables;leek;le poireau;leek
+france;vegetables;olives;les olives;olives
+france;vegetables;parsley;le persil;parsley
+france;vegetables;peas;les pois;peas
+france;vegetables;potato;la pomme de terre;potato
+france;vegetables;pumpkin;la citrouille;pumpkin
+france;vegetables;radish;le radis;radish
+france;vegetables;red_pepper;le poivron rouge;red_pepper
+france;vegetables;rhubarb;la rhubarbe;rhubarb
+france;vegetables;rocket;la fusée;rocket
+france;vegetables;spinach;les épinards;spinach
+france;vegetables;squash;la courge;squash
+france;vegetables;sweet_potato;la patate douce;sweet_potato
+france;vegetables;tomato;la tomate;tomato
+france;vegetables;turnip;le navet;turnip
+france;vegetables;white_garlic;l'ail blanc;white_garlic
+france;animals;albatross;l'albatros;albatross
+france;animals;angler;la baudroie;angler
+france;animals;anteater;le fourmilier;anteater
+france;animals;baboon;le babouin;baboon
+france;animals;bear;l'ours;bear
+france;animals;bee;l'abeille;bee
+france;animals;beetle;le scarabée;beetle
+france;animals;boar;le sanglier;boar
+france;animals;bison;le bison;bison
+france;animals;bullfinch;le bouvreuil;bullfinch
+france;animals;butterfly;le papillon;butterfly
+france;animals;capybara;le capybara;capybara
+france;animals;cat;le chat;cat
+france;animals;centipede;le mille-pattes;centipede
+france;animals;chameleon;le caméléon;chameleon
+france;animals;chimpanzee;le chimpanzé;chimpanzee
+france;animals;colibri;le colibri;colibri
+france;animals;crab;le crabe;crab
+france;animals;crane;la grue;crane
+france;animals;crocodile;le crocodile;crocodile
+france;animals;deer;le cerf;deer
+france;animals;dog;le chien;dog
+france;animals;dolphin;le dauphin;dolphin
+france;animals;dragonfly;la libellule;dragonfly
+france;animals;duck;le canard;duck
+france;animals;eagle;l'aigle;eagle
+france;animals;elephant;l'éléphant;elephant
+france;animals;fennec;le fennec;fennec
+france;animals;flounder;le flet;flounder
+france;animals;fly;la mouche;fly
+france;animals;fox;le renard;fox
+france;animals;frog;la grenouille;frog
+france;animals;giraffe;la girafe;giraffe
+france;animals;goat;la chèvre;goat
+france;animals;goldfish;le poisson rouge;goldfish
+france;animals;guinea_pig;le cochon d'Inde;guinea_pig
+france;animals;hedgehog;le hérisson;hedgehog
+france;animals;hippopotamus;l'hippopotame;hippopotamus
+france;animals;horse;le cheval;horse
+france;animals;hyena;la hyène;hyena
+france;animals;kangaroo;le kangourou;kangaroo
+france;animals;koala;le koala;koala
+france;animals;ladybird;la coccinelle;ladybird
+france;animals;lemur;le lémurien;lemur
+france;animals;lion;le lion;lion
+france;animals;llama;le lama;llama
+france;animals;mink;le vison;mink
+france;animals;mite;l'acarien;mite
+france;animals;mole;la taupe;mole
+france;animals;moose;L'élan;moose
+france;animals;moray;la murène;moray
+france;animals;mosquito;le moustique;mosquito
+france;animals;moth;la mite;moth
+france;animals;mouse;la souris;mouse
+france;animals;orca;l'orque;orca
+france;animals;ostrich;l'autruche;ostrich
+france;animals;owl;Le hibou;owl
+france;animals;parrot;le perroquet;parrot
+france;animals;penguin;le pingouin;penguin
+france;animals;perch;la perche;perch
+france;animals;pig;le cochon;pig
+france;animals;pigeon;le pigeon;pigeon
+france;animals;pike;le brochet;pike
+france;animals;piranha;le piranha;piranha
+france;animals;platypus;l'ornithorynque;platypus
+france;animals;pufferfish;le poisson-globe;pufferfish
+france;animals;puffin;le macareux;puffin
+france;animals;rabbit;le lapin;rabbit
+france;animals;raccoon;le raton laveur;raccoon
+france;animals;rooster;le coq;rooster
+france;animals;salmon;le saumon;salmon
+france;animals;sea_urchin;l'oursin;sea_urchin
+france;animals;seal;le phoque;seal
+france;animals;shark;le requin;shark
+france;animals;sheep;le mouton;sheep
+france;animals;prawn;la crevette;prawn
+france;animals;silverfish;le poisson d'argent;silverfish
+france;animals;skunk;la moufette;skunk
+france;animals;sloth;le paresseux;sloth
+france;animals;snake;le serpent;snake
+france;animals;sparrow;le moineau;sparrow
+france;animals;spider;l'araignée;spider
+france;animals;squid;Le calamar;squid
+france;animals;panda_bear;le panda;panda_bear
+france;animals;squirrel;l'écureuil;squirrel
+france;animals;starfish;l'étoile de mer;starfish
+france;animals;swan;le cygne;swan
+france;animals;swordfish;l'espadon;swordfish
+france;animals;tiger;le tigre;tiger
+france;animals;tuna;le thon;tuna
+france;animals;turtle;la tortue;turtle
+france;animals;wasp;la guêpe;wasp
+france;animals;wolf;le loup;wolf
+france;animals;zander;le sandre;zander
+france;professions;artist;l'artiste;artist
+france;professions;astronaut;l'astronaute;astronaut
+france;professions;athlete;l'athlète;athlete
+france;professions;basketball_player;le basketteur;basketball_player
+france;professions;butler;le majordome;butler
+france;professions;cabin_crew;le membre d'équipage de cabine;cabin_crew
+france;professions;captain;le capitaine;captain
+france;professions;chef;le chef;chef
+france;professions;clown;le clown;clown
+france;professions;cook;le cuisinier;cook
+france;professions;courier;Le Courrier;courier
+france;professions;detective;Le détective;detective
+france;professions;diver;le plongeur;diver
+france;professions;doctor;le docteur;doctor
+france;professions;engineer;l'ingénieur;engineer
+france;professions;farmer;l'agriculteur;farmer
+france;professions;firefighter;le pompier;firefighter
+france;professions;hacker;le pirate;hacker
+france;professions;hunter;le chasseur;hunter
+france;professions;judge;le juge;judge
+france;professions;lumberjack;le bûcheron;lumberjack
+france;professions;mafia;la mafia;mafia
+france;professions;maid;la femme de chambre;maid
+france;professions;mechanic;la mécanique;mechanic
+france;professions;military_pilot;le pilote militaire;military_pilot
+france;professions;nun;la religieuse;nun
+france;professions;nurse;l'infirmière;nurse
+france;professions;office_worker;l'employé de bureau;office_worker
+france;professions;photographer;le photographe;photographer
+france;professions;pilot;le pilote;pilot
+france;professions;police_officer;L 'officier de police;police_officer
+france;professions;postman;le facteur;postman
+france;professions;priest;le prêtre;priest
+france;professions;race_car_driver;le pilote de la voiture de course;race_car_driver
+france;professions;sailor;le marin;sailor
+france;professions;scientist;le scientifique;scientist
+france;professions;secretary;le secrétaire;secretary
+france;professions;singer;le chanteur;singer
+france;professions;software_developer;le développeur de logiciels;software_developer
+france;professions;soldier;le soldat;soldier
+france;professions;student;l'étudiant;student
+france;professions;surgeon;le chirurgien;surgeon
+france;professions;taxi_driver;le chauffeur de taxi;taxi_driver
+france;professions;teacher;l'enseignant;teacher
+france;professions;telemarketer;le télévendeur;telemarketer
+france;professions;thief;le voleur;thief
+france;professions;tour_guide;le guide touristique;tour_guide
+france;professions;waiter;le serveur;waiter
+france;professions;welder;le soudeur;welder
+france;professions;wrestler;le lutteur;wrestler
+france;transport;airplane;l'avion;airplane
+france;transport;bike;le vélo;bike
+france;transport;bin_truck;le camion poubelle;bin_truck
+france;transport;boat;le bateau;boat
+france;transport;bus;Le bus;bus
+france;transport;cable_car;le téléphérique;cable_car
+france;transport;camper_van;le camping-car;camper_van
+france;transport;car;la voiture;car
+france;transport;cargo_ship;le cargo;cargo_ship
+france;transport;cement_truck;le camion de ciment;cement_truck
+france;transport;cruise_ship;le bateau de croisière;cruise_ship
+france;transport;drone;le drone;drone
+france;transport;dump_truck;le camion benne;dump_truck
+france;transport;firetruck;le camion de pompier;firetruck
+france;transport;forklift;le chariot élévateur;forklift
+france;transport;helicopter;l'hélicoptère;helicopter
+france;transport;hot_air_balloon;la montgolfière;hot_air_balloon
+france;transport;hovercraft;l'aéroglisseur;hovercraft
+france;transport;jet_ski;le jet ski;jet_ski
+france;transport;monorail;le monorail;monorail
+france;transport;motorbike;la moto;motorbike
+france;transport;quad;le quad;quad
+france;transport;racing_car;la voiture de course;racing_car
+france;transport;rocket_ship;la fusée;rocket_ship
+france;transport;sailboat;le voilier;sailboat
+france;transport;scooter;le scooter;scooter
+france;transport;sidecar;le side-car;sidecar
+france;transport;steam_engine;le moteur à vapeur;steam_engine
+france;transport;submarine;le sous-marin;submarine
+france;transport;tanker;le pétrolier;tanker
+france;transport;taxi;le taxi;taxi
+france;transport;train;le train;train
+france;transport;tram;le tram;tram
+france;transport;truck;le camion;truck
+france;transport;van;le van;van
+france;transport;yacht;le yacht;yacht
+france;weather;cloudy;nuageux;cloudy
+france;weather;cold;du froid;cold
+france;weather;flood;inonder;flood
+france;weather;fog;brouillard;fog
+france;weather;hail;saluer;hail
+france;weather;hot;chaud;hot
+france;weather;humidity;humidité;humidity
+france;weather;hurricane;ouragan;hurricane
+france;weather;lightning;foudre;lightning
+france;weather;moon;la lune;moon
+france;weather;partially_cloudy;partiellement nuageux;partially_cloudy
+france;weather;rain_shower;pluie;rain_shower
+france;weather;snow;neige;snow
+france;weather;snowflake;flocon de neige;snowflake
+france;weather;star;l'étoile;star
+france;weather;storm;orageux;storm
+france;weather;sunny;ensoleillé;sunny
+france;weather;sunrise;le lever du soleil;sunrise
+france;weather;sunset;le coucher du soleil;sunset
+france;weather;tornado;tornade;tornado
+france;weather;warm;chaud;warm
+france;household;air_conditioning;La climatisation;air_conditioning
+france;household;armchair;le fauteuil;armchair
+france;household;bathtub;le bain;bathtub
+france;household;bed;le lit;bed
+france;household;bedside_table;table de chevet;bedside_table
+france;household;blender;le mixeur;blender
+france;household;bookcase;la bibliothèque;bookcase
+france;household;chair;la chaise;chair
+france;household;chest_of_drawers;la commode;chest_of_drawers
+france;household;coat_rack;le portemanteau;coat_rack
+france;household;coffee_machine;la cafetière;coffee_machine
+france;household;coffee_table;la table basse;coffee_table
+france;household;couch;le canapé;couch
+france;household;desk_lamp;la lampe de bureau;desk_lamp
+france;household;dishwasher;le lave-vaisselle;dishwasher
+france;household;door;la porte;door
+france;household;dresser;la commode;dresser
+france;household;extractor_hood;la hotte aspirante;extractor_hood
+france;household;fan;le fan;fan
+france;household;fireplace;la cheminée;fireplace
+france;household;fridge;le réfrigérateur;fridge
+france;household;garage;Le garage;garage
+france;household;dresser;la lampe suspendue;hanging_lamp
+france;household;heater;le radiateur;heater
+france;household;hoover;l'aspirateur;hoover
+france;household;iron;le fer;iron
+france;household;juicer;le presse-agrumes;juicer
+france;household;kettle;la bouilloire;kettle
+france;household;kitchen_table;la table de la cuisine;kitchen_table
+france;household;lamp;la lampe;lamp
+france;household;light_bulb;l'ampoule;light_bulb
+france;household;microwave;le micro-onde;microwave
+france;household;mixer;le mixer;mixer
+france;household;oven;le four;oven
+france;household;radiator;le radiateur;radiator
+france;household;shower;la douche;shower
+france;household;sink;l'évier;sink
+france;household;stairs;les escaliers;stairs
+france;household;stool;le tabouret;stool
+france;household;stove;le poêle;stove
+france;household;tap;le robinet;tap
+france;household;television;la télévision;television
+france;household;toilet;les toilettes;toilet
+france;household;wardrobe;l'armoire;wardrobe
+france;household;washing_machine;la machine à laver;washing_machine
+france;household;water_heater;le chauffe-eau;water_heater
+france;household;window;la fenêtre;window

@@ -1,311 +1,321 @@
-italy;fruit;apple;the apple;apple;
-italy;fruit;apricot;the apricot;apricot;
-italy;fruit;banana;the banana;banana;
-italy;fruit;blueberry;the blueberry;blueberry;
-italy;fruit;carambola;the carambola;carambola;
-italy;fruit;cherry;the cherry;cherry;
-italy;fruit;chestnut;the chestnut;chestnut;
-italy;fruit;coconut;the coconut;coconut;
-italy;fruit;dates;the dates;dates;
-italy;fruit;dragon_fruit;the dragon fruit;dragon_fruit;
-italy;fruit;fig;the fig;fig;
-italy;fruit;goji;the goji berry;goji;
-italy;fruit;gooseberry;the gooseberry;gooseberry;
-italy;fruit;grapefruit;the grapefruit;grapefruit;
-italy;fruit;grapes;the grapes;grapes;
-italy;fruit;guava;the guava;guava;
-italy;fruit;kiwi;the kiwi;kiwi;
-italy;fruit;kumquat;the kumquat;kumquat;
-italy;fruit;lemon;the lemon;lemon;
-italy;fruit;lime;the lime;lime;
-italy;fruit;mango;the mango;mango;
-italy;fruit;mangosteen;the mangosteen;mangosteen;
-italy;fruit;melon;the melon;melon;
-italy;fruit;orange;the orange;orange;
-italy;fruit;papaya;the papaya;papaya;
-italy;fruit;passion_fruit;the passion fruit;passion_fruit;
-italy;fruit;peach;the peach;peach;
-italy;fruit;pear;the pear;pear;
-italy;fruit;persimmion;the persimmion;persimmion;
-italy;fruit;pineapple;the pineapple;pineapple;
-italy;fruit;plum;the plum;plum;
-italy;fruit;quince;the quince;quince;
-italy;fruit;rambutan;the rambutan;rambutan;
-italy;fruit;rasberry;the rasberry;rasberry;
-italy;fruit;strawberry;the strawberry;strawberry;
-italy;fruit;watermelon;the watermelon;watermelon;
-italy;vegetables;asparagus;the asparagus;asparagus;
-italy;vegetables;aubergine;the aubergine;aubergine;
-italy;vegetables;avocado;the avocado;avocado;
-italy;vegetables;basil;the basil;basil;
-italy;vegetables;beetroot;the beetroot;beetroot;
-italy;vegetables;broccoli;the broccoli;broccoli;
-italy;vegetables;brussel_sprouts;the brussel sprouts;brussel_sprouts;
-italy;vegetables;cabbage;the cabbage;cabbage;
-italy;vegetables;caper;the caper;caper;
-italy;vegetables;carrot;the carrot;carrot;
-italy;vegetables;cauliflower;the cauliflower;cauliflower;
-italy;vegetables;celery;the celery;celery;
-italy;vegetables;chili_pepper;the chili pepper;chili_pepper;
-italy;vegetables;corn;the corn;corn;
-italy;vegetables;courgette;the courgette;courgette;
-italy;vegetables;cucumber;the cucumber;cucumber;
-italy;vegetables;dill;the dill;dill;
-italy;vegetables;garlic;the garlic;garlic;
-italy;vegetables;ginger;the ginger;ginger;
-italy;vegetables;horseradish;the horseradish;horseradish;
-italy;vegetables;kohlrabi;the kohlrabi;kohlrabi;
-italy;vegetables;leek;the leek;leek;
-italy;vegetables;olives;the olives;olives;
-italy;vegetables;parsley;the parsley;parsley;
-italy;vegetables;peas;the peas;peas;
-italy;vegetables;potato;the potato;potato;
-italy;vegetables;pumpkin;the pumpkin;pumpkin;
-italy;vegetables;radish;the radish;radish;
-italy;vegetables;red_pepper;the red pepper;red_pepper;
-italy;vegetables;rhubarb;the rhubarb;rhubarb;
-italy;vegetables;rocket;the rocket;rocket;
-italy;vegetables;spinach;the spinach;spinach;
-italy;vegetables;squash;the squash;squash;
-italy;vegetables;sweet_potato;the sweet potato;sweet_potato;
-italy;vegetables;tomato;the tomato;tomato;
-italy;vegetables;turnip;the turnip;turnip;
-italy;vegetables;white_garlic;the white garlic;white_garlic;
-italy;animals;albatross;the albatross;albatross;
-italy;animals;angler;the anglerfish;angler;
-italy;animals;anteater;the anteater;anteater;
-italy;animals;baboon;the baboon;baboon;
-italy;animals;bear;the bear;bear;
-italy;animals;bee;the bee;bee;
-italy;animals;beetle;the beetle;beetle;
-italy;animals;boar;the boar;boar;
-italy;animals;bison;the bison;bison;
-italy;animals;bullfinch;the bullfinch;bullfinch;
-italy;animals;butterfly;the butterfly;butterfly;
-italy;animals;capybara;the capybara;capybara;
-italy;animals;cat;the cat;cat;
-italy;animals;centipede;the centipede;centipede;
-italy;animals;chameleon;the chameleon;chameleon;
-italy;animals;chimpanzee;the chimpanzee;chimpanzee;
-italy;animals;colibri;the colibri;colibri;
-italy;animals;crab;the crab;crab;
-italy;animals;crane;the crane;crane;
-italy;animals;crocodile;the crocodile;crocodile;
-italy;animals;deer;the deer;deer;
-italy;animals;dog;the dog;dog;
-italy;animals;dolphin;the dolphin;dolphin;
-italy;animals;dragonfly;the dragonfly;dragonfly;
-italy;animals;duck;the duck;duck;
-italy;animals;eagle;the eagle;eagle;
-italy;animals;elephant;the elephant;elephant;
-italy;animals;fennec;the fennec;fennec;
-italy;animals;flounder;the flounder;flounder;
-italy;animals;fly;the fly;fly;
-italy;animals;fox;the fox;fox;
-italy;animals;frog;the frog;frog;
-italy;animals;giraffe;the giraffe;giraffe;
-italy;animals;goat;the goat;goat;
-italy;animals;goldfish;the goldfish;goldfish;
-italy;animals;guinea_pig;the guinea_pig;guinea_pig;
-italy;animals;hedgehog;the hedgehog;hedgehog;
-italy;animals;hippopotamus;the hippopotamus;hippopotamus;
-italy;animals;horse;the horse;horse;
-italy;animals;hyena;the hyena;hyena;
-italy;animals;kangaroo;the kangaroo;kangaroo;
-italy;animals;koala;the koala;koala;
-italy;animals;ladybird;the ladybird;ladybird;
-italy;animals;lemur;the lemur;lemur;
-italy;animals;lion;the lion;lion;
-italy;animals;llama;the llama;llama;
-italy;animals;mink;the mink;mink;
-italy;animals;mite;the mite;mite;
-italy;animals;mole;the mole;mole;
-italy;animals;moose;the moose;moose;
-italy;animals;moray;the moray eel;moray;
-italy;animals;mosquito;the mosquito;mosquito;
-italy;animals;moth;the moth;moth;
-italy;animals;mouse;the mouse;mouse;
-italy;animals;orca;the orca;orca;
-italy;animals;ostrich;the ostrich;ostrich;
-italy;animals;owl;the owl;owl;
-italy;animals;parrot;the parrot;parrot;
-italy;animals;penguin;the penguin;penguin;
-italy;animals;perch;the perch;perch;
-italy;animals;pig;the pig;pig;
-italy;animals;pigeon;the pigeon;pigeon;
-italy;animals;pike;the pike;pike;
-italy;animals;piranha;the piranha;piranha;
-italy;animals;platypus;the platypus;platypus;
-italy;animals;pufferfish;the pufferfish;pufferfish;
-italy;animals;puffin;the puffin;puffin;
-italy;animals;rabbit;the rabbit;rabbit;
-italy;animals;raccoon;the raccoon;raccoon;
-italy;animals;rooster;the rooster;rooster;
-italy;animals;salmon;the salmon;salmon;
-italy;animals;sea_urchin;the sea urchin;sea_urchin;
-italy;animals;seal;the seal;seal;
-italy;animals;shark;the shark;shark;
-italy;animals;sheep;the sheep;sheep;
-italy;animals;prawn;the prawn;prawn;
-italy;animals;silverfish;the silverfish;silverfish;
-italy;animals;skunk;the skunk;skunk;
-italy;animals;sloth;the sloth;sloth;
-italy;animals;snake;the snake;snake;
-italy;animals;sparrow;the sparrow;sparrow;
-italy;animals;spider;the spider;spider;
-italy;animals;squid;the squid;squid;
-italy;animals;panda_bear;the panda;panda_bear;
-italy;animals;squirrel;the panda;squirrel;
-italy;animals;starfish;the starfish;starfish;
-italy;animals;swan;the swan;swan;
-italy;animals;swordfish;the swordfish;swordfish;
-italy;animals;tiger;the tiger;tiger;
-italy;animals;tuna;the tuna;tuna;
-italy;animals;turtle;the turtle;turtle;
-italy;animals;wasp;the wasp;wasp;
-italy;animals;wolf;the wolf;wolf;
-italy;animals;zander;the zander;zander;
-italy;professions;artist;the artist;artist;
-italy;professions;astronaut;the astronaut;astronaut;
-italy;professions;athlete;the athlete;athlete;
-italy;professions;basketball_player;the basketball player;basketball_player;
-italy;professions;butler;the butler;butler;
-italy;professions;cabin_crew;the cabin crew member;cabin_crew;
-italy;professions;captain;the captain;captain;
-italy;professions;chef;the chef;chef;
-italy;professions;clown;the clown;clown;
-italy;professions;cook;the cook;cook;
-italy;professions;courier;the courier;courier;
-italy;professions;detective;the detective;detective;
-italy;professions;diver;the diver;diver;
-italy;professions;doctor;the doctor;doctor;
-italy;professions;engineer;the engineer;engineer;
-italy;professions;farmer;the farmer;farmer;
-italy;professions;firefighter;the firefighter;firefighter;
-italy;professions;hacker;the hacker;hacker;
-italy;professions;hunter;the hunter;hunter;
-italy;professions;judge;the judge;judge;
-italy;professions;lumberjack;the lumberjack;lumberjack;
-italy;professions;mafia;the mafia;mafia;
-italy;professions;maid;the maid;maid;
-italy;professions;mechanic;the mechanic;mechanic;
-italy;professions;military_pilot;the military pilot;military_pilot;
-italy;professions;nun;the nun;nun;
-italy;professions;nurse;the nurse;nurse;
-italy;professions;office_worker;the office worker;office_worker;
-italy;professions;photographer;the photographer;photographer;
-italy;professions;pilot;the pilot;pilot;
-italy;professions;police_officer;the police officer;police_officer;
-italy;professions;postman;the postman;postman;
-italy;professions;priest;the priest;priest;
-italy;professions;race_car_driver;the race car driver;race_car_driver;
-italy;professions;sailor;the sailor;sailor;
-italy;professions;scientist;the scientist;scientist;
-italy;professions;secretary;the secretary;secretary;
-italy;professions;singer;the singer;singer;
-italy;professions;software_developer;the software developer;software_developer;
-italy;professions;soldier;the soldier;soldier;
-italy;professions;student;the student;student;
-italy;professions;surgeon;the surgeon;surgeon;
-italy;professions;taxi_driver;the taxi driver;taxi_driver;
-italy;professions;teacher;the teacher;teacher;
-italy;professions;telemarketer;the telemarketer;telemarketer;
-italy;professions;thief;the thief;thief;
-italy;professions;tour_guide;the tour guide;tour_guide;
-italy;professions;waiter;the waiter;waiter;
-italy;professions;welder;the welder;welder;
-italy;professions;wrestler;the wrestler;wrestler;
-italy;transport;airplane;the airplane;airplane;
-italy;transport;bike;the bike;bike;
-italy;transport;bin_truck;the bin truck;bin_truck;
-italy;transport;boat;the boat;boat;
-italy;transport;bus;the bus;bus;
-italy;transport;cable_car;the cable car;cable_car;
-italy;transport;camper_van;the campervan;camper_van;
-italy;transport;car;the car;car;
-italy;transport;cargo_ship;the cargo ship;cargo_ship;
-italy;transport;cement_truck;the cement truck;cement_truck;
-italy;transport;cruise_ship;the cruise ship;cruise_ship;
-italy;transport;drone;the drone;drone;
-italy;transport;dump_truck;the dump truck;dump_truck;
-italy;transport;firetruck;the firetruck;firetruck;
-italy;transport;forklift;the forklift;forklift;
-italy;transport;helicopter;the helicopter;helicopter;
-italy;transport;hot_air_balloon;the hot air balloon;hot_air_balloon;
-italy;transport;hovercraft;the hovercraft;hovercraft;
-italy;transport;jet_ski;the jet ski;jet_ski;
-italy;transport;monorail;the monorail;monorail;
-italy;transport;motorbike;the motorbike;motorbike;
-italy;transport;quad;the quad;quad;
-italy;transport;racing_car;the racing car;racing_car;
-italy;transport;rocket_ship;the rocketship;rocket_ship;
-italy;transport;sailboat;the sailboat;sailboat;
-italy;transport;scooter;the scooter;scooter;
-italy;transport;sidecar;the sidecar;sidecar;
-italy;transport;steam_engine;the steamengine;steam_engine;
-italy;transport;submarine;the submarine;submarine;
-italy;transport;tanker;the tanker;tanker;
-italy;transport;taxi;the taxi;taxi;
-italy;transport;train;the train;train;
-italy;transport;tram;the tram;tram;
-italy;transport;truck;the truck;truck;
-italy;transport;van;the van;van;
-italy;transport;yacht;the yacht;yacht;
-italy;weather;cloudy;cloudy;cloudy;
-italy;weather;cold;cold;cold;
-italy;weather;flood;flood;flood;
-italy;weather;fog;fog;fog;
-italy;weather;hail;hail;hail;
-italy;weather;hot;hot;hot;
-italy;weather;humidity;humidity;humidity;
-italy;weather;hurricane;hurricane;hurricane;
-italy;weather;lightning;lightning;lightning;
-italy;weather;moon;the moon;moon;
-italy;weather;partially_cloudy;partially cloudy;partially_cloudy;
-italy;weather;rain_shower;rain shower;rain_shower;
-italy;weather;snow;snow;snow;
-italy;weather;snowflake;snowflake;snowflake;
-italy;weather;star;the star;star;
-italy;weather;storm;stormy;storm;
-italy;weather;sunny;sunny;sunny;
-italy;weather;sunrise;the sunrise;sunrise;
-italy;weather;sunset;the sunset;sunset;
-italy;weather;tornado;tornado;tornado;
-italy;weather;warm;warm;warm;
-italy;weather;windy;windy;windy;
-spain;fruit;apple;la manzana;apple;
-spain;fruit;apricot;el albaricoque;apricot;
-spain;fruit;banana;el plátano;banana;
-spain;fruit;blueberry;el arándano;blueberry;
-spain;fruit;carambola;la carambola;carambola;
-spain;fruit;cherry;la cereza;cherry;
-spain;fruit;chestnut;la castaña;chestnut;
-spain;fruit;coconut;the coconut;coconut;
-spain;fruit;dates;la palma datilera;dates;
-spain;fruit;dragon_fruit;la fruta del dragón;dragon_fruit;
-spain;fruit;fig;el higo;fig;
-spain;fruit;goji;la baya de goji;goji;
-spain;fruit;gooseberry;la grosella;gooseberry;
-spain;fruit;grapefruit;la toronja;grapefruit;
-spain;fruit;grapes;las uvas;grapes;
-spain;fruit;guava;the guayaba;guava;
-spain;fruit;kiwi;the kiwi;kiwi;
-spain;fruit;kumquat;the kumquat;kumquat;
-spain;fruit;lemon;the limón;lemon;
-spain;fruit;lime;la lima;lime;
-spain;fruit;mango;el mango;mango;
-spain;fruit;mangosteen;el mangostán;mangosteen;
-spain;fruit;melon;el melón;melon;
-spain;fruit;orange;la naranja;orange;
-spain;fruit;papaya;la papaya;papaya;
-spain;fruit;passion_fruit;la fruta de la pasión;passion_fruit;
-spain;fruit;peach;el melocotón;peach;
-spain;fruit;pear;la pera;pear;
-spain;fruit;persimmion;La Persimmion;persimmion;
-spain;fruit;pineapple;la piña;pineapple;
-spain;fruit;plum;la ciruela;plum;
-spain;fruit;quince;el membrillo;quince;
-spain;fruit;rambutan;el rambután;rambutan;
-spain;fruit;rasberry;la frambuesa;rasberry;
-spain;fruit;strawberry;la fresa;strawberry;
-spain;fruit;watermelon;la sandía;watermelon;
+italy;fruit;apple;la mela;apple
+italy;fruit;apricot;l'albicocca;apricot
+italy;fruit;banana;la banana;banana
+italy;fruit;blueberry;il mirtillo;blueberry
+italy;fruit;carambola;la carambola;carambola
+italy;fruit;cherry;la ciliegia;cherry
+italy;fruit;chestnut;la castagna;chestnut
+italy;fruit;coconut;la noce di cocco;coconut
+italy;fruit;dates;gli appuntamenti;dates
+italy;fruit;dragon_fruit;il frutto del drago;dragon_fruit
+italy;fruit;fig;la fig;fig
+italy;fruit;goji;la bacca di goji;goji
+italy;fruit;gooseberry;l'uva spina;gooseberry
+italy;fruit;grapefruit;il pompelmo;grapefruit
+italy;fruit;grapes;l'uva;grapes
+italy;fruit;guava;la guava;guava
+italy;fruit;kiwi;il kiwi;kiwi
+italy;fruit;kumquat;il kumquat;kumquat
+italy;fruit;lemon;il limone;lemon
+italy;fruit;lime;la calce;lime
+italy;fruit;mango;il mango;mango
+italy;fruit;mangosteen;il mangostano;mangosteen
+italy;fruit;melon;il melone;melon
+italy;fruit;orange;l'arancia;orange
+italy;fruit;papaya;la papaia;papaya
+italy;fruit;passion_fruit;il frutto della passione;passion_fruit
+italy;fruit;peach;la pesca;peach
+italy;fruit;pear;la pera;pear
+italy;fruit;persimmion;la persistenza;persimmion
+italy;fruit;pineapple;l'ananas;pineapple
+italy;fruit;plum;la prugna;plum
+italy;fruit;quince;la mela cotogna;quince
+italy;fruit;rambutan;il rambutan;rambutan
+italy;fruit;rasberry;il rasberry;rasberry
+italy;fruit;strawberry;la fragola;strawberry
+italy;fruit;watermelon;il cocomero;watermelon
+italy;vegetables;asparagus;gli asparagi;asparagus
+italy;vegetables;aubergine;la melanzana;aubergine
+italy;vegetables;avocado;l'avocado;avocado
+italy;vegetables;basil;il basilico;basil
+italy;vegetables;beetroot;la barbabietola rossa;beetroot
+italy;vegetables;broccoli;i broccoli;broccoli
+italy;vegetables;brussel_sprouts;i cavoletti di Bruxelles;brussel_sprouts
+italy;vegetables;cabbage;il cavolo;cabbage
+italy;vegetables;caper;il cappero;caper
+italy;vegetables;carrot;la carota;carrot
+italy;vegetables;cauliflower;il cavolfiore;cauliflower
+italy;vegetables;celery;il sedano;celery
+italy;vegetables;chili_pepper;il peperoncino;chili_pepper
+italy;vegetables;corn;il Corno;corn
+italy;vegetables;courgette;la zucchina;courgette
+italy;vegetables;cucumber;il cetriolo;cucumber
+italy;vegetables;dill;l'aneto;dill
+italy;vegetables;garlic;l'aglio;garlic
+italy;vegetables;ginger;lo zenzero;ginger
+italy;vegetables;horseradish;il rafano;horseradish
+italy;vegetables;kohlrabi;il cavolo rapa;kohlrabi
+italy;vegetables;leek;il porro;leek
+italy;vegetables;olives;le olive;olives
+italy;vegetables;parsley;il prezzemolo;parsley
+italy;vegetables;peas;i piselli;peas
+italy;vegetables;potato;La patata;potato
+italy;vegetables;pumpkin;la zucca;pumpkin
+italy;vegetables;radish;il ravanello;radish
+italy;vegetables;red_pepper;il peperone rosso;red_pepper
+italy;vegetables;rhubarb;il rabarbaro;rhubarb
+italy;vegetables;rocket;il razzo;rocket
+italy;vegetables;spinach;gli spinaci;spinach
+italy;vegetables;squash;lo squash;squash
+italy;vegetables;sweet_potato;la patata dolce;sweet_potato
+italy;vegetables;tomato;il pomodoro;tomato
+italy;vegetables;turnip;la rapa;turnip
+italy;vegetables;white_garlic;l'aglio bianco;white_garlic
+italy;animals;albatross;l'albatro;albatross
+italy;animals;angler;la rana pescatrice;angler
+italy;animals;anteater;il formichiere;anteater
+italy;animals;baboon;il babbuino;baboon
+italy;animals;bear;l'orso;bear
+italy;animals;bee;l'ape;bee
+italy;animals;beetle;lo scarafaggio;beetle
+italy;animals;boar;il cinghiale;boar
+italy;animals;bison;il bisonte;bison
+italy;animals;bullfinch;il ciuffolotto;bullfinch
+italy;animals;butterfly;la farfalla;butterfly
+italy;animals;capybara;il capibara;capybara
+italy;animals;cat;il gatto;cat
+italy;animals;centipede;il millepiedi;centipede
+italy;animals;chameleon;il camaleonte;chameleon
+italy;animals;chimpanzee;lo scimpanzé;chimpanzee
+italy;animals;colibri;il colibri;colibri
+italy;animals;crab;il granchio;crab
+italy;animals;crane;La gru;crane
+italy;animals;crocodile;il coccodrillo;crocodile
+italy;animals;deer;il cervo;deer
+italy;animals;dog;il cane;dog
+italy;animals;dolphin;il delfino;dolphin
+italy;animals;dragonfly;la libellula;dragonfly
+italy;animals;duck;l'anatra;duck
+italy;animals;eagle;l'Aquila;eagle
+italy;animals;elephant;l'elefante;elephant
+italy;animals;fennec;il fennec;fennec
+italy;animals;flounder;la passera;flounder
+italy;animals;fly;il volo;fly
+italy;animals;fox;la volpe;fox
+italy;animals;frog;la rana;frog
+italy;animals;giraffe;la giraffa;giraffe
+italy;animals;goat;la capra;goat
+italy;animals;goldfish;il pesce rosso;goldfish
+italy;animals;guinea_pig;il porcellino d'India;guinea_pig
+italy;animals;hedgehog;il riccio;hedgehog
+italy;animals;hippopotamus;l'ippopotamo;hippopotamus
+italy;animals;horse;il cavallo;horse
+italy;animals;hyena;la iena;hyena
+italy;animals;kangaroo;il canguro;kangaroo
+italy;animals;koala;il koala;koala
+italy;animals;ladybird;la coccinella;ladybird
+italy;animals;lemur;il lemure;lemur
+italy;animals;lion;il Leone;lion
+italy;animals;llama;il lama;llama
+italy;animals;mink;il visone;mink
+italy;animals;mite;l'acaro;mite
+italy;animals;mole;la Talpa;mole
+italy;animals;moose;l'alce;moose
+italy;animals;moray;la murena;moray
+italy;animals;mosquito;la zanzara;mosquito
+italy;animals;moth;la falena;moth
+italy;animals;mouse;il topo;mouse
+italy;animals;orca;l'orca;orca
+italy;animals;ostrich;lo struzzo;ostrich
+italy;animals;owl;il gufo;owl
+italy;animals;parrot;il pappagallo;parrot
+italy;animals;penguin;il pinguino;penguin
+italy;animals;perch;il pesce persico;perch
+italy;animals;pig;il maiale;pig
+italy;animals;pigeon;il piccione;pigeon
+italy;animals;pike;il luccio;pike
+italy;animals;piranha;il piranha;piranha
+italy;animals;platypus;l'ornitorinco;platypus
+italy;animals;pufferfish;il pesce palla;pufferfish
+italy;animals;puffin;il puffin;puffin
+italy;animals;rabbit;il coniglio;rabbit
+italy;animals;raccoon;il procione;raccoon
+italy;animals;rooster;il gallo;rooster
+italy;animals;salmon;il salmone;salmon
+italy;animals;sea_urchin;il riccio di mare;sea_urchin
+italy;animals;seal;il sigillo;seal
+italy;animals;shark;lo squalo;shark
+italy;animals;sheep;la pecora;sheep
+italy;animals;prawn;il gambero;prawn
+italy;animals;silverfish;il pesce argentato;silverfish
+italy;animals;skunk;la puzzola;skunk
+italy;animals;sloth;il pigrizia;sloth
+italy;animals;snake;il serpente;snake
+italy;animals;sparrow;il passero;sparrow
+italy;animals;spider;il ragno;spider
+italy;animals;squid;il calamaro;squid
+italy;animals;panda_bear;il panda;panda_bear
+italy;animals;squirrel;lo scoiattolo;squirrel
+italy;animals;starfish;la stella marina;starfish
+italy;animals;swan;il Cigno;swan
+italy;animals;swordfish;il pesce spada;swordfish
+italy;animals;tiger;la tigre;tiger
+italy;animals;tuna;il tonno;tuna
+italy;animals;turtle;la tartaruga;turtle
+italy;animals;wasp;la vespa;wasp
+italy;animals;wolf;il lupo;wolf
+italy;animals;zander;il lucioperca;zander
+italy;professions;artist;l'artista;artist
+italy;professions;astronaut;l'astronauta;astronaut
+italy;professions;athlete;l'atleta;athlete
+italy;professions;basketball_player;il giocatore di basket;basketball_player
+italy;professions;butler;Il Maggiordomo;butler
+italy;professions;cabin_crew;il membro dell'equipaggio di cabina;cabin_crew
+italy;professions;captain;il capitano;captain
+italy;professions;chef;il cuoco;chef
+italy;professions;clown;il pagliaccio;clown
+italy;professions;cook;il cuoco;cook
+italy;professions;courier;il Corriere;courier
+italy;professions;detective;il detective;detective
+italy;professions;diver;il sub;diver
+italy;professions;doctor;il dottore;doctor
+italy;professions;engineer;l'ingegnere;engineer
+italy;professions;farmer;il contadino;farmer
+italy;professions;firefighter;il vigile del fuoco;firefighter
+italy;professions;hacker;l'hacker;hacker
+italy;professions;hunter;il cacciatore;hunter
+italy;professions;judge;il giudice;judge
+italy;professions;lumberjack;il boscaiolo;lumberjack
+italy;professions;mafia;la mafia;mafia
+italy;professions;maid;la domestica;maid
+italy;professions;mechanic;il meccanico;mechanic
+italy;professions;military_pilot;il pilota militare;military_pilot
+italy;professions;nun;la suora;nun
+italy;professions;nurse;l'infermiera;nurse
+italy;professions;office_worker;l'impiegato;office_worker
+italy;professions;photographer;il fotografo;photographer
+italy;professions;pilot;il pilota;pilot
+italy;professions;police_officer;l'ufficiale di polizia;police_officer
+italy;professions;postman;il postino;postman
+italy;professions;priest;il prete;priest
+italy;professions;race_car_driver;il pilota di auto da corsa;race_car_driver
+italy;professions;sailor;il marinaio;sailor
+italy;professions;scientist;Lo scienziato;scientist
+italy;professions;secretary;la segretaria;secretary
+italy;professions;singer;il cantante;singer
+italy;professions;software_developer;lo sviluppatore del software;software_developer
+italy;professions;soldier;Il soldato;soldier
+italy;professions;student;lo studente;student
+italy;professions;surgeon;il chirurgo;surgeon
+italy;professions;taxi_driver;il tassista;taxi_driver
+italy;professions;teacher;l'insegnante;teacher
+italy;professions;telemarketer;il telemarketer;telemarketer
+italy;professions;thief;il ladro;thief
+italy;professions;tour_guide;la guida turistica;tour_guide
+italy;professions;waiter;il cameriere;waiter
+italy;professions;welder;il saldatore;welder
+italy;professions;wrestler;il lottatore;wrestler
+italy;transport;airplane;l'aeroplano;airplane
+italy;transport;bike;la bicicletta;bike
+italy;transport;bin_truck;il camion della spazzatura;bin_truck
+italy;transport;boat;la barca;boat
+italy;transport;bus;il bus;bus
+italy;transport;cable_car;la funivia;cable_car
+italy;transport;camper_van;il camper;camper_van
+italy;transport;car;l'auto;car
+italy;transport;cargo_ship;la nave da carico;cargo_ship
+italy;transport;cement_truck;il camion di cemento;cement_truck
+italy;transport;cruise_ship;la nave da crociera;cruise_ship
+italy;transport;drone;il drone;drone
+italy;transport;dump_truck;l'autocarro con cassone ribaltabile;dump_truck
+italy;transport;firetruck;il firetruck;firetruck
+italy;transport;forklift;il carrello elevatore;forklift
+italy;transport;helicopter;l'elicottero;helicopter
+italy;transport;hot_air_balloon;la mongolfiera;hot_air_balloon
+italy;transport;hovercraft;l'hovercraft;hovercraft
+italy;transport;jet_ski;la moto d'acqua;jet_ski
+italy;transport;monorail;la monorotaia;monorail
+italy;transport;motorbike;la moto;motorbike
+italy;transport;quad;il quad;quad
+italy;transport;racing_car;la macchina da corsa;racing_car
+italy;transport;rocket_ship;il rocketship;rocket_ship
+italy;transport;sailboat;la barca a vela;sailboat
+italy;transport;scooter;il motorino;scooter
+italy;transport;sidecar;il sidecar;sidecar
+italy;transport;steam_engine;il motore a vapore;steam_engine
+italy;transport;submarine;il sottomarino;submarine
+italy;transport;tanker;la nave cisterna;tanker
+italy;transport;taxi;il taxi;taxi
+italy;transport;train;il treno;train
+italy;transport;tram;il tram;tram
+italy;transport;truck;il camion;truck
+italy;transport;van;il furgone;van
+italy;transport;yacht;lo yacht;yacht
+italy;weather;cloudy;nuvoloso;cloudy
+italy;weather;cold;freddo;cold
+italy;weather;flood;alluvione;flood
+italy;weather;fog;nebbia;fog
+italy;weather;hail;grandinare;hail
+italy;weather;hot;caldo;hot
+italy;weather;humidity;umidità;humidity
+italy;weather;hurricane;uragano;hurricane
+italy;weather;lightning;fulmine;lightning
+italy;weather;moon;la luna;moon
+italy;weather;partially_cloudy;parzialmente nuvoloso;partially_cloudy
+italy;weather;rain_shower;doccia a pioggia;rain_shower
+italy;weather;snow;la neve;snow
+italy;weather;snowflake;fiocco di neve;snowflake
+italy;weather;star;la stella;star
+italy;weather;storm;tempestoso;storm
+italy;weather;sunny;soleggiato;sunny
+italy;weather;sunrise;l'alba;sunrise
+italy;weather;sunset;il tramonto;sunset
+italy;weather;tornado;tornado;tornado
+italy;weather;warm;caldo;warm
+italy;household;air_conditioning;l'aria condizionata;air_conditioning
+italy;household;armchair;la poltrona;armchair
+italy;household;bathtub;la vasca da bagno;bathtub
+italy;household;bed;il letto;bed
+italy;household;bedside_table;comodino;bedside_table
+italy;household;blender;il frullatore;blender
+italy;household;bookcase;la libreria;bookcase
+italy;household;chair;la sedia;chair
+italy;household;chest_of_drawers;il cassettone;chest_of_drawers
+italy;household;coat_rack;l'appendiabiti;coat_rack
+italy;household;coffee_machine;la macchina del caffè;coffee_machine
+italy;household;coffee_table;il tavolino da caffè;coffee_table
+italy;household;couch;il divano;couch
+italy;household;desk_lamp;la lampada da tavolo;desk_lamp
+italy;household;dishwasher;la lavastoviglie;dishwasher
+italy;household;door;la porta;door
+italy;household;dresser;il comò;dresser
+italy;household;extractor_hood;la cappa aspirante;extractor_hood
+italy;household;fan;il fan;fan
+italy;household;fireplace;il caminetto;fireplace
+italy;household;fridge;il frigo;fridge
+italy;household;garage;il garage;garage
+italy;household;dresser;la lampada a sospensione;hanging_lamp
+italy;household;heater;Il termosifone;heater
+italy;household;hoover;l'aspirapolvere;hoover
+italy;household;iron;il ferro;iron
+italy;household;juicer;lo spremiagrumi;juicer
+italy;household;kettle;il bollitore;kettle
+italy;household;kitchen_table;il tavolo della cucina;kitchen_table
+italy;household;lamp;la lampada;lamp
+italy;household;light_bulb;la lampadina;light_bulb
+italy;household;microwave;il microonde;microwave
+italy;household;mixer;il mixer;mixer
+italy;household;oven;il forno;oven
+italy;household;radiator;il radiatore;radiator
+italy;household;shower;la doccia;shower
+italy;household;sink;il lavandino;sink
+italy;household;stairs;le scale;stairs
+italy;household;stool;lo sgabello;stool
+italy;household;stove;la stufa;stove
+italy;household;tap;il rubinetto;tap
+italy;household;television;la televisione;television
+italy;household;toilet;il bagno;toilet
+italy;household;wardrobe;l'armadio;wardrobe
+italy;household;washing_machine;la lavatrice;washing_machine
+italy;household;water_heater;lo scaldabagno;water_heater
+italy;household;window;la finestra;window

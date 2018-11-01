@@ -1,311 +1,321 @@
-germany;fruit;apple;the apple;apple;
-germany;fruit;apricot;the apricot;apricot;
-germany;fruit;banana;the banana;banana;
-germany;fruit;blueberry;the blueberry;blueberry;
-germany;fruit;carambola;the carambola;carambola;
-germany;fruit;cherry;the cherry;cherry;
-germany;fruit;chestnut;the chestnut;chestnut;
-germany;fruit;coconut;the coconut;coconut;
-germany;fruit;dates;the dates;dates;
-germany;fruit;dragon_fruit;the dragon fruit;dragon_fruit;
-germany;fruit;fig;the fig;fig;
-germany;fruit;goji;the goji berry;goji;
-germany;fruit;gooseberry;the gooseberry;gooseberry;
-germany;fruit;grapefruit;the grapefruit;grapefruit;
-germany;fruit;grapes;the grapes;grapes;
-germany;fruit;guava;the guava;guava;
-germany;fruit;kiwi;the kiwi;kiwi;
-germany;fruit;kumquat;the kumquat;kumquat;
-germany;fruit;lemon;the lemon;lemon;
-germany;fruit;lime;the lime;lime;
-germany;fruit;mango;the mango;mango;
-germany;fruit;mangosteen;the mangosteen;mangosteen;
-germany;fruit;melon;the melon;melon;
-germany;fruit;orange;the orange;orange;
-germany;fruit;papaya;the papaya;papaya;
-germany;fruit;passion_fruit;the passion fruit;passion_fruit;
-germany;fruit;peach;the peach;peach;
-germany;fruit;pear;the pear;pear;
-germany;fruit;persimmion;the persimmion;persimmion;
-germany;fruit;pineapple;the pineapple;pineapple;
-germany;fruit;plum;the plum;plum;
-germany;fruit;quince;the quince;quince;
-germany;fruit;rambutan;the rambutan;rambutan;
-germany;fruit;rasberry;the rasberry;rasberry;
-germany;fruit;strawberry;the strawberry;strawberry;
-germany;fruit;watermelon;the watermelon;watermelon;
-germany;vegetables;asparagus;the asparagus;asparagus;
-germany;vegetables;aubergine;the aubergine;aubergine;
-germany;vegetables;avocado;the avocado;avocado;
-germany;vegetables;basil;the basil;basil;
-germany;vegetables;beetroot;the beetroot;beetroot;
-germany;vegetables;broccoli;the broccoli;broccoli;
-germany;vegetables;brussel_sprouts;the brussel sprouts;brussel_sprouts;
-germany;vegetables;cabbage;the cabbage;cabbage;
-germany;vegetables;caper;the caper;caper;
-germany;vegetables;carrot;the carrot;carrot;
-germany;vegetables;cauliflower;the cauliflower;cauliflower;
-germany;vegetables;celery;the celery;celery;
-germany;vegetables;chili_pepper;the chili pepper;chili_pepper;
-germany;vegetables;corn;the corn;corn;
-germany;vegetables;courgette;the courgette;courgette;
-germany;vegetables;cucumber;the cucumber;cucumber;
-germany;vegetables;dill;the dill;dill;
-germany;vegetables;garlic;the garlic;garlic;
-germany;vegetables;ginger;the ginger;ginger;
-germany;vegetables;horseradish;the horseradish;horseradish;
-germany;vegetables;kohlrabi;the kohlrabi;kohlrabi;
-germany;vegetables;leek;the leek;leek;
-germany;vegetables;olives;the olives;olives;
-germany;vegetables;parsley;the parsley;parsley;
-germany;vegetables;peas;the peas;peas;
-germany;vegetables;potato;the potato;potato;
-germany;vegetables;pumpkin;the pumpkin;pumpkin;
-germany;vegetables;radish;the radish;radish;
-germany;vegetables;red_pepper;the red pepper;red_pepper;
-germany;vegetables;rhubarb;the rhubarb;rhubarb;
-germany;vegetables;rocket;the rocket;rocket;
-germany;vegetables;spinach;the spinach;spinach;
-germany;vegetables;squash;the squash;squash;
-germany;vegetables;sweet_potato;the sweet potato;sweet_potato;
-germany;vegetables;tomato;the tomato;tomato;
-germany;vegetables;turnip;the turnip;turnip;
-germany;vegetables;white_garlic;the white garlic;white_garlic;
-germany;animals;albatross;the albatross;albatross;
-germany;animals;angler;the anglerfish;angler;
-germany;animals;anteater;the anteater;anteater;
-germany;animals;baboon;the baboon;baboon;
-germany;animals;bear;the bear;bear;
-germany;animals;bee;the bee;bee;
-germany;animals;beetle;the beetle;beetle;
-germany;animals;boar;the boar;boar;
-germany;animals;bison;the bison;bison;
-germany;animals;bullfinch;the bullfinch;bullfinch;
-germany;animals;butterfly;the butterfly;butterfly;
-germany;animals;capybara;the capybara;capybara;
-germany;animals;cat;the cat;cat;
-germany;animals;centipede;the centipede;centipede;
-germany;animals;chameleon;the chameleon;chameleon;
-germany;animals;chimpanzee;the chimpanzee;chimpanzee;
-germany;animals;colibri;the colibri;colibri;
-germany;animals;crab;the crab;crab;
-germany;animals;crane;the crane;crane;
-germany;animals;crocodile;the crocodile;crocodile;
-germany;animals;deer;the deer;deer;
-germany;animals;dog;the dog;dog;
-germany;animals;dolphin;the dolphin;dolphin;
-germany;animals;dragonfly;the dragonfly;dragonfly;
-germany;animals;duck;the duck;duck;
-germany;animals;eagle;the eagle;eagle;
-germany;animals;elephant;the elephant;elephant;
-germany;animals;fennec;the fennec;fennec;
-germany;animals;flounder;the flounder;flounder;
-germany;animals;fly;the fly;fly;
-germany;animals;fox;the fox;fox;
-germany;animals;frog;the frog;frog;
-germany;animals;giraffe;the giraffe;giraffe;
-germany;animals;goat;the goat;goat;
-germany;animals;goldfish;the goldfish;goldfish;
-germany;animals;guinea_pig;the guinea_pig;guinea_pig;
-germany;animals;hedgehog;the hedgehog;hedgehog;
-germany;animals;hippopotamus;the hippopotamus;hippopotamus;
-germany;animals;horse;the horse;horse;
-germany;animals;hyena;the hyena;hyena;
-germany;animals;kangaroo;the kangaroo;kangaroo;
-germany;animals;koala;the koala;koala;
-germany;animals;ladybird;the ladybird;ladybird;
-germany;animals;lemur;the lemur;lemur;
-germany;animals;lion;the lion;lion;
-germany;animals;llama;the llama;llama;
-germany;animals;mink;the mink;mink;
-germany;animals;mite;the mite;mite;
-germany;animals;mole;the mole;mole;
-germany;animals;moose;the moose;moose;
-germany;animals;moray;the moray eel;moray;
-germany;animals;mosquito;the mosquito;mosquito;
-germany;animals;moth;the moth;moth;
-germany;animals;mouse;the mouse;mouse;
-germany;animals;orca;the orca;orca;
-germany;animals;ostrich;the ostrich;ostrich;
-germany;animals;owl;the owl;owl;
-germany;animals;parrot;the parrot;parrot;
-germany;animals;penguin;the penguin;penguin;
-germany;animals;perch;the perch;perch;
-germany;animals;pig;the pig;pig;
-germany;animals;pigeon;the pigeon;pigeon;
-germany;animals;pike;the pike;pike;
-germany;animals;piranha;the piranha;piranha;
-germany;animals;platypus;the platypus;platypus;
-germany;animals;pufferfish;the pufferfish;pufferfish;
-germany;animals;puffin;the puffin;puffin;
-germany;animals;rabbit;the rabbit;rabbit;
-germany;animals;raccoon;the raccoon;raccoon;
-germany;animals;rooster;the rooster;rooster;
-germany;animals;salmon;the salmon;salmon;
-germany;animals;sea_urchin;the sea urchin;sea_urchin;
-germany;animals;seal;the seal;seal;
-germany;animals;shark;the shark;shark;
-germany;animals;sheep;the sheep;sheep;
-germany;animals;prawn;the prawn;prawn;
-germany;animals;silverfish;the silverfish;silverfish;
-germany;animals;skunk;the skunk;skunk;
-germany;animals;sloth;the sloth;sloth;
-germany;animals;snake;the snake;snake;
-germany;animals;sparrow;the sparrow;sparrow;
-germany;animals;spider;the spider;spider;
-germany;animals;squid;the squid;squid;
-germany;animals;panda_bear;the panda;panda_bear;
-germany;animals;squirrel;the panda;squirrel;
-germany;animals;starfish;the starfish;starfish;
-germany;animals;swan;the swan;swan;
-germany;animals;swordfish;the swordfish;swordfish;
-germany;animals;tiger;the tiger;tiger;
-germany;animals;tuna;the tuna;tuna;
-germany;animals;turtle;the turtle;turtle;
-germany;animals;wasp;the wasp;wasp;
-germany;animals;wolf;the wolf;wolf;
-germany;animals;zander;the zander;zander;
-germany;professions;artist;the artist;artist;
-germany;professions;astronaut;the astronaut;astronaut;
-germany;professions;athlete;the athlete;athlete;
-germany;professions;basketball_player;the basketball player;basketball_player;
-germany;professions;butler;the butler;butler;
-germany;professions;cabin_crew;the cabin crew member;cabin_crew;
-germany;professions;captain;the captain;captain;
-germany;professions;chef;the chef;chef;
-germany;professions;clown;the clown;clown;
-germany;professions;cook;the cook;cook;
-germany;professions;courier;the courier;courier;
-germany;professions;detective;the detective;detective;
-germany;professions;diver;the diver;diver;
-germany;professions;doctor;the doctor;doctor;
-germany;professions;engineer;the engineer;engineer;
-germany;professions;farmer;the farmer;farmer;
-germany;professions;firefighter;the firefighter;firefighter;
-germany;professions;hacker;the hacker;hacker;
-germany;professions;hunter;the hunter;hunter;
-germany;professions;judge;the judge;judge;
-germany;professions;lumberjack;the lumberjack;lumberjack;
-germany;professions;mafia;the mafia;mafia;
-germany;professions;maid;the maid;maid;
-germany;professions;mechanic;the mechanic;mechanic;
-germany;professions;military_pilot;the military pilot;military_pilot;
-germany;professions;nun;the nun;nun;
-germany;professions;nurse;the nurse;nurse;
-germany;professions;office_worker;the office worker;office_worker;
-germany;professions;photographer;the photographer;photographer;
-germany;professions;pilot;the pilot;pilot;
-germany;professions;police_officer;the police officer;police_officer;
-germany;professions;postman;the postman;postman;
-germany;professions;priest;the priest;priest;
-germany;professions;race_car_driver;the race car driver;race_car_driver;
-germany;professions;sailor;the sailor;sailor;
-germany;professions;scientist;the scientist;scientist;
-germany;professions;secretary;the secretary;secretary;
-germany;professions;singer;the singer;singer;
-germany;professions;software_developer;the software developer;software_developer;
-germany;professions;soldier;the soldier;soldier;
-germany;professions;student;the student;student;
-germany;professions;surgeon;the surgeon;surgeon;
-germany;professions;taxi_driver;the taxi driver;taxi_driver;
-germany;professions;teacher;the teacher;teacher;
-germany;professions;telemarketer;the telemarketer;telemarketer;
-germany;professions;thief;the thief;thief;
-germany;professions;tour_guide;the tour guide;tour_guide;
-germany;professions;waiter;the waiter;waiter;
-germany;professions;welder;the welder;welder;
-germany;professions;wrestler;the wrestler;wrestler;
-germany;transport;airplane;the airplane;airplane;
-germany;transport;bike;the bike;bike;
-germany;transport;bin_truck;the bin truck;bin_truck;
-germany;transport;boat;the boat;boat;
-germany;transport;bus;the bus;bus;
-germany;transport;cable_car;the cable car;cable_car;
-germany;transport;camper_van;the campervan;camper_van;
-germany;transport;car;the car;car;
-germany;transport;cargo_ship;the cargo ship;cargo_ship;
-germany;transport;cement_truck;the cement truck;cement_truck;
-germany;transport;cruise_ship;the cruise ship;cruise_ship;
-germany;transport;drone;the drone;drone;
-germany;transport;dump_truck;the dump truck;dump_truck;
-germany;transport;firetruck;the firetruck;firetruck;
-germany;transport;forklift;the forklift;forklift;
-germany;transport;helicopter;the helicopter;helicopter;
-germany;transport;hot_air_balloon;the hot air balloon;hot_air_balloon;
-germany;transport;hovercraft;the hovercraft;hovercraft;
-germany;transport;jet_ski;the jet ski;jet_ski;
-germany;transport;monorail;the monorail;monorail;
-germany;transport;motorbike;the motorbike;motorbike;
-germany;transport;quad;the quad;quad;
-germany;transport;racing_car;the racing car;racing_car;
-germany;transport;rocket_ship;the rocketship;rocket_ship;
-germany;transport;sailboat;the sailboat;sailboat;
-germany;transport;scooter;the scooter;scooter;
-germany;transport;sidecar;the sidecar;sidecar;
-germany;transport;steam_engine;the steamengine;steam_engine;
-germany;transport;submarine;the submarine;submarine;
-germany;transport;tanker;the tanker;tanker;
-germany;transport;taxi;the taxi;taxi;
-germany;transport;train;the train;train;
-germany;transport;tram;the tram;tram;
-germany;transport;truck;the truck;truck;
-germany;transport;van;the van;van;
-germany;transport;yacht;the yacht;yacht;
-germany;weather;cloudy;cloudy;cloudy;
-germany;weather;cold;cold;cold;
-germany;weather;flood;flood;flood;
-germany;weather;fog;fog;fog;
-germany;weather;hail;hail;hail;
-germany;weather;hot;hot;hot;
-germany;weather;humidity;humidity;humidity;
-germany;weather;hurricane;hurricane;hurricane;
-germany;weather;lightning;lightning;lightning;
-germany;weather;moon;the moon;moon;
-germany;weather;partially_cloudy;partially cloudy;partially_cloudy;
-germany;weather;rain_shower;rain shower;rain_shower;
-germany;weather;snow;snow;snow;
-germany;weather;snowflake;snowflake;snowflake;
-germany;weather;star;the star;star;
-germany;weather;storm;stormy;storm;
-germany;weather;sunny;sunny;sunny;
-germany;weather;sunrise;the sunrise;sunrise;
-germany;weather;sunset;the sunset;sunset;
-germany;weather;tornado;tornado;tornado;
-germany;weather;warm;warm;warm;
-germany;weather;windy;windy;windy;
-spain;fruit;apple;la manzana;apple;
-spain;fruit;apricot;el albaricoque;apricot;
-spain;fruit;banana;el plátano;banana;
-spain;fruit;blueberry;el arándano;blueberry;
-spain;fruit;carambola;la carambola;carambola;
-spain;fruit;cherry;la cereza;cherry;
-spain;fruit;chestnut;la castaña;chestnut;
-spain;fruit;coconut;the coconut;coconut;
-spain;fruit;dates;la palma datilera;dates;
-spain;fruit;dragon_fruit;la fruta del dragón;dragon_fruit;
-spain;fruit;fig;el higo;fig;
-spain;fruit;goji;la baya de goji;goji;
-spain;fruit;gooseberry;la grosella;gooseberry;
-spain;fruit;grapefruit;la toronja;grapefruit;
-spain;fruit;grapes;las uvas;grapes;
-spain;fruit;guava;the guayaba;guava;
-spain;fruit;kiwi;the kiwi;kiwi;
-spain;fruit;kumquat;the kumquat;kumquat;
-spain;fruit;lemon;the limón;lemon;
-spain;fruit;lime;la lima;lime;
-spain;fruit;mango;el mango;mango;
-spain;fruit;mangosteen;el mangostán;mangosteen;
-spain;fruit;melon;el melón;melon;
-spain;fruit;orange;la naranja;orange;
-spain;fruit;papaya;la papaya;papaya;
-spain;fruit;passion_fruit;la fruta de la pasión;passion_fruit;
-spain;fruit;peach;el melocotón;peach;
-spain;fruit;pear;la pera;pear;
-spain;fruit;persimmion;La Persimmion;persimmion;
-spain;fruit;pineapple;la piña;pineapple;
-spain;fruit;plum;la ciruela;plum;
-spain;fruit;quince;el membrillo;quince;
-spain;fruit;rambutan;el rambután;rambutan;
-spain;fruit;rasberry;la frambuesa;rasberry;
-spain;fruit;strawberry;la fresa;strawberry;
-spain;fruit;watermelon;la sandía;watermelon;
+germany;fruit;apple;der Apfel;apple
+germany;fruit;apricot;die Aprikose;apricot
+germany;fruit;banana;die Banane;banana
+germany;fruit;blueberry;die Blaubeere;blueberry
+germany;fruit;carambola;die Karambole;carambola
+germany;fruit;cherry;die Kirsche;cherry
+germany;fruit;chestnut;die Kastanie;chestnut
+germany;fruit;coconut;die Kokosnuss;coconut
+germany;fruit;dates;die Daten;dates
+germany;fruit;dragon_fruit;die Drachenfrucht;dragon_fruit
+germany;fruit;fig;die fig;fig
+germany;fruit;goji;die Goji-Beere;goji
+germany;fruit;gooseberry;die Stachelbeere;gooseberry
+germany;fruit;grapefruit;die Grapefruit;grapefruit
+germany;fruit;grapes;die Trauben;grapes
+germany;fruit;guava;die Guave;guava
+germany;fruit;kiwi;der Kiwi;kiwi
+germany;fruit;kumquat;die Kumquat;kumquat
+germany;fruit;lemon;die Zitrone;lemon
+germany;fruit;lime;die kalk;lime
+germany;fruit;mango;die Mango;mango
+germany;fruit;mangosteen;die Mangostan;mangosteen
+germany;fruit;melon;die Melone;melon
+germany;fruit;orange;die Orange;orange
+germany;fruit;papaya;die Papaya;papaya
+germany;fruit;passion_fruit;die Passionsfrucht;passion_fruit
+germany;fruit;peach;der Pfirsich;peach
+germany;fruit;pear;die Birne;pear
+germany;fruit;persimmion;die persimmion;persimmion
+germany;fruit;pineapple;die Ananas;pineapple
+germany;fruit;plum;die Pflaume;plum
+germany;fruit;quince;die Quitte;quince
+germany;fruit;rambutan;der Rambutan;rambutan
+germany;fruit;rasberry;die Himbeere;rasberry
+germany;fruit;strawberry;die Erdbeere;strawberry
+germany;fruit;watermelon;die Wassermelone;watermelon
+germany;vegetables;asparagus;der Spargel;asparagus
+germany;vegetables;aubergine;die Aubergine;aubergine
+germany;vegetables;avocado;die Avocado;avocado
+germany;vegetables;basil;das Basilikum;basil
+germany;vegetables;beetroot;die Rote Beete;beetroot
+germany;vegetables;broccoli;der Brokkoli;broccoli
+germany;vegetables;brussel_sprouts;der Rosenkohl;brussel_sprouts
+germany;vegetables;cabbage;der Kohl;cabbage
+germany;vegetables;caper;die Kapriole;caper
+germany;vegetables;carrot;die Karotte;carrot
+germany;vegetables;cauliflower;der Blumenkohl;cauliflower
+germany;vegetables;celery;der Sellerie;celery
+germany;vegetables;chili_pepper;der Chili-Pfeffer;chili_pepper
+germany;vegetables;corn;der Mais;corn
+germany;vegetables;courgette;die Zucchini;courgette
+germany;vegetables;cucumber;die Gurke;cucumber
+germany;vegetables;dill;der Dill;dill
+germany;vegetables;garlic;der Knoblauch;garlic
+germany;vegetables;ginger;der Ingwer;ginger
+germany;vegetables;horseradish;der Meerrettich;horseradish
+germany;vegetables;kohlrabi;der Kohlrabi;kohlrabi
+germany;vegetables;leek;der Lauch;leek
+germany;vegetables;olives;die Oliven;olives
+germany;vegetables;parsley;die Petersilie;parsley
+germany;vegetables;peas;die Erbsen;peas
+germany;vegetables;potato;die Kartoffel;potato
+germany;vegetables;pumpkin;der Kürbis;pumpkin
+germany;vegetables;radish;der Rettich;radish
+germany;vegetables;red_pepper;der rote Pfeffer;red_pepper
+germany;vegetables;rhubarb;der Rhabarber;rhubarb
+germany;vegetables;rocket;die Rakete;rocket
+germany;vegetables;spinach;der Spinat;spinach
+germany;vegetables;squash;der Kürbis;squash
+germany;vegetables;sweet_potato;die süße Kartoffel;sweet_potato
+germany;vegetables;tomato;die Tomate;tomato
+germany;vegetables;turnip;die Rübe;turnip
+germany;vegetables;white_garlic;der weiße Knoblauch;white_garlic
+germany;animals;albatross;der Albatros;albatross
+germany;animals;angler;der Seeteufel;angler
+germany;animals;anteater;der Ameisenbär;anteater
+germany;animals;baboon;der Pavian;baboon
+germany;animals;bear;der Bär;bear
+germany;animals;bee;die Biene;bee
+germany;animals;beetle;der Käfer;beetle
+germany;animals;boar;der Eber;boar
+germany;animals;bison;der Bison;bison
+germany;animals;bullfinch;der Gimpel;bullfinch
+germany;animals;butterfly;der Schmetterling;butterfly
+germany;animals;capybara;der capybara;capybara
+germany;animals;cat;die Katze;cat
+germany;animals;centipede;der Tausendfüßler;centipede
+germany;animals;chameleon;das Chamäleon;chameleon
+germany;animals;chimpanzee;der Schimpanse;chimpanzee
+germany;animals;colibri;der Colibri;colibri
+germany;animals;crab;die Krabbe;crab
+germany;animals;crane;der Kran;crane
+germany;animals;crocodile;das Krokodil;crocodile
+germany;animals;deer;das Reh;deer
+germany;animals;dog;der Hund;dog
+germany;animals;dolphin;der Delfin;dolphin
+germany;animals;dragonfly;die Libelle;dragonfly
+germany;animals;duck;die Ente;duck
+germany;animals;eagle;der Adler;eagle
+germany;animals;elephant;der Elefant;elephant
+germany;animals;fennec;die Fennek;fennec
+germany;animals;flounder;die Flunder;flounder
+germany;animals;fly;die Fliege;fly
+germany;animals;fox;der Fuchs;fox
+germany;animals;frog;der Frosch;frog
+germany;animals;giraffe;die Giraffe;giraffe
+germany;animals;goat;die Ziege;goat
+germany;animals;goldfish;der Goldfisch;goldfish
+germany;animals;guinea_pig;das Meerschweinchen;guinea_pig
+germany;animals;hedgehog;der Igel;hedgehog
+germany;animals;hippopotamus;das Nilpferd;hippopotamus
+germany;animals;horse;das Pferd;horse
+germany;animals;hyena;die Hyäne;hyena
+germany;animals;kangaroo;das Känguru;kangaroo
+germany;animals;koala;der Koala;koala
+germany;animals;ladybird;der Marienkäfer;ladybird
+germany;animals;lemur;der Lemur;lemur
+germany;animals;lion;der Löwe;lion
+germany;animals;llama;das Lama;llama
+germany;animals;mink;der Nerz;mink
+germany;animals;mite;die Milbe;mite
+germany;animals;mole;der Maulwurf;mole
+germany;animals;moose;der Elch;moose
+germany;animals;moray;die Muräne;moray
+germany;animals;mosquito;das Moskito;mosquito
+germany;animals;moth;die Motte;moth
+germany;animals;mouse;die Maus;mouse
+germany;animals;orca;der Orca;orca
+germany;animals;ostrich;der Strauß;ostrich
+germany;animals;owl;die Eule;owl
+germany;animals;parrot;der Papagei;parrot
+germany;animals;penguin;der Pinguin;penguin
+germany;animals;perch;der Barsch;perch
+germany;animals;pig;das Schwein;pig
+germany;animals;pigeon;die Taube;pigeon
+germany;animals;pike;der Hecht;pike
+germany;animals;piranha;der Piranha;piranha
+germany;animals;platypus;das Schnabeltier;platypus
+germany;animals;pufferfish;der Kugelfisch;pufferfish
+germany;animals;puffin;der Papageientaucher;puffin
+germany;animals;rabbit;das Kaninchen;rabbit
+germany;animals;raccoon;der Waschbär;raccoon
+germany;animals;rooster;der Hahn;rooster
+germany;animals;salmon;der Lachs;salmon
+germany;animals;sea_urchin;der Seeigel;sea_urchin
+germany;animals;seal;die Dichtung;seal
+germany;animals;shark;der Hai;shark
+germany;animals;sheep;das Schaf;sheep
+germany;animals;prawn;die Garnele;prawn
+germany;animals;silverfish;der Silberfischchen;silverfish
+germany;animals;skunk;das Stinktier;skunk
+germany;animals;sloth;die Trägheit;sloth
+germany;animals;snake;die Schlange;snake
+germany;animals;sparrow;der Spatz;sparrow
+germany;animals;spider;die Spinne;spider
+germany;animals;squid;der Tintenfisch;squid
+germany;animals;panda_bear;der Panda;panda_bear
+germany;animals;squirrel;das Eichhörnchen;squirrel
+germany;animals;starfish;der Seestern;starfish
+germany;animals;swan;der Schwan;swan
+germany;animals;swordfish;der Schwertfisch;swordfish
+germany;animals;tiger;der Tiger;tiger
+germany;animals;tuna;der Thunfisch;tuna
+germany;animals;turtle;die schildkröte;turtle
+germany;animals;wasp;die Wespe;wasp
+germany;animals;wolf;der Wolf;wolf
+germany;animals;zander;der Zander;zander
+germany;professions;artist;der Künstler;artist
+germany;professions;astronaut;der Astronaut;astronaut
+germany;professions;athlete;der Athlet;athlete
+germany;professions;basketball_player;der Basketballspieler;basketball_player
+germany;professions;butler;der Butler;butler
+germany;professions;cabin_crew;das Kabinenpersonal;cabin_crew
+germany;professions;captain;der Kapitän;captain
+germany;professions;chef;der Küchenchef;chef
+germany;professions;clown;der Clown;clown
+germany;professions;cook;die Köchin;cook
+germany;professions;courier;der Kurier;courier
+germany;professions;detective;der Detektiv;detective
+germany;professions;diver;der Taucher;diver
+germany;professions;doctor;der Doktor;doctor
+germany;professions;engineer;der Ingenieur;engineer
+germany;professions;farmer;der Bauer;farmer
+germany;professions;firefighter;der Feuerwehrmann;firefighter
+germany;professions;hacker;der Hacker;hacker
+germany;professions;hunter;der Jäger;hunter
+germany;professions;judge;der Richter;judge
+germany;professions;lumberjack;der Holzfäller;lumberjack
+germany;professions;mafia;die Mafia;mafia
+germany;professions;maid;das Dienstmädchen;maid
+germany;professions;mechanic;der Mechaniker;mechanic
+germany;professions;military_pilot;der militärische Pilot;military_pilot
+germany;professions;nun;die Nonne;nun
+germany;professions;nurse;die Krankenschwester;nurse
+germany;professions;office_worker;der Büroangestellte;office_worker
+germany;professions;photographer;der Fotograf;photographer
+germany;professions;pilot;der Pilot;pilot
+germany;professions;police_officer;der Polizeibeamte;police_officer
+germany;professions;postman;der Postbote;postman
+germany;professions;priest;der Priester;priest
+germany;professions;race_car_driver;der Rennfahrer;race_car_driver
+germany;professions;sailor;der Seemann;sailor
+germany;professions;scientist;der Wissenschaftler;scientist
+germany;professions;secretary;die Sekretärin;secretary
+germany;professions;singer;der Sänger;singer
+germany;professions;software_developer;der Softwareentwickler;software_developer
+germany;professions;soldier;der Soldat;soldier
+germany;professions;student;der Student;student
+germany;professions;surgeon;der Chirurg;surgeon
+germany;professions;taxi_driver;der Taxifahrer;taxi_driver
+germany;professions;teacher;der Lehrer;teacher
+germany;professions;telemarketer;der telemarketer;telemarketer
+germany;professions;thief;der Dieb;thief
+germany;professions;tour_guide;der Reiseleiter;tour_guide
+germany;professions;waiter;der Kellner;waiter
+germany;professions;welder;der Schweißer;welder
+germany;professions;wrestler;der Wrestler;wrestler
+germany;transport;airplane;das Flugzeug;airplane
+germany;transport;bike;das Fahrrad;bike
+germany;transport;bin_truck;der Müllwagen;bin_truck
+germany;transport;boat;das Boot;boat
+germany;transport;bus;der Bus;bus
+germany;transport;cable_car;die Seilbahn;cable_car
+germany;transport;camper_van;der Wohnmobil;camper_van
+germany;transport;car;das Auto;car
+germany;transport;cargo_ship;das Frachtschiff;cargo_ship
+germany;transport;cement_truck;der zement lkw;cement_truck
+germany;transport;cruise_ship;das Kreuzfahrtschiff;cruise_ship
+germany;transport;drone;die Drohne;drone
+germany;transport;dump_truck;der Muldenkipper;dump_truck
+germany;transport;firetruck;der Feuerwehrauto;firetruck
+germany;transport;forklift;der Gabelstapler;forklift
+germany;transport;helicopter;der Hubschrauber;helicopter
+germany;transport;hot_air_balloon;der Heißluftballon;hot_air_balloon
+germany;transport;hovercraft;das Luftkissenfahrzeug;hovercraft
+germany;transport;jet_ski;der Jetski;jet_ski
+germany;transport;monorail;die Einschienenbahn;monorail
+germany;transport;motorbike;das Motorrad;motorbike
+germany;transport;quad;das Quad;quad
+germany;transport;racing_car;der Rennwagen;racing_car
+germany;transport;rocket_ship;das Raketenschiff;rocket_ship
+germany;transport;sailboat;das Segelboot;sailboat
+germany;transport;scooter;der Roller;scooter
+germany;transport;sidecar;der Beiwagen;sidecar
+germany;transport;steam_engine;die Dampfmaschine;steam_engine
+germany;transport;submarine;das U-Boot;submarine
+germany;transport;tanker;der Tanker;tanker
+germany;transport;taxi;das Taxi;taxi
+germany;transport;train;der Zug;train
+germany;transport;tram;die Straßenbahn;tram
+germany;transport;truck;der LKW;truck
+germany;transport;van;der Van;van
+germany;transport;yacht;die Yacht;yacht
+germany;weather;cloudy;wolkig;cloudy
+germany;weather;cold;kalt;cold
+germany;weather;flood;Flut;flood
+germany;weather;fog;Nebel;fog
+germany;weather;hail;Hagel;hail
+germany;weather;hot;heiß;hot
+germany;weather;humidity;Feuchtigkeit;humidity
+germany;weather;hurricane;Hurrikan;hurricane
+germany;weather;lightning;Blitz;lightning
+germany;weather;moon;der Mond;moon
+germany;weather;partially_cloudy;teilweise bewölkt;partially_cloudy
+germany;weather;rain_shower;Regenschauer;rain_shower
+germany;weather;snow;Schnee;snow
+germany;weather;snowflake;Schneeflocke;snowflake
+germany;weather;star;der Stern;star
+germany;weather;storm;stürmisch;storm
+germany;weather;sunny;sonnig;sunny
+germany;weather;sunrise;der Sonnenaufgang;sunrise
+germany;weather;sunset;der Sonnenuntergang;sunset
+germany;weather;tornado;Tornado;tornado
+germany;weather;warm;warm;warm
+germany;household;air_conditioning;die Klimaanlage;air_conditioning
+germany;household;armchair;der Sessel;armchair
+germany;household;bathtub;die Badewanne;bathtub
+germany;household;bed;das Bett;bed
+germany;household;bedside_table;Nachttisch;bedside_table
+germany;household;blender;der Mixer;blender
+germany;household;bookcase;das Bücherregal;bookcase
+germany;household;chair;der Stuhl;chair
+germany;household;chest_of_drawers;die Kommode;chest_of_drawers
+germany;household;coat_rack;die Garderobe;coat_rack
+germany;household;coffee_machine;die kaffeemaschine;coffee_machine
+germany;household;coffee_table;der Kaffeetisch;coffee_table
+germany;household;couch;die Couch;couch
+germany;household;desk_lamp;die Schreibtischlampe;desk_lamp
+germany;household;dishwasher;die Geschirrspülmaschine;dishwasher
+germany;household;door;die Tür;door
+germany;household;dresser;die Kommode;dresser
+germany;household;extractor_hood;die Dunstabzugshaube;extractor_hood
+germany;household;fan;der Fan;fan
+germany;household;fireplace;der Kamin;fireplace
+germany;household;fridge;der Kühlschrank;fridge
+germany;household;garage;die Garage;garage
+germany;household;dresser;die hängelampe;hanging_lamp
+germany;household;heater;die Heizung;heater
+germany;household;hoover;der Staubsauger;hoover
+germany;household;iron;das Bügeleisen;iron
+germany;household;juicer;der Entsafter;juicer
+germany;household;kettle;der Wasserkocher;kettle
+germany;household;kitchen_table;der Küchentisch;kitchen_table
+germany;household;lamp;die Lampe;lamp
+germany;household;light_bulb;die Glühbirne;light_bulb
+germany;household;microwave;die Mikrowelle;microwave
+germany;household;mixer;der Mischer;mixer
+germany;household;oven;der Ofen;oven
+germany;household;radiator;der Heizkörper;radiator
+germany;household;shower;die Dusche;shower
+germany;household;sink;das Waschbecken;sink
+germany;household;stairs;die Treppe;stairs
+germany;household;stool;der Hocker;stool
+germany;household;stove;der Ofen;stove
+germany;household;tap;der Wasserhahn;tap
+germany;household;television;der Fernseher;television
+germany;household;toilet;die Toilette;toilet
+germany;household;wardrobe;der Kleiderschrank;wardrobe
+germany;household;washing_machine;die Waschmaschine;washing_machine
+germany;household;water_heater;der Boiler;water_heater
+germany;household;window;das Fenster;window
