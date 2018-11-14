@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         android:theme="
         <activity android:name=".activities.LanguageChoiceActivity">
             <intent-filter>
@@ -18,11 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activities.CardScreenActivity"/>
-        <activity
-            android:name=".activities.CategoryChoiceActivity"
-            android:label="@string/title_activity_category_choice"></activity>
+        <activity android:name=".activities.CardScreenActivity" />
     </application>
 
 </manifest>

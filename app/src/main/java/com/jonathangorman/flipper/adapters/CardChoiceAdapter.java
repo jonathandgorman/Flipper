@@ -1,7 +1,6 @@
 package com.jonathangorman.flipper.adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.speech.tts.TextToSpeech;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
@@ -14,8 +13,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.activities.CardScreenActivity;
-import com.jonathangorman.flipper.cards.Card;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -91,7 +88,6 @@ public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.Vi
     public int getItemCount() {
         return imageList.size();
     }
-
     public void setCurrLocale(Locale currLocale) {
         this.currLocale = currLocale;
     }

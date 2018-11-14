@@ -1,10 +1,12 @@
 package com.jonathangorman.flipper.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.adapters.LanguageChoiceAdapter;
@@ -24,13 +26,13 @@ public class LanguageChoiceActivity extends Activity {
         Log.i(TAG, "ACTIVITY CREATE: Creating LanguageChoiceActivity");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language_choice);
-        initViewLists(); // initialise view lists
+        initLanguageLists(); // initialise view lists
     }
 
     @Override
     protected void onStart()
     {
-        Log.d(TAG, "Starting LanguageChoiceActivity");
+        Log.d(TAG, "onStart() LanguageChoiceActivity");
         super.onStart();
 
         // Initialise and create recycler view and adapter to show the language choices
@@ -41,7 +43,7 @@ public class LanguageChoiceActivity extends Activity {
     }
 
     // Initialise lists of data for the view
-    private void initViewLists()
+    private void initLanguageLists()
     {
         languagesImagesList.add(R.mipmap.united_kingdom);
         languageDisplayTextList.add("ENGLISH");
@@ -66,5 +68,11 @@ public class LanguageChoiceActivity extends Activity {
         languagesImagesList.add(R.mipmap.portugal);
         languageDisplayTextList.add("PORTUGUÊS");
         languageNameList.add("portugal");
+    }
+
+    public void goToSettingsActivity(View v)
+    {
+        Intent toSettings = new Intent(this, SettingsActivity.class);
+        startActivity(toSettings);
     }
 }

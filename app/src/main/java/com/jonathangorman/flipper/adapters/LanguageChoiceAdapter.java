@@ -52,6 +52,7 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
             Intent toCategoryChoice = new Intent(context, CategoryChoiceActivity.class);
             toCategoryChoice.putExtra("LANGUAGE", languageNameList.get(getAdapterPosition())); // adapter position is removed from the list and added to intent
             context.startActivity(toCategoryChoice);
+            Log.d(TAG, "Language choice click: " + languageNameList.get(getAdapterPosition()));
         }
     }
 
@@ -66,11 +67,9 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
     // Sets the holder values
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder viewHolder, int i) {
-
         Log.d(TAG,"New item added at position: " + i);
         viewHolder.textView.setText(languageDisplayTextList.get(i));
         viewHolder.imageView.setImageResource(languageImageList.get(i));
-
         viewHolder.constraintLayout.setOnClickListener(viewHolder);
     }
 
