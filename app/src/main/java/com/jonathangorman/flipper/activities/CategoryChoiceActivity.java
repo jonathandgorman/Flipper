@@ -82,12 +82,12 @@ public class CategoryChoiceActivity extends Activity {
         else if (languageChosen.equalsIgnoreCase("germany"))
         {
             recyclerTextList.add("Obst");
-            recyclerTextList.add("Gemüse");
-            recyclerTextList.add("Tiere");
-            recyclerTextList.add("Profesiones");
-            recyclerTextList.add("Berufe");
-            recyclerTextList.add("Wetter");
-            recyclerTextList.add("Haushalt");
+            recyclerTextList.add ("Gemüse");
+            recyclerTextList.add ("Tiere");
+            recyclerTextList.add ("Berufe");
+            recyclerTextList.add ("Transport");
+            recyclerTextList.add ("Wetter");
+            recyclerTextList.add ("Haushalt");
         }
         else if (languageChosen.equalsIgnoreCase("italy"))
         {
