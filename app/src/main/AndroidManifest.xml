@@ -19,6 +19,15 @@
         </activity>
         <activity android:name=".activities.CardScreenActivity" />
         <activity android:name=".activities.CategoryChoiceActivity" />
+        <activity android:name=".activities.AboutActivity" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activities.LanguageChoiceActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jonathangorman.flipper.activities.LanguageChoiceActivity" />
+        </activity>
     </application>
 
 </manifest>

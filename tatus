@@ -1,0 +1,108 @@
+[33mcommit 4c4e72dc449cfe25503d8cb3e077cbcddfa0a702[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Fri Nov 23 21:35:11 2018 +0100
+
+    Minor text changes to German category choices.
+
+[33mcommit 28bdea55b5e8525baf05abe889f9e9fd2c330bb4[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Wed Nov 14 23:30:38 2018 +0100
+
+    minor changes. Addition of icon for settings.
+
+[33mcommit 162813700e2e40edd8a0eb5841494b5b40962725[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Thu Nov 1 18:21:09 2018 +0100
+
+    update to all anguage config files to contain correct words. Minor change to name of category: furniture -> household
+
+[33mcommit 3ae68dc2188ca4bdc34e884a560634a0cd3302a1[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Tue Oct 30 23:07:44 2018 +0100
+
+    A config file for each language added.Function to choose config file added. Function to return correct locale and use it for language choice added.
+
+[33mcommit 1bf67bf2362199d6620cf915c435756b6bbfe60f[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Mon Oct 29 23:25:53 2018 +0100
+
+    Addition of ripple effect to background of all cardvews.
+
+[33mcommit 13e14a3f526576a4584af2e5cb1d7dbcac0a7dfb[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Sun Oct 21 23:50:59 2018 +0200
+
+    Addition of images for categories: weather and transport
+
+[33mcommit 93286302acef75900bef67e62bf24e2651501da1[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Sat Oct 20 18:50:24 2018 +0200
+
+    Addition of icons for categories: animals, vegetables. Also, new categorys added: weather, household.
+
+[33mcommit f855134d139eb0a95ab8ca59d70fda06aeefa554[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Fri Oct 19 00:31:12 2018 +0200
+
+    Main card screen adaoter added.
+
+[33mcommit 736d2bb6ad725c90f49078eb2b5c0b999deb74a5[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Tue Oct 9 22:51:45 2018 +0200
+
+    Layout: changes to all layouts so that they now use card view with elevation of 4dp. Back: category choice adapter changes so that it now implements onClickListener and intents to cardScreen activity using language and category. Additional images added.
+
+[33mcommit 4a966e966aaea7fa0e91eb4398e7fc186329852c[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Sun Oct 7 23:42:06 2018 +0200
+
+    Language choice adapter now implements a click listener and the language that is chosen is correctly used to create the category list. Other chanegs to the language view layout have also been made.
+
+[33mcommit 538ed1383d164a2182f94cd6dbc9b2061dcd7c27[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Thu Oct 4 23:12:40 2018 +0200
+
+    Major layout changes made to the first language choice screen: recycle view added with card layout showing language image and text. Other minor refactoring in other classes.
+
+[33mcommit d5a7fe8a82bb71529cae73a06f7a41a0e7553429[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Tue Oct 2 21:27:04 2018 +0200
+
+    Major changes to the card activity using new adapter class and also new recycler view. Additional images have also been added for the fruit category.
+
+[33mcommit ff94a8d1197635a1212988fee47b1881cbe7a70e[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Sun Sep 30 16:47:53 2018 +0200
+
+    Additional images added. Recycler view layout changed in order to display correctly.
+
+[33mcommit aeceb6d605d1a72b1c9018a5fa452f29e12ed58b[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Sat Sep 29 23:23:31 2018 +0200
+
+    Addition of recycle view class for Category Choice activity, as well as Adapter for the view.
+
+[33mcommit 2a14d0ceefed185a00f1f8bf5417ad1af51cff7e[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Fri Sep 28 23:00:56 2018 +0200
+
+    Changes made to language choice screen. Additional icons added, splash image view added.
+
+[33mcommit 214856b74540bb955806352d036b8e5c0ffd8a10[m
+Merge: feb4063 65277ec
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Tue Sep 25 23:17:20 2018 +0200
+
+    Merge branch 'master' of https://github.com/jonathandgorman/Flipper
+
+[33mcommit feb40631fedb853e1761fed8b17cba439747036a[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Tue Sep 25 23:07:30 2018 +0200
+
+    First commit of initial working version
+
+[33mcommit 65277ec8eea7364ca9afcf90a07264d2707e4949[m
+Author: Jonathan Gorman <jonathandgorman@gmail.com>
+Date:   Tue Sep 25 23:01:18 2018 +0200
+
+    Initial commit

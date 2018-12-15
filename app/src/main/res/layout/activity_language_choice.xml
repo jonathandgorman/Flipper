@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/langauge_image_view"
+        android:id="@+id/language_image_view"
         android:layout_width="191dp"
         android:layout_height="182dp"
         android:elevation="10dp"
@@ -36,17 +36,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header_background"
-        app:layout_constraintVertical_bias="0.0" >
+        app:layout_constraintVertical_bias="0.0">
 
     </android.support.v7.widget.RecyclerView>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/settingsImageView"
         android:layout_width="39dp"
         android:layout_height="38dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:src="@android:drawable/ic_menu_info_details"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="goToSettingsActivity"
+        android:src="@drawable/settings"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

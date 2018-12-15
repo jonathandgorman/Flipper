@@ -1,10 +1,12 @@
 package com.jonathangorman.flipper.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.adapters.LanguageChoiceAdapter;
@@ -66,5 +68,12 @@ public class LanguageChoiceActivity extends Activity {
         languagesImagesList.add(R.mipmap.portugal);
         languageDisplayTextList.add("PORTUGUÊS");
         languageNameList.add("portugal");
+    }
+
+    void goToSettingsActivity(View view)
+    {
+        Intent toSettingsIntent = new Intent(this, SettingsActivity.class);
+        this.startActivity(toSettingsIntent);
+        Log.d(TAG, "Intent to Settings activity");
     }
 }
