@@ -1,9 +1,12 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <SwitchPreferenceCompat
-        app:key="notifications"
-        app:title="Enable message notifications"/>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <Preference
-        app:key="feedback"
-        app:title="Send feedback"
-        app:summary="Report technical issues or suggest new features"/>
+        android:key="about"
+        android:title="About"></Preference>
+    <Preference
+        android:key="faq"
+        android:title="FAQ"></Preference>
+    <Preference
+        android:key="credit"
+        android:title="Credit"
+        android:summary="Third-party software and icon recognition"></Preference>
 </PreferenceScreen>

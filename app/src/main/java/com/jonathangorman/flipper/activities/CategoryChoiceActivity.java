@@ -110,19 +110,19 @@ public class CategoryChoiceActivity extends Activity {
             recyclerTextList.add("Casa");
         }
         // add values for the images and identifier
-        recyclerImagesList.add(R.mipmap.watermelon);
+        recyclerImagesList.add(R.drawable.watermelon);
         recyclerNameList.add("fruit");
-        recyclerImagesList.add(R.mipmap.red_pepper);
+        recyclerImagesList.add(R.drawable.red_pepper);
         recyclerNameList.add("vegetables");
-        recyclerImagesList.add(R.mipmap.cat);
+        recyclerImagesList.add(R.drawable.cat);
         recyclerNameList.add("animals");
-        recyclerImagesList.add(R.mipmap.firefighter);
+        recyclerImagesList.add(R.drawable.firefighter);
         recyclerNameList.add("professions");
-        recyclerImagesList.add(R.mipmap.car);
+        recyclerImagesList.add(R.drawable.car);
         recyclerNameList.add("transport");
-        recyclerImagesList.add(R.mipmap.cloudy);
+        recyclerImagesList.add(R.drawable.cloudy);
         recyclerNameList.add("weather");
-        recyclerImagesList.add(R.mipmap.couch);
+        recyclerImagesList.add(R.drawable.couch);
         recyclerNameList.add("household");
     }
 }
