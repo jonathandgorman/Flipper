@@ -1,13 +1,10 @@
 package com.jonathangorman.flipper.cards;
 
 import android.content.Context;
-import android.content.res.Resources;
-import android.support.v4.content.res.ResourcesCompat;
 import android.util.Log;
 
 import com.jonathangorman.flipper.R;
-
-import static com.jonathangorman.flipper.utils.Constants.*;
+import com.jonathangorman.flipper.Utils.ReturnCode;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -79,17 +76,18 @@ public class CardParser {
                 addCardToCardList(currCard);
             }
         } catch (Exception e) {
-            return FALSE;
+            return -1;
         } finally {
             if (br != null) {
                 try {
                     br.close();
                 } catch (IOException e) {
-                    return FALSE;
+                    Log.e(TAG, "Error when closing buffered reader " + e);
+                    return ReturnCode.ERROR;
                 }
             }
         }
-        return TRUE;
+        return ReturnCode.SUCCESS;
     }
 
 

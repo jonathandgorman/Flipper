@@ -14,8 +14,6 @@ import com.jonathangorman.flipper.cards.CardParser;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import static com.jonathangorman.flipper.utils.Constants.CARDS_PER_ROW;
-
 public class CardScreenActivity extends Activity {
 
     private static final String TAG = "CardScreenActivity";
@@ -23,6 +21,7 @@ public class CardScreenActivity extends Activity {
     public String categoryChosen = "";
     ArrayList<String> recyclerImagesList = new ArrayList<String>();
     ArrayList<String> recyclerAudioList = new ArrayList<String>();
+    private final static int CARDS_PER_ROW = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
