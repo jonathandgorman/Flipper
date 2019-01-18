@@ -47,6 +47,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="scalingPercent" value="80" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -71,10 +72,10 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="backgroundLayerName" value="invisible_layer" />
-                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\Transport\png\car.png" />
-                                      <entry key="foregroundLayerName" value="car" />
+                                      <entry key="foregroundImage" value="C:\Users\jonat\Pictures\Flipper\logos\loro_logo.png" />
+                                      <entry key="foregroundLayerName" value="loro" />
                                       <entry key="legacyIconShape" value="NONE" />
-                                      <entry key="outputName" value="car_icon" />
+                                      <entry key="outputName" value="loro_logo" />
                                       <entry key="webIconShape" value="NONE" />
                                     </map>
                                   </option>

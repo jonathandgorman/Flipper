@@ -3,19 +3,25 @@ package com.jonathangorman.flipper.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.jonathangorman.flipper.R;
+import com.jonathangorman.flipper.tts.TTSManager;
 import com.jonathangorman.flipper.adapters.LanguageChoiceAdapter;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class LanguageChoiceActivity extends Activity {
 
     private static final String TAG = "LanguageChoiceActivity";
+    private static final int TTS_ENGINE_CHECK_CODE = 0;
+
 
     ArrayList<Integer> languagesImagesList = new ArrayList<Integer>();
     ArrayList<String> languageDisplayTextList = new ArrayList<String>();
@@ -30,10 +36,19 @@ public class LanguageChoiceActivity extends Activity {
     }
 
     @Override
-    protected void onStart()
-    {
+    protected void onStart() {
         Log.d(TAG, "onStart() LanguageChoiceActivity");
         super.onStart();
+
+        // Check the TTS settings of the device
+        checkTTSEngineInstalled();
+        TTSManager ttsManager = new TTSManager(this);
+
+        for(Locale curr:ttsManager.getAvailableLocaleList())
+        {
+            Log.i(TAG,curr.getDisplayName());
+        }
+
 
         // Initialise and create recycler view and adapter to show the language choices
         RecyclerView recyclerView = findViewById(R.id.language_recycle_view);
@@ -43,8 +58,7 @@ public class LanguageChoiceActivity extends Activity {
     }
 
     // Initialise lists of data for the view
-    private void initLanguageLists()
-    {
+    private void initLanguageLists() {
         languagesImagesList.add(R.drawable.united_kingdom);
         languageDisplayTextList.add("ENGLISH");
         languageNameList.add("united_kingdom");
@@ -70,10 +84,45 @@ public class LanguageChoiceActivity extends Activity {
         languageNameList.add("portugal");
     }
 
-    void goToSettingsActivity(View view)
-    {
+    void goToSettingsActivity(View view) {
         Intent toSettingsIntent = new Intent(this, SettingsActivity.class);
         this.startActivity(toSettingsIntent);
         Log.d(TAG, "Intent to Settings activity");
+    }
+
+    // Check that a TTS engine is available
+    public boolean checkTTSEngineInstalled() {
+        Intent intent = new Intent();
+        intent.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
+        startActivityForResult(intent, TTS_ENGINE_CHECK_CODE);
+
+        return true;
+    }
+
+    // Handles on activity result codes
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == TTS_ENGINE_CHECK_CODE) {
+            if (resultCode == TextToSpeech.Engine.CHECK_VOICE_DATA_PASS) {
+                Toast.makeText(getApplicationContext(), "TTS engine available and ready.", Toast.LENGTH_LONG).show();
+            } else {
+                Intent installIntent = new Intent();
+                installIntent.setAction(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA);
+                startActivity(installIntent);
+                Toast.makeText(getApplicationContext(), "TTS engine has been installed and is now ready",Toast.LENGTH_LONG).show();
+            }
+        }
+
+        if (requestCode == TTS_ENGINE_CHECK_CODE) {
+            if (resultCode == TextToSpeech.Engine.CHECK_VOICE_DATA_PASS) {
+                Toast.makeText(getApplicationContext(), "TTS engine available and ready.", Toast.LENGTH_LONG).show();
+            } else {
+                Intent installIntent = new Intent();
+                installIntent.setAction(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA);
+                startActivity(installIntent);
+                Toast.makeText(getApplicationContext(), "TTS engine has been installed and is now ready",Toast.LENGTH_LONG).show();
+            }
+        }
     }
 }

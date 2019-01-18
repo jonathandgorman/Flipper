@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Flipper</string>
+    <string name="app_name">Lorolingo</string>
     <string name="title_activity_language_choice">LanguageChoiceActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
