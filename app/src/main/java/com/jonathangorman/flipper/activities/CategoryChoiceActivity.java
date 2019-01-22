@@ -49,66 +49,15 @@ public class CategoryChoiceActivity extends Activity {
     // Initialises the lists required by the recyclerView
     void initLists()
     {
-        if (languageChosen.equalsIgnoreCase("united_kingdom"))
-        {
-            recyclerTextList.add("Fruit");
-            recyclerTextList.add("Vegetables");
-            recyclerTextList.add("Animals");
-            recyclerTextList.add("Professions");
-            recyclerTextList.add("Transport");
-            recyclerTextList.add("Weather");
-            recyclerTextList.add("Household");
-        }
-        else if (languageChosen.equalsIgnoreCase("spain"))
-        {
-            recyclerTextList.add("Fruta");
-            recyclerTextList.add("Verduras");
-            recyclerTextList.add("Animales");
-            recyclerTextList.add("Profesiones");
-            recyclerTextList.add("Transporte");
-            recyclerTextList.add("Tiempo");
-            recyclerTextList.add("Casa");
-        }
-        else if (languageChosen.equalsIgnoreCase("france"))
-        {
-            recyclerTextList.add("Fruits");
-            recyclerTextList.add("Légumes");
-            recyclerTextList.add("Animaux");
-            recyclerTextList.add("Professions");
-            recyclerTextList.add("Transport");
-            recyclerTextList.add("Météo");
-            recyclerTextList.add("Ménage");
-        }
-        else if (languageChosen.equalsIgnoreCase("germany"))
-        {
-            recyclerTextList.add("Obst");
-            recyclerTextList.add ("Gemüse");
-            recyclerTextList.add ("Tiere");
-            recyclerTextList.add ("Berufe");
-            recyclerTextList.add ("Transport");
-            recyclerTextList.add ("Wetter");
-            recyclerTextList.add ("Haushalt");
-        }
-        else if (languageChosen.equalsIgnoreCase("italy"))
-        {
-            recyclerTextList.add("Frutta");
-            recyclerTextList.add("Verdura");
-            recyclerTextList.add("Animali");
-            recyclerTextList.add("Professioni");
-            recyclerTextList.add("Trasporti");
-            recyclerTextList.add("Tempo");
-            recyclerTextList.add("Domestico");
-        }
-        else if (languageChosen.equalsIgnoreCase("portugal"))
-        {
-            recyclerTextList.add("Fruit");
-            recyclerTextList.add("Vegetais");
-            recyclerTextList.add("Animals");
-            recyclerTextList.add("Profissões");
-            recyclerTextList.add("Transport");
-            recyclerTextList.add("Tempo");
-            recyclerTextList.add("Casa");
-        }
+        // add category text names based on locale
+        recyclerTextList.add(getString(R.string.fruit_category));
+        recyclerTextList.add(getString(R.string.vegetables_category));
+        recyclerTextList.add(getString(R.string.animals_category));
+        recyclerTextList.add(getString(R.string.jobs_category));
+        recyclerTextList.add(getString(R.string.transport_category));
+        recyclerTextList.add(getString(R.string.weather_category));
+        recyclerTextList.add(getString(R.string.household_category));
+
         // add values for the images and identifier
         recyclerImagesList.add(R.drawable.watermelon);
         recyclerNameList.add("fruit");

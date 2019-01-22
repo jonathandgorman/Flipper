@@ -14,13 +14,14 @@ import android.widget.TextView;
 
 import com.jonathangorman.flipper.R;
 import com.jonathangorman.flipper.activities.CategoryChoiceActivity;
+import com.jonathangorman.flipper.activities.LanguageChoiceActivity;
 
 import java.util.ArrayList;
 
 // adapts individual items to main container layout
 public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAdapter.ViewHolder>{
 
-    private static final String TAG = "LanguageChoiceAdapter";
+    private static final String TAG = LanguageChoiceAdapter.class.getName();
     private Context context;
     private ArrayList<Integer> languageImageList;
     private ArrayList<String> languageDisplayTextList;
@@ -41,6 +42,11 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
         // holds widgets in memory
         public ViewHolder(View itemView) {
             super(itemView);
+
+            // TODO Disable crtain cards that are unavailable
+            //itemView.findViewById(R.id.language_card_view).setClickable(true);
+            // itemView.findViewById(R.id.language_card_view).setAlpha(.5f);
+
             imageView = itemView.findViewById(R.id.language_image_view);
             textView = itemView.findViewById(R.id.language_text_view);
             constraintLayout = itemView.findViewById(R.id.language_constraint_layout);

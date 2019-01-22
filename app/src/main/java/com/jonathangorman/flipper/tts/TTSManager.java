@@ -38,6 +38,7 @@ public class TTSManager implements TextToSpeech.OnInitListener {
 
     public List<Locale> getAvailableLocaleList()
     {
+        Locale[] locales = Locale.getAvailableLocales();
         for (Locale locale : locales) {
             int res = tts.isLanguageAvailable(locale);
             if (res >= TextToSpeech.LANG_COUNTRY_AVAILABLE) {

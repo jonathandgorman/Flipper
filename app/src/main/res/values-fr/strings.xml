@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lorolingo</string>
+    <string name="title_activity_language_choice">LanguageChoiceActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // languages
+    <string name = "english_language">Anglais</string>
+    <string name = "spanish_language">Espagnol</string>
+    <string name = "french_language">Français</string>
+    <string name = "german_language">allemand</string>
+    <string name = "portuguese_language">portugais</string>
+    <string name = "italian_language">italien</string>
+
+    // catégories
+    <string name = "fruit_category">Fruit</string>
+    <string name = "vegetables_category">Légumes</string>
+    <string name = "animals_category">Animaux</string>
+    <string name = "jobs_category">Emplois</string>
+    <string name = "transport_category">Transports</string>
+    <string name = "weather_category">Météo</string>
+    <string name = "household_category">Ménage</string>
+
+</resources>
