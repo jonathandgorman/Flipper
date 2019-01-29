@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.activities;
+package com.jonathangorman.flipper.primary;
 
 import android.os.Bundle;
 import android.support.v7.preference.PreferenceFragmentCompat;

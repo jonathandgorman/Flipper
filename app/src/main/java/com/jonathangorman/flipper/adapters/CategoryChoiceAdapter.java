@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.activities.CardScreenActivity;
+import com.jonathangorman.flipper.primary.CardScreenActivity;
 
 import java.util.ArrayList;
 
@@ -61,7 +61,7 @@ public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAd
     // Responsible for inflating the view
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.category_item, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.row_item, viewGroup, false);
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }

@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.activities;
+package com.jonathangorman.flipper.primary;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,15 +7,16 @@ import android.speech.tts.TextToSpeech;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.jonathangorman.flipper.R;
+import com.jonathangorman.flipper.action.InfoDisplayActivity;
 import com.jonathangorman.flipper.tts.TTSManager;
 import com.jonathangorman.flipper.adapters.LanguageChoiceAdapter;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class LanguageChoiceActivity extends Activity {
 
@@ -88,13 +89,6 @@ public class LanguageChoiceActivity extends Activity {
         languageNameList.add("portugal");
     }
 
-    // Go to the settings activity
-    void goToSettingsActivity(View view) {
-        Intent toSettingsIntent = new Intent(this, SettingsActivity.class);
-        this.startActivity(toSettingsIntent);
-        Log.d(TAG, "Intent to Settings activity");
-    }
-
     // Check that a TTS engine is available
     public void checkTTSEngineInstalled() {
         Intent intent = new Intent();
@@ -125,4 +119,40 @@ public class LanguageChoiceActivity extends Activity {
             }
         }
     }
+
+    // ensures that menu is setup and action buttons added
+    @Override
+    public boolean onCreateOptionsMenu( Menu menu )
+    {
+        getMenuInflater().inflate( R.menu.action_buttons, menu );
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        Intent actionInfoIntent = new Intent(this, InfoDisplayActivity.class);
+        switch (item.getItemId()) {
+
+            case R.id.about_action:
+                actionInfoIntent.putExtra("INFOTYPE", "about"); // adapter position is removed from the list and added to intent
+                this.startActivity(actionInfoIntent);
+                return true;
+            case R.id.faq_action:
+                actionInfoIntent.putExtra("INFOTYPE", "faq"); // adapter position is removed from the list and added to intent
+                this.startActivity(actionInfoIntent);
+                return true;
+            case R.id.credit_action:
+                actionInfoIntent.putExtra("INFOTYPE", "credit"); // adapter position is removed from the list and added to intent
+                this.startActivity(actionInfoIntent);
+                return true;
+            case R.id.coffee_action:
+                actionInfoIntent.putExtra("INFOTYPE", "coffee"); // adapter position is removed from the list and added to intent
+                this.startActivity(actionInfoIntent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 }

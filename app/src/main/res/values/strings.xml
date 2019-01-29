@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">Lorolingo</string>
-    <string name="title_activity_language_choice">LanguageChoiceActivity</string>
-    <string name="title_activity_settings">SettingsActivity</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // app wide
+    <string name="app_name" translatable="false">Lorolingo</string>
+    <string name="title_activity_language_choice" translatable="false">Choose a language</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_about_activity" translatable="false">About</string>
 
     // languages
     <string name="english_language">English</string>
@@ -22,5 +25,16 @@
     <string name="household_category">Household</string>
 
     // settings
+    <string name="about_text" translatable="false">
+        <b>Welcome to Lorolingo!</b>
+        \n\nLorolingo is a language learning app created for kids by me, Jonathan.
+        \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <string name="faq_text" translatable="false">These are the very FAQs!</string>
+    <string name="coffee_text" translatable="false">Please buy me a coffee!</string>
+    <string name="credit_text" translatable="false">Very much credit to the artists!</string>
+
+    // other misc
+    <string name = "error_text" translatable="false">oops, there\'s been an error!</string>
 
 </resources>

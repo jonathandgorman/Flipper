@@ -2,12 +2,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_favorite"
+        android:id="@+id/coffee_action"
+        android:icon="@drawable/heart"
+        android:title="Buy me a coffee!"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/about_action"
+        android:title="About"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/settings_action"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/faq_action"
         android:icon="@drawable/ic_info_black_24dp"
-        android:title="action"
-        app:showAsAction="ifRoom" />
-    <item android:id="@+id/action_settings"
-    android:title="settings"
-    app:showAsAction="never"/>
+        android:title="FAQ"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/credit_action"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Credit"
+        app:showAsAction="never"/>
+
 
 </menu>

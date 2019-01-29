@@ -13,8 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.activities.CategoryChoiceActivity;
-import com.jonathangorman.flipper.activities.LanguageChoiceActivity;
+import com.jonathangorman.flipper.primary.CategoryChoiceActivity;
 
 import java.util.ArrayList;
 
@@ -43,13 +42,13 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
         public ViewHolder(View itemView) {
             super(itemView);
 
-            // TODO Disable crtain cards that are unavailable
+            // TODO Disable certain cards that are unavailable on the TTS engine
             //itemView.findViewById(R.id.language_card_view).setClickable(true);
             // itemView.findViewById(R.id.language_card_view).setAlpha(.5f);
 
-            imageView = itemView.findViewById(R.id.language_image_view);
-            textView = itemView.findViewById(R.id.language_text_view);
-            constraintLayout = itemView.findViewById(R.id.language_constraint_layout);
+            imageView = itemView.findViewById(R.id.category_imageView);
+            textView = itemView.findViewById(R.id.category_textView);
+            constraintLayout = itemView.findViewById(R.id.category_parent_layout);
         }
 
         // On click listener that provides the next activity with the language chosen in the form of an intent
@@ -65,7 +64,7 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
     // Responsible for inflating the view
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.language_item, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.row_item, viewGroup, false);
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }

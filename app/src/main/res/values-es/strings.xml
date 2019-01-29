@@ -1,9 +1,4 @@
 <resources>
-    <string name="app_name">Lorolingo</string>
-    <string name="title_activity_language_choice">LanguageChoiceActivity</string>
-    <string name="title_activity_settings">SettingsActivity</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     // languages
     <string name="english_language">Inglés</string>
     <string name="spanish_language">Español</string>
@@ -20,5 +15,4 @@
     <string name="transport_category">Transporte</string>
     <string name="weather_category">Tiempo</string>
     <string name="household_category">Casa</string>
-
 </resources>

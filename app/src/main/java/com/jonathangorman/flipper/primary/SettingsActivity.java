@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.activities;
+package com.jonathangorman.flipper.primary;
 
 
 import android.os.Bundle;
