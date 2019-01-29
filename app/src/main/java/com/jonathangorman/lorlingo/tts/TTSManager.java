@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.tts;
+package com.jonathangorman.lorlingo.tts;
 
 import android.content.Context;
 import android.speech.tts.TextToSpeech;

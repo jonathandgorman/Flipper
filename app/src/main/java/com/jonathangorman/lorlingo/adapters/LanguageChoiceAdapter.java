@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.adapters;
+package com.jonathangorman.lorlingo.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,8 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.primary.CategoryChoiceActivity;
+import com.jonathangorman.lorlingo.R;
+import com.jonathangorman.lorlingo.primary.CategoryChoiceActivity;
 
 import java.util.ArrayList;
 

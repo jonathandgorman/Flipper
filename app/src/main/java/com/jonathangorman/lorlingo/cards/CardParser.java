@@ -1,10 +1,10 @@
-package com.jonathangorman.flipper.cards;
+package com.jonathangorman.lorlingo.cards;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.Utils.ReturnCode;
+import com.jonathangorman.lorlingo.R;
+import com.jonathangorman.lorlingo.Utils.ReturnCode;
 
 import java.io.BufferedReader;
 import java.io.IOException;

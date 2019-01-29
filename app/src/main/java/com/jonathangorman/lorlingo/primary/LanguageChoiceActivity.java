@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.primary;
+package com.jonathangorman.lorlingo.primary;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,10 +11,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.action.InfoDisplayActivity;
-import com.jonathangorman.flipper.tts.TTSManager;
-import com.jonathangorman.flipper.adapters.LanguageChoiceAdapter;
+import com.jonathangorman.lorlingo.R;
+import com.jonathangorman.lorlingo.action.InfoDisplayActivity;
+import com.jonathangorman.lorlingo.tts.TTSManager;
+import com.jonathangorman.lorlingo.adapters.LanguageChoiceAdapter;
 
 import java.util.ArrayList;
 

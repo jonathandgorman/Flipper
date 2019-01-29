@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.primary;
+package com.jonathangorman.lorlingo.primary;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
-import com.jonathangorman.flipper.R;
-import com.jonathangorman.flipper.adapters.CategoryChoiceAdapter;
+import com.jonathangorman.lorlingo.R;
+import com.jonathangorman.lorlingo.adapters.CategoryChoiceAdapter;
 
 import java.util.ArrayList;
 public class CategoryChoiceActivity extends Activity {

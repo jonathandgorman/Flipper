@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jonathangorman.flipper">
+    package="com.jonathangorman.lorlingo">
 
     <application
         android:allowBackup="true"
@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/loro_logo_round"
         android:supportsRtl="true"
         android:theme="@style/LoroTheme">
-        <activity android:name=".primary.LanguageChoiceActivity">
+        <activity android:name="com.jonathangorman.lorlingo.primary.LanguageChoiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".primary.CardScreenActivity" />
-        <activity android:name=".primary.CategoryChoiceActivity" />
+        <activity android:name="com.jonathangorman.lorlingo.primary.CardScreenActivity" />
+        <activity android:name="com.jonathangorman.lorlingo.primary.CategoryChoiceActivity" />
         <activity
-            android:name=".action.InfoDisplayActivity"
+            android:name="com.jonathangorman.lorlingo.action.InfoDisplayActivity"
             android:label="@string/title_activity_about_activity"></activity>
     </application>
 

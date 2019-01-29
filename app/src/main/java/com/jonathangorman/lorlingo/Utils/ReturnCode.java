@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.Utils;
+package com.jonathangorman.lorlingo.Utils;
 
 public class ReturnCode {
 

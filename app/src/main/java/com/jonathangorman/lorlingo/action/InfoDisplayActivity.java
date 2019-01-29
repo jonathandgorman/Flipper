@@ -1,11 +1,11 @@
-package com.jonathangorman.flipper.action;
+package com.jonathangorman.lorlingo.action;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.widget.TextView;
 
-import com.jonathangorman.flipper.R;
+import com.jonathangorman.lorlingo.R;
 
 public class InfoDisplayActivity extends Activity {
 

@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.cards;
+package com.jonathangorman.lorlingo.cards;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper.adapters;
+package com.jonathangorman.lorlingo.adapters;
 
 import android.content.Context;
 import android.speech.tts.TextToSpeech;
@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.jonathangorman.flipper.R;
+import com.jonathangorman.lorlingo.R;
 
 import java.util.ArrayList;
 import java.util.Locale;

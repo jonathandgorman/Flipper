@@ -1,11 +1,11 @@
-package com.jonathangorman.flipper.primary;
+package com.jonathangorman.lorlingo.primary;
 
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 
-import com.jonathangorman.flipper.R;
+import com.jonathangorman.lorlingo.R;
 
 public class SettingsActivity extends PreferenceActivity{
 

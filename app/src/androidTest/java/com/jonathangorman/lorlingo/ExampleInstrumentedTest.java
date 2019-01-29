@@ -1,4 +1,4 @@
-package com.jonathangorman.flipper;
+package com.jonathangorman.lorlingo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
