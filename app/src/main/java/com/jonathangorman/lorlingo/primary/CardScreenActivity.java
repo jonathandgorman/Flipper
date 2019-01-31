@@ -7,10 +7,10 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import com.jonathangorman.lorlingo.R;
-import com.jonathangorman.lorlingo.adapters.CardChoiceAdapter;
-import com.jonathangorman.lorlingo.cards.Card;
-import com.jonathangorman.lorlingo.cards.CardList;
-import com.jonathangorman.lorlingo.cards.CardParser;
+import com.jonathangorman.lorlingo.adapter.CardChoiceAdapter;
+import com.jonathangorman.lorlingo.card.Card;
+import com.jonathangorman.lorlingo.card.CardList;
+import com.jonathangorman.lorlingo.card.CardParser;
 import java.util.ArrayList;
 import java.util.Locale;
 

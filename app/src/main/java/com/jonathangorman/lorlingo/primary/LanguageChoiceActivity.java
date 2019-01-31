@@ -14,7 +14,7 @@ import android.widget.Toast;
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.action.InfoDisplayActivity;
 import com.jonathangorman.lorlingo.tts.TTSManager;
-import com.jonathangorman.lorlingo.adapters.LanguageChoiceAdapter;
+import com.jonathangorman.lorlingo.adapter.LanguageChoiceAdapter;
 
 import java.util.ArrayList;
 

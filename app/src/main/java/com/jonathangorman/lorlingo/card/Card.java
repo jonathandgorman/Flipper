@@ -1,4 +1,4 @@
-package com.jonathangorman.lorlingo.cards;
+package com.jonathangorman.lorlingo.card;
 
 import java.io.Serializable;
 

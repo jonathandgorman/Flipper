@@ -1,4 +1,4 @@
-package com.jonathangorman.lorlingo.adapters;
+package com.jonathangorman.lorlingo.adapter;
 
 import android.content.Context;
 import android.speech.tts.TextToSpeech;

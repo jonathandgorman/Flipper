@@ -1,4 +1,4 @@
-package com.jonathangorman.lorlingo.Utils;
+package com.jonathangorman.lorlingo.util;
 
 public class ReturnCode {
 

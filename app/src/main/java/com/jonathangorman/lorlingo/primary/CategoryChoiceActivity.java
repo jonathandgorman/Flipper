@@ -8,7 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import com.jonathangorman.lorlingo.R;
-import com.jonathangorman.lorlingo.adapters.CategoryChoiceAdapter;
+import com.jonathangorman.lorlingo.adapter.CategoryChoiceAdapter;
 
 import java.util.ArrayList;
 public class CategoryChoiceActivity extends Activity {

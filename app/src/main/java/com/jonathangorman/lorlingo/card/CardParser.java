@@ -1,10 +1,10 @@
-package com.jonathangorman.lorlingo.cards;
+package com.jonathangorman.lorlingo.card;
 
 import android.content.Context;
 import android.util.Log;
 
 import com.jonathangorman.lorlingo.R;
-import com.jonathangorman.lorlingo.Utils.ReturnCode;
+import com.jonathangorman.lorlingo.util.ReturnCode;
 
 import java.io.BufferedReader;
 import java.io.IOException;
