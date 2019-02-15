@@ -2,7 +2,6 @@ package com.jonathangorman.lorlingo.primary;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -11,7 +10,7 @@ import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.adapter.CategoryChoiceAdapter;
 
 import java.util.ArrayList;
-public class CategoryChoiceActivity extends Activity {
+public class CategoryChoiceActivity extends BaseActivity {
 
     private static final String TAG = "CategoryChoiceActivity";
     public String languageChosen = "";

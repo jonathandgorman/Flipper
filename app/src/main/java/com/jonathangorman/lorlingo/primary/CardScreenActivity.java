@@ -1,20 +1,21 @@
 package com.jonathangorman.lorlingo.primary;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.adapter.CardChoiceAdapter;
 import com.jonathangorman.lorlingo.card.Card;
 import com.jonathangorman.lorlingo.card.CardList;
 import com.jonathangorman.lorlingo.card.CardParser;
+
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class CardScreenActivity extends Activity {
+public class CardScreenActivity extends BaseActivity {
 
     private static final String TAG = "CardScreenActivity";
     public String languageChosen = "";
