@@ -49,15 +49,20 @@ public class CategoryChoiceActivity extends BaseActivity {
     void initLists()
     {
         // add category text names based on locale
+        recyclerTextList.add(getString(R.string.numbers_category));
+        recyclerTextList.add(getString(R.string.alphabet_category));
         recyclerTextList.add(getString(R.string.fruit_category));
         recyclerTextList.add(getString(R.string.vegetables_category));
         recyclerTextList.add(getString(R.string.animals_category));
         recyclerTextList.add(getString(R.string.jobs_category));
         recyclerTextList.add(getString(R.string.transport_category));
-        recyclerTextList.add(getString(R.string.weather_category));
         recyclerTextList.add(getString(R.string.household_category));
 
         // add values for the images and identifier
+        recyclerImagesList.add(R.drawable.one);
+        recyclerNameList.add("numbers");
+        recyclerImagesList.add(R.drawable.letter_a);
+        recyclerNameList.add("alphabet");
         recyclerImagesList.add(R.drawable.watermelon);
         recyclerNameList.add("fruit");
         recyclerImagesList.add(R.drawable.red_pepper);
@@ -68,8 +73,6 @@ public class CategoryChoiceActivity extends BaseActivity {
         recyclerNameList.add("professions");
         recyclerImagesList.add(R.drawable.car);
         recyclerNameList.add("transport");
-        recyclerImagesList.add(R.drawable.cloudy);
-        recyclerNameList.add("weather");
         recyclerImagesList.add(R.drawable.couch);
         recyclerNameList.add("household");
     }

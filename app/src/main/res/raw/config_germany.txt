@@ -1,8 +1,34 @@
+germany;numbers;one;one;one;
+germany;alphabet;letter-a;A;letter_a;
+germany;alphabet;letter-b;B;letter_b;
+germany;alphabet;letter-c;C;letter_c;
+germany;alphabet;letter-d;D;letter_d;
+germany;alphabet;letter-e;E;letter_e;
+germany;alphabet;letter-f;F;letter_f;
+germany;alphabet;letter-g;G;letter_g;
+germany;alphabet;letter-h;H;letter_h;
+germany;alphabet;letter-i;I;letter_i;
+germany;alphabet;letter-j;J;letter_j;
+germany;alphabet;letter-k;K;letter_k;
+germany;alphabet;letter-l;L;letter_l;
+germany;alphabet;letter-m;M;letter_m;
+germany;alphabet;letter-n;N;letter_n;
+germany;alphabet;letter-o;O;letter_o;
+germany;alphabet;letter-p;P;letter_p;
+germany;alphabet;letter-q;Q;letter_q;
+germany;alphabet;letter-r;R;letter_r;
+germany;alphabet;letter-s;S;letter_s;
+germany;alphabet;letter-t;T;letter_t;
+germany;alphabet;letter-u;U;letter_u;
+germany;alphabet;letter-v;V;letter_v;
+germany;alphabet;letter-w;W;letter_w;
+germany;alphabet;letter-x;X;letter_x;
+germany;alphabet;letter-y;Y;letter_y;
+germany;alphabet;letter-z;Z;letter_z;
 germany;fruit;apple;der Apfel;apple
 germany;fruit;apricot;die Aprikose;apricot
 germany;fruit;banana;die Banane;banana
 germany;fruit;blueberry;die Blaubeere;blueberry
-germany;fruit;carambola;die Karambole;carambola
 germany;fruit;cherry;die Kirsche;cherry
 germany;fruit;chestnut;die Kastanie;chestnut
 germany;fruit;coconut;die Kokosnuss;coconut
@@ -19,7 +45,6 @@ germany;fruit;kumquat;die Kumquat;kumquat
 germany;fruit;lemon;die Zitrone;lemon
 germany;fruit;lime;die kalk;lime
 germany;fruit;mango;die Mango;mango
-germany;fruit;mangosteen;die Mangostan;mangosteen
 germany;fruit;melon;die Melone;melon
 germany;fruit;orange;die Orange;orange
 germany;fruit;papaya;die Papaya;papaya
@@ -71,8 +96,6 @@ germany;vegetables;sweet_potato;die süße Kartoffel;sweet_potato
 germany;vegetables;tomato;die Tomate;tomato
 germany;vegetables;turnip;die Rübe;turnip
 germany;vegetables;white_garlic;der weiße Knoblauch;white_garlic
-germany;animals;albatross;der Albatros;albatross
-germany;animals;angler;der Seeteufel;angler
 germany;animals;anteater;der Ameisenbär;anteater
 germany;animals;baboon;der Pavian;baboon
 germany;animals;bear;der Bär;bear
@@ -87,7 +110,6 @@ germany;animals;cat;die Katze;cat
 germany;animals;centipede;der Tausendfüßler;centipede
 germany;animals;chameleon;das Chamäleon;chameleon
 germany;animals;chimpanzee;der Schimpanse;chimpanzee
-germany;animals;colibri;der Colibri;colibri
 germany;animals;crab;die Krabbe;crab
 germany;animals;crane;der Kran;crane
 germany;animals;crocodile;das Krokodil;crocodile
@@ -99,7 +121,6 @@ germany;animals;duck;die Ente;duck
 germany;animals;eagle;der Adler;eagle
 germany;animals;elephant;der Elefant;elephant
 germany;animals;fennec;die Fennek;fennec
-germany;animals;flounder;die Flunder;flounder
 germany;animals;fly;die Fliege;fly
 germany;animals;fox;der Fuchs;fox
 germany;animals;frog;der Frosch;frog
@@ -121,7 +142,6 @@ germany;animals;mink;der Nerz;mink
 germany;animals;mite;die Milbe;mite
 germany;animals;mole;der Maulwurf;mole
 germany;animals;moose;der Elch;moose
-germany;animals;moray;die Muräne;moray
 germany;animals;mosquito;das Moskito;mosquito
 germany;animals;moth;die Motte;moth
 germany;animals;mouse;die Maus;mouse
@@ -130,7 +150,6 @@ germany;animals;ostrich;der Strauß;ostrich
 germany;animals;owl;die Eule;owl
 germany;animals;parrot;der Papagei;parrot
 germany;animals;penguin;der Pinguin;penguin
-germany;animals;perch;der Barsch;perch
 germany;animals;pig;das Schwein;pig
 germany;animals;pigeon;die Taube;pigeon
 germany;animals;pike;der Hecht;pike
@@ -151,7 +170,6 @@ germany;animals;silverfish;der Silberfischchen;silverfish
 germany;animals;skunk;das Stinktier;skunk
 germany;animals;sloth;die Trägheit;sloth
 germany;animals;snake;die Schlange;snake
-germany;animals;sparrow;der Spatz;sparrow
 germany;animals;spider;die Spinne;spider
 germany;animals;squid;der Tintenfisch;squid
 germany;animals;panda_bear;der Panda;panda_bear
@@ -164,7 +182,6 @@ germany;animals;tuna;der Thunfisch;tuna
 germany;animals;turtle;die schildkröte;turtle
 germany;animals;wasp;die Wespe;wasp
 germany;animals;wolf;der Wolf;wolf
-germany;animals;zander;der Zander;zander
 germany;professions;artist;der Künstler;artist
 germany;professions;astronaut;der Astronaut;astronaut
 germany;professions;athlete;der Athlet;athlete
@@ -182,14 +199,11 @@ germany;professions;doctor;der Doktor;doctor
 germany;professions;engineer;der Ingenieur;engineer
 germany;professions;farmer;der Bauer;farmer
 germany;professions;firefighter;der Feuerwehrmann;firefighter
-germany;professions;hacker;der Hacker;hacker
 germany;professions;hunter;der Jäger;hunter
 germany;professions;judge;der Richter;judge
 germany;professions;lumberjack;der Holzfäller;lumberjack
-germany;professions;mafia;die Mafia;mafia
 germany;professions;maid;das Dienstmädchen;maid
 germany;professions;mechanic;der Mechaniker;mechanic
-germany;professions;military_pilot;der militärische Pilot;military_pilot
 germany;professions;nun;die Nonne;nun
 germany;professions;nurse;die Krankenschwester;nurse
 germany;professions;office_worker;der Büroangestellte;office_worker
@@ -210,7 +224,6 @@ germany;professions;surgeon;der Chirurg;surgeon
 germany;professions;taxi_driver;der Taxifahrer;taxi_driver
 germany;professions;teacher;der Lehrer;teacher
 germany;professions;telemarketer;der telemarketer;telemarketer
-germany;professions;thief;der Dieb;thief
 germany;professions;tour_guide;der Reiseleiter;tour_guide
 germany;professions;waiter;der Kellner;waiter
 germany;professions;welder;der Schweißer;welder
@@ -251,27 +264,6 @@ germany;transport;tram;die Straßenbahn;tram
 germany;transport;truck;der LKW;truck
 germany;transport;van;der Van;van
 germany;transport;yacht;die Yacht;yacht
-germany;weather;cloudy;wolkig;cloudy
-germany;weather;cold;kalt;cold
-germany;weather;flood;Flut;flood
-germany;weather;fog;Nebel;fog
-germany;weather;hail;Hagel;hail
-germany;weather;hot;heiß;hot
-germany;weather;humidity;Feuchtigkeit;humidity
-germany;weather;hurricane;Hurrikan;hurricane
-germany;weather;lightning;Blitz;lightning
-germany;weather;moon;der Mond;moon
-germany;weather;partially_cloudy;teilweise bewölkt;partially_cloudy
-germany;weather;rain_shower;Regenschauer;rain_shower
-germany;weather;snow;Schnee;snow
-germany;weather;snowflake;Schneeflocke;snowflake
-germany;weather;star;der Stern;star
-germany;weather;storm;stürmisch;storm
-germany;weather;sunny;sonnig;sunny
-germany;weather;sunrise;der Sonnenaufgang;sunrise
-germany;weather;sunset;der Sonnenuntergang;sunset
-germany;weather;tornado;Tornado;tornado
-germany;weather;warm;warm;warm
 germany;household;air_conditioning;die Klimaanlage;air_conditioning
 germany;household;armchair;der Sessel;armchair
 germany;household;bathtub;die Badewanne;bathtub

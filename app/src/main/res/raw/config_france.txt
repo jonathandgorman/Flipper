@@ -1,8 +1,34 @@
+france;numbers;one;one;one;
+france;alphabet;letter-a;A;letter_a;
+france;alphabet;letter-b;B;letter_b;
+france;alphabet;letter-c;C;letter_c;
+france;alphabet;letter-d;D;letter_d;
+france;alphabet;letter-e;E;letter_e;
+france;alphabet;letter-f;F;letter_f;
+france;alphabet;letter-g;G;letter_g;
+france;alphabet;letter-h;H;letter_h;
+france;alphabet;letter-i;I;letter_i;
+france;alphabet;letter-j;J;letter_j;
+france;alphabet;letter-k;K;letter_k;
+france;alphabet;letter-l;L;letter_l;
+france;alphabet;letter-m;M;letter_m;
+france;alphabet;letter-n;N;letter_n;
+france;alphabet;letter-o;O;letter_o;
+france;alphabet;letter-p;P;letter_p;
+france;alphabet;letter-q;Q;letter_q;
+france;alphabet;letter-r;R;letter_r;
+france;alphabet;letter-s;S;letter_s;
+france;alphabet;letter-t;T;letter_t;
+france;alphabet;letter-u;U;letter_u;
+france;alphabet;letter-v;V;letter_v;
+france;alphabet;letter-w;W;letter_w;
+france;alphabet;letter-x;X;letter_x;
+france;alphabet;letter-y;Y;letter_y;
+france;alphabet;letter-z;Z;letter_z;
 france;fruit;apple;la pomme;apple
 france;fruit;apricot;l'abricot;apricot
 france;fruit;banana;la banane;banana
 france;fruit;blueberry;la myrtille;blueberry
-france;fruit;carambola;la carambole;carambola
 france;fruit;cherry;la cerise;cherry
 france;fruit;chestnut;la châtaigne;chestnut
 france;fruit;coconut;la noix de coco;coconut
@@ -19,7 +45,6 @@ france;fruit;kumquat;le kumquat;kumquat
 france;fruit;lemon;le citron;lemon
 france;fruit;lime;la chaux;lime
 france;fruit;mango;la mangue;mango
-france;fruit;mangosteen;le mangoustan;mangosteen
 france;fruit;melon;le melon;melon
 france;fruit;orange;l'orange;orange
 france;fruit;papaya;la papaye;papaya
@@ -71,8 +96,6 @@ france;vegetables;sweet_potato;la patate douce;sweet_potato
 france;vegetables;tomato;la tomate;tomato
 france;vegetables;turnip;le navet;turnip
 france;vegetables;white_garlic;l'ail blanc;white_garlic
-france;animals;albatross;l'albatros;albatross
-france;animals;angler;la baudroie;angler
 france;animals;anteater;le fourmilier;anteater
 france;animals;baboon;le babouin;baboon
 france;animals;bear;l'ours;bear
@@ -80,14 +103,13 @@ france;animals;bee;l'abeille;bee
 france;animals;beetle;le scarabée;beetle
 france;animals;boar;le sanglier;boar
 france;animals;bison;le bison;bison
-france;animals;bullfinch;le bouvreuil;bullfinch
+france;animals;bullfinch;ERR;bullfinch
 france;animals;butterfly;le papillon;butterfly
 france;animals;capybara;le capybara;capybara
 france;animals;cat;le chat;cat
 france;animals;centipede;le mille-pattes;centipede
 france;animals;chameleon;le caméléon;chameleon
 france;animals;chimpanzee;le chimpanzé;chimpanzee
-france;animals;colibri;le colibri;colibri
 france;animals;crab;le crabe;crab
 france;animals;crane;la grue;crane
 france;animals;crocodile;le crocodile;crocodile
@@ -99,7 +121,6 @@ france;animals;duck;le canard;duck
 france;animals;eagle;l'aigle;eagle
 france;animals;elephant;l'éléphant;elephant
 france;animals;fennec;le fennec;fennec
-france;animals;flounder;le flet;flounder
 france;animals;fly;la mouche;fly
 france;animals;fox;le renard;fox
 france;animals;frog;la grenouille;frog
@@ -121,7 +142,6 @@ france;animals;mink;le vison;mink
 france;animals;mite;l'acarien;mite
 france;animals;mole;la taupe;mole
 france;animals;moose;L'élan;moose
-france;animals;moray;la murène;moray
 france;animals;mosquito;le moustique;mosquito
 france;animals;moth;la mite;moth
 france;animals;mouse;la souris;mouse
@@ -130,7 +150,6 @@ france;animals;ostrich;l'autruche;ostrich
 france;animals;owl;Le hibou;owl
 france;animals;parrot;le perroquet;parrot
 france;animals;penguin;le pingouin;penguin
-france;animals;perch;la perche;perch
 france;animals;pig;le cochon;pig
 france;animals;pigeon;le pigeon;pigeon
 france;animals;pike;le brochet;pike
@@ -151,7 +170,6 @@ france;animals;silverfish;le poisson d'argent;silverfish
 france;animals;skunk;la moufette;skunk
 france;animals;sloth;le paresseux;sloth
 france;animals;snake;le serpent;snake
-france;animals;sparrow;le moineau;sparrow
 france;animals;spider;l'araignée;spider
 france;animals;squid;Le calamar;squid
 france;animals;panda_bear;le panda;panda_bear
@@ -164,7 +182,6 @@ france;animals;tuna;le thon;tuna
 france;animals;turtle;la tortue;turtle
 france;animals;wasp;la guêpe;wasp
 france;animals;wolf;le loup;wolf
-france;animals;zander;le sandre;zander
 france;professions;artist;l'artiste;artist
 france;professions;astronaut;l'astronaute;astronaut
 france;professions;athlete;l'athlète;athlete
@@ -182,20 +199,17 @@ france;professions;doctor;le docteur;doctor
 france;professions;engineer;l'ingénieur;engineer
 france;professions;farmer;l'agriculteur;farmer
 france;professions;firefighter;le pompier;firefighter
-france;professions;hacker;le pirate;hacker
 france;professions;hunter;le chasseur;hunter
 france;professions;judge;le juge;judge
 france;professions;lumberjack;le bûcheron;lumberjack
-france;professions;mafia;la mafia;mafia
 france;professions;maid;la femme de chambre;maid
 france;professions;mechanic;la mécanique;mechanic
-france;professions;military_pilot;le pilote militaire;military_pilot
 france;professions;nun;la religieuse;nun
 france;professions;nurse;l'infirmière;nurse
 france;professions;office_worker;l'employé de bureau;office_worker
 france;professions;photographer;le photographe;photographer
 france;professions;pilot;le pilote;pilot
-france;professions;police_officer;L 'officier de police;police_officer
+france;professions;police_officer;L'officier de police;police_officer
 france;professions;postman;le facteur;postman
 france;professions;priest;le prêtre;priest
 france;professions;race_car_driver;le pilote de la voiture de course;race_car_driver
@@ -210,7 +224,6 @@ france;professions;surgeon;le chirurgien;surgeon
 france;professions;taxi_driver;le chauffeur de taxi;taxi_driver
 france;professions;teacher;l'enseignant;teacher
 france;professions;telemarketer;le télévendeur;telemarketer
-france;professions;thief;le voleur;thief
 france;professions;tour_guide;le guide touristique;tour_guide
 france;professions;waiter;le serveur;waiter
 france;professions;welder;le soudeur;welder
@@ -251,27 +264,6 @@ france;transport;tram;le tram;tram
 france;transport;truck;le camion;truck
 france;transport;van;le van;van
 france;transport;yacht;le yacht;yacht
-france;weather;cloudy;nuageux;cloudy
-france;weather;cold;du froid;cold
-france;weather;flood;inonder;flood
-france;weather;fog;brouillard;fog
-france;weather;hail;saluer;hail
-france;weather;hot;chaud;hot
-france;weather;humidity;humidité;humidity
-france;weather;hurricane;ouragan;hurricane
-france;weather;lightning;foudre;lightning
-france;weather;moon;la lune;moon
-france;weather;partially_cloudy;partiellement nuageux;partially_cloudy
-france;weather;rain_shower;pluie;rain_shower
-france;weather;snow;neige;snow
-france;weather;snowflake;flocon de neige;snowflake
-france;weather;star;l'étoile;star
-france;weather;storm;orageux;storm
-france;weather;sunny;ensoleillé;sunny
-france;weather;sunrise;le lever du soleil;sunrise
-france;weather;sunset;le coucher du soleil;sunset
-france;weather;tornado;tornade;tornado
-france;weather;warm;chaud;warm
 france;household;air_conditioning;La climatisation;air_conditioning
 france;household;armchair;le fauteuil;armchair
 france;household;bathtub;le bain;bathtub

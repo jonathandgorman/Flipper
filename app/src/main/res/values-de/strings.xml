@@ -8,11 +8,12 @@
     <string name = "italian_language">Italienisch </string>
 
     // Kategorien
+    <string name="numbers_category">Zahlen</string>
+    <string name="alphabet_category">Alphabet</string>
     <string name = "fruit_category">Frucht</string>
     <string name = "vegetables_category">Gemüse</string>
     <string name = "animals_category">Tiere</string>
     <string name = "jobs_category">Arbeitsplätze</string>
     <string name = "transport_category">Transporte</string>
-    <string name = "weather_category">Wetter</string>
     <string name = "household_category">Haus</string>
 </resources>

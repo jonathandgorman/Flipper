@@ -1,8 +1,34 @@
+spain;numbers;one;one;one;
+spain;alphabet;letter-a;A;letter_a;
+spain;alphabet;letter-b;B;letter_b;
+spain;alphabet;letter-c;C;letter_c;
+spain;alphabet;letter-d;D;letter_d;
+spain;alphabet;letter-e;E;letter_e;
+spain;alphabet;letter-f;F;letter_f;
+spain;alphabet;letter-g;G;letter_g;
+spain;alphabet;letter-h;H;letter_h;
+spain;alphabet;letter-i;I;letter_i;
+spain;alphabet;letter-j;J;letter_j;
+spain;alphabet;letter-k;K;letter_k;
+spain;alphabet;letter-l;L;letter_l;
+spain;alphabet;letter-m;M;letter_m;
+spain;alphabet;letter-n;N;letter_n;
+spain;alphabet;letter-o;O;letter_o;
+spain;alphabet;letter-p;P;letter_p;
+spain;alphabet;letter-q;Q;letter_q;
+spain;alphabet;letter-r;R;letter_r;
+spain;alphabet;letter-s;S;letter_s;
+spain;alphabet;letter-t;T;letter_t;
+spain;alphabet;letter-u;U;letter_u;
+spain;alphabet;letter-v;V;letter_v;
+spain;alphabet;letter-w;W;letter_w;
+spain;alphabet;letter-x;X;letter_x;
+spain;alphabet;letter-y;Y;letter_y;
+spain;alphabet;letter-z;Z;letter_z;
 spain;fruit;apple;la manzana;apple;
 spain;fruit;apricot;el albaricoque;apricot;
 spain;fruit;banana;el plátano;banana;
 spain;fruit;blueberry;el arándano;blueberry;
-spain;fruit;carambola;la carambola;carambola;
 spain;fruit;cherry;la cereza;cherry;
 spain;fruit;chestnut;la castaña;chestnut;
 spain;fruit;coconut;el coco;coconut;
@@ -19,7 +45,6 @@ spain;fruit;kumquat;el kumquat;kumquat;
 spain;fruit;lemon;el limón;lemon;
 spain;fruit;lime;la lima;lime;
 spain;fruit;mango;el mango;mango;
-spain;fruit;mangosteen;el mangostán;mangosteen;
 spain;fruit;melon;el melón;melon;
 spain;fruit;orange;la naranja;orange;
 spain;fruit;papaya;la papaya;papaya;
@@ -71,8 +96,6 @@ spain;vegetables;sweet_potato;la batata;sweet_potato
 spain;vegetables;tomato;el tomate;tomato
 spain;vegetables;turnip;el nabo;turnip
 spain;vegetables;white_garlic;el ajo blanco;white_garlic
-spain;animals;albatross;el albatros;albatross
-spain;animals;angler;el rape;angler
 spain;animals;anteater;el oso hormiguero;anteater
 spain;animals;baboon;el babuino;baboon
 spain;animals;bear;El oso;bear
@@ -87,7 +110,6 @@ spain;animals;cat;el gato;cat
 spain;animals;centipede;el ciempiés;centipede
 spain;animals;chameleon;El camaleon;chameleon
 spain;animals;chimpanzee;el chimpancé;chimpanzee
-spain;animals;colibri;el colibri;colibri
 spain;animals;crab;el cangrejo;crab
 spain;animals;crane;la grúa;crane
 spain;animals;crocodile;el cocodrilo;crocodile
@@ -99,7 +121,6 @@ spain;animals;duck;el pato;duck
 spain;animals;eagle;el águila;eagle
 spain;animals;elephant;el elefante;elephant
 spain;animals;fennec;el fennec;fennec
-spain;animals;flounder;la platija;flounder
 spain;animals;fly;la mosca;fly
 spain;animals;fox;el zorro;fox
 spain;animals;frog;la rana;frog
@@ -121,7 +142,6 @@ spain;animals;mink;el visón;mink
 spain;animals;mite;el ácaro;mite
 spain;animals;mole;el topo;mole
 spain;animals;moose;el alce;moose
-spain;animals;moray;la anguila moray;moray
 spain;animals;mosquito;El mosquito;mosquito
 spain;animals;moth;La polilla;moth
 spain;animals;mouse;el ratón;mouse
@@ -130,7 +150,6 @@ spain;animals;ostrich;el avestruz;ostrich
 spain;animals;owl;el búho;owl
 spain;animals;parrot;el loro;parrot
 spain;animals;penguin;el pingüino;penguin
-spain;animals;perch;la perca;perch
 spain;animals;pig;el cerdo;pig
 spain;animals;pigeon;la paloma;pigeon
 spain;animals;pike;el lucio;pike
@@ -151,7 +170,6 @@ spain;animals;silverfish;el pez plateado;silverfish
 spain;animals;skunk;la mofeta;skunk
 spain;animals;sloth;el perezoso;sloth
 spain;animals;snake;la serpiente;snake
-spain;animals;sparrow;el gorrion;sparrow
 spain;animals;spider;la araña;spider
 spain;animals;squid;el calamar;squid
 spain;animals;panda_bear;el panda;panda_bear
@@ -164,7 +182,6 @@ spain;animals;tuna;el atun;tuna
 spain;animals;turtle;la tortuga;turtle
 spain;animals;wasp;la avispa;wasp
 spain;animals;wolf;el lobo;wolf
-spain;animals;zander;el zander;zander
 spain;professions;artist;el artista;artist
 spain;professions;astronaut;el astronauta;astronaut
 spain;professions;athlete;el atleta;athlete
@@ -182,14 +199,11 @@ spain;professions;doctor;el doctor;doctor
 spain;professions;engineer;el ingeniero;engineer
 spain;professions;farmer;el granjero;farmer
 spain;professions;firefighter;el bombero;firefighter
-spain;professions;hacker;el pirata informático;hacker
 spain;professions;hunter;el cazador;hunter
 spain;professions;judge;el juez;judge
 spain;professions;lumberjack;el leñador;lumberjack
-spain;professions;mafia;la mafia;mafia
 spain;professions;maid;la sirvienta;maid
 spain;professions;mechanic;el mecánico;mechanic
-spain;professions;military_pilot;el piloto militar;military_pilot
 spain;professions;nun;la monja;nun
 spain;professions;nurse;la enfermera;nurse
 spain;professions;office_worker;el oficinista;office_worker
@@ -210,7 +224,6 @@ spain;professions;surgeon;el cirujano;surgeon
 spain;professions;taxi_driver;el taxista;taxi_driver
 spain;professions;teacher;el maestro;teacher
 spain;professions;telemarketer;el vendedor por teléfono;telemarketer
-spain;professions;thief;el ladrón;thief
 spain;professions;tour_guide;el guía turístico;tour_guide
 spain;professions;waiter;El camarero;waiter
 spain;professions;welder;el soldador;welder
@@ -251,27 +264,6 @@ spain;transport;tram;el tranvía;tram
 spain;transport;truck;el camión;truck
 spain;transport;van;la furgoneta;van
 spain;transport;yacht;el yate;yacht
-spain;weather;cloudy;nublado;cloudy
-spain;weather;cold;frío;cold
-spain;weather;flood;inundar;flood
-spain;weather;fog;niebla;fog
-spain;weather;hail;granizo;hail
-spain;weather;hot;caliente;hot
-spain;weather;humidity;humedad;humidity
-spain;weather;hurricane;huracán;hurricane
-spain;weather;lightning;relámpago;lightning
-spain;weather;moon;la luna;moon
-spain;weather;partially_cloudy;parcialmente nublado;partially_cloudy
-spain;weather;rain_shower;aguacero;rain_shower
-spain;weather;snow;nieve;snow
-spain;weather;snowflake;copo de nieve;snowflake
-spain;weather;star;la estrella;star
-spain;weather;storm;Tormentoso;storm
-spain;weather;sunny;soleado;sunny
-spain;weather;sunrise;el amanecer;sunrise
-spain;weather;sunset;el atardecer;sunset
-spain;weather;tornado;tornado;tornado
-spain;weather;warm;calentar;warm
 spain;household;air_conditioning;el aire acondicionado;air_conditioning
 spain;household;armchair;el sillón;armchair
 spain;household;bathtub;la bañera;bathtub

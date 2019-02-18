@@ -1,8 +1,34 @@
+italy;numbers;one;one;one;
+italy;alphabet;letter-a;A;letter_a;
+italy;alphabet;letter-b;B;letter_b;
+italy;alphabet;letter-c;C;letter_c;
+italy;alphabet;letter-d;D;letter_d;
+italy;alphabet;letter-e;E;letter_e;
+italy;alphabet;letter-f;F;letter_f;
+italy;alphabet;letter-g;G;letter_g;
+italy;alphabet;letter-h;H;letter_h;
+italy;alphabet;letter-i;I;letter_i;
+italy;alphabet;letter-j;J;letter_j;
+italy;alphabet;letter-k;K;letter_k;
+italy;alphabet;letter-l;L;letter_l;
+italy;alphabet;letter-m;M;letter_m;
+italy;alphabet;letter-n;N;letter_n;
+italy;alphabet;letter-o;O;letter_o;
+italy;alphabet;letter-p;P;letter_p;
+italy;alphabet;letter-q;Q;letter_q;
+italy;alphabet;letter-r;R;letter_r;
+italy;alphabet;letter-s;S;letter_s;
+italy;alphabet;letter-t;T;letter_t;
+italy;alphabet;letter-u;U;letter_u;
+italy;alphabet;letter-v;V;letter_v;
+italy;alphabet;letter-w;W;letter_w;
+italy;alphabet;letter-x;X;letter_x;
+italy;alphabet;letter-y;Y;letter_y;
+italy;alphabet;letter-z;Z;letter_z;
 italy;fruit;apple;la mela;apple
 italy;fruit;apricot;l'albicocca;apricot
 italy;fruit;banana;la banana;banana
 italy;fruit;blueberry;il mirtillo;blueberry
-italy;fruit;carambola;la carambola;carambola
 italy;fruit;cherry;la ciliegia;cherry
 italy;fruit;chestnut;la castagna;chestnut
 italy;fruit;coconut;la noce di cocco;coconut
@@ -19,7 +45,6 @@ italy;fruit;kumquat;il kumquat;kumquat
 italy;fruit;lemon;il limone;lemon
 italy;fruit;lime;la calce;lime
 italy;fruit;mango;il mango;mango
-italy;fruit;mangosteen;il mangostano;mangosteen
 italy;fruit;melon;il melone;melon
 italy;fruit;orange;l'arancia;orange
 italy;fruit;papaya;la papaia;papaya
@@ -71,8 +96,6 @@ italy;vegetables;sweet_potato;la patata dolce;sweet_potato
 italy;vegetables;tomato;il pomodoro;tomato
 italy;vegetables;turnip;la rapa;turnip
 italy;vegetables;white_garlic;l'aglio bianco;white_garlic
-italy;animals;albatross;l'albatro;albatross
-italy;animals;angler;la rana pescatrice;angler
 italy;animals;anteater;il formichiere;anteater
 italy;animals;baboon;il babbuino;baboon
 italy;animals;bear;l'orso;bear
@@ -87,7 +110,6 @@ italy;animals;cat;il gatto;cat
 italy;animals;centipede;il millepiedi;centipede
 italy;animals;chameleon;il camaleonte;chameleon
 italy;animals;chimpanzee;lo scimpanzé;chimpanzee
-italy;animals;colibri;il colibri;colibri
 italy;animals;crab;il granchio;crab
 italy;animals;crane;La gru;crane
 italy;animals;crocodile;il coccodrillo;crocodile
@@ -99,7 +121,6 @@ italy;animals;duck;l'anatra;duck
 italy;animals;eagle;l'Aquila;eagle
 italy;animals;elephant;l'elefante;elephant
 italy;animals;fennec;il fennec;fennec
-italy;animals;flounder;la passera;flounder
 italy;animals;fly;il volo;fly
 italy;animals;fox;la volpe;fox
 italy;animals;frog;la rana;frog
@@ -121,7 +142,6 @@ italy;animals;mink;il visone;mink
 italy;animals;mite;l'acaro;mite
 italy;animals;mole;la Talpa;mole
 italy;animals;moose;l'alce;moose
-italy;animals;moray;la murena;moray
 italy;animals;mosquito;la zanzara;mosquito
 italy;animals;moth;la falena;moth
 italy;animals;mouse;il topo;mouse
@@ -130,7 +150,6 @@ italy;animals;ostrich;lo struzzo;ostrich
 italy;animals;owl;il gufo;owl
 italy;animals;parrot;il pappagallo;parrot
 italy;animals;penguin;il pinguino;penguin
-italy;animals;perch;il pesce persico;perch
 italy;animals;pig;il maiale;pig
 italy;animals;pigeon;il piccione;pigeon
 italy;animals;pike;il luccio;pike
@@ -151,7 +170,6 @@ italy;animals;silverfish;il pesce argentato;silverfish
 italy;animals;skunk;la puzzola;skunk
 italy;animals;sloth;il pigrizia;sloth
 italy;animals;snake;il serpente;snake
-italy;animals;sparrow;il passero;sparrow
 italy;animals;spider;il ragno;spider
 italy;animals;squid;il calamaro;squid
 italy;animals;panda_bear;il panda;panda_bear
@@ -164,7 +182,6 @@ italy;animals;tuna;il tonno;tuna
 italy;animals;turtle;la tartaruga;turtle
 italy;animals;wasp;la vespa;wasp
 italy;animals;wolf;il lupo;wolf
-italy;animals;zander;il lucioperca;zander
 italy;professions;artist;l'artista;artist
 italy;professions;astronaut;l'astronauta;astronaut
 italy;professions;athlete;l'atleta;athlete
@@ -182,14 +199,11 @@ italy;professions;doctor;il dottore;doctor
 italy;professions;engineer;l'ingegnere;engineer
 italy;professions;farmer;il contadino;farmer
 italy;professions;firefighter;il vigile del fuoco;firefighter
-italy;professions;hacker;l'hacker;hacker
 italy;professions;hunter;il cacciatore;hunter
 italy;professions;judge;il giudice;judge
 italy;professions;lumberjack;il boscaiolo;lumberjack
-italy;professions;mafia;la mafia;mafia
 italy;professions;maid;la domestica;maid
 italy;professions;mechanic;il meccanico;mechanic
-italy;professions;military_pilot;il pilota militare;military_pilot
 italy;professions;nun;la suora;nun
 italy;professions;nurse;l'infermiera;nurse
 italy;professions;office_worker;l'impiegato;office_worker
@@ -210,7 +224,6 @@ italy;professions;surgeon;il chirurgo;surgeon
 italy;professions;taxi_driver;il tassista;taxi_driver
 italy;professions;teacher;l'insegnante;teacher
 italy;professions;telemarketer;il telemarketer;telemarketer
-italy;professions;thief;il ladro;thief
 italy;professions;tour_guide;la guida turistica;tour_guide
 italy;professions;waiter;il cameriere;waiter
 italy;professions;welder;il saldatore;welder
@@ -251,27 +264,6 @@ italy;transport;tram;il tram;tram
 italy;transport;truck;il camion;truck
 italy;transport;van;il furgone;van
 italy;transport;yacht;lo yacht;yacht
-italy;weather;cloudy;nuvoloso;cloudy
-italy;weather;cold;freddo;cold
-italy;weather;flood;alluvione;flood
-italy;weather;fog;nebbia;fog
-italy;weather;hail;grandinare;hail
-italy;weather;hot;caldo;hot
-italy;weather;humidity;umidità;humidity
-italy;weather;hurricane;uragano;hurricane
-italy;weather;lightning;fulmine;lightning
-italy;weather;moon;la luna;moon
-italy;weather;partially_cloudy;parzialmente nuvoloso;partially_cloudy
-italy;weather;rain_shower;doccia a pioggia;rain_shower
-italy;weather;snow;la neve;snow
-italy;weather;snowflake;fiocco di neve;snowflake
-italy;weather;star;la stella;star
-italy;weather;storm;tempestoso;storm
-italy;weather;sunny;soleggiato;sunny
-italy;weather;sunrise;l'alba;sunrise
-italy;weather;sunset;il tramonto;sunset
-italy;weather;tornado;tornado;tornado
-italy;weather;warm;caldo;warm
 italy;household;air_conditioning;l'aria condizionata;air_conditioning
 italy;household;armchair;la poltrona;armchair
 italy;household;bathtub;la vasca da bagno;bathtub

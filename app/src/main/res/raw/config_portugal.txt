@@ -1,8 +1,33 @@
+united_kingdom;alphabet;letter-a;A;letter_a;
+united_kingdom;alphabet;letter-b;B;letter_b;
+united_kingdom;alphabet;letter-c;C;letter_c;
+united_kingdom;alphabet;letter-d;D;letter_d;
+united_kingdom;alphabet;letter-e;E;letter_e;
+united_kingdom;alphabet;letter-f;F;letter_f;
+united_kingdom;alphabet;letter-g;G;letter_g;
+united_kingdom;alphabet;letter-h;H;letter_h;
+united_kingdom;alphabet;letter-i;I;letter_i;
+united_kingdom;alphabet;letter-j;J;letter_j;
+united_kingdom;alphabet;letter-k;K;letter_k;
+united_kingdom;alphabet;letter-l;L;letter_l;
+united_kingdom;alphabet;letter-m;M;letter_m;
+united_kingdom;alphabet;letter-n;N;letter_n;
+united_kingdom;alphabet;letter-o;O;letter_o;
+united_kingdom;alphabet;letter-p;P;letter_p;
+united_kingdom;alphabet;letter-q;Q;letter_q;
+united_kingdom;alphabet;letter-r;R;letter_r;
+united_kingdom;alphabet;letter-s;S;letter_s;
+united_kingdom;alphabet;letter-t;T;letter_t;
+united_kingdom;alphabet;letter-u;U;letter_u;
+united_kingdom;alphabet;letter-v;V;letter_v;
+united_kingdom;alphabet;letter-w;W;letter_w;
+united_kingdom;alphabet;letter-x;X;letter_x;
+united_kingdom;alphabet;letter-y;Y;letter_y;
+united_kingdom;alphabet;letter-z;Z;letter_z;
 portugal;fruit;apple;a maçã;apple
 portugal;fruit;apricot;o damasco;apricot
 portugal;fruit;banana;a banana;banana
 portugal;fruit;blueberry;o mirtilo;blueberry
-portugal;fruit;carambola;a carambola;carambola
 portugal;fruit;cherry;a cereja;cherry
 portugal;fruit;chestnut;a castanha;chestnut
 portugal;fruit;coconut;o coco;coconut
@@ -19,7 +44,6 @@ portugal;fruit;kumquat;o kumquat;kumquat
 portugal;fruit;lemon;o limão;lemon
 portugal;fruit;lime;o limão;lime
 portugal;fruit;mango;a manga;mango
-portugal;fruit;mangosteen;o mangostão;mangosteen
 portugal;fruit;melon;o melão;melon
 portugal;fruit;orange;a laranja;orange
 portugal;fruit;papaya;o mamão;papaya
@@ -71,8 +95,6 @@ portugal;vegetables;sweet_potato;a batata doce;sweet_potato
 portugal;vegetables;tomato;o tomate;tomato
 portugal;vegetables;turnip;o nabo;turnip
 portugal;vegetables;white_garlic;o alho branco;white_garlic
-portugal;animals;albatross;o albatroz;albatross
-portugal;animals;angler;o tamboril;angler
 portugal;animals;anteater;o tamanduá;anteater
 portugal;animals;baboon;o babuíno;baboon
 portugal;animals;bear;o urso;bear
@@ -87,7 +109,6 @@ portugal;animals;cat;o gato;cat
 portugal;animals;centipede;a centopeia;centipede
 portugal;animals;chameleon;o camaleão;chameleon
 portugal;animals;chimpanzee;o chimpanzé;chimpanzee
-portugal;animals;colibri;o colibri;colibri
 portugal;animals;crab;o caranguejo;crab
 portugal;animals;crane;o guindaste;crane
 portugal;animals;crocodile;o crocodilo;crocodile
@@ -99,7 +120,6 @@ portugal;animals;duck;o pato;duck
 portugal;animals;eagle;a águia;eagle
 portugal;animals;elephant;o elefante;elephant
 portugal;animals;fennec;o fennec;fennec
-portugal;animals;flounder;o linguado;flounder
 portugal;animals;fly;o voo;fly
 portugal;animals;fox;a Raposa;fox
 portugal;animals;frog;o sapo;frog
@@ -121,7 +141,6 @@ portugal;animals;mink;o vison;mink
 portugal;animals;mite;o ácaro;mite
 portugal;animals;mole;a toupeira;mole
 portugal;animals;moose;o alce;moose
-portugal;animals;moray;a moreia;moray
 portugal;animals;mosquito;o mosquito;mosquito
 portugal;animals;moth;a mariposa;moth
 portugal;animals;mouse;o rato;mouse
@@ -130,7 +149,6 @@ portugal;animals;ostrich;o avestruz;ostrich
 portugal;animals;owl;a coruja;owl
 portugal;animals;parrot;o papagaio;parrot
 portugal;animals;penguin;o pinguim;penguin
-portugal;animals;perch;o poleiro;perch
 portugal;animals;pig;o porco;pig
 portugal;animals;pigeon;o pombo;pigeon
 portugal;animals;pike;o lúcio;pike
@@ -151,7 +169,6 @@ portugal;animals;silverfish;o peixe prateado;silverfish
 portugal;animals;skunk;o gambá;skunk
 portugal;animals;sloth;a preguiça;sloth
 portugal;animals;snake;a cobra;snake
-portugal;animals;sparrow;o pardal;sparrow
 portugal;animals;spider;a aranha;spider
 portugal;animals;squid;a lula;squid
 portugal;animals;panda_bear;o panda;panda_bear
@@ -164,7 +181,6 @@ portugal;animals;tuna;o atum;tuna
 portugal;animals;turtle;a tartaruga;turtle
 portugal;animals;wasp;a vespa;wasp
 portugal;animals;wolf;o lobo;wolf
-portugal;animals;zander;o zander;zander
 portugal;professions;artist;o artista;artist
 portugal;professions;astronaut;o astronauta;astronaut
 portugal;professions;athlete;o atleta;athlete
@@ -182,14 +198,11 @@ portugal;professions;doctor;o médico;doctor
 portugal;professions;engineer;o engenheiro;engineer
 portugal;professions;farmer;o fazendeiro;farmer
 portugal;professions;firefighter;o bombeiro;firefighter
-portugal;professions;hacker;o hacker;hacker
 portugal;professions;hunter;o caçador;hunter
 portugal;professions;judge;o juiz;judge
 portugal;professions;lumberjack;o lenhador;lumberjack
-portugal;professions;mafia;a máfia;mafia
 portugal;professions;maid;a empregada;maid
 portugal;professions;mechanic;o mecânico;mechanic
-portugal;professions;military_pilot;o piloto militar;military_pilot
 portugal;professions;nun;a freira;nun
 portugal;professions;nurse;a enfermeira;nurse
 portugal;professions;office_worker;o trabalhador de escritório;office_worker
@@ -210,7 +223,6 @@ portugal;professions;surgeon;o cirurgião;surgeon
 portugal;professions;taxi_driver;o motorista de taxi;taxi_driver
 portugal;professions;teacher;o professor;teacher
 portugal;professions;telemarketer;o operador de telemarketing;telemarketer
-portugal;professions;thief;o ladrão;thief
 portugal;professions;tour_guide;o guia turístico;tour_guide
 portugal;professions;waiter;o garçom;waiter
 portugal;professions;welder;o soldador;welder
@@ -251,27 +263,6 @@ portugal;transport;tram;o bonde;tram
 portugal;transport;truck;o camião;truck
 portugal;transport;van;a van;van
 portugal;transport;yacht;o iate;yacht
-portugal;weather;cloudy;nublado;cloudy
-portugal;weather;cold;frio;cold
-portugal;weather;flood;inundar;flood
-portugal;weather;fog;névoa;fog
-portugal;weather;hail;saudar;hail
-portugal;weather;hot;quente;hot
-portugal;weather;humidity;umidade;humidity
-portugal;weather;hurricane;furacão;hurricane
-portugal;weather;lightning;relâmpago;lightning
-portugal;weather;moon;a lua;moon
-portugal;weather;partially_cloudy;parcialmente nublado;partially_cloudy
-portugal;weather;rain_shower;banho de chuva;rain_shower
-portugal;weather;snow;neve;snow
-portugal;weather;snowflake;floco de neve;snowflake
-portugal;weather;star;a estrela;star
-portugal;weather;storm;tormentoso;storm
-portugal;weather;sunny;ensolarado;sunny
-portugal;weather;sunrise;o nascer do sol;sunrise
-portugal;weather;sunset;o pôr do sol;sunset
-portugal;weather;tornado;tornado;tornado
-portugal;weather;warm;caloroso;warm
 portugal;household;air_conditioning;o ar condicionado;air_conditioning
 portugal;household;armchair;a poltrona;armchair
 portugal;household;bathtub;a banheira;bathtub
