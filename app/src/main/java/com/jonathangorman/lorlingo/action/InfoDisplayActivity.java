@@ -1,8 +1,10 @@
 package com.jonathangorman.lorlingo.action;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
+import android.text.Html;
 import android.widget.TextView;
 
 import com.jonathangorman.lorlingo.R;
@@ -28,10 +30,19 @@ public class InfoDisplayActivity extends Activity {
         switch (infoType)
         {
             case "about":
-                infoTextView.setText(getString(R.string.about_text));
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    infoTextView.setText(Html.fromHtml(getString(R.string.about_text), Html.FROM_HTML_MODE_COMPACT));
+                } else {
+                    infoTextView.setText(Html.fromHtml(getString(R.string.about_text)));
+                }
                 break;
             case "faq":
-                infoTextView.setText(getString(R.string.faq_text));
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    infoTextView.setText(Html.fromHtml(getString(R.string.faq_text), Html.FROM_HTML_MODE_COMPACT));
+                } else {
+                    infoTextView.setText(Html.fromHtml(getString(R.string.faq_text)));
+                }
                 break;
             case "credit":
                 infoTextView.setText(getString(R.string.credit_text));

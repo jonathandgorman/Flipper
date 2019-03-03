@@ -19,8 +19,7 @@
         <activity android:name="com.jonathangorman.lorlingo.primary.CardScreenActivity" />
         <activity android:name="com.jonathangorman.lorlingo.primary.CategoryChoiceActivity" />
         <activity
-            android:name="com.jonathangorman.lorlingo.action.InfoDisplayActivity"
-            android:label="@string/title_activity_about_activity"></activity>
+            android:name="com.jonathangorman.lorlingo.action.InfoDisplayActivity"></activity>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-2251083820126124~2763503135"/>

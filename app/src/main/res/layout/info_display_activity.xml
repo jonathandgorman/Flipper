@@ -25,7 +25,8 @@
             android:layout_height="wrap_content"
             android:text="@string/about_text"
             android:textAllCaps="false"
-            android:textSize="24sp" />
+            android:textSize="20sp"
+            android:autoLink="all"/>
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

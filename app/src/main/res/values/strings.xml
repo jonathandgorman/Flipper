@@ -1,11 +1,6 @@
 <resources>
-
     // app wide
     <string name="app_name" translatable="false">Lorolingo</string>
-    <string name="title_activity_language_choice" translatable="false">Choose a language</string>
-    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
-    <string name="title_activity_about_activity" translatable="false">About</string>
 
     // languages
     <string name="english_language">English</string>
@@ -27,15 +22,89 @@
 
     // settings
     <string name="about_text" translatable="false">
-        <b>Welcome to Lorolingo!</b>
-        \n\nLorolingo is a language learning app created for kids by me, Jonathan.
-        \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <![CDATA[
+            <p>Welcome to Lorolingo! 🌍</p>
+            <br/>
+            <p>Lorolingo is a language learning app designed to help children learn vocubulary in a foreign language.
+            The app uses children\'s natural ability to hear and distinguish the sounds of foreigns languages by linking
+            them with everyday objects.</p>
+            <br/>
+            <p>Lorolingo was originally designed with parents bringing up a child in a foreign country in mind,
+            but it is equally useful for bilingual parents or parents who wish to give their child a head-start in a foreign language.</p>
+            <br/>
+            <p>Lorolingo is free to use, ad-free and always will be. However, if you would like to support additional features or help me
+            with on-going maintenance you can:
+            </p><br/>
+
+            - watch a short advertisement by clicking the in-app ❤️ icon.
+            <br/>
+            - buy me a coffee right 👉 &lt;a href=\"https://www.buymeacoffee.com/jonathancoffee\">here&lt;/a>.
+            <br/><br/>
+            Happy learning!
+            <br/>
+            Jonathan
+         ]]>
     </string>
-    <string name="faq_text" translatable="false">These are the very FAQs!</string>
-    <string name="coffee_text" translatable="false">Building and maintaining an app is tough, but you can help me to buy a coffee by watching a short advertisement!</string>
-    <string name="credit_text" translatable="false">Very much credit to the artists!</string>
+
+    <string name="faq_text" translatable="false">
+        <![CDATA[
+            <h6>What is Lorolingo?</h6>
+            <p>
+            Lorolingo is a language learning app designed to help children learn vocubulary in a foreign language.
+            The app uses children\'s natural ability to hear and distinguish the sounds of foreigns languages by linking
+            them with everyday objects
+            </p>
+            <br/>
+            <h6>How can my child use Lorolingo?</h6>
+            <p>
+            Lorolingo can be used in two ways:
+            <br/>
+            1) by passing the device to your child, having first selected a language, and allowing them to play and choose images independently.
+            <br/>
+            2) By selecting a language and interacting with your child. Ask them questions in the target language like \"donde esta la mariposa\"
+            and have them select the butterfly icon, for example.
+            </p>
+            <br/>
+            <h6>Why is the app free?</h6>
+            <p>
+            Lorolingo started as a side-project of mine with the aim of improving my Android development skills and filling a gap that
+            currently exists in the Android app market - that is, good quality learning resources for parents trying to teach their children a foreign language.
+            </p>
+            <br/>
+            <h6>How can I contribute and support the app?</h6>
+            <p>
+            The app can be supported by pressing the in-app ❤️ icon and watching a short adevertisment, or by buying the me a coffee
+            👉 &lt;a href=\"https://www.buymeacoffee.com/jonathancoffee\">here&lt;/a>.
+            </p>
+            <br/>
+            <h6>I have a feature request, how can I let you know?</h6>
+            <p>
+            Features such new categories, general improvements, etc., can be communciated by sending an email to:
+            hellolorolingo@gmail.com
+            </p>
+            <br/>
+            <h6>There\'s a problem with the app, how can I let you know?</h6>
+            <p>
+            All problems such as translation problems, in-app issues, etc. can be communciated by sending an email to:
+            hellolorolingo@gmail.com
+            </p>
+            <br/>
+         ]]>
+    </string>
+
+    <string name="coffee_text" translatable="false">
+        Building and maintaining an app is tough,
+        but you can help keep me energized with coffee
+        by watching a short advertisement!
+    </string>
+
+    <string name="credit_text" translatable="false">
+
+    </string>
 
     // other misc
-    <string name = "error_text" translatable="false">oops, there\'s been an error!</string>
+    <string name = "error_text" translatable="false">
+        oops, there\'s been an error!
+    </string>
 
 </resources>
