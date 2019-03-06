@@ -38,7 +38,7 @@
 
             - watch a short advertisement by clicking the in-app ❤️ icon.
             <br/>
-            - buy me a coffee right 👉 &lt;a href=\"https://www.buymeacoffee.com/jonathancoffee\">here&lt;/a>.
+            - buy me a coffee by clicking right here 👉 buymeacoff.ee/jonathancoffee
             <br/><br/>
             Happy learning!
             <br/>
@@ -99,7 +99,19 @@
     </string>
 
     <string name="credit_text" translatable="false">
-
+        <![CDATA[
+            <h6>Image credit</h6>
+            <br/>
+            <p>Country flag icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+            <p>Number icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+            <p>Alphabet icons made by Twitter from www.flaticon.com and distributed under CC 3.0 BY</p><br/>
+            <p>Fruit icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+            <p>Vegetables icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+            <p>Animal icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+            <p>Job icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+            <p>Transport icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+            <p>Household icons made by Freepik from www.flaticon.com and distributed under the Flaticon Basic Licence</p><br/>
+         ]]>
     </string>
 
     // other misc

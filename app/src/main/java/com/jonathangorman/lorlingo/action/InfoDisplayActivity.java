@@ -5,6 +5,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
 import com.jonathangorman.lorlingo.R;
@@ -31,6 +32,7 @@ public class InfoDisplayActivity extends Activity {
         {
             case "about":
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    infoTextView.setMovementMethod(LinkMovementMethod.getInstance());
                     infoTextView.setText(Html.fromHtml(getString(R.string.about_text), Html.FROM_HTML_MODE_COMPACT));
                 } else {
                     infoTextView.setText(Html.fromHtml(getString(R.string.about_text)));
@@ -45,8 +47,13 @@ public class InfoDisplayActivity extends Activity {
                 }
                 break;
             case "credit":
-                infoTextView.setText(getString(R.string.credit_text));
-                break;
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    infoTextView.setText(Html.fromHtml(getString(R.string.credit_text), Html.FROM_HTML_MODE_COMPACT));
+                } else {
+                    infoTextView.setText(Html.fromHtml(getString(R.string.credit_text)));
+                }
+               break;
             case "coffee":
                 infoTextView.setText(getString(R.string.coffee_text));
                 break;
