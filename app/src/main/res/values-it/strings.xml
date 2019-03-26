@@ -16,4 +16,104 @@
     <string name = "jobs_category">Lavoro</string>
     <string name = "transport_category">Transporti</string>
     <string name = "household_category">Casa</string>
+
+    // settings
+    <string name="about_text">
+        <![CDATA[
+           <p> Benvenuti a Lorolingo! 🌍 </ p>
+            <br/>
+            <p> Lorolingo è un\'app per l\'apprendimento delle lingue progettata per aiutare i bambini a imparare il vocabolario in una lingua straniera.
+            L\'app utilizza la naturale capacità dei bambini di ascoltare e distinguere i suoni delle lingue straniere tramite il collegamento
+            con oggetti di uso quotidiano. </ p>
+            <br/>
+            <p> Lorolingo è stato originariamente progettato con genitori che allevavano un bambino in un paese straniero in mente,
+            ma è ugualmente utile per genitori o genitori bilingui che desiderano dare il loro bambino un vantaggio in una lingua straniera. </ p>
+            <br/>
+            <p> Lorolingo è gratuito da usare, senza pubblicità e lo sarà sempre. Tuttavia, se desideri supportare funzionalità aggiuntive o aiutarmi
+            con la manutenzione continua puoi:
+            </p> <br/>
+
+            - guarda un breve annuncio facendo clic sull\'icona in-app ❤️.
+            <br/>
+            - Comprami un caffè cliccando qui 👉 buymeacoff.ee/jonathancoffee
+            <br/>
+            Buon apprendimento!
+            <br/>
+            Jonathan
+         ]]>
+    </string>
+
+    <string name = "faq_text">
+        <![CDATA[
+            <h6> Che cos\'è Lorolingo? </h6>
+            <p>
+            Lorolingo è un\'app per l\'apprendimento delle lingue progettata per aiutare i bambini a imparare il vocabolario in una lingua straniera.
+            L\'app utilizza la naturale capacità dei bambini di ascoltare e distinguere i suoni delle lingue straniere tramite il collegamento
+            loro con oggetti di uso quotidiano
+            </p>
+            <br/>
+            <h6> In che modo mio figlio può usare Lorolingo? </ h6>
+            <p>
+            Lorolingo può essere utilizzato in due modi:
+            <br/>
+            1) passando il dispositivo a tuo figlio, avendo prima selezionato una lingua e permettendo loro di suonare e scegliere le immagini in modo indipendente.
+            <br/>
+            2) Selezionando una lingua e interagendo con il tuo bambino. Fai domande a loro nella lingua di destinazione come \ "donde esta la mariposa \"
+            e chiedi loro di selezionare l\'icona della farfalla, per esempio.
+            </p>
+            <br/>
+            <h6> Perché l\'app è gratuita? </ h6>
+            <p>
+            Lorolingo è nato come mio side-project con l\'obiettivo di migliorare le mie capacità di sviluppo Android e colmare una lacuna
+            attualmente esiste nel mercato delle app Android, ovvero risorse di apprendimento di buona qualità per i genitori che cercano di insegnare ai loro figli una lingua straniera.
+            </p>
+            <br/>
+            <h6> Come posso contribuire e supportare l\'app? </ h6>
+            <p>
+            L\'app può essere supportata premendo l\'icona in-app and e guardando un breve annuncio o acquistando un caffè
+            👉 & lt; a href = \ "https: //www.buymeacoffee.com/jonathancoffee \"> qui & lt; / a>.
+            </p>
+            <br/>
+            <h6> Ho una richiesta di funzione, come posso farti sapere? </ h6>
+            <p>
+            Caratteristiche quali nuove categorie, miglioramenti generali, ecc. Possono essere comunicati inviando un\'e-mail a:
+            hellolorolingo@gmail.com
+            </p>
+            <br/>
+            <h6> C\'è un problema con l\'app, come posso farti sapere? </ h6>
+            <p>
+            Tutti i problemi come problemi di traduzione, problemi in-app, ecc. Possono essere comunicati inviando una e-mail a:
+            hellolorolingo@gmail.com
+            </p>
+            <br/>
+         ]]>
+    </string>
+
+    <string name = "coffee_text">
+        Costruire e mantenere un\'app è difficile,
+        ma puoi aiutarmi a mantenermi pieno di energia con il caffè
+        guardando un breve annuncio!
+    </string>
+
+    <string name = "credit_text">
+        <![CDATA[
+            <h6> Credito immagine </ h6>
+            <br/>
+            <p> Icone della bandiera del paese create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br/>
+            <p> Icone numeriche create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br/>
+            <p> Icone alfabetiche create da Twitter da www.flaticon.com e distribuite sotto CC 3.0 BY </ p> <br/>
+            <p> Icone di frutta create da Freepik da www.flaticon.com e distribuite sotto la licenza di base di Flaticon </ p> <br/>
+            <p> Icone di verdure create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br/>
+            <p> Icone animali realizzate da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br/>
+            <p> Icone di lavoro create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br/>
+            <p> Icone di trasporto realizzate da Freepik da www.flaticon.com e distribuite sotto la licenza di base di Flaticon </ p> <br/>
+            <p> Icone domestiche realizzate da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br/>
+         ]]>
+    </string>
+
+    // altro misc
+    <string name = "error_text">
+        oops, c\'è stato un errore!
+    </string>
+
 </resources>

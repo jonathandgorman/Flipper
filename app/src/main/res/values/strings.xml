@@ -21,7 +21,7 @@
     <string name="household_category">Household</string>
 
     // settings
-    <string name="about_text" translatable="false">
+    <string name="about_text">
         <![CDATA[
             <p>Welcome to Lorolingo! 🌍</p>
             <br/>
@@ -46,7 +46,7 @@
          ]]>
     </string>
 
-    <string name="faq_text" translatable="false">
+    <string name="faq_text">
         <![CDATA[
             <h6>What is Lorolingo?</h6>
             <p>
@@ -92,13 +92,13 @@
          ]]>
     </string>
 
-    <string name="coffee_text" translatable="false">
+    <string name="coffee_text">
         Building and maintaining an app is tough,
         but you can help keep me energized with coffee
         by watching a short advertisement!
     </string>
 
-    <string name="credit_text" translatable="false">
+    <string name="credit_text">
         <![CDATA[
             <h6>Image credit</h6>
             <br/>
@@ -115,7 +115,7 @@
     </string>
 
     // other misc
-    <string name = "error_text" translatable="false">
+    <string name = "error_text">
         oops, there\'s been an error!
     </string>
 
