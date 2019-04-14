@@ -119,4 +119,12 @@
         oops, there\'s been an error!
     </string>
 
+    <string name = "video_ad_finish_message">
+    Thanks for your support! :)
+    </string>
+
+    <string name = "video_ad_left_ad_message">
+    You left the app before watching the ad :(
+    </string>
+
 </resources>

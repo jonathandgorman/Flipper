@@ -116,4 +116,12 @@
         oops, c\'è stato un errore!
     </string>
 
+    <string name = "video_ad_finish_message">
+    Grazie per il vostro sostegno! :)
+    </string>
+
+    <string name = "video_ad_left_ad_message">
+    Hai lasciato l\'app prima di guardare l\'annuncio :(
+    </string>
+
 </resources>

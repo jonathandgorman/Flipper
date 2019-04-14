@@ -125,17 +125,16 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
                 new AdRequest.Builder().build());
     }
 
-    //TODO add strings to strings.xml for each language
     // Called when the ad has finished and is closed
     @Override
     public void onRewardedVideoAdClosed() {
-        Toast.makeText(this, "Thanks for your support! :)", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.video_ad_finish_message), Toast.LENGTH_SHORT).show();
         loadRewardedVideoAd(); // reload another add once finished
     }
     // Called when the app is left before the ad has finished
     @Override
     public void onRewardedVideoAdLeftApplication() {
-        Toast.makeText(this, "You left the app before watching the ad :(", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getString(R.string.video_ad_left_ad_message), Toast.LENGTH_SHORT).show();
         loadRewardedVideoAd(); // reload another add once finished
     }
 

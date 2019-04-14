@@ -117,4 +117,14 @@
         oops, es ist ein Fehler aufgetreten!
     </string>
 
+
+    <string name = "video_ad_finish_message">
+    Danke für deine Unterstützung! :)
+    </string>
+
+    <string name = "video_ad_left_ad_message">
+    Sie haben die App verlassen, bevor Sie die Anzeige angesehen haben :(
+    </string>
+
+
 </resources>

@@ -115,4 +115,13 @@
     <string name = "error_text">
         Vaya, ha habido un error!
     </string>
+
+    <string name = "video_ad_finish_message">
+    ¡Gracias por el apoyo! :)
+    </string>
+
+    <string name = "video_ad_left_ad_message">
+    Has dejado la aplicación antes de ver el anuncio :(
+    </string>
+
     </resources>
