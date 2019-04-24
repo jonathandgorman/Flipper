@@ -8,29 +8,29 @@
     tools:layout_editor_absoluteY="73dp">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/languageTitleTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
         android:background="@color/gainsboro"
         android:padding="8dp"
-        android:text="Choose a language to learn"
+        android:text="@string/language_instruction_title"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/language_recycle_view"
+        app:layout_constraintBottom_toTopOf="@+id/language_recycler_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/language_recycle_view"
+        android:id="@+id/language_recycler_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5">
+        app:layout_constraintTop_toBottomOf="@+id/languageTitleTextView">
 
     </android.support.v7.widget.RecyclerView>
 

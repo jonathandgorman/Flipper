@@ -1,4 +1,9 @@
 <resources>
+
+    // instrucciones de elección de actividad
+    <string name = "language_instruction_title"> Elige un idioma para aprender </string>
+    <string name = "category_instruction_title"> Elige una categoría para mejorar </string>
+
     // languages
     <string name="english_language">Inglés</string>
     <string name="spanish_language">Español</string>
@@ -22,9 +27,9 @@
         <![CDATA[
             <p> ¡Bienvenido a Lorolingo! 🌍 </p>
             <br/>
-            <p> Lorolingo es una aplicación de aprendizaje de idiomas diseñada para ayudar a los niños a aprender vocubulary en un idioma extranjero.
+            <p> Lorolingo es una aplicación de aprendizaje de idiomas diseñada para ayudar a los niños a aprender vocubulario en un idioma extranjero.
                 La aplicación utiliza la capacidad natural de los niños para escuchar y distinguir los sonidos de idiomas extranjeros mediante la vinculación
-                Con objetos cotidianos. </p>
+                con objetos cotidianos. </p>
             <br/>
             <p> Lorolingo fue diseñado originalmente con padres que crían a un niño en un país extranjero en mente,
                 pero es igualmente útil para los padres bilingües o para los padres que desean darle a sus hijos una ventaja en un idioma extranjero. </p>
@@ -113,15 +118,15 @@
 
     // otros misc
     <string name = "error_text">
-        Vaya, ha habido un error!
+        ¡Vaya, ha habido un error!
     </string>
 
     <string name = "video_ad_finish_message">
-    ¡Gracias por el apoyo! :)
+     ¡Gracias por el apoyo! :)
     </string>
 
     <string name = "video_ad_left_ad_message">
-    Has dejado la aplicación antes de ver el anuncio :(
+        Has dejado la aplicación antes de ver el anuncio :(
     </string>
 
     </resources>

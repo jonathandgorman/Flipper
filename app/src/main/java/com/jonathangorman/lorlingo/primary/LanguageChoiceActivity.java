@@ -51,7 +51,7 @@ public class LanguageChoiceActivity extends BaseActivity  {
         //TODO check what languages are available, and disable those that are not
 
         // Initialise and create recycler view and adapter to show the language choices
-        RecyclerView recyclerView = findViewById(R.id.language_recycle_view);
+        RecyclerView recyclerView = findViewById(R.id.language_recycler_view);
         LanguageChoiceAdapter adapter = new LanguageChoiceAdapter(this, this.languagesImagesList, this.languageDisplayTextList, this.languageNameList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

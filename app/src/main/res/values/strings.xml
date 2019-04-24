@@ -2,6 +2,10 @@
     // app wide
     <string name="app_name" translatable="false">Lorolingo</string>
 
+    // activity choice instructions
+    <string name="language_instruction_title">Choose a language to learn</string>
+    <string name="category_instruction_title">Choose a category to improve</string>
+
     // languages
     <string name="english_language">English</string>
     <string name="spanish_language">Spanish</string>
@@ -11,6 +15,7 @@
     <string name="italian_language">Italian</string>
 
     // categories
+
     <string name="numbers_category">Numbers</string>
     <string name="alphabet_category">Alphabet</string>
     <string name="fruit_category">Fruit</string>

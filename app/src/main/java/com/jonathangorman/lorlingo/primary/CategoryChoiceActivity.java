@@ -39,7 +39,7 @@ public class CategoryChoiceActivity extends BaseActivity {
         super.onStart();
 
         // Initialise and create recycler view and adapter to show the category choices
-        RecyclerView recyclerView = findViewById(R.id.recyclerView1);
+        RecyclerView recyclerView = findViewById(R.id.categoryRecyclerView);
         CategoryChoiceAdapter adapter = new CategoryChoiceAdapter(this, this.languageChosen, this.recyclerNameList, this.recyclerTextList, this.recyclerImagesList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

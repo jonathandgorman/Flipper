@@ -1,11 +1,16 @@
 <resources>
+
+    // Anweisungen zur Auswahl der Aktivität
+    <string name = "language_instruction_title"> Wählen Sie eine zu lernende Sprache aus </string>
+    <string name = "category_instruction_title"> Wählen Sie eine zu verbessernde Kategorie aus </string>
+
     // sprachen
     <string name = "english_language">Englisch</string>
     <string name = "spanish_language">Spanisch</string>
     <string name = "french_language">Französisch</string>
     <string name = "german_language">Deutsch</string>
     <string name = "portuguese_language">Portugiesisch</string>
-    <string name = "italian_language">Italienisch </string>
+    <string name = "italian_language">Italienisch</string>
 
     // Kategorien
     <string name="numbers_category">Zahlen</string>

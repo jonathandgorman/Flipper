@@ -1,4 +1,9 @@
 <resources>
+
+    // instructions de choix d'activité
+    <string name = "language_instruction_title"> Choisissez une langue pour apprendre </string>
+    <string name = "category_instruction_title"> Choisissez une catégorie à améliorer </string>
+
     // languages
     <string name = "english_language">Anglais</string>
     <string name = "spanish_language">Espagnol</string>
