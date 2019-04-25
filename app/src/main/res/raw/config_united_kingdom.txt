@@ -128,7 +128,7 @@ united_kingdom;animals;cat;the cat;cat;
 united_kingdom;animals;centipede;the centipede;centipede;
 united_kingdom;animals;chameleon;the chameleon;chameleon;
 united_kingdom;animals;chimpanzee;the chimpanzee;chimpanzee;
-united_kingdom;animals;crab;the crabe;crab								 
+united_kingdom;animals;crab;the crab;crab
 united_kingdom;animals;crane;the crane;crane;
 united_kingdom;animals;crocodile;the crocodile;crocodile;
 united_kingdom;animals;deer;the deer;deer;

@@ -31,11 +31,12 @@ public class LanguageChoiceActivity extends BaseActivity  {
     protected void onCreate(Bundle savedInstanceState) {
 
         Log.i(TAG, "ACTIVITY CREATE: Creating LanguageChoiceActivity");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language_choice);
 
         // initialise view lists
-        initLanguageLists(); //TODO init lists based on language of the device
+        initLanguageLists();
 
         ttsManager = new TTSManager(this);
 
@@ -45,6 +46,7 @@ public class LanguageChoiceActivity extends BaseActivity  {
 
     @Override
     protected void onStart() {
+
         Log.i(TAG, "Started LanguageChoiceActivity");
         super.onStart();
 
