@@ -131,4 +131,9 @@
     <string name = "video_ad_left_ad_message">
         Has deixat l\'aplicació abans de veure l\'anunci :(
     </string>
+
+    <string name = "tts_voice_data_prompt">
+        Les dades de veu de TTS s\'han d\’instal·lar per utilitzar l\’idioma escollit
+    </string>
+
 </resources>

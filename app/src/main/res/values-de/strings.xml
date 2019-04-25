@@ -131,5 +131,8 @@
     Sie haben die App verlassen, bevor Sie die Anzeige angesehen haben :(
     </string>
 
+    <string name = "tts_voice_data_prompt">
+        TTS-Sprachdaten müssen installiert sein, um die gewählte Sprache verwenden zu können
+    </string>
 
 </resources>

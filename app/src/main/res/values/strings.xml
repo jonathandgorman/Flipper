@@ -15,7 +15,6 @@
     <string name="italian_language">Italian</string>
 
     // categories
-
     <string name="numbers_category">Numbers</string>
     <string name="alphabet_category">Alphabet</string>
     <string name="fruit_category">Fruit</string>
@@ -130,6 +129,10 @@
 
     <string name = "video_ad_left_ad_message">
     You left the app before watching the ad :(
+    </string>
+
+    <string name = "tts_voice_data_prompt">
+        TTS voice data must be installed in order to use the chosen language
     </string>
 
 </resources>

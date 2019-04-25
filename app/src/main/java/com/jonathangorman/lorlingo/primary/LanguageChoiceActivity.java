@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.adapter.LanguageChoiceAdapter;
+import com.jonathangorman.lorlingo.com.jonathangorman.lorlingo.domain.LanguageItem;
 import com.jonathangorman.lorlingo.tts.TTSManager;
 
 import java.util.ArrayList;
@@ -21,27 +22,20 @@ public class LanguageChoiceActivity extends BaseActivity  {
     private static boolean TTS_AVAILABLE = false; // TTS engine available
 
     TTSManager ttsManager;
-
-    // TODO combine into single object
-    ArrayList<Integer> languagesImagesList = new ArrayList<Integer>();
-    ArrayList<String> languageDisplayTextList = new ArrayList<String>();
-    ArrayList<String> languageNameList = new ArrayList<String>();
+    LanguageChoiceAdapter adapter;
+    RecyclerView recyclerView;
+    ArrayList<LanguageItem> languageItemList = new ArrayList<LanguageItem>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         Log.i(TAG, "ACTIVITY CREATE: Creating LanguageChoiceActivity");
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language_choice);
+        ttsManager = new TTSManager(this);
 
         // initialise view lists
         initLanguageLists();
-
-        ttsManager = new TTSManager(this);
-
-        // Check that a TTS engine is installed on the device
-        checkTTSEngineInstalled();
     }
 
     @Override
@@ -53,8 +47,8 @@ public class LanguageChoiceActivity extends BaseActivity  {
         //TODO check what languages are available, and disable those that are not
 
         // Initialise and create recycler view and adapter to show the language choices
-        RecyclerView recyclerView = findViewById(R.id.language_recycler_view);
-        LanguageChoiceAdapter adapter = new LanguageChoiceAdapter(this, this.languagesImagesList, this.languageDisplayTextList, this.languageNameList);
+        recyclerView = findViewById(R.id.language_recycler_view);
+        adapter = new LanguageChoiceAdapter(this, this.languageItemList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -62,30 +56,53 @@ public class LanguageChoiceActivity extends BaseActivity  {
     // Initialise lists of data for the view
     private void initLanguageLists() {
 
+        Log.i(TAG, "Initialising language lists...");
+        languageItemList.clear();
+
         //TODO external configuration possible here
-        languagesImagesList.add(R.drawable.united_kingdom);
-        languageDisplayTextList.add(getString(R.string.english_language));
-        languageNameList.add("united_kingdom");
+        LanguageItem li1 = new LanguageItem();
+        li1.setImageId(R.drawable.united_kingdom);
+        li1.setDisplayText(getString(R.string.english_language));
+        li1.setNameId("united_kingdom");
+        li1.setTtsAvailable(true);
+        languageItemList.add(li1);
 
-        languagesImagesList.add(R.drawable.spain);
-        languageDisplayTextList.add(getString(R.string.spanish_language));
-        languageNameList.add("spain");
+        LanguageItem li2 = new LanguageItem();
+        li2.setImageId(R.drawable.spain);
+        li2.setDisplayText(getString(R.string.spanish_language));
+        li2.setNameId("spain");
+        li2.setTtsAvailable(true);
+        languageItemList.add(li2);
 
-        languagesImagesList.add(R.drawable.france);
-        languageDisplayTextList.add(getString(R.string.french_language));
-        languageNameList.add("france");
+        LanguageItem li3 = new LanguageItem();
+        li3.setImageId(R.drawable.france);
+        li3.setDisplayText(getString(R.string.french_language));
+        li3.setNameId("france");
+        li3.setTtsAvailable(true);
+        languageItemList.add(li3);
 
-        languagesImagesList.add(R.drawable.germany);
-        languageDisplayTextList.add(getString(R.string.german_language));
-        languageNameList.add("germany");
+        LanguageItem li4 = new LanguageItem();
+        li4.setImageId(R.drawable.germany);
+        li4.setDisplayText(getString(R.string.german_language));
+        li4.setNameId("germany");
+        li4.setTtsAvailable(true);
+        languageItemList.add(li4);
 
-        languagesImagesList.add(R.drawable.italy);
-        languageDisplayTextList.add(getString(R.string.italian_language));
-        languageNameList.add("italy");
+        LanguageItem li5 = new LanguageItem();
+        li5.setImageId(R.drawable.italy);
+        li5.setDisplayText(getString(R.string.italian_language));
+        li5.setNameId("italy");
+        li5.setTtsAvailable(false);
+        languageItemList.add(li5);
 
-        languagesImagesList.add(R.drawable.portugal);
-        languageDisplayTextList.add(getString(R.string.portuguese_language));
-        languageNameList.add("portugal");
+        LanguageItem li6 = new LanguageItem();
+        li6.setImageId(R.drawable.portugal);
+        li6.setDisplayText(getString(R.string.portuguese_language));
+        li6.setNameId("portugal");
+        li6.setTtsAvailable(true);
+        languageItemList.add(li6);
+
+        Log.i(TAG, "Initialisation finished");
     }
 
     // Check that a TTS engine is available
@@ -102,20 +119,19 @@ public class LanguageChoiceActivity extends BaseActivity  {
         // Check for TTS engine
         if (requestCode == TTS_ENGINE_CHECK_CODE)
         {
-            if (resultCode == TextToSpeech.Engine.CHECK_VOICE_DATA_PASS) {
+            if (resultCode != TextToSpeech.Engine.CHECK_VOICE_DATA_PASS) {
                 Log.i(TAG, "onActivityResult: TTS engine installed and available");
                 this.TTS_AVAILABLE = true;
 
             } else {
-                //TODO prompt for TTS install, prior to install
-                //TODO ensure that internet connection available for downlaod of TTS engine
                 Log.i(TAG, "onActivityResult: No TTS engine available. Prompting to install.");
                 Intent installIntent = new Intent();
                 installIntent.setAction(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA);
                 startActivity(installIntent);
-                Toast.makeText(getApplicationContext(), "TTS engine has been installed and is now ready",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.tts_voice_data_prompt),Toast.LENGTH_LONG).show();
                 this.TTS_AVAILABLE = true;
             }
         }
+        initLanguageLists(); // reinitialise the language lists, possibly after installing a new TTS engine
     }
 }

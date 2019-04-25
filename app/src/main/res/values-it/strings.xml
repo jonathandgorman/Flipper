@@ -130,4 +130,8 @@
     Hai lasciato l\'app prima di guardare l\'annuncio :(
     </string>
 
+    <string name = "tts_voice_data_prompt">
+        I dati vocali TTS devono essere installati per utilizzare la lingua scelta
+    </string>
+
 </resources>
