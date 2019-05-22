@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/loro_logo_round"
         android:supportsRtl="true"
         android:theme="@style/LoroTheme">
-        <activity android:name="com.jonathangorman.lorlingo.primary.LanguageChoiceActivity">
+        <activity android:name="com.jonathangorman.lorlingo.activity.LanguageChoiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.jonathangorman.lorlingo.primary.CardScreenActivity" />
-        <activity android:name="com.jonathangorman.lorlingo.primary.CategoryChoiceActivity" />
+        <activity android:name="com.jonathangorman.lorlingo.activity.CardScreenActivity" />
+        <activity android:name="com.jonathangorman.lorlingo.activity.CategoryChoiceActivity" />
         <activity
             android:name="com.jonathangorman.lorlingo.action.InfoDisplayActivity"></activity>
         <meta-data

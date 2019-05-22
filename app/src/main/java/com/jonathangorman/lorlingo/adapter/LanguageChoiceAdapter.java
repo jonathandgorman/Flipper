@@ -2,10 +2,8 @@ package com.jonathangorman.lorlingo.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.speech.tts.TextToSpeech;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,13 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.com.jonathangorman.lorlingo.domain.LanguageItem;
-import com.jonathangorman.lorlingo.primary.CategoryChoiceActivity;
-import com.jonathangorman.lorlingo.primary.LanguageChoiceActivity;
+import com.jonathangorman.lorlingo.activity.CategoryChoiceActivity;
+import com.jonathangorman.lorlingo.activity.LanguageChoiceActivity;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 // adapts individual items to main container layout
 public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAdapter.ViewHolder>{
@@ -45,16 +45,21 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
             imageView = itemView.findViewById(R.id.category_imageView);
             textView = itemView.findViewById(R.id.category_textView);
             constraintLayout = itemView.findViewById(R.id.category_parent_layout);
-
         }
 
         // On click listener that provides the next activity with the language chosen in the form of an intent
         @Override
         public void onClick(View v) {
-            Intent toCategoryChoice = new Intent(context, CategoryChoiceActivity.class);
-            toCategoryChoice.putExtra("LANGUAGE", languageItemList.get(getAdapterPosition()).getNameId()); // adapter position is removed from the list and added to intent
-            context.startActivity(toCategoryChoice);
-            Log.d(TAG, "Language choice click: " + languageItemList.get(getAdapterPosition()).getNameId());
+            // check that the TTS engine is initialised and that the language is available
+            if (readyForTTS(languageItemList.get(getAdapterPosition()).getLocale()) == true)
+            {
+                Intent toCategoryChoice = new Intent(context, CategoryChoiceActivity.class);
+                toCategoryChoice.putExtra("LANGUAGE", languageItemList.get(getAdapterPosition()).getNameId()); // adapter position is removed from the list and added to intent
+                context.startActivity(toCategoryChoice);
+                Log.d(TAG, "Language choice click: " + languageItemList.get(getAdapterPosition()).getNameId());
+            }
+            Toast.makeText(context, "The TTS is not ready yet... please try again in a few seconds", Toast.LENGTH_SHORT);
+            Log.d(TAG, "Not ready for TTS for language " + languageItemList.get(getAdapterPosition()).getNameId());
         }
     }
 
@@ -75,26 +80,26 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
         viewHolder.textView.setText(languageItemList.get(i).getDisplayText());
         viewHolder.imageView.setImageResource(languageItemList.get(i).getImageId());
         viewHolder.constraintLayout.setOnClickListener(viewHolder);
-
-        // if the TTS is not there, grey out the language
-        if (!languageItemList.get(i).isTtsAvailable())
-        {
-            viewHolder.constraintLayout.setAlpha(.5f);
-            viewHolder.constraintLayout.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    promptTTSInstall();
-                }
-            });
-        }
     }
 
-    // Prompt TTS install intent
-    public void promptTTSInstall() {
-        if(context.getClass().equals(LanguageChoiceActivity.class))
+
+    // Prompt TTS install intent from main activity
+    public boolean readyForTTS(Locale locale) {
+
+        // first, checks TTS engine is ready
+        if (((LanguageChoiceActivity) context).getTtsManager().isTtsInitialised() == false)
         {
-            ((LanguageChoiceActivity) context).checkTTSEngineInstalled();
+            Toast.makeText(context, "Please try again in a few seconds... text-to-speech engine is not ready yet", Toast.LENGTH_SHORT);
+            return false;
         }
+
+        // second, checks that the voice data is installed. It automatically
+        if (((LanguageChoiceActivity) context).getTtsManager().checkVoiceDataAvailable(locale) == false)
+        {
+            Toast.makeText(context, "TTS data was not available and will be downloaded in the background. Please try again in a few moments.", Toast.LENGTH_LONG);
+            return false;
+        }
+        return true;
     }
 
     // Returns the number of items

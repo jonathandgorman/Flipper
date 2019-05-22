@@ -2,19 +2,20 @@ package com.jonathangorman.lorlingo.tts;
 
 import android.content.Context;
 import android.speech.tts.TextToSpeech;
+import android.speech.tts.Voice;
 import android.util.Log;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 
 public class TTSManager implements TextToSpeech.OnInitListener {
 
+    private static final String TAG = TTSManager.class.getName();
+
     private Context context;
     private TextToSpeech tts;
-
-    private Locale[] locales = Locale.getAvailableLocales();
-    private List<Locale> localeList = new ArrayList<Locale>();
+    private boolean ttsInitialised = false;
 
     public TTSManager(Context context)
     {
@@ -24,28 +25,28 @@ public class TTSManager implements TextToSpeech.OnInitListener {
 
     @Override
     public void onInit(int status) {
-
+        Log.i(TAG, "TTS engine initialised");
+        ttsInitialised = true;
     }
 
-    public boolean checkLocaleAvailable(Locale locale)
+    public List<TextToSpeech.EngineInfo> getInstalledTTSEngines()
     {
-        int res = tts.isLanguageAvailable(locale);
-        if (res == TextToSpeech.LANG_COUNTRY_AVAILABLE) {
-            return true;
+        return tts.getEngines();
+    }
+    // check that voice data is installed for locale
+    public boolean checkVoiceDataAvailable(Locale locale) {
+        tts.setLanguage(locale);
+        Voice voice = tts.getVoice();
+        if (voice != null) {
+            Set<String> features = voice.getFeatures();
+            if (features != null && !features.contains(TextToSpeech.Engine.KEY_FEATURE_NOT_INSTALLED)) {
+                return true;
+            }
         }
         return false;
     }
 
-    public List<Locale> getAvailableLocaleList()
-    {
-        Locale[] locales = Locale.getAvailableLocales();
-        for (Locale locale : locales) {
-            int res = tts.isLanguageAvailable(locale);
-            if (res >= TextToSpeech.LANG_COUNTRY_AVAILABLE) {
-                Log.i("",locale.getDisplayName());
-                localeList.add(locale);
-            }
-        }
-        return localeList;
+    public boolean isTtsInitialised() {
+        return ttsInitialised;
     }
 }

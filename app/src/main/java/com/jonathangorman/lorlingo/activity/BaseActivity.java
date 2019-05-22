@@ -1,4 +1,4 @@
-package com.jonathangorman.lorlingo.primary;
+package com.jonathangorman.lorlingo.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jonathangorman.lorlingo.R;
-import com.jonathangorman.lorlingo.primary.CardScreenActivity;
+import com.jonathangorman.lorlingo.activity.CardScreenActivity;
 
 import java.util.ArrayList;
 

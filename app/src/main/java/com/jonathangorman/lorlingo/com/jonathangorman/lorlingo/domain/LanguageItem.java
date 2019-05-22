@@ -1,11 +1,14 @@
 package com.jonathangorman.lorlingo.com.jonathangorman.lorlingo.domain;
 
+import java.util.Locale;
+
 public class LanguageItem {
 
     private Integer imageId;
     private String displayText;
     private String nameId;
     private boolean ttsAvailable;
+    private Locale locale;
 
     public Integer getImageId() {
         return imageId;
@@ -38,4 +41,14 @@ public class LanguageItem {
     public void setTtsAvailable(boolean ttsAvailable) {
         this.ttsAvailable = ttsAvailable;
     }
+
+
+    public Locale getLocale() {
+        return locale;
+    }
+
+    public void setLocale(Locale locale) {
+        this.locale = locale;
+    }
+
 }
