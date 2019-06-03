@@ -24,20 +24,25 @@
     <string name="transport_category">Transport</string>
     <string name="household_category">Household</string>
 
+    // action button names
+    <string name="about_action_button_text">About</string>
+    <string name="faq_action_button_text">FAQ</string>
+    <string name="credit_action_button_text">Credit</string>
+
     // settings
     <string name="about_text">
         <![CDATA[
             <p>Welcome to Lorolingo! 🌍</p>
             <br/>
-            <p>Lorolingo is a language learning app designed to help children learn vocubulary in a foreign language.
-            The app uses children\'s natural ability to hear and distinguish the sounds of foreigns languages by linking
+            <p>Lorolingo is a language learning app designed to help children learn vocabulary in a foreign language.
+            The app uses children\'s natural ability to hear and distinguish the sounds of foreign languages by linking
             them with everyday objects.</p>
             <br/>
             <p>Lorolingo was originally designed with parents bringing up a child in a foreign country in mind,
             but it is equally useful for bilingual parents or parents who wish to give their child a head-start in a foreign language.</p>
             <br/>
             <p>Lorolingo is free to use, ad-free and always will be. However, if you would like to support additional features or help me
-            with on-going maintenance you can:
+            with on-going maintenance you can do one of the following:
             </p><br/>
 
             - watch a short advertisement by clicking the in-app ❤️ icon.
@@ -54,8 +59,8 @@
         <![CDATA[
             <h6>What is Lorolingo?</h6>
             <p>
-            Lorolingo is a language learning app designed to help children learn vocubulary in a foreign language.
-            The app uses children\'s natural ability to hear and distinguish the sounds of foreigns languages by linking
+            Lorolingo is a language learning app designed to help children learn vocabulary in a foreign language.
+            The app uses children\'s natural ability to hear and distinguish the sounds of foreign languages by linking
             them with everyday objects
             </p>
             <br/>
@@ -63,41 +68,43 @@
             <p>
             Lorolingo can be used in two ways:
             <br/>
-            1) by passing the device to your child, having first selected a language, and allowing them to play and choose images independently.
+            1) By passing the device to your child, having first selected a language, and allowing them to play and choose images independently.
             <br/>
-            2) By selecting a language and interacting with your child. Ask them questions in the target language like \"donde esta la mariposa\"
-            and have them select the butterfly icon, for example.
+            2) By selecting a language and interacting with your child. Ask them questions in the target language about the images that appear, and watch them learn!
             </p>
             <br/>
             <h6>Why is the app free?</h6>
             <p>
-            Lorolingo started as a side-project of mine with the aim of improving my Android development skills and filling a gap that
+            Lorolingo started as a side-project of mine with the aim of improving my development skills and filling a gap that
             currently exists in the Android app market - that is, good quality learning resources for parents trying to teach their children a foreign language.
             </p>
             <br/>
             <h6>How can I contribute and support the app?</h6>
             <p>
-            The app can be supported by pressing the in-app ❤️ icon and watching a short adevertisment, or by buying the me a coffee
-            👉 &lt;a href=\"https://www.buymeacoffee.com/jonathancoffee\">here&lt;/a>.
+            The app can be supported by pressing the in-app ❤️ icon and watching a short advertisement, or by buying me a coffee by clicking right here 👉 buymeacoff.ee/jonathancoffee
             </p>
             <br/>
             <h6>I have a feature request, how can I let you know?</h6>
             <p>
-            Features such new categories, general improvements, etc., can be communciated by sending an email to:
+            Features such new categories, general improvements, etc., can be communicated by sending an email to:
             hellolorolingo@gmail.com
             </p>
             <br/>
             <h6>There\'s a problem with the app, how can I let you know?</h6>
             <p>
-            All problems such as translation problems, in-app issues, etc. can be communciated by sending an email to:
+            All problems such as translation problems, in-app issues, etc. can be communicated by sending an email to:
             hellolorolingo@gmail.com
             </p>
             <br/>
          ]]>
     </string>
 
+    <string name="coffee_text_title">
+        Your support is important!
+    </string>
+
     <string name="coffee_text">
-        Building and maintaining an app is tough,
+        Building and maintaining an app is tough...
         but you can help keep me energized with coffee
         by watching a short advertisement!
     </string>
@@ -124,15 +131,34 @@
     </string>
 
     <string name = "video_ad_finish_message">
-    Thanks for your support! :)
+        Thanks for your support! :)
     </string>
 
     <string name = "video_ad_left_ad_message">
-    You left the app before watching the ad :(
+        You left the app before watching the ad :(
+    </string>
+
+    <string name = "video_ad_not_loading">
+        "Oops... the ad can't be loaded right now, please try again later!"
+    </string>
+
+    <string name = "ok_alert_button">
+        ok
+    </string>
+
+    <string name = "no_alert_button">
+        no thanks
     </string>
 
     <string name = "tts_voice_data_prompt">
         TTS voice data must be installed in order to use the chosen language
     </string>
 
+    <string name = "tts_not_initialised_msg">
+        Please try again in a few seconds... the text-to-speech engine is not ready yet
+    </string>
+
+    <string name = "tts_voice_data_installing_msg">
+        TTS data is not available and will be downloaded in the background. Please try again in a few moments
+    </string>
 </resources>

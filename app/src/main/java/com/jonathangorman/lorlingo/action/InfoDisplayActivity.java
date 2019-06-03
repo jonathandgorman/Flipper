@@ -47,7 +47,6 @@ public class InfoDisplayActivity extends Activity {
                 }
                 break;
             case "credit":
-
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                     infoTextView.setText(Html.fromHtml(getString(R.string.credit_text), Html.FROM_HTML_MODE_COMPACT));
                 } else {

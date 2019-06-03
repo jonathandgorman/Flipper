@@ -26,6 +26,8 @@ import com.jonathangorman.lorlingo.action.InfoDisplayActivity;
 public class BaseActivity extends Activity implements RewardedVideoAdListener {
 
     protected RewardedVideoAd mRewardedVideoAd;
+    private String TEST_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
+    private String AD_UNIT_ID = "ca-app-pub-2251083820126124~2763503135";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +82,7 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
     {
         // Create the alert dialog popup
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton( getString(R.string.ok_alert_button), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // TODO AdMob integration if "ok" chosen - ca-app-pub-2251083820126124~2763503135
@@ -90,19 +92,19 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
                 else
                 {
                     // show a toast
-                    Toast.makeText(getApplicationContext(), "Oops... unable to load the ad right now, please try again later!",
+                    Toast.makeText(getApplicationContext(), getString(R.string.video_ad_not_loading),
                             Toast.LENGTH_SHORT).show();
                     loadRewardedVideoAd(); // attempt to load the video
                 }
             }
-        }).setNegativeButton("No thanks", new DialogInterface.OnClickListener() {
+        }).setNegativeButton(getString(R.string.no_alert_button), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {}
         });
 
         // Custom popup title set here
         TextView title = new TextView(this);
-        title.setText("Your support is important!");
+        title.setText(getString(R.string.coffee_text_title));
         title.setBackgroundColor(getColor(R.color.colorPrimary));
         title.setPadding(10, 15, 15, 10);
         title.setGravity(Gravity.CENTER);
@@ -121,7 +123,7 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
     }
     // Loads the reward ad
     protected void loadRewardedVideoAd() {
-        mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917",
+        mRewardedVideoAd.loadAd(TEST_AD_UNIT_ID,
                 new AdRequest.Builder().build());
     }
 

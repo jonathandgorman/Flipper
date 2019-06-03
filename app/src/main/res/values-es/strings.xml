@@ -1,10 +1,12 @@
 <resources>
+    // toda la aplicación
+    <string name = "app_name" translatable = "false"> Lorolingo </string>
 
-    // instrucciones de elección de actividad
-    <string name = "language_instruction_title"> Elige un idioma para aprender </string>
+    // instrucciones de funcionamiento
+    <string name = "language_instruction_title"> Elige el idioma que quieras aprender </string>
     <string name = "category_instruction_title"> Elige una categoría para mejorar </string>
 
-    // languages
+    // idiomas
     <string name="english_language">Inglés</string>
     <string name="spanish_language">Español</string>
     <string name="french_language">Francés</string>
@@ -12,35 +14,40 @@
     <string name="portuguese_language">Portugués</string>
     <string name="italian_language">Italiano</string>
 
-    // categories
+    // categorias
     <string name="numbers_category">Números</string>
     <string name="alphabet_category">Alfabeto</string>
-    <string name="fruit_category">Fruta</string>
+    <string name="fruit_category">Frutas</string>
     <string name="vegetables_category">Verduras</string>
     <string name="animals_category">Animales</string>
-    <string name="jobs_category">Trabajos</string>
+    <string name="jobs_category">Oficios</string>
     <string name="transport_category">Transporte</string>
     <string name="household_category">Casa</string>
 
-    // settings
+    <string name="about_action_button_text">Acerca de</string>
+    <string name="faq_action_button_text">FAQ</string>
+    <string name="credit_action_button_text">Crédito</string>
+
+    // configuración
     <string name = "about_text">
         <![CDATA[
             <p> ¡Bienvenido a Lorolingo! 🌍 </p>
             <br/>
-            <p> Lorolingo es una aplicación de aprendizaje de idiomas diseñada para ayudar a los niños a aprender vocubulario en un idioma extranjero.
-                La aplicación utiliza la capacidad natural de los niños para escuchar y distinguir los sonidos de idiomas extranjeros mediante la vinculación
-                con objetos cotidianos. </p>
+            <p> Lorolingo es una aplicación de aprendizaje autónomo de idiomas, diseñada para ayudar a lxs niñxs a aprender vocabulario en un idioma extranjero.
+            La aplicación utiliza la capacidad natural de lxs niñxs para escuchar y distinguir los sonidos de idiomas extranjeros mediante la vinculación
+            con objetos cotidianos. </p>
             <br/>
-            <p> Lorolingo fue diseñado originalmente con padres que crían a un niño en un país extranjero en mente,
-                pero es igualmente útil para los padres bilingües o para los padres que desean darle a sus hijos una ventaja en un idioma extranjero. </p>
+            <p> Lorolingo fue diseñado originalmente para padres que desean fomentar interés por las lenguas extranjeras a sus hijxs,
+            es igualmente útil para padres bilingües o para padres que desean dar a sus hijxs conocimiento de un idioma extranjero. </p>
             <br/>
-            <p> Lorolingo es de uso gratuito, sin publicidad y siempre lo será. Sin embargo, si desea admitir funciones adicionales o ayudarme
-                Con un mantenimiento continuo puede:
+            <p> Lorolingo es de uso gratuito, sin publicidad y siempre lo será. Sin embargo, si deseas añadir funciones adicionales o simplemente ayudarme
+            con el mantenimiento continuo, puede hacer uno de los siguientes:
             </p> <br/>
 
-            - ver un breve anuncio haciendo clic en el icono ❤️ en la aplicación.
+            - ver un anuncio corto haciendo clic en el icono ❤️ de la aplicación.
             <br/>
-            - cómprame un café haciendo clic aquí 👉 buymeacoff.ee/jonathancoffee
+            - Dándome energía haciendo clic aquí 👉 buymeacoff.ee/jonathancoffee
+
             <br/> <br/>
             ¡Feliz aprendizaje!
             <br/>
@@ -49,55 +56,57 @@
     </string>
 
     <string name = "faq_text">
-    <![CDATA[
-    <h6> ¿Qué es Lorolingo? </h6>
-    <p>
-        Lorolingo es una aplicación de aprendizaje de idiomas diseñada para ayudar a los niños a aprender vocubulary en un idioma extranjero.
-        La aplicación utiliza la capacidad natural de los niños para escuchar y distinguir los sonidos de idiomas extranjeros mediante la vinculación
-        ellos con objetos cotidianos
-    </p>
-    <br/>
-    <h6> ¿Cómo puede mi hijo usar Lorolingo? </h6>
-    <p>
-        Lorolingo se puede utilizar de dos maneras:
-        <br/>
-        1) pasando el dispositivo a su hijo, seleccionando primero un idioma y permitiéndoles jugar y elegir imágenes de forma independiente.
-        <br/>
-        2) Seleccionando un idioma e interactuando con su hijo. Hágales preguntas en el idioma de destino como \ "donde esta la mariposa \"
-        y haga que seleccionen el icono de la mariposa, por ejemplo.
-    </p>
-    <br/>
-    <h6> ¿Por qué la aplicación es gratuita? </h6>
-    <p>
-        Lorolingo comenzó como un proyecto paralelo mío con el objetivo de mejorar mis habilidades de desarrollo de Android y llenar un vacío que
-        Actualmente existe en el mercado de aplicaciones de Android, es decir, recursos de aprendizaje de buena calidad para padres que intentan enseñar a sus hijos un idioma extranjero.
-    </p>
-    <br/>
-    <h6> ¿Cómo puedo contribuir y apoyar la aplicación? </h6>
-    <p>
-        La aplicación puede ser apoyada presionando el ícono de ❤️ en la aplicación y viendo un breve anuncio, o comprando un café
-        👉 & lt; a href = \ "https: //www.buymeacoffee.com/jonathancoffee \"> aquí & lt; / a>.
-    </p>
-    <br/>
-    <h6> Tengo una solicitud de función, ¿cómo puedo informarle? </h6>
-    <p>
-        Las características tales como nuevas categorías, mejoras generales, etc., se pueden comunicar enviando un correo electrónico a:
-        hellolorolingo@gmail.com
-    </p>
-    <br/>
-    <h6> Hay un problema con la aplicación, ¿cómo puedo avisarte? </h6>
-    <p>
-        Todos los problemas, como problemas de traducción, problemas en la aplicación, etc., se pueden comunicar enviando un correo electrónico a:
-        hellolorolingo@gmail.com
-    </p>
-    <br/>
-    ]]>
+        <![CDATA[
+            <h6> ¿Qué es Lorolingo? </h6>
+            <p>
+	    Lorolingo es una aplicación de aprendizaje autónomo de idiomas, diseñada para ayudar a lxs niñxs a aprender vocabulario de un idioma extranjero.
+            La aplicación utiliza la capacidad natural de lxs niñxs para escuchar y distinguir los sonidos de idiomas extranjeros mediante la vinculación
+            con objetos cotidianos.
+            </p>
+            <br/>
+            <h6> ¿Cómo puede mi hijx usar Lorolingo? </h6>
+            <p>
+            Lorolingo se puede utilizar de dos maneras diferentes:
+            <br/>
+            1) De forma autónoma: dejarle el dispositivo a su hijx y luego seleccionando un idioma dónde les permita jugar y elegir imágenes de forma independiente.
+            <br/>
+            2) En formato familiar: Seleccionando un idioma e interactuando con su hijx. ¡Hágales preguntas sobre las distintas imágenes que aparecen en el idioma y véanles aprender!
+            </p>
+            <br/>
+            <h6> ¿Por qué la aplicación es gratuita? </h6>
+            <p>
+            Lorolingo comenzó como un proyecto personal con el objetivo de mejorar mis habilidades de desarrollo y llenar un vacío que
+            actualmente existe en el mercado de aplicaciones de Android, es decir, recursos de aprendizaje de buena calidad para padres que intentan enseñar a sus hijxs un idioma extranjero.
+            </p>
+            <br/>
+            <h6> ¿Cómo puedo contribuir y apoyar a la aplicación? </h6>
+            <p>
+            La aplicación puede ser apoyada presionando el ícono de ❤️ en la aplicación y viendo un anuncio corto, o comprándome un café haciendo clic aquí 👉 buymeacoff.ee/jonathancoffee
+            </p>
+            <br/>
+            <h6> Tengo muchas ideas y quiero contribuir a mejorar lorolingo, ¿cómo puedo ayudar a mejorar la App? </h6>
+            <p>
+            Las características tales como nuevas categorías, mejoras generales, etc., se pueden comunicar enviando un correo electrónico a:
+            hellolorolingo@gmail.com
+            </p>
+            <br/>
+            <h6> Hay un problema con la aplicación, ¿cómo puedo avisarte? </h6>
+            <p>
+            Todos los problemas, como problemas de traducción, problemas en la aplicación, etc., se pueden comunicar enviando un correo electrónico a:
+            hellolorolingo@gmail.com
+            </p>
+            <br/>
+         ]]>
+    </string>
+
+    <string name = "coffee_text_title">
+        ¡Tu apoyo es importante!
     </string>
 
     <string name = "coffee_text">
-        Construir y mantener una aplicación es difícil,
+        Construir y mantener una aplicación es difícil ...
         Pero puedes ayudarme a mantenerme energizado con café.
-        viendo un anuncio corto!
+        O viendo un anuncio corto!
     </string>
 
     <string name = "credit_text">
@@ -105,32 +114,51 @@
             <h6> Crédito de la imagen </h6>
             <br/>
             <p> Iconos de bandera de país hechos por Freepik de www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
-            <p> Íconos de números hechos por Freepik en www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
-            <p> Íconos del alfabeto hechos por Twitter en www.flaticon.com y distribuidos bajo CC 3.0 BY </p> <br/>
+            <p> Íconos de números realizados por Freepik en www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
+            <p> Íconos del alfabeto hechos por Twitter desde www.flaticon.com y distribuidos bajo CC 3.0 BY </p> <br/>
             <p> Íconos de frutas hechos por Freepik de www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
             <p> Íconos de verduras hechos por Freepik en www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
             <p> Íconos de animales hechos por Freepik en www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
-            <p> Íconos de trabajo realizados por Freepik en www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
-            <p> Iconos de transporte hechos por Freepik desde www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
+            <p> Íconos de trabajos realizados por Freepik en www.flaticon.com y distribuidos bajo la licencia básica de Flaticon </p> <br/>
+            <p> Iconos de transporte realizados por Freepik desde www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
             <p> Íconos del hogar hechos por Freepik de www.flaticon.com y distribuidos bajo la Licencia Básica de Flaticon </p> <br/>
          ]]>
     </string>
 
     // otros misc
     <string name = "error_text">
-        ¡Vaya, ha habido un error!
+        Vaya, ha habido un error!
     </string>
 
     <string name = "video_ad_finish_message">
-     ¡Gracias por el apoyo! :)
+        ¡Gracias por tu apoyo! :)
     </string>
 
     <string name = "video_ad_left_ad_message">
-        Has dejado la aplicación antes de ver el anuncio :(
+        Dejaste la aplicación antes de ver el anuncio :(
+    </string>
+
+    <string name = "video_ad_not_loading">
+        "Ups ... el anuncio no se puede cargar ahora, inténtalo de nuevo más tarde"
+    </string>
+
+    <string name = "ok_alert_button">
+        vale
+    </string>
+
+    <string name = "no_alert_button">
+        no, gracias
     </string>
 
     <string name = "tts_voice_data_prompt">
         Los datos de voz de TTS deben estar instalados para utilizar el idioma elegido
     </string>
 
-    </resources>
+    <string name = "tts_not_initialised_msg">
+        Vuelva a intentarlo en unos segundos ... el motor de conversión de texto a voz aún no está listo
+    </string>
+
+    <string name = "tts_voice_data_installing_msg">
+        Los datos TTS no están disponibles y se descargarán en segundo plano. Por favor, inténtalo de nuevo más tarde.
+    </string>
+</resources>

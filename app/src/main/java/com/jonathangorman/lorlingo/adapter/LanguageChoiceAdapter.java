@@ -58,7 +58,6 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
                 context.startActivity(toCategoryChoice);
                 Log.d(TAG, "Language choice click: " + languageItemList.get(getAdapterPosition()).getNameId());
             }
-            Toast.makeText(context, "The TTS is not ready yet... please try again in a few seconds", Toast.LENGTH_SHORT);
             Log.d(TAG, "Not ready for TTS for language " + languageItemList.get(getAdapterPosition()).getNameId());
         }
     }
@@ -82,21 +81,21 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
         viewHolder.constraintLayout.setOnClickListener(viewHolder);
     }
 
-
     // Prompt TTS install intent from main activity
     public boolean readyForTTS(Locale locale) {
 
         // first, checks TTS engine is ready
         if (((LanguageChoiceActivity) context).getTtsManager().isTtsInitialised() == false)
         {
-            Toast.makeText(context, "Please try again in a few seconds... text-to-speech engine is not ready yet", Toast.LENGTH_SHORT);
+            Toast.makeText(context, R.string.tts_not_initialised_msg, Toast.LENGTH_SHORT);
             return false;
         }
+
 
         // second, checks that the voice data is installed. It automatically
         if (((LanguageChoiceActivity) context).getTtsManager().checkVoiceDataAvailable(locale) == false)
         {
-            Toast.makeText(context, "TTS data was not available and will be downloaded in the background. Please try again in a few moments.", Toast.LENGTH_LONG);
+            Toast.makeText(context,  R.string.tts_voice_data_installing_msg, Toast.LENGTH_LONG);
             return false;
         }
         return true;

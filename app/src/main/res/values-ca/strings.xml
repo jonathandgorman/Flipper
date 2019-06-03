@@ -1,139 +1,165 @@
 <resources>
+    // tota l'aplicació
+    <string name = "app_name" translatable = "false"> Lorolingo </string>
 
-    // instruccions d’elecció d’activitat
-    <string name = "language_instruction_title"> Eligeix un idioma per aprender </string>
-    <string name = "category_instruction_title"> Eligeix ​​una categoria per millorar-la </string>
+    // instruccions de funcionament
+    <string name = "language_instruction_title"> Tria l\'idioma que vulguis aprendre </string>
+    <string name = "category_instruction_title"> Escull una categoria per millorar </string>
 
-    // llengües
-    <string name = "english_language">Anglès</string>
-    <string name = "spanish_language">Espanyol</string>
-    <string name = "french_language">Francès</string>
-    <string name = "german_language">Alemany</string>
-    <string name = "portuguese_language">Portuguès</string>
-    <string name = "italian_language">Italià</string>
+    // idiomes
+    <string name = "english_language"> Anglès </string>
+    <string name = "spanish_language"> Espanyol </string>
+    <string name = "french_language"> Francès </string>
+    <string name = "german_language"> Alemany </string>
+    <string name = "portuguese_language"> Portuguès </string>
+    <string name = "italian_language"> Italià </string>
 
     // categories
-    <string name = "numbers_category">Números</string>
-    <string name = "alphabet_category">Alfabet</string>
-    <string name = "fruit_category">Fruita</string>
-    <string name = "vegetables_category">Verdures</string>
-    <string name = "animals_category">Animals</string>
-    <string name = "jobs_category">Treballs</string>
-    <string name = "transport_category">Transport</string>
-    <string name = "household_category">Casa</string>
+    <string name = "numbers_category"> Números </string>
+    <string name = "alphabet_category"> Alfabet </string>
+    <string name = "fruit_category"> Fruites </string>
+    <string name = "vegetables_category"> Verdures </string>
+    <string name = "animals_category"> Animals </string>
+    <string name = "jobs_category"> Oficis </string>
+    <string name = "transport_category"> Transport </string>
+    <string name = "household_category"> Casa </string>
 
-    // settings
+    <string name = "about_action_button_text"> Quant a </string>
+    <string name = "faq_action_button_text"> FAQ </string>
+    <string name = "credit_action_button_text"> Crèdit </string>
+
+    // configuració
     <string name = "about_text">
         <![CDATA[
-  <P> Benvingut a Lorolingo! 🌍 </ p>
-            <br/>
-            <P> Lorolingo és una aplicació d\'aprenentatge d\'idiomes dissenyada per ajudar els nens a aprendre vocubulario en un idioma estranger.
-                L\'aplicació utilitza la capacitat natural dels nens per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
-                amb objectes quotidians. </ P>
-            <br/>
-            <P> Lorolingo va ser dissenyat originalment amb pares que crien a un nen en un país estranger en ment,
-                però és igualment útil per als pares bilingües o per als pares que volen donar-li als seus fills un avantatge en un idioma estranger. </ P>
-            <br/>
-            <P> Lorolingo és d\'ús gratuït, sense publicitat i sempre ho serà. No obstant això, si voleu admetre funcions addicionals o ajudar-me
-                Amb un manteniment continu pot:
-            </ P> <br/>
+        <P> Benvingut a Lorolingo! 🌍 </ p>
+        <br/>
+        <P> Lorolingo és una aplicació d\'aprenentatge autònom d\'idiomes, dissenyada per ajudar als i les nens a aprendre vocabulari en un idioma estranger.
+            L\'aplicació utilitza la capacitat natural dels i les nens per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
+            amb objectes quotidians. </ P>
+        <br/>
+        <P> Lorolingo va ser dissenyat originalment per a pares que desitgen fomentar interès per les llengües estrangeres als seus fills,
+            és igualment útil per a pares bilingües o per a pares que volen donar als seus fills coneixement d'un idioma estranger. </ P>
+        <br/>
+        <P> Lorolingo és d'ús gratuït, sense publicitat i sempre ho serà. No obstant això, si desitges afegir funcions addicionals o simplement ajudar-me
+            amb el manteniment continu, pot fer un dels següents:
+        </ P> <br/>
 
-            - veure un breu anunci fent clic a la icona ❤️ en l\'aplicació.
-            <br/>
-            - cómprame un cafè fent clic aquí 👉 buymeacoff.ee/jonathancoffee
-            <br/> <br/>
-            Feliç aprenentatge!
-            <br/>
-            Jonathan
-         ]]>
+        - veure un anunci curt fent clic a la icona ❤️ de l'aplicació.
+        <br/>
+        - Donant-me energia fent clic aquí 👉 buymeacoff.ee/jonathancoffee
+
+        <br/> <br/>
+        Feliç aprenentatge!
+        <br/>
+        Jonathan
+        ]]>
     </string>
 
 
     <string name = "faq_text">
-    <![CDATA[
-  <H6> Què és Lorolingo? </ H6>
-    <P>
-        Lorolingo és una aplicació d\'aprenentatge d\'idiomes dissenyada per ajudar els nens a aprendre vocubulary en un idioma estranger.
-        L\'aplicació utilitza la capacitat natural dels nens per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
-        ells amb objectes quotidians
-    </P>
-    <br/>
-    <H6> Com pot el meu fill utilitzar Lorolingo? </ H6>
-    <P>
-        Lorolingo es pot utilitzar de dues maneres:
-        <br/>
-        1) passant el dispositiu al seu fill, seleccionant primer una llengua i permetent jugar i triar imatges de forma independent.
-        <br/>
-        2) Seleccionar un idioma i interactuant amb el seu fill. Faci-ho preguntes en l\'idioma de destí com \ "on hi ha la papallona \"
-        i faci que seleccionin la icona de la papallona, ​​per exemple.
-    </ P>
-    <br/>
-    <H6> Per què l\'aplicació és gratuïta? </ H6>
-    <P>
-        Lorolingo va començar com un projecte paral·lel meu amb l\'objectiu de millorar les meves habilitats de desenvolupament d\'Android i omplir un buit que
-        Actualment hi ha al mercat d\'aplicacions d\'Android, és a dir, recursos d\'aprenentatge de bona qualitat per a pares que intenten ensenyar als seus fills un idioma estranger.
-    </ P>
-    <br/>
-    <H6> Com puc contribuir i donar suport al\'aplicació? </ H6>
-    <P>
-        L\'aplicació pot ser recolzada pressionant la icona de ❤️ en l\'aplicació i veient un breu anunci, o comprant un cafè
-        👉 & lt; a href = \ "https: //www.buymeacoffee.com/jonathancoffee \"> aquí & lt; / A>.
-    </ P>
-    <br/>
-    <H6> Tinc una sol·licitud de funció, com puc informar-? </ H6>
-    <P>
-        Les característiques com ara noves categories, millores generals, etc., es poden comunicar enviant un correu electrònic a:
-        hellolorolingo@gmail.com
-    </ P>
-    <br/>
-    <H6> Hi ha un problema amb l\'aplicació, com puc avisar-te? </ H6>
-    <P>
-        Tots els problemes, com problemes de traducció, problemes en l\'aplicació, etc., es poden comunicar enviant un correu electrònic a:
-        hellolorolingo@gmail.com
-    </ P>
-    <br/>
-    ]]>
-</string>
-
-<string name = "coffee_text">
-         Construir i mantenir una aplicació és difícil,
-         Però pots ajudar-me a mantenir-me energitzat amb cafè.
-         veient un anunci curt!
-    </string>
-
-<string name = "credit_text">
         <![CDATA[
-            <H6> Crèdit de la imatge </ h6>
+        <H6> Què és Lorolingo? </ H6>
+        <P>
+            Lorolingo és una aplicació d\'aprenentatge autònom d\'idiomes, dissenyada per ajudar als i les nens a aprendre vocabulari d\'un idioma estranger.
+            L\'aplicació utilitza la capacitat natural dels i les nens per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
+            amb objectes quotidians.
+        </ P>
+        <br/>
+        <H6> Com pot el meu hijx utilitzar Lorolingo? </ H6>
+        <P>
+            Lorolingo es pot utilitzar de dues maneres diferents:
             <br/>
-            <P> Icones de bandera de país fets per Freepik de www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-            <P> Icones de números fets per Freepik a www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-            <P> Icones de l\'alfabet fets per Twitter a www.flaticon.com i distribuïts sota CC 3.0 BY </ p> <br/>
-            <P> Icones de fruites fets per Freepik de www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-            <P> Icones de verdures fets per Freepik a www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-            <P> Icones d\'animals fets per Freepik a www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-            <P> Icones de treball realitzats per Freepik a www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-            <P> Icones de transport fets per Freepik des www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-            <P> Icones de la llar fets per Freepik de www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
-
-         ]]>
+            1) De forma autònoma: deixar-li el dispositiu al seu hijx i després seleccionant un idioma on els permeti jugar i triar imatges de forma independent.
+            <br/>
+            2) En format familiar: Si es selecciona un idioma i interactuant amb el seu hijx. ¡Faci-ho preguntes sobre les diferents imatges que apareixen en l\'idioma i véanles aprendre!
+        </p>
+        <br/>
+        <H6> Per què l\'aplicació és gratuïta? </ H6>
+        <P>
+            Lorolingo va començar com un projecte personal amb l\'objectiu de millorar les meves habilitats de desenvolupament i omplir un buit que
+            actualment hi ha al mercat d'aplicacions d'Android, és a dir, recursos d'aprenentatge de bona qualitat per a pares que intenten ensenyar als seus fills un idioma estranger.
+        </ P>
+        <br/>
+        <H6> Com puc contribuir i donar suport a l'aplicació? </ H6>
+        <P>
+            L'aplicació pot ser recolzada pressionant la icona de ❤️ en l'aplicació i veient un anunci curt, o comprant-me un cafè fent clic aquí 👉 buymeacoff.ee/jonathancoffee
+        </ P>
+        <br/>
+        <H6> Tinc moltes idees i vull contribuir a millorar lorolingo, com puc ajudar a millorar l'App? </ H6>
+        <P>
+            Les característiques com ara noves categories, millores generals, etc., es poden comunicar enviant un correu electrònic a:
+            hellolorolingo@gmail.com
+        </ P>
+        <br/>
+        <H6> Hi ha un problema amb l'aplicació, com puc avisar-te? </ H6>
+        <P>
+            Tots els problemes, com problemes de traducció, problemes en l'aplicació, etc., es poden comunicar enviant un correu electrònic a:
+            hellolorolingo@gmail.com
+        </ P>
+        <br/>
+        ]]>
     </string>
 
-    // Sonstiges
+    <string name = "coffee_text_title">
+        El teu suport és important!
+    </string>
+
+    <string name = "coffee_text">
+        Construir i mantenir una aplicació és difícil ...
+        Però pots ajudar-me a mantenir-me energitzat amb cafè.
+        O veient un anunci curt!
+    </string>
+
+    <string name = "credit_text">
+        <![CDATA[
+        <H6> Crèdit de la imatge </ h6>
+        <br/>
+        <P> Icones de bandera de país fets per Freepik de www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
+        <P> Icones de nombres realitzats per Freepik a www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
+        <P> Icones de l\'alfabet fets per Twitter des www.flaticon.com i distribuïts sota CC 3.0 BY </ p> <br/>
+        <P> Icones de fruites fets per Freepik de www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
+        <P> Icones de verdures fets per Freepik a www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
+        <P> Icones d'animals fets per Freepik a www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
+        <P> Icones de treballs realitzats per Freepik a www.flaticon.com i distribuïts sota la llicència bàsica de Flaticon </ p> <br/>
+        <P> Icones de transport realitzats per Freepik des www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
+        <P> Icones de la llar fets per Freepik de www.flaticon.com i distribuïts sota la Llicència Bàsica de Flaticon </ p> <br/>
+        ]]>
+    </string>
+
+    // altres misc
     <string name = "error_text">
         Vaja, hi ha hagut un error!
     </string>
 
-
     <string name = "video_ad_finish_message">
-        Gràcies pel suport! :)
+        Gràcies pel teu suport! :)
     </string>
 
     <string name = "video_ad_left_ad_message">
-        Has deixat l\'aplicació abans de veure l\'anunci :(
+        Vas deixar l\'aplicació abans de veure l\'anunci :(
     </string>
 
     <string name = "tts_voice_data_prompt">
-        Les dades de veu de TTS s\'han d\’instal·lar per utilitzar l\’idioma escollit
+        Les dades de veu de TTS han d\'estar instal·lats per utilitzar l\'idioma triat
     </string>
 
+    <string name = "video_ad_not_loading">
+         "Ups ... el anunci no es pot cargar ara, inténtalo de nou més tard"
+     </string>
+
+    <string name = "ok_alert_button">
+         val
+     </string>
+
+    <string name = "no_alert_button">
+         no, gràcies
+     </string>
+
+    <string name = "tts_not_initialised_msg">
+        Torneu-ho a provar en uns segons ... el motor de conversió de text a veu encara no està llest
+    </string>
+
+    <string name = "tts_voice_data_installing_msg">
+        Les dades TTS no estan disponibles i es descarregaran en segon pla. Si us plau-ho a provar més tard.
+    </string>
 </resources>
