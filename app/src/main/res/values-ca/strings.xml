@@ -24,7 +24,7 @@
     <string name = "transport_category"> Transport </string>
     <string name = "household_category"> Casa </string>
 
-    <string name = "about_action_button_text"> Quant a </string>
+    <string name = "about_action_button_text"> En quant a </string>
     <string name = "faq_action_button_text"> FAQ </string>
     <string name = "credit_action_button_text"> Crèdit </string>
 
@@ -34,17 +34,17 @@
         <P> Benvingut a Lorolingo! 🌍 </ p>
         <br/>
         <P> Lorolingo és una aplicació d\'aprenentatge autònom d\'idiomes, dissenyada per ajudar als i les nens a aprendre vocabulari en un idioma estranger.
-            L\'aplicació utilitza la capacitat natural dels i les nens per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
+            L\'aplicació utilitza la capacitat natural dels i les nenxs per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
             amb objectes quotidians. </ P>
         <br/>
-        <P> Lorolingo va ser dissenyat originalment per a pares que desitgen fomentar interès per les llengües estrangeres als seus fills,
-            és igualment útil per a pares bilingües o per a pares que volen donar als seus fills coneixement d'un idioma estranger. </ P>
+        <P> Lorolingo va ser dissenyat originalment per a pares que desitgen fomentar interès per les llengües estrangeres als seus fillxs,
+            és igualment útil per a pares bilingües o per a pares que volen donar als seus fillxs coneixement d'un idioma estranger. </ P>
         <br/>
         <P> Lorolingo és d'ús gratuït, sense publicitat i sempre ho serà. No obstant això, si desitges afegir funcions addicionals o simplement ajudar-me
-            amb el manteniment continu, pot fer un dels següents:
+            amb el manteniment continu, pots fer una de les següents coses:
         </ P> <br/>
 
-        - veure un anunci curt fent clic a la icona ❤️ de l'aplicació.
+        - Veure un anunci curt fent clic a la icona ❤️ de l'aplicació.
         <br/>
         - Donant-me energia fent clic aquí 👉 buymeacoff.ee/jonathancoffee
 
@@ -55,23 +55,22 @@
         ]]>
     </string>
 
-
     <string name = "faq_text">
         <![CDATA[
         <H6> Què és Lorolingo? </ H6>
         <P>
-            Lorolingo és una aplicació d\'aprenentatge autònom d\'idiomes, dissenyada per ajudar als i les nens a aprendre vocabulari d\'un idioma estranger.
-            L\'aplicació utilitza la capacitat natural dels i les nens per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
+            Lorolingo és una aplicació d\'aprenentatge autònom d\'idiomes, dissenyada per ajudar als i les nenxs a aprendre vocabulari d\'un idioma estranger.
+            L\'aplicació utilitza la capacitat natural dels i les nenxs per escoltar i distingir els sons d\'idiomes estrangers mitjançant la vinculació
             amb objectes quotidians.
         </ P>
         <br/>
-        <H6> Com pot el meu hijx utilitzar Lorolingo? </ H6>
+        <H6> Com pot el meu fillx utilitzar Lorolingo? </ H6>
         <P>
             Lorolingo es pot utilitzar de dues maneres diferents:
             <br/>
-            1) De forma autònoma: deixar-li el dispositiu al seu hijx i després seleccionant un idioma on els permeti jugar i triar imatges de forma independent.
+            1) De forma autònoma: deixar-li el dispositiu al seu fillx i després seleccionant un idioma on els permeti jugar i triar imatges de forma independent.
             <br/>
-            2) En format familiar: Si es selecciona un idioma i interactuant amb el seu hijx. ¡Faci-ho preguntes sobre les diferents imatges que apareixen en l\'idioma i véanles aprendre!
+            2) En format familiar: Si es selecciona un idioma i interactuant amb el seu fillx. ¡Faci-ho preguntes sobre les diferents imatges que apareixen en l\'idioma i véanles aprendre!
         </p>
         <br/>
         <H6> Per què l\'aplicació és gratuïta? </ H6>
@@ -139,21 +138,21 @@
         Vas deixar l\'aplicació abans de veure l\'anunci :(
     </string>
 
+    <string name = "video_ad_not_loading">
+        "Ups ... l'anunci no es pot carregar ara, intenta-ho de nou més tard"
+    </string>
+
+    <string name = "ok_alert_button">
+        Val
+    </string>
+
+    <string name = "no_alert_button">
+        No, gràcies
+    </string>
+
     <string name = "tts_voice_data_prompt">
         Les dades de veu de TTS han d\'estar instal·lats per utilitzar l\'idioma triat
     </string>
-
-    <string name = "video_ad_not_loading">
-         "Ups ... el anunci no es pot cargar ara, inténtalo de nou més tard"
-     </string>
-
-    <string name = "ok_alert_button">
-         val
-     </string>
-
-    <string name = "no_alert_button">
-         no, gràcies
-     </string>
 
     <string name = "tts_not_initialised_msg">
         Torneu-ho a provar en uns segons ... el motor de conversió de text a veu encara no està llest

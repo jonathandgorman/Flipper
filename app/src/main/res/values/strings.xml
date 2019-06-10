@@ -143,11 +143,11 @@
     </string>
 
     <string name = "ok_alert_button">
-        ok
+        Ok
     </string>
 
     <string name = "no_alert_button">
-        no thanks
+        No thanks
     </string>
 
     <string name = "tts_voice_data_prompt">

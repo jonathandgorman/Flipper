@@ -1,10 +1,10 @@
 <resources>
     // toda la aplicación
-    <string name = "app_name" translatable = "false"> Lorolingo </string>
+    <string name="app_name" translatable="false"> Lorolingo </string>
 
     // instrucciones de funcionamiento
-    <string name = "language_instruction_title"> Elige el idioma que quieras aprender </string>
-    <string name = "category_instruction_title"> Elige una categoría para mejorar </string>
+    <string name="language_instruction_title"> Elige el idioma que quieras aprender </string>
+    <string name="category_instruction_title"> Elige una categoría para mejorar </string>
 
     // idiomas
     <string name="english_language">Inglés</string>
@@ -29,7 +29,7 @@
     <string name="credit_action_button_text">Crédito</string>
 
     // configuración
-    <string name = "about_text">
+    <string name="about_text">
         <![CDATA[
             <p> ¡Bienvenido a Lorolingo! 🌍 </p>
             <br/>
@@ -55,7 +55,7 @@
          ]]>
     </string>
 
-    <string name = "faq_text">
+    <string name="faq_text">
         <![CDATA[
             <h6> ¿Qué es Lorolingo? </h6>
             <p>
@@ -99,17 +99,17 @@
          ]]>
     </string>
 
-    <string name = "coffee_text_title">
+    <string name="coffee_text_title">
         ¡Tu apoyo es importante!
     </string>
 
-    <string name = "coffee_text">
+    <string name="coffee_text">
         Construir y mantener una aplicación es difícil ...
         Pero puedes ayudarme a mantenerme energizado con café.
         O viendo un anuncio corto!
     </string>
 
-    <string name = "credit_text">
+    <string name="credit_text">
         <![CDATA[
             <h6> Crédito de la imagen </h6>
             <br/>
@@ -126,39 +126,39 @@
     </string>
 
     // otros misc
-    <string name = "error_text">
+    <string name="error_text">
         Vaya, ha habido un error!
     </string>
 
-    <string name = "video_ad_finish_message">
+    <string name="video_ad_finish_message">
         ¡Gracias por tu apoyo! :)
     </string>
 
-    <string name = "video_ad_left_ad_message">
+    <string name="video_ad_left_ad_message">
         Dejaste la aplicación antes de ver el anuncio :(
     </string>
 
-    <string name = "video_ad_not_loading">
+    <string name="video_ad_not_loading">
         "Ups ... el anuncio no se puede cargar ahora, inténtalo de nuevo más tarde"
     </string>
 
-    <string name = "ok_alert_button">
-        vale
+    <string name="ok_alert_button">
+        Vale
     </string>
 
-    <string name = "no_alert_button">
-        no, gracias
+    <string name="no_alert_button">
+        No, gracias
     </string>
 
-    <string name = "tts_voice_data_prompt">
+    <string name="tts_voice_data_prompt">
         Los datos de voz de TTS deben estar instalados para utilizar el idioma elegido
     </string>
 
-    <string name = "tts_not_initialised_msg">
+    <string name="tts_not_initialised_msg">
         Vuelva a intentarlo en unos segundos ... el motor de conversión de texto a voz aún no está listo
     </string>
 
-    <string name = "tts_voice_data_installing_msg">
+    <string name="tts_voice_data_installing_msg">
         Los datos TTS no están disponibles y se descargarán en segundo plano. Por favor, inténtalo de nuevo más tarde.
     </string>
 </resources>
