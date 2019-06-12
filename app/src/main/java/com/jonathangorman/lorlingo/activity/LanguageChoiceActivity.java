@@ -1,8 +1,6 @@
 package com.jonathangorman.lorlingo.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.speech.tts.TextToSpeech;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -19,9 +17,6 @@ import java.util.Locale;
 public class LanguageChoiceActivity extends BaseActivity  {
 
     private static final String TAG = LanguageChoiceActivity.class.getName();
-    private static final int TTS_ENGINE_CHECK_CODE = 0;
-    private static final int TTS_VOICE_DATA_CHECK_CODE = 1;
-
 
     private TTSManager ttsManager;
     private LanguageChoiceAdapter adapter;

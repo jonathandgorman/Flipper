@@ -80,6 +80,7 @@ public class CardScreenActivity extends BaseActivity {
         CardParser parser = new CardParser();
         CardList cardList;
         parser.setContext(this);
+
         parser.setParserLang(languageChosen);
         parser.setParserCategory(categoryChosen);
         parser.start();

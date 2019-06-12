@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.util.Log;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
@@ -23,14 +24,21 @@ import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.action.InfoDisplayActivity;
 
+/*
+* Base activity from which all other activities extends from.
+* Contains common functionality such as mobile ads.
+* */
+
 public class BaseActivity extends Activity implements RewardedVideoAdListener {
 
+    private static final String TAG = BaseActivity.class.getName();
     protected RewardedVideoAd mRewardedVideoAd;
     private String TEST_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
     private String AD_UNIT_ID = "ca-app-pub-2251083820126124~2763503135";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
 
         // Initialise AdMob and load an ad if necessary
@@ -95,6 +103,7 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
                     Toast.makeText(getApplicationContext(), getString(R.string.video_ad_not_loading),
                             Toast.LENGTH_SHORT).show();
                     loadRewardedVideoAd(); // attempt to load the video
+                    Log.i(TAG,"Ad not loaded yet.");
                 }
             }
         }).setNegativeButton(getString(R.string.no_alert_button), new DialogInterface.OnClickListener() {
