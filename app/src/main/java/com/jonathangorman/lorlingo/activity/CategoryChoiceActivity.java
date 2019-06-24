@@ -8,15 +8,14 @@ import android.util.Log;
 
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.adapter.CategoryChoiceAdapter;
+import com.jonathangorman.lorlingo.domain.CategoryItem;
 
 import java.util.ArrayList;
 public class CategoryChoiceActivity extends BaseActivity {
 
     private static final String TAG = "CategoryChoiceActivity";
-    public String languageChosen = "";
-    ArrayList<Integer> recyclerImagesList = new ArrayList<>();
-    ArrayList<String> recyclerTextList = new ArrayList<>();
-    ArrayList<String> recyclerNameList = new ArrayList<>();
+    private String languageChosen = "";
+    private ArrayList<CategoryItem> categoryItemList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +39,7 @@ public class CategoryChoiceActivity extends BaseActivity {
 
         // Initialise and create recycler view and adapter to show the category choices
         RecyclerView recyclerView = findViewById(R.id.categoryRecyclerView);
-        CategoryChoiceAdapter adapter = new CategoryChoiceAdapter(this, this.languageChosen, this.recyclerNameList, this.recyclerTextList, this.recyclerImagesList);
+        CategoryChoiceAdapter adapter = new CategoryChoiceAdapter(this, this.languageChosen, this.categoryItemList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -48,32 +47,52 @@ public class CategoryChoiceActivity extends BaseActivity {
     // Initialises the lists required by the recyclerView
     void initLists()
     {
-        // add category text names based on locale
-        recyclerTextList.add(getString(R.string.numbers_category));
-        recyclerTextList.add(getString(R.string.alphabet_category));
-        recyclerTextList.add(getString(R.string.fruit_category));
-        recyclerTextList.add(getString(R.string.vegetables_category));
-        recyclerTextList.add(getString(R.string.animals_category));
-        recyclerTextList.add(getString(R.string.jobs_category));
-        recyclerTextList.add(getString(R.string.transport_category));
-        recyclerTextList.add(getString(R.string.household_category));
+        CategoryItem item = new CategoryItem();
+        item.setDisplayText(getString(R.string.numbers_category));
+        item.setImageId(R.drawable.one);
+        item.setNameId("numbers");
+        this.categoryItemList.add(item);
 
-        // add values for the images and identifier
-        recyclerImagesList.add(R.drawable.one);
-        recyclerNameList.add("numbers");
-        recyclerImagesList.add(R.drawable.letter_a);
-        recyclerNameList.add("alphabet");
-        recyclerImagesList.add(R.drawable.watermelon);
-        recyclerNameList.add("fruit");
-        recyclerImagesList.add(R.drawable.red_pepper);
-        recyclerNameList.add("vegetables");
-        recyclerImagesList.add(R.drawable.cat);
-        recyclerNameList.add("animals");
-        recyclerImagesList.add(R.drawable.firefighter);
-        recyclerNameList.add("professions");
-        recyclerImagesList.add(R.drawable.car);
-        recyclerNameList.add("transport");
-        recyclerImagesList.add(R.drawable.couch);
-        recyclerNameList.add("household");
+        item = new CategoryItem();
+        item.setDisplayText(getString(R.string.alphabet_category));
+        item.setImageId(R.drawable.letter_a);
+        item.setNameId("alphabet");
+        this.categoryItemList.add(item);
+
+        item = new CategoryItem();
+        item.setDisplayText(getString(R.string.fruit_category));
+        item.setImageId(R.drawable.watermelon);
+        item.setNameId("fruit");
+        this.categoryItemList.add(item);
+
+        item = new CategoryItem();
+        item.setDisplayText(getString(R.string.vegetables_category));
+        item.setImageId(R.drawable.red_pepper);
+        item.setNameId("vegetables");
+        this.categoryItemList.add(item);
+
+        item = new CategoryItem();
+        item.setDisplayText(getString(R.string.animals_category));
+        item.setImageId(R.drawable.cat);
+        item.setNameId("animals");
+        this.categoryItemList.add(item);
+
+        item = new CategoryItem();
+        item.setDisplayText(getString(R.string.jobs_category));
+        item.setImageId(R.drawable.firefighter);
+        item.setNameId("professions");
+        this.categoryItemList.add(item);
+
+        item = new CategoryItem();
+        item.setDisplayText(getString(R.string.transport_category));
+        item.setImageId(R.drawable.car);
+        item.setNameId("transport");
+        this.categoryItemList.add(item);
+
+        item = new CategoryItem();
+        item.setDisplayText(getString(R.string.household_category));
+        item.setImageId(R.drawable.couch);
+        item.setNameId("household");
+        this.categoryItemList.add(item);
     }
 }

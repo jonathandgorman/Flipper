@@ -2,6 +2,10 @@ package com.jonathangorman.lorlingo.com.jonathangorman.lorlingo.domain;
 
 import java.util.Locale;
 
+/*
+* Class representation of an in app language.
+* */
+
 public class LanguageItem {
 
     private Integer imageId;
@@ -51,4 +55,14 @@ public class LanguageItem {
         this.locale = locale;
     }
 
+    @Override
+    public String toString() {
+        return "LanguageItem{" +
+                "imageId=" + imageId +
+                ", displayText='" + displayText + '\'' +
+                ", nameId='" + nameId + '\'' +
+                ", ttsAvailable=" + ttsAvailable +
+                ", locale=" + locale +
+                '}';
+    }
 }

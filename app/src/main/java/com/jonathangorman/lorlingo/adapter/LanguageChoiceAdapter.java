@@ -90,8 +90,6 @@ public class LanguageChoiceAdapter extends RecyclerView.Adapter<LanguageChoiceAd
             Toast.makeText(context, R.string.tts_not_initialised_msg, Toast.LENGTH_SHORT);
             return false;
         }
-
-
         // second, checks that the voice data is installed. It automatically
         if (((LanguageChoiceActivity) context).getTtsManager().checkVoiceDataAvailable(locale) == false)
         {

@@ -8,9 +8,8 @@ import android.util.Log;
 
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.adapter.CardChoiceAdapter;
-import com.jonathangorman.lorlingo.card.Card;
-import com.jonathangorman.lorlingo.card.CardList;
-import com.jonathangorman.lorlingo.card.CardParser;
+import com.jonathangorman.lorlingo.domain.CardItem;
+import com.jonathangorman.lorlingo.domain.CardParser;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -18,24 +17,26 @@ import java.util.Locale;
 public class CardScreenActivity extends BaseActivity {
 
     private static final String TAG = "CardScreenActivity";
-    public String languageChosen = "";
-    public String categoryChosen = "";
-    ArrayList<String> recyclerImagesList = new ArrayList<String>();
-    ArrayList<String> recyclerAudioList = new ArrayList<String>();
-    private final static int CARDS_PER_ROW = 3;
+    private static final int CARDS_PER_ROW = 3;
+
+    private String languageChosen = "";
+    private String categoryChosen = "";
+
+    private ArrayList<CardItem> cardItemList = new ArrayList<CardItem>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_screen);
 
+        // receive intent containing language and category choice
         Intent intentLanguageChoice = getIntent();
         languageChosen = intentLanguageChoice.getStringExtra("LANGUAGE");
         categoryChosen = intentLanguageChoice.getStringExtra("CATEGORY");
         Log.d(TAG, "Intent received from categoryChoiceActivity: " + languageChosen + " and " + categoryChosen);
 
         // Initialise lists once for the recyclerView
-        initLists(languageChosen, categoryChosen);
+        initLists();
     }
 
     protected void onStart() {
@@ -43,7 +44,7 @@ public class CardScreenActivity extends BaseActivity {
 
         // Initialise and create recycler view and adapter to show the category choices
         RecyclerView recyclerView = findViewById(R.id.recycler_view_card_screen);
-        CardChoiceAdapter adapter = new CardChoiceAdapter(this, recyclerImagesList, recyclerAudioList);
+        CardChoiceAdapter adapter = new CardChoiceAdapter(this, cardItemList);
 
         // set locale according to language
         switch (this.languageChosen)
@@ -75,22 +76,10 @@ public class CardScreenActivity extends BaseActivity {
     }
 
     // Initialises the lists required by the recyclerView
-    void initLists(String languageChosen, String categoryChosen)
+    void initLists()
     {
-        CardParser parser = new CardParser();
-        CardList cardList;
-        parser.setContext(this);
-
-        parser.setParserLang(languageChosen);
-        parser.setParserCategory(categoryChosen);
+        CardParser parser = new CardParser(this, this.languageChosen, this.categoryChosen);
         parser.start();
-        cardList = parser.getCardList();
-
-        Card currCard;
-        for (int i = 0; i < cardList.size(); i++) {
-            currCard = (Card) cardList.get(i);
-            recyclerImagesList.add(String.valueOf(this.getResources().getIdentifier(currCard.getImageString(), "drawable", this.getPackageName())));
-            recyclerAudioList.add(currCard.getAudio());
-        }
+        this.cardItemList = parser.getCardList();
     }
 }

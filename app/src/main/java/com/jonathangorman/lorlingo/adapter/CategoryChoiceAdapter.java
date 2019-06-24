@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.activity.CardScreenActivity;
+import com.jonathangorman.lorlingo.domain.CategoryItem;
 
 import java.util.ArrayList;
 
@@ -21,16 +22,12 @@ import java.util.ArrayList;
 public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAdapter.ViewHolder>{
 
     private static final String TAG = "CategoryChoiceAdapter";
-    private ArrayList<Integer> categoryImagesList;
-    private ArrayList<String> categoryTextList;
-    private ArrayList<String> categoryNameList;
+    private ArrayList<CategoryItem> categoryItemList;
     private String languageChosen;
     Context context;
 
-    public CategoryChoiceAdapter(Context context, String languageChosen, ArrayList<String> nameList, ArrayList<String> textList, ArrayList<Integer> imagesList) {
-        this.categoryImagesList = imagesList;
-        this.categoryTextList = textList;
-        this.categoryNameList = nameList;
+    public CategoryChoiceAdapter(Context context, String languageChosen, ArrayList<CategoryItem> categoryItemList) {
+        this.categoryItemList = categoryItemList;
         this.languageChosen = languageChosen;
         this.context = context;
     }
@@ -52,8 +49,8 @@ public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAd
         @Override
         public void onClick(View v) {
             Intent toCardScreen = new Intent(context, CardScreenActivity.class);
-            toCardScreen.putExtra("CATEGORY", categoryNameList.get(getAdapterPosition())); // adapter position is removed from the list and added to intent
-            toCardScreen.putExtra("LANGUAGE", languageChosen); // add language
+            toCardScreen.putExtra("CATEGORY", categoryItemList.get(getAdapterPosition()).getNameId()); // adapter position is used to locate chosen category
+            toCardScreen.putExtra("LANGUAGE", languageChosen); // language choice is also added to intent
             context.startActivity(toCardScreen);
         }
     }
@@ -71,14 +68,14 @@ public class CategoryChoiceAdapter extends RecyclerView.Adapter<CategoryChoiceAd
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
         Log.d(TAG,"New item added at position: " + i);
-        viewHolder.imageView.setImageResource(categoryImagesList.get(i));
-        viewHolder.textView.setText(categoryTextList.get(i));
+        viewHolder.imageView.setImageResource(categoryItemList.get(i).getImageId());
+        viewHolder.textView.setText(categoryItemList.get(i).getDisplayText());
         viewHolder.constraintLayout.setOnClickListener(viewHolder);
     }
 
     // Returns the number of items
     @Override
     public int getItemCount() {
-        return categoryTextList.size();
+        return categoryItemList.size();
     }
 }

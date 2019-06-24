@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.jonathangorman.lorlingo.R;
+import com.jonathangorman.lorlingo.domain.CardItem;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -22,15 +23,13 @@ public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.Vi
 
     private static final String TAG = "CardChoiceAdapter";
     private Context context;
-    private ArrayList<String> imageList;
-    private ArrayList<String> nameList;
+    private ArrayList<CardItem> cardItemList;
     private String speechText = "";
     private Locale currLocale;
 
-    public CardChoiceAdapter(Context context, ArrayList<String> imageList, ArrayList<String> nameList) {
+    public CardChoiceAdapter(Context context, ArrayList<CardItem> cardItemList) {
         this.context = context;
-        this.imageList = imageList;
-        this.nameList = nameList;
+        this.cardItemList = cardItemList;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, TextToSpeech.OnInitListener {
@@ -49,7 +48,7 @@ public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.Vi
         @Override
         public void onClick(View v) {
             // if the view is clicked the name should be returned and spoken via TTS
-            speechText = nameList.get(getAdapterPosition());
+            speechText = cardItemList.get(getAdapterPosition()).getAudioString();
             tts = new TextToSpeech(context, this);
             Toast.makeText(context, speechText, Toast.LENGTH_SHORT).show();
         }
@@ -79,14 +78,14 @@ public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.Vi
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
         Log.d(TAG,"New item added at position: " + i);
-        viewHolder.imageView.setImageResource(Integer.valueOf(imageList.get(i)));
+        viewHolder.imageView.setImageResource(Integer.valueOf(cardItemList.get(i).getImageId()));
         viewHolder.constraintLayout.setOnClickListener(viewHolder);
     }
 
     // Returns the number of items
     @Override
     public int getItemCount() {
-        return imageList.size();
+        return cardItemList.size();
     }
     public void setCurrLocale(Locale currLocale) {
         this.currLocale = currLocale;

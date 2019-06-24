@@ -26,22 +26,22 @@ import com.jonathangorman.lorlingo.action.InfoDisplayActivity;
 
 /*
 * Base activity from which all other activities extends from.
-* Contains common functionality such as mobile ads.
+* Contains common functionality such as mobile ads, action buttons, etc.
 * */
 
 public class BaseActivity extends Activity implements RewardedVideoAdListener {
 
     private static final String TAG = BaseActivity.class.getName();
-    protected RewardedVideoAd mRewardedVideoAd;
-    private String TEST_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
-    private String AD_UNIT_ID = "ca-app-pub-2251083820126124~2763503135";
+    private RewardedVideoAd mRewardedVideoAd;
+    private final String TEST_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
+    private final String AD_UNIT_ID = "ca-app-pub-2251083820126124~2763503135";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
 
-        // Initialise AdMob and load an ad if necessary
+        // Initialise AdMob and load an ad so that it's ready for the user
         MobileAds.initialize(this, "ca-app-pub-2251083820126124~2763503135");
         mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this);
         mRewardedVideoAd.setRewardedVideoAdListener(this);
@@ -51,11 +51,11 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
         }
     }
 
-    // ensures that menu is setup and action buttons added
+    // called when the options menu is created
     @Override
     public boolean onCreateOptionsMenu( Menu menu )
     {
-        getMenuInflater().inflate( R.menu.action_buttons, menu );
+        getMenuInflater().inflate( R.menu.action_buttons, menu ); // add action buttons
         return true;
     }
 
@@ -85,15 +85,14 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
         }
     }
 
-    // common alert dialog call for reward ad
+    // common alert dialog call for reward ad popup
     public void createAlertDialog()
     {
-        // Create the alert dialog popup
+        // Create the alert dialog popup - show ad if "ok", otherwise exit...
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setPositiveButton( getString(R.string.ok_alert_button), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                // TODO AdMob integration if "ok" chosen - ca-app-pub-2251083820126124~2763503135
                 if (mRewardedVideoAd.isLoaded()) {
                     mRewardedVideoAd.show();
                 }
@@ -108,10 +107,10 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
             }
         }).setNegativeButton(getString(R.string.no_alert_button), new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {}
+            public void onClick(DialogInterface dialog, int which) {/*no action on click*/}
         });
 
-        // Custom popup title set here
+        // Custom popup title created and inflated here
         TextView title = new TextView(this);
         title.setText(getString(R.string.coffee_text_title));
         title.setBackgroundColor(getColor(R.color.colorPrimary));
