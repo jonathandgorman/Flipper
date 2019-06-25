@@ -1,0 +1,164 @@
+<resources>
+    // istruzioni per la scelta delle attività
+    <string name="language_instruction_title"> Scegli una lingua da imparare </string>
+    <string name="category_instruction_title"> Scegli una categoria per migliorare </string>
+
+    // le lingue
+    <string name="english_language">inglese</string>
+    <string name="spanish_language">spagnolo</string>
+    <string name="french_language">francese</string>
+    <string name="german_language">tedesco</string>
+    <string name="portuguese_language">portoghese</string>
+    <string name="italian_language">italiano</string>
+
+    // categorie
+    <string name="numbers_category">Numeri</string>
+    <string name="alphabet_category">Alfabeto</string>
+    <string name="fruit_category">Frutta</string>
+    <string name="vegetables_category">Verdure</string>
+    <string name="animals_category">Animali</string>
+    <string name="jobs_category">Lavoro</string>
+    <string name="transport_category">Transporti</string>
+    <string name="household_category">Casa</string>
+
+    // nomi dei pulsanti di azione
+    <string name="about_action_button_text"> Informazioni su </string>
+     
+    <string name="faq_action_button_text"> FAQ </string>
+        
+    <string name="credit_action_button_text"> Credit </string>
+
+    // impostazioni     
+    <string name="about_text">
+        <![CDATA[
+            <p> Benvenuti a Lorolingo! 🌍 </ p>
+            <br/>
+            <p> Lorolingo è un\'app per l\'apprendimento delle lingue progettata per aiutare i bambini ad imparare il vocabolario in una lingua straniera.
+            L\'app utilizza la naturale capacità dei bambini di ascoltare e distinguere i suoni delle lingue straniere tramite il collegamento
+            con oggetti di uso quotidiano. </ p>
+            <br/>
+            <p> Lorolingo è stato originariamente progettato con genitori che allevavano un bambino in un paese straniero in mente,
+            ma è ugualmente utile per genitori o genitori bilingui che desiderano dare il loro bambino un vantaggio in una lingua straniera. </ p>
+            <br/>
+            <p> Lorolingo è gratuito da usare, senza pubblicità e lo sarà sempre. Tuttavia, se desideri supportare funzionalità aggiuntive o aiutarmi
+            con la manutenzione continua è possibile eseguire una delle seguenti operazioni:
+            </ P> <br/>
+
+            - guarda un breve annuncio facendo clic sull\'icona in-app ❤️.
+            <br/>
+            - Comprami un caffè cliccando qui 👉 ko-fi.com/jonathangorman
+            <br/>
+            Buon apprendimento!
+            <br/>
+            Jonathan
+         ]]>
+    </string>
+        
+    <string name="faq_text">
+        <![CDATA[
+            <h6> Che cos\'è Lorolingo? </ h6>
+            <P>
+            Lorolingo è un\'app per l\'apprendimento delle lingue progettata per aiutare i bambini ad imparare il vocabolario in una lingua straniera.
+            L\'app utilizza la naturale capacità dei bambini di ascoltare e distinguere i suoni delle lingue straniere tramite il collegamento
+            loro con oggetti di uso quotidiano
+            </ P>
+            <br/>
+            <h6> In che modo mio figlio può usare Lorolingo? </ h6>
+            <P>
+            Lorolingo può essere utilizzato in due modi:
+            <br/>
+            1) Passando il dispositivo a tuo figlio, avendo prima selezionato una lingua e consentendo loro di suonare e scegliere le immagini in modo indipendente.
+            <br/>
+            2) Selezionando una lingua e interagendo con il tuo bambino. Poni loro delle domande nella lingua di arrivo sulle immagini che appaiono e osservali mentre imparano!
+            </ P>
+            <br/>
+            <h6> Perché l\'app è gratuita? </ h6>
+            <P>
+            Lorolingo ha iniziato come mio side-project con l\'obiettivo di migliorare le mie capacità di sviluppo e colmare una lacuna che
+            attualmente esiste nel mercato delle app Android, ovvero risorse di apprendimento di buona qualità per i genitori che cercano di insegnare ai loro figli una lingua straniera.
+            </ P>
+            <br/>
+            <h6> Come posso contribuire e supportare l\'app? </ h6>
+            <P>
+            L\'app può essere supportata premendo l\'icona in-app and e guardando un breve annuncio o acquistandomi un caffè cliccando qui 👉 ko-fi.com/jonathangorman
+            </ P>
+            <br/>
+            <h6> Ho una richiesta di funzione, come posso farti sapere? </ h6>
+            <P>
+            Caratteristiche quali nuove categorie, miglioramenti generali, ecc., Possono essere comunicati inviando un\'e-mail a:
+            hellolorolingo@gmail.com
+            </ P>
+            <br/>
+            <h6> C\'è un problema con l\'app, come posso farti sapere? </ h6>
+            <P>
+            Tutti i problemi come problemi di traduzione, problemi in-app, ecc. Possono essere comunicati inviando una e-mail a:
+            hellolorolingo@gmail.com
+            </ P>
+            <br/>
+         ]]>
+    </string>
+        
+    <string name="coffee_text_title">
+        Il tuo supporto è importante!
+    </string>
+
+    <string name="coffee_text">
+        Costruire e mantenere un\'app è difficile ...
+        ma puoi aiutarmi a mantenermi pieno di energia con il caffè
+        guardando un breve annuncio!
+    </string>
+
+    <string name="credit_text">
+        <![CDATA[
+            <h6> Credito immagine </ h6>
+            <br />
+            <p> Icone della bandiera del paese create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br />
+            <p> Icone numeriche create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br />
+            <p> Icone alfabetiche create da Twitter da www.flaticon.com e distribuite sotto CC 3.0 BY </ p> <br />
+            <p> Icone di frutta create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br />
+            <p> Icone di verdure create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br />
+            <p> Icone animali realizzate da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br />
+            <p> Icone di lavoro create da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br />
+            <p> Icone di trasporto realizzate da Freepik da www.flaticon.com e distribuite sotto la licenza di base di Flaticon </ p> <br />
+            <p> Icone domestiche realizzate da Freepik da www.flaticon.com e distribuite sotto la licenza Basic di Flaticon </ p> <br />
+         ]]>
+    </string>
+
+     // altro misc
+    <string name="error_text">
+        oops, c\'è stato un errore!
+    </string>
+
+        
+    <string name="video_ad_finish_message">
+        Grazie per il vostro sostegno! :)
+    </string>
+        
+    <string name="video_ad_left_ad_message">
+        Hai lasciato l\'app prima di guardare l\'annuncio :(
+    </string>
+
+    <string name="video_ad_not_loading">
+        "Oops ... l\'annuncio non può essere caricato in questo momento, per favore riprova più tardi!"
+    </string>
+      
+    <string name="ok_alert_button">
+        Ok
+    </string>
+        
+    <string name="no_alert_button">
+        No grazie
+    </string>
+        
+    <string name="tts_voice_data_prompt">
+        I dati vocali TTS devono essere installati per utilizzare la lingua scelta
+    </string>
+        
+    <string name="tts_not_initialised_msg">
+        Riprova tra qualche secondo ... il motore di sintesi vocale non è ancora pronto
+    </string>
+        
+    <string name="tts_voice_data_installing_msg">
+        I dati TTS non sono disponibili e verranno scaricati in background. Riprova tra qualche istante
+    </string>
+</resources>
