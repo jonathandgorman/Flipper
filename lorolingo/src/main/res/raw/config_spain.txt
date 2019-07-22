@@ -1,124 +1,124 @@
-spain;numbers;one;uno;one;
-spain;numbers;two;dos;two;
-spain;numbers;three;tres;three;
-spain;numbers;four;cuatro;four;
-spain;numbers;five;cinco;five;
-spain;numbers;six;seis;six;
-spain;numbers;seven;siete;seven;
-spain;numbers;eight;ocho;eight;
-spain;numbers;nine;nueve;nine;
-spain;numbers;ten;diez;ten;
-spain;numbers;twenty;veinte;twenty;
-spain;numbers;thirty;treinte;thirty;
-spain;numbers;forty;cuarenta;forty;
-spain;numbers;fifty;cincuenta;fifty;
-spain;numbers;sixty;sesente;sixty;
-spain;numbers;seventy;setenta;seventy;
-spain;numbers;eighty;ochenta;eighty;
-spain;numbers;ninety;noventa;ninety;
-spain;numbers;one_hundred;cien;one_hundred;
-spain;alphabet;letter-a;A;letter_a;
-spain;alphabet;letter-b;B;letter_b;
-spain;alphabet;letter-c;C;letter_c;
-spain;alphabet;letter-d;D;letter_d;
-spain;alphabet;letter-e;E;letter_e;
-spain;alphabet;letter-f;F;letter_f;
-spain;alphabet;letter-g;G;letter_g;
-spain;alphabet;letter-h;H;letter_h;
-spain;alphabet;letter-i;I;letter_i;
-spain;alphabet;letter-j;J;letter_j;
-spain;alphabet;letter-k;K;letter_k;
-spain;alphabet;letter-l;L;letter_l;
-spain;alphabet;letter-m;M;letter_m;
-spain;alphabet;letter-n;N;letter_n;
-spain;alphabet;letter-o;O;letter_o;
-spain;alphabet;letter-p;P;letter_p;
-spain;alphabet;letter-q;Q;letter_q;
-spain;alphabet;letter-r;R;letter_r;
-spain;alphabet;letter-s;S;letter_s;
-spain;alphabet;letter-t;T;letter_t;
-spain;alphabet;letter-u;U;letter_u;
-spain;alphabet;letter-v;V;letter_v;
-spain;alphabet;letter-w;W;letter_w;
-spain;alphabet;letter-x;X;letter_x;
-spain;alphabet;letter-y;Y;letter_y;
-spain;alphabet;letter-z;Z;letter_z;
-spain;fruit;apple;la manzana;apple;
-spain;fruit;apricot;el albaricoque;apricot;
-spain;fruit;banana;el plátano;banana;
-spain;fruit;blueberry;el arándano;blueberry;
-spain;fruit;cherry;la cereza;cherry;
-spain;fruit;chestnut;la castaña;chestnut;
-spain;fruit;coconut;el coco;coconut;
-spain;fruit;dates;la palma datilera;dates;
-spain;fruit;dragon_fruit;la fruta del dragón;dragon_fruit;
-spain;fruit;fig;el higo;fig;
-spain;fruit;goji;la baya de goji;goji;
-spain;fruit;gooseberry;la grosella;gooseberry;
-spain;fruit;grapefruit;la toronja;grapefruit;
-spain;fruit;grapes;las uvas;grapes;
-spain;fruit;guava;la guayaba;guava;
-spain;fruit;kiwi;el kiwi;kiwi;
-spain;fruit;kumquat;el kumquat;kumquat;
-spain;fruit;lemon;el limón;lemon;
-spain;fruit;lime;la lima;lime;
-spain;fruit;mango;el mango;mango;
-spain;fruit;melon;el melón;melon;
-spain;fruit;orange;la naranja;orange;
-spain;fruit;papaya;la papaya;papaya;
-spain;fruit;passion_fruit;la fruta de la pasión;passion_fruit;
-spain;fruit;peach;el melocotón;peach;
-spain;fruit;pear;la pera;pear;
-spain;fruit;persimmion;La Persimmion;persimmion;
-spain;fruit;pineapple;la piña;pineapple;
-spain;fruit;plum;la ciruela;plum;
-spain;fruit;quince;el membrillo;quince;
-spain;fruit;rambutan;el rambután;rambutan;
-spain;fruit;rasberry;la frambuesa;rasberry;
-spain;fruit;strawberry;la fresa;strawberry;
-spain;fruit;watermelon;la sandía;watermelon;
-spain;vegetables;asparagus;os esparragos;asparagus
+spain;numbers;one;uno;one
+spain;numbers;two;dos;two
+spain;numbers;three;tres;three
+spain;numbers;four;cuatro;four
+spain;numbers;five;cinco;five
+spain;numbers;six;seis;six
+spain;numbers;seven;siete;seven
+spain;numbers;eight;ocho;eight
+spain;numbers;nine;nueve;nine
+spain;numbers;ten;diez;ten
+spain;numbers;twenty;veinte;twenty
+spain;numbers;thirty;treinta;thirty
+spain;numbers;forty;cuarenta;forty
+spain;numbers;fifty;cincuenta;fifty
+spain;numbers;sixty;sesenta;sixty
+spain;numbers;seventy;setenta;seventy
+spain;numbers;eighty;ochenta;eighty
+spain;numbers;ninety;noventa;ninety
+spain;numbers;one_hundred;cien;one_hundred
+spain;alphabet;letter-a;A;letter_a
+spain;alphabet;letter-b;B;letter_b
+spain;alphabet;letter-c;C;letter_c
+spain;alphabet;letter-d;D;letter_d
+spain;alphabet;letter-e;E;letter_e
+spain;alphabet;letter-f;F;letter_f
+spain;alphabet;letter-g;G;letter_g
+spain;alphabet;letter-h;H;letter_h
+spain;alphabet;letter-i;I;letter_i
+spain;alphabet;letter-j;J;letter_j
+spain;alphabet;letter-k;K;letter_k
+spain;alphabet;letter-l;L;letter_l
+spain;alphabet;letter-m;M;letter_m
+spain;alphabet;letter-n;N;letter_n
+spain;alphabet;letter-o;O;letter_o
+spain;alphabet;letter-p;P;letter_p
+spain;alphabet;letter-q;Q;letter_q
+spain;alphabet;letter-r;R;letter_r
+spain;alphabet;letter-s;S;letter_s
+spain;alphabet;letter-t;T;letter_t
+spain;alphabet;letter-u;U;letter_u
+spain;alphabet;letter-v;V;letter_v
+spain;alphabet;letter-w;W;letter_w
+spain;alphabet;letter-x;X;letter_x
+spain;alphabet;letter-y;Y;letter_y
+spain;alphabet;letter-z;Z;letter_z
+spain;fruit;apple;la manzana;apple
+spain;fruit;apricot;el albaricoque;apricot
+spain;fruit;banana;el plátano;banana
+spain;fruit;blueberry;el arándano;blueberry
+spain;fruit;cherry;la cereza;cherry
+spain;fruit;chestnut;la castaña;chestnut
+spain;fruit;coconut;el coco;coconut
+spain;fruit;dates;el dátil;dates
+spain;fruit;dragon_fruit;la fruta del dragón;dragon_fruit
+spain;fruit;fig;el higo;fig
+spain;fruit;goji;la baya goji;goji
+spain;fruit;gooseberry;la grosella;gooseberry
+spain;fruit;grapefruit;el pomelo;grapefruit
+spain;fruit;grapes;la uva;grapes
+spain;fruit;guava;la guayaba;guava
+spain;fruit;kiwi;el kiwi;kiwi
+spain;fruit;kumquat;el kumquat;kumquat
+spain;fruit;lemon;el limón;lemon
+spain;fruit;lime;la lima;lime
+spain;fruit;mango;el mango;mango
+spain;fruit;melon;el melón;melon
+spain;fruit;orange;la naranja;orange
+spain;fruit;papaya;la papaya;papaya
+spain;fruit;passion_fruit;la fruta de la pasión;passion_fruit
+spain;fruit;peach;el melocotón;peach
+spain;fruit;pear;la pera;pear
+spain;fruit;persimmion;el persimon;persimmion
+spain;fruit;pineapple;la piña;pineapple
+spain;fruit;plum;la ciruela;plum
+spain;fruit;quince;el membrillo;quince
+spain;fruit;rambutan;el rambután;rambutan
+spain;fruit;rasberry;la frambuesa;rasberry
+spain;fruit;strawberry;la fresa;strawberry
+spain;fruit;watermelon;la sandía;watermelon
+spain;vegetables;asparagus;el espárrago;asparagus
 spain;vegetables;aubergine;la berenjena;aubergine
-spain;vegetables;avocado;El aguacate;avocado
+spain;vegetables;avocado;el aguacate;avocado
 spain;vegetables;basil;la albahaca;basil
 spain;vegetables;beetroot;la remolacha;beetroot
 spain;vegetables;broccoli;el brócoli;broccoli
-spain;vegetables;brussel_sprouts;las coles de bruselas;brussel_sprouts
+spain;vegetables;brussel_sprouts;la col de bruselas;brussel_sprouts
 spain;vegetables;cabbage;la col;cabbage
 spain;vegetables;caper;la alcaparra;caper
 spain;vegetables;carrot;la zanahoria;carrot
 spain;vegetables;cauliflower;la coliflor;cauliflower
 spain;vegetables;celery;el apio;celery
-spain;vegetables;chili_pepper;el chile;chili_pepper
-spain;vegetables;corn;el maiz;corn
+spain;vegetables;chili_pepper;el chili;chili_pepper
+spain;vegetables;corn;el maíz;corn
 spain;vegetables;courgette;el calabacín;courgette
 spain;vegetables;cucumber;el pepino;cucumber
 spain;vegetables;dill;el eneldo;dill
-spain;vegetables;garlic;El ajo;garlic
+spain;vegetables;garlic;el ajo;garlic
 spain;vegetables;ginger;el jengibre;ginger
 spain;vegetables;horseradish;el rábano picante;horseradish
 spain;vegetables;kohlrabi;el colinabo;kohlrabi
 spain;vegetables;leek;el puerro;leek
-spain;vegetables;olives;las aceitunas;olives
+spain;vegetables;olives;la aceituna;olives
 spain;vegetables;parsley;el perejil;parsley
-spain;vegetables;peas;los guisantes;peas
-spain;vegetables;potato;la papa;potato
+spain;vegetables;peas;el guisante;peas
+spain;vegetables;potato;la patata;potato
 spain;vegetables;pumpkin;la calabaza;pumpkin
 spain;vegetables;radish;el rábano;radish
 spain;vegetables;red_pepper;el pimiento rojo;red_pepper
 spain;vegetables;rhubarb;el ruibarbo;rhubarb
-spain;vegetables;rocket;el cohete;rocket
+spain;vegetables;rocket;la rúcula;rocket
 spain;vegetables;spinach;la espinaca;spinach
 spain;vegetables;squash;la calabaza;squash
-spain;vegetables;sweet_potato;la batata;sweet_potato
+spain;vegetables;sweet_potato;el boniato;sweet_potato
 spain;vegetables;tomato;el tomate;tomato
 spain;vegetables;turnip;el nabo;turnip
 spain;vegetables;white_garlic;el ajo blanco;white_garlic
 spain;animals;anteater;el oso hormiguero;anteater
 spain;animals;baboon;el babuino;baboon
-spain;animals;bear;El oso;bear
+spain;animals;bear;el oso;bear
 spain;animals;bee;la abeja;bee
-spain;animals;beetle;El escarabajo;beetle
+spain;animals;beetle;el escarabajo;beetle
 spain;animals;boar;el jabalí;boar
 spain;animals;bison;el bisonte;bison
 spain;animals;bullfinch;el camachuelo;bullfinch
@@ -126,14 +126,14 @@ spain;animals;butterfly;la mariposa;butterfly
 spain;animals;capybara;la capibara;capybara
 spain;animals;cat;el gato;cat
 spain;animals;centipede;el ciempiés;centipede
-spain;animals;chameleon;El camaleon;chameleon
+spain;animals;chameleon;el camaleón;chameleon
 spain;animals;chimpanzee;el chimpancé;chimpanzee
 spain;animals;crab;el cangrejo;crab
-spain;animals;crane;la grúa;crane
+spain;animals;crane;la grulla;crane
 spain;animals;crocodile;el cocodrilo;crocodile
 spain;animals;deer;el ciervo;deer
 spain;animals;dog;el perro;dog
-spain;animals;dolphin;el delfin;dolphin
+spain;animals;dolphin;el delfín;dolphin
 spain;animals;dragonfly;la libélula;dragonfly
 spain;animals;duck;el pato;duck
 spain;animals;eagle;el águila;eagle
@@ -145,23 +145,23 @@ spain;animals;frog;la rana;frog
 spain;animals;giraffe;la jirafa;giraffe
 spain;animals;goat;la cabra;goat
 spain;animals;goldfish;el pez de colores;goldfish
-spain;animals;guinea_pig;El conejillo de indias;guinea_pig
+spain;animals;guinea_pig;el conejillo de indias;guinea_pig
 spain;animals;hedgehog;el erizo;hedgehog
 spain;animals;hippopotamus;el hipopótamo;hippopotamus
 spain;animals;horse;el caballo;horse
 spain;animals;hyena;la hiena;hyena
 spain;animals;kangaroo;el canguro;kangaroo
-spain;animals;koala;el Koala;koala
+spain;animals;koala;el koala;koala
 spain;animals;ladybird;la mariquita;ladybird
 spain;animals;lemur;el lemur;lemur
-spain;animals;lion;El león;lion
+spain;animals;lion;el león;lion
 spain;animals;llama;la llama;llama
 spain;animals;mink;el visón;mink
 spain;animals;mite;el ácaro;mite
 spain;animals;mole;el topo;mole
 spain;animals;moose;el alce;moose
-spain;animals;mosquito;El mosquito;mosquito
-spain;animals;moth;La polilla;moth
+spain;animals;mosquito;el mosquito;mosquito
+spain;animals;moth;la polilla;moth
 spain;animals;mouse;el ratón;mouse
 spain;animals;orca;la orca;orca
 spain;animals;ostrich;el avestruz;ostrich
@@ -175,12 +175,12 @@ spain;animals;piranha;la piraña;piranha
 spain;animals;platypus;el ornitorrinco;platypus
 spain;animals;pufferfish;el pez globo;pufferfish
 spain;animals;puffin;el frailecillo;puffin
-spain;animals;rabbit;El conejo;rabbit
+spain;animals;rabbit;el conejo;rabbit
 spain;animals;raccoon;el mapache;raccoon
 spain;animals;rooster;el gallo;rooster
-spain;animals;salmon;el salmon;salmon
+spain;animals;salmon;el salmón;salmon
 spain;animals;sea_urchin;el erizo de mar;sea_urchin
-spain;animals;seal;el sello;seal
+spain;animals;seal;la foca;seal
 spain;animals;shark;el tiburón;shark
 spain;animals;sheep;la oveja;sheep
 spain;animals;prawn;la gamba;prawn
@@ -190,12 +190,12 @@ spain;animals;sloth;el perezoso;sloth
 spain;animals;snake;la serpiente;snake
 spain;animals;spider;la araña;spider
 spain;animals;squid;el calamar;squid
-spain;animals;panda_bear;el panda;panda_bear
+spain;animals;panda_bear;el oso panda;panda_bear
 spain;animals;squirrel;la ardilla;squirrel
 spain;animals;starfish;la estrella de mar;starfish
-spain;animals;swan;el Cisne;swan
+spain;animals;swan;el cisne;swan
 spain;animals;swordfish;el pez espada;swordfish
-spain;animals;tiger;el Tigre;tiger
+spain;animals;tiger;el tigre;tiger
 spain;animals;tuna;el atun;tuna
 spain;animals;turtle;la tortuga;turtle
 spain;animals;wasp;la avispa;wasp
@@ -205,7 +205,7 @@ spain;professions;astronaut;el astronauta;astronaut
 spain;professions;athlete;el atleta;athlete
 spain;professions;basketball_player;el jugador de baloncesto;basketball_player
 spain;professions;butler;el mayordomo;butler
-spain;professions;cabin_crew;el tripulante de cabina;cabin_crew
+spain;professions;cabin_crew;la tripulante de cabina;cabin_crew
 spain;professions;captain;el capitán;captain
 spain;professions;chef;el cocinero;chef
 spain;professions;clown;el payaso;clown
@@ -218,7 +218,7 @@ spain;professions;engineer;el ingeniero;engineer
 spain;professions;farmer;el granjero;farmer
 spain;professions;firefighter;el bombero;firefighter
 spain;professions;hunter;el cazador;hunter
-spain;professions;judge;el juez;judge
+spain;professions;judge;la juez;judge
 spain;professions;lumberjack;el leñador;lumberjack
 spain;professions;maid;la sirvienta;maid
 spain;professions;mechanic;el mecánico;mechanic
@@ -226,24 +226,24 @@ spain;professions;nun;la monja;nun
 spain;professions;nurse;la enfermera;nurse
 spain;professions;office_worker;el oficinista;office_worker
 spain;professions;photographer;el fotógrafo;photographer
-spain;professions;pilot;El piloto;pilot
-spain;professions;police_officer;el oficial de policía;police_officer
+spain;professions;pilot;el piloto;pilot
+spain;professions;police_officer;el policía;police_officer
 spain;professions;postman;el cartero;postman
 spain;professions;priest;el cura;priest
-spain;professions;race_car_driver;el piloto de carreras;race_car_driver
+spain;professions;race_car_driver;la piloto de carreras;race_car_driver
 spain;professions;sailor;el marinero;sailor
-spain;professions;scientist;El Científico;scientist
+spain;professions;scientist;el científico;scientist
 spain;professions;secretary;la secretaria;secretary
-spain;professions;singer;el cantante;singer
+spain;professions;singer;la cantante;singer
 spain;professions;software_developer;el desarrollador de software;software_developer
-spain;professions;soldier;el soldado;soldier
-spain;professions;student;el estudiante;student
-spain;professions;surgeon;el cirujano;surgeon
+spain;professions;soldier;la soldado;soldier
+spain;professions;student;la estudiante;student
+spain;professions;surgeon;el cirujano/ la cirujana;surgeon
 spain;professions;taxi_driver;el taxista;taxi_driver
 spain;professions;teacher;el maestro;teacher
 spain;professions;telemarketer;el vendedor por teléfono;telemarketer
-spain;professions;tour_guide;el guía turístico;tour_guide
-spain;professions;waiter;El camarero;waiter
+spain;professions;tour_guide;la guía turística;tour_guide
+spain;professions;waiter;el camarero;waiter
 spain;professions;welder;el soldador;welder
 spain;professions;wrestler;el luchador;wrestler
 spain;transport;airplane;el avión;airplane
@@ -262,10 +262,10 @@ spain;transport;dump_truck;el camión de volteo;dump_truck
 spain;transport;firetruck;el camión de bomberos;firetruck
 spain;transport;forklift;el montacargas;forklift
 spain;transport;helicopter;el helicóptero;helicopter
-spain;transport;hot_air_balloon;el globo de aire caliente;hot_air_balloon
+spain;transport;hot_air_balloon;el globo aerostático;hot_air_balloon
 spain;transport;hovercraft;el aerodeslizador;hovercraft
 spain;transport;jet_ski;el jet ski;jet_ski
-spain;transport;monorail;el monorriel;monorail
+spain;transport;monorail;el monorrail;monorail
 spain;transport;motorbike;la motocicleta;motorbike
 spain;transport;quad;el quad;quad
 spain;transport;racing_car;el coche de carreras;racing_car
@@ -273,7 +273,7 @@ spain;transport;rocket_ship;el cohete;rocket_ship
 spain;transport;sailboat;el velero;sailboat
 spain;transport;scooter;el scooter;scooter
 spain;transport;sidecar;el sidecar;sidecar
-spain;transport;steam_engine;el motor de vapor;steam_engine
+spain;transport;steam_engine;el tren de vapor;steam_engine
 spain;transport;submarine;el submarino;submarine
 spain;transport;tanker;el petrolero;tanker
 spain;transport;taxi;el taxi;taxi
@@ -286,21 +286,21 @@ spain;household;air_conditioning;el aire acondicionado;air_conditioning
 spain;household;armchair;el sillón;armchair
 spain;household;bathtub;la bañera;bathtub
 spain;household;bed;la cama;bed
-spain;household;bedside_table;mesilla de noche;bedside_table
+spain;household;bedside_table;la mesilla de noche;bedside_table
 spain;household;blender;la licuadora;blender
 spain;household;bookcase;la librería;bookcase
 spain;household;chair;la silla;chair
 spain;household;chest_of_drawers;la cómoda;chest_of_drawers
 spain;household;coat_rack;el perchero;coat_rack
-spain;household;coffee_machine;la maquina de cafe;coffee_machine
+spain;household;coffee_machine;la maquina de café;coffee_machine
 spain;household;coffee_table;la mesa de café;coffee_table
 spain;household;couch;el sofá;couch
-spain;household;desk_lamp;la lampara del escritorio;desk_lamp
+spain;household;desk_lamp;la lámpara del escritorio;desk_lamp
 spain;household;dishwasher;el lavavajillas;dishwasher
 spain;household;door;la puerta;door
 spain;household;dresser;el vestidor;dresser
 spain;household;extractor_hood;la campana extractora;extractor_hood
-spain;household;fan;el admirador;fan
+spain;household;fan;el ventilador;fan
 spain;household;fireplace;la chimenea;fireplace
 spain;household;fridge;la nevera;fridge
 spain;household;garage;el garaje;garage
@@ -309,12 +309,12 @@ spain;household;heater;el calentador;heater
 spain;household;hoover;la aspiradora;hoover
 spain;household;iron;el hierro;iron
 spain;household;juicer;el exprimidor;juicer
-spain;household;kettle;La tetera;kettle
+spain;household;kettle;la tetera;kettle
 spain;household;kitchen_table;la mesa de la cocina;kitchen_table
 spain;household;lamp;la lámpara;lamp
-spain;household;light_bulb;La bombilla;light_bulb
+spain;household;light_bulb;la bombilla;light_bulb
 spain;household;microwave;el microondas;microwave
-spain;household;mixer;el mezclador;mixer
+spain;household;mixer;La batidora;mixer
 spain;household;oven;el horno;oven
 spain;household;radiator;el radiador;radiator
 spain;household;shower;la ducha;shower

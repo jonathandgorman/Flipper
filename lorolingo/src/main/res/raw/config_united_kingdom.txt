@@ -1,331 +1,331 @@
-united_kingdom;numbers;one;one;one;
-united_kingdom;numbers;two;two;two;
-united_kingdom;numbers;three;three;three;
-united_kingdom;numbers;four;four;four;
-united_kingdom;numbers;five;five;five;
-united_kingdom;numbers;six;six;six;
-united_kingdom;numbers;seven;seven;seven;
-united_kingdom;numbers;eight;eight;eight;
-united_kingdom;numbers;nine;nine;nine;
-united_kingdom;numbers;ten;ten;ten;
-united_kingdom;numbers;twenty;twenty;twenty;
-united_kingdom;numbers;thirty;thirty;thirty;
-united_kingdom;numbers;forty;forty;forty;
-united_kingdom;numbers;fifty;fifty;fifty;
-united_kingdom;numbers;sixty;sixty;sixty;
-united_kingdom;numbers;seventy;seventy;seventy;
-united_kingdom;numbers;eighty;eighty;eighty;
-united_kingdom;numbers;ninety;ninety;ninety;
-united_kingdom;numbers;one_hundred;one hundred;one_hundred;
-united_kingdom;alphabet;letter-a;A;letter_a;
-united_kingdom;alphabet;letter-b;B;letter_b;
-united_kingdom;alphabet;letter-c;C;letter_c;
-united_kingdom;alphabet;letter-d;D;letter_d;
-united_kingdom;alphabet;letter-e;E;letter_e;
-united_kingdom;alphabet;letter-f;F;letter_f;
-united_kingdom;alphabet;letter-g;G;letter_g;
-united_kingdom;alphabet;letter-h;H;letter_h;
-united_kingdom;alphabet;letter-i;I;letter_i;
-united_kingdom;alphabet;letter-j;J;letter_j;
-united_kingdom;alphabet;letter-k;K;letter_k;
-united_kingdom;alphabet;letter-l;L;letter_l;
-united_kingdom;alphabet;letter-m;M;letter_m;
-united_kingdom;alphabet;letter-n;N;letter_n;
-united_kingdom;alphabet;letter-o;O;letter_o;
-united_kingdom;alphabet;letter-p;P;letter_p;
-united_kingdom;alphabet;letter-q;Q;letter_q;
-united_kingdom;alphabet;letter-r;R;letter_r;
-united_kingdom;alphabet;letter-s;S;letter_s;
-united_kingdom;alphabet;letter-t;T;letter_t;
-united_kingdom;alphabet;letter-u;U;letter_u;
-united_kingdom;alphabet;letter-v;V;letter_v;
-united_kingdom;alphabet;letter-w;W;letter_w;
-united_kingdom;alphabet;letter-x;X;letter_x;
-united_kingdom;alphabet;letter-y;Y;letter_y;
-united_kingdom;alphabet;letter-z;Z;letter_z;
-united_kingdom;fruit;apple;the apple;apple;
-united_kingdom;fruit;apricot;the apricot;apricot;
-united_kingdom;fruit;banana;the banana;banana;
-united_kingdom;fruit;blueberry;the blueberry;blueberry;
-united_kingdom;fruit;cherry;the cherry;cherry;
-united_kingdom;fruit;chestnut;the chestnut;chestnut;
-united_kingdom;fruit;coconut;the coconut;coconut;
-united_kingdom;fruit;dates;the dates;dates;
-united_kingdom;fruit;dragon_fruit;the dragon fruit;dragon_fruit;
-united_kingdom;fruit;fig;the fig;fig;
-united_kingdom;fruit;goji;the goji berry;goji;
-united_kingdom;fruit;gooseberry;the gooseberry;gooseberry;
-united_kingdom;fruit;grapefruit;the grapefruit;grapefruit;
-united_kingdom;fruit;grapes;the grapes;grapes;
-united_kingdom;fruit;guava;the guava;guava;
-united_kingdom;fruit;kiwi;the kiwi;kiwi;
-united_kingdom;fruit;kumquat;the kumquat;kumquat;
-united_kingdom;fruit;lemon;the lemon;lemon;
-united_kingdom;fruit;lime;the lime;lime;
-united_kingdom;fruit;mango;the mango;mango;
-united_kingdom;fruit;melon;the melon;melon;
-united_kingdom;fruit;orange;the orange;orange;
-united_kingdom;fruit;papaya;the papaya;papaya;
-united_kingdom;fruit;passion_fruit;the passion fruit;passion_fruit;
-united_kingdom;fruit;peach;the peach;peach;
-united_kingdom;fruit;pear;the pear;pear;
-united_kingdom;fruit;persimmion;the persimmion;persimmion;
-united_kingdom;fruit;pineapple;the pineapple;pineapple;
-united_kingdom;fruit;plum;the plum;plum;
-united_kingdom;fruit;quince;the quince;quince;
-united_kingdom;fruit;rambutan;the rambutan;rambutan;
-united_kingdom;fruit;rasberry;the rasberry;rasberry;
-united_kingdom;fruit;strawberry;the strawberry;strawberry;
-united_kingdom;fruit;watermelon;the watermelon;watermelon;
-united_kingdom;vegetables;asparagus;the asparagus;asparagus;
-united_kingdom;vegetables;aubergine;the aubergine;aubergine;
-united_kingdom;vegetables;avocado;the avocado;avocado;
-united_kingdom;vegetables;basil;the basil;basil;
-united_kingdom;vegetables;beetroot;the beetroot;beetroot;
-united_kingdom;vegetables;broccoli;the broccoli;broccoli;
-united_kingdom;vegetables;brussel_sprouts;the brussel sprouts;brussel_sprouts;
-united_kingdom;vegetables;cabbage;the cabbage;cabbage;
-united_kingdom;vegetables;caper;the caper;caper;
-united_kingdom;vegetables;carrot;the carrot;carrot;
-united_kingdom;vegetables;cauliflower;the cauliflower;cauliflower;
-united_kingdom;vegetables;celery;the celery;celery;
-united_kingdom;vegetables;chili_pepper;the chili pepper;chili_pepper;
-united_kingdom;vegetables;corn;the corn;corn;
-united_kingdom;vegetables;courgette;the courgette;courgette;
-united_kingdom;vegetables;cucumber;the cucumber;cucumber;
-united_kingdom;vegetables;dill;the dill;dill;
-united_kingdom;vegetables;garlic;the garlic;garlic;
-united_kingdom;vegetables;ginger;the ginger;ginger;
-united_kingdom;vegetables;horseradish;the horseradish;horseradish;
-united_kingdom;vegetables;kohlrabi;the kohlrabi;kohlrabi;
-united_kingdom;vegetables;leek;the leek;leek;
-united_kingdom;vegetables;olives;the olives;olives;
-united_kingdom;vegetables;parsley;the parsley;parsley;
-united_kingdom;vegetables;peas;the peas;peas;
-united_kingdom;vegetables;potato;the potato;potato;
-united_kingdom;vegetables;pumpkin;the pumpkin;pumpkin;
-united_kingdom;vegetables;radish;the radish;radish;
-united_kingdom;vegetables;red_pepper;the red pepper;red_pepper;
-united_kingdom;vegetables;rhubarb;the rhubarb;rhubarb;
-united_kingdom;vegetables;rocket;the rocket;rocket;
-united_kingdom;vegetables;spinach;the spinach;spinach;
-united_kingdom;vegetables;squash;the squash;squash;
-united_kingdom;vegetables;sweet_potato;the sweet potato;sweet_potato;
-united_kingdom;vegetables;tomato;the tomato;tomato;
-united_kingdom;vegetables;turnip;the turnip;turnip;
-united_kingdom;vegetables;white_garlic;the white garlic;white_garlic;
-united_kingdom;animals;anteater;the anteater;anteater;
-united_kingdom;animals;baboon;the baboon;baboon;
-united_kingdom;animals;bear;the bear;bear;
-united_kingdom;animals;bee;the bee;bee;
-united_kingdom;animals;beetle;the beetle;beetle;
-united_kingdom;animals;boar;the boar;boar;
-united_kingdom;animals;bison;the bison;bison;
-united_kingdom;animals;bullfinch;the bullfinch;bullfinch;
-united_kingdom;animals;butterfly;the butterfly;butterfly;
-united_kingdom;animals;capybara;the capybara;capybara;
-united_kingdom;animals;cat;the cat;cat;
-united_kingdom;animals;centipede;the centipede;centipede;
-united_kingdom;animals;chameleon;the chameleon;chameleon;
-united_kingdom;animals;chimpanzee;the chimpanzee;chimpanzee;
-united_kingdom;animals;crab;the crab;crab
-united_kingdom;animals;crane;the crane;crane;
-united_kingdom;animals;crocodile;the crocodile;crocodile;
-united_kingdom;animals;deer;the deer;deer;
-united_kingdom;animals;dog;the dog;dog;
-united_kingdom;animals;dolphin;the dolphin;dolphin;
-united_kingdom;animals;dragonfly;the dragonfly;dragonfly;
-united_kingdom;animals;duck;the duck;duck;
-united_kingdom;animals;eagle;the eagle;eagle;
-united_kingdom;animals;elephant;the elephant;elephant;
-united_kingdom;animals;fennec;the fennec;fennec;
-united_kingdom;animals;fly;the fly;fly;
-united_kingdom;animals;fox;the fox;fox;
-united_kingdom;animals;frog;the frog;frog;
-united_kingdom;animals;giraffe;the giraffe;giraffe;
-united_kingdom;animals;goat;the goat;goat;
-united_kingdom;animals;goldfish;the goldfish;goldfish;
-united_kingdom;animals;guinea_pig;the guinea_pig;guinea_pig;
-united_kingdom;animals;hedgehog;the hedgehog;hedgehog;
-united_kingdom;animals;hippopotamus;the hippopotamus;hippopotamus;
-united_kingdom;animals;horse;the horse;horse;
-united_kingdom;animals;hyena;the hyena;hyena;
-united_kingdom;animals;kangaroo;the kangaroo;kangaroo;
-united_kingdom;animals;koala;the koala;koala;
-united_kingdom;animals;ladybird;the ladybird;ladybird;
-united_kingdom;animals;lemur;the lemur;lemur;
-united_kingdom;animals;lion;the lion;lion;
-united_kingdom;animals;llama;the llama;llama;
-united_kingdom;animals;mink;the mink;mink;
-united_kingdom;animals;mite;the mite;mite;
-united_kingdom;animals;mole;the mole;mole;
-united_kingdom;animals;moose;the moose;moose;
-united_kingdom;animals;mosquito;the mosquito;mosquito;
-united_kingdom;animals;moth;the moth;moth;
-united_kingdom;animals;mouse;the mouse;mouse;
-united_kingdom;animals;orca;the orca;orca;
-united_kingdom;animals;ostrich;the ostrich;ostrich;
-united_kingdom;animals;owl;the owl;owl;
-united_kingdom;animals;parrot;the parrot;parrot;
-united_kingdom;animals;penguin;the penguin;penguin;
-united_kingdom;animals;pig;the pig;pig;
-united_kingdom;animals;pigeon;the pigeon;pigeon;
-united_kingdom;animals;pike;the pike;pike;
-united_kingdom;animals;piranha;the piranha;piranha;
-united_kingdom;animals;platypus;the platypus;platypus;
-united_kingdom;animals;pufferfish;the pufferfish;pufferfish;
-united_kingdom;animals;puffin;the puffin;puffin;
-united_kingdom;animals;rabbit;the rabbit;rabbit;
-united_kingdom;animals;raccoon;the raccoon;raccoon;
-united_kingdom;animals;rooster;the rooster;rooster;
-united_kingdom;animals;salmon;the salmon;salmon;
-united_kingdom;animals;sea_urchin;the sea urchin;sea_urchin;
-united_kingdom;animals;seal;the seal;seal;
-united_kingdom;animals;shark;the shark;shark;
-united_kingdom;animals;sheep;the sheep;sheep;
-united_kingdom;animals;prawn;the prawn;prawn;
-united_kingdom;animals;silverfish;the silverfish;silverfish;
-united_kingdom;animals;skunk;the skunk;skunk;
-united_kingdom;animals;sloth;the sloth;sloth;
-united_kingdom;animals;snake;the snake;snake;
-united_kingdom;animals;spider;the spider;spider;
-united_kingdom;animals;squid;the squid;squid;
-united_kingdom;animals;panda_bear;the panda;panda_bear;
-united_kingdom;animals;squirrel;the squirrel;squirrel;
-united_kingdom;animals;starfish;the starfish;starfish;
-united_kingdom;animals;swan;the swan;swan;
-united_kingdom;animals;swordfish;the swordfish;swordfish;
-united_kingdom;animals;tiger;the tiger;tiger;
-united_kingdom;animals;tuna;the tuna;tuna;
-united_kingdom;animals;turtle;the turtle;turtle;
-united_kingdom;animals;wasp;the wasp;wasp;
-united_kingdom;animals;wolf;the wolf;wolf;
-united_kingdom;professions;artist;the artist;artist;
-united_kingdom;professions;astronaut;the astronaut;astronaut;
-united_kingdom;professions;athlete;the athlete;athlete;
-united_kingdom;professions;basketball_player;the basketball player;basketball_player;
-united_kingdom;professions;butler;the butler;butler;
-united_kingdom;professions;cabin_crew;the cabin crew member;cabin_crew;
-united_kingdom;professions;captain;the captain;captain;
-united_kingdom;professions;chef;the chef;chef;
-united_kingdom;professions;clown;the clown;clown;
-united_kingdom;professions;cook;the cook;cook;
-united_kingdom;professions;courier;the courier;courier;
-united_kingdom;professions;detective;the detective;detective;
-united_kingdom;professions;diver;the diver;diver;
-united_kingdom;professions;doctor;the doctor;doctor;
-united_kingdom;professions;engineer;the engineer;engineer;
-united_kingdom;professions;farmer;the farmer;farmer;
-united_kingdom;professions;firefighter;the firefighter;firefighter;
-united_kingdom;professions;hunter;the hunter;hunter;
-united_kingdom;professions;judge;the judge;judge;
-united_kingdom;professions;lumberjack;the lumberjack;lumberjack;
-united_kingdom;professions;maid;the maid;maid;
-united_kingdom;professions;mechanic;the mechanic;mechanic;
-united_kingdom;professions;nun;the nun;nun;
-united_kingdom;professions;nurse;the nurse;nurse;
-united_kingdom;professions;office_worker;the office worker;office_worker;
-united_kingdom;professions;photographer;the photographer;photographer;
-united_kingdom;professions;pilot;the pilot;pilot;
-united_kingdom;professions;police_officer;the police officer;police_officer;
-united_kingdom;professions;postman;the postman;postman;
-united_kingdom;professions;priest;the priest;priest;
-united_kingdom;professions;race_car_driver;the race car driver;race_car_driver;
-united_kingdom;professions;sailor;the sailor;sailor;
-united_kingdom;professions;scientist;the scientist;scientist;
-united_kingdom;professions;secretary;the secretary;secretary;
-united_kingdom;professions;singer;the singer;singer;
-united_kingdom;professions;software_developer;the software developer;software_developer;
-united_kingdom;professions;soldier;the soldier;soldier;
-united_kingdom;professions;student;the student;student;
-united_kingdom;professions;surgeon;the surgeon;surgeon;
-united_kingdom;professions;taxi_driver;the taxi driver;taxi_driver;
-united_kingdom;professions;teacher;the teacher;teacher;
-united_kingdom;professions;telemarketer;the telemarketer;telemarketer;
-united_kingdom;professions;tour_guide;the tour guide;tour_guide;
-united_kingdom;professions;waiter;the waiter;waiter;
-united_kingdom;professions;welder;the welder;welder;
-united_kingdom;professions;wrestler;the wrestler;wrestler;
-united_kingdom;transport;airplane;the airplane;airplane;
-united_kingdom;transport;bike;the bike;bike;
-united_kingdom;transport;bin_truck;the bin truck;bin_truck;
-united_kingdom;transport;boat;the boat;boat;
-united_kingdom;transport;bus;the bus;bus;
-united_kingdom;transport;cable_car;the cable car;cable_car;
-united_kingdom;transport;camper_van;the campervan;camper_van;
-united_kingdom;transport;car;the car;car;
-united_kingdom;transport;cargo_ship;the cargo ship;cargo_ship;
-united_kingdom;transport;cement_truck;the cement truck;cement_truck;
-united_kingdom;transport;cruise_ship;the cruise ship;cruise_ship;
-united_kingdom;transport;drone;the drone;drone;
-united_kingdom;transport;dump_truck;the dump truck;dump_truck;
-united_kingdom;transport;firetruck;the firetruck;firetruck;
-united_kingdom;transport;forklift;the forklift;forklift;
-united_kingdom;transport;helicopter;the helicopter;helicopter;
-united_kingdom;transport;hot_air_balloon;the hot air balloon;hot_air_balloon;
-united_kingdom;transport;hovercraft;the hovercraft;hovercraft;
-united_kingdom;transport;jet_ski;the jet ski;jet_ski;
-united_kingdom;transport;monorail;the monorail;monorail;
-united_kingdom;transport;motorbike;the motorbike;motorbike;
-united_kingdom;transport;quad;the quad;quad;
-united_kingdom;transport;racing_car;the racing car;racing_car;
-united_kingdom;transport;rocket_ship;the rocketship;rocket_ship;
-united_kingdom;transport;sailboat;the sailboat;sailboat;
-united_kingdom;transport;scooter;the scooter;scooter;
-united_kingdom;transport;sidecar;the sidecar;sidecar;
-united_kingdom;transport;steam_engine;the steamengine;steam_engine;
-united_kingdom;transport;submarine;the submarine;submarine;
-united_kingdom;transport;tanker;the tanker;tanker;
-united_kingdom;transport;taxi;the taxi;taxi;
-united_kingdom;transport;train;the train;train;
-united_kingdom;transport;tram;the tram;tram;
-united_kingdom;transport;truck;the truck;truck;
-united_kingdom;transport;van;the van;van;
-united_kingdom;transport;yacht;the yacht;yacht;
-united_kingdom;household;air_conditioning;the air-conditioning;air_conditioning;
-united_kingdom;household;armchair;the armchair;armchair;
-united_kingdom;household;bathtub;the bathtub;bathtub;
-united_kingdom;household;bed;the bed;bed;
-united_kingdom;household;bedside_table;bedside table;bedside_table;
-united_kingdom;household;blender;the blender;blender;
-united_kingdom;household;bookcase;the bookcase;bookcase;
-united_kingdom;household;chair;the chair;chair;
-united_kingdom;household;chest_of_drawers;the chest of drawers;chest_of_drawers;
-united_kingdom;household;coat_rack;the coat rack;coat_rack;
-united_kingdom;household;coffee_machine;the coffee machine;coffee_machine;
-united_kingdom;household;coffee_table;the coffee table;coffee_table;
-united_kingdom;household;couch;the couch;couch;
-united_kingdom;household;desk_lamp;the desk lamp;desk_lamp;
-united_kingdom;household;dishwasher;the dishwasher;dishwasher;
-united_kingdom;household;door;the door;door;
-united_kingdom;household;dresser;the dresser;dresser;
-united_kingdom;household;extractor_hood;the extractor hood;extractor_hood;
-united_kingdom;household;fan;the fan;fan;
-united_kingdom;household;fireplace;the fireplace;fireplace;
-united_kingdom;household;fridge;the fridge;fridge;
-united_kingdom;household;garage;the garage;garage;
-united_kingdom;household;dresser;the hanging lamp;hanging_lamp;
-united_kingdom;household;heater;the heater;heater;
-united_kingdom;household;hoover;the hoover;hoover;
-united_kingdom;household;iron;the iron;iron;
-united_kingdom;household;juicer;the juicer;juicer;
-united_kingdom;household;kettle;the kettle;kettle;
-united_kingdom;household;kitchen_table;the kitchen table;kitchen_table;
-united_kingdom;household;lamp;the lamp;lamp;
-united_kingdom;household;light_bulb;the light bulb;light_bulb;
-united_kingdom;household;microwave;the microwave;microwave;
-united_kingdom;household;mixer;the mixer;mixer;
-united_kingdom;household;oven;the oven;oven;
-united_kingdom;household;radiator;the radiator;radiator;
-united_kingdom;household;shower;the shower;shower;
-united_kingdom;household;sink;the sink;sink;
-united_kingdom;household;stairs;the stairs;stairs;
-united_kingdom;household;stool;the stool;stool;
-united_kingdom;household;stove;the stove;stove;
-united_kingdom;household;tap;the tap;tap;
-united_kingdom;household;television;the television;television;
-united_kingdom;household;toilet;the toilet;toilet;
-united_kingdom;household;wardrobe;the wardrobe;wardrobe;
-united_kingdom;household;washing_machine;the washing machine;washing_machine;
-united_kingdom;household;water_heater;the water heater;water_heater;
-united_kingdom;household;window;the window;window;
+united_kingdom,numbers,one,one,one
+united_kingdom,numbers,two,two,two
+united_kingdom,numbers,three,three,three
+united_kingdom,numbers,four,four,four
+united_kingdom,numbers,five,five,five
+united_kingdom,numbers,six,six,six
+united_kingdom,numbers,seven,seven,seven
+united_kingdom,numbers,eight,eight,eight
+united_kingdom,numbers,nine,nine,nine
+united_kingdom,numbers,ten,ten,ten
+united_kingdom,numbers,twenty,twenty,twenty
+united_kingdom,numbers,thirty,thirty,thirty
+united_kingdom,numbers,forty,forty,forty
+united_kingdom,numbers,fifty,fifty,fifty
+united_kingdom,numbers,sixty,sixty,sixty
+united_kingdom,numbers,seventy,seventy,seventy
+united_kingdom,numbers,eighty,eighty,eighty
+united_kingdom,numbers,ninety,ninety,ninety
+united_kingdom,numbers,one_hundred,one hundred,one_hundred
+united_kingdom,alphabet,letter-a,A,letter_a
+united_kingdom,alphabet,letter-b,B,letter_b
+united_kingdom,alphabet,letter-c,C,letter_c
+united_kingdom,alphabet,letter-d,D,letter_d
+united_kingdom,alphabet,letter-e,E,letter_e
+united_kingdom,alphabet,letter-f,F,letter_f
+united_kingdom,alphabet,letter-g,G,letter_g
+united_kingdom,alphabet,letter-h,H,letter_h
+united_kingdom,alphabet,letter-i,I,letter_i
+united_kingdom,alphabet,letter-j,J,letter_j
+united_kingdom,alphabet,letter-k,K,letter_k
+united_kingdom,alphabet,letter-l,L,letter_l
+united_kingdom,alphabet,letter-m,M,letter_m
+united_kingdom,alphabet,letter-n,N,letter_n
+united_kingdom,alphabet,letter-o,O,letter_o
+united_kingdom,alphabet,letter-p,P,letter_p
+united_kingdom,alphabet,letter-q,Q,letter_q
+united_kingdom,alphabet,letter-r,R,letter_r
+united_kingdom,alphabet,letter-s,S,letter_s
+united_kingdom,alphabet,letter-t,T,letter_t
+united_kingdom,alphabet,letter-u,U,letter_u
+united_kingdom,alphabet,letter-v,V,letter_v
+united_kingdom,alphabet,letter-w,W,letter_w
+united_kingdom,alphabet,letter-x,X,letter_x
+united_kingdom,alphabet,letter-y,Y,letter_y
+united_kingdom,alphabet,letter-z,Z,letter_z
+united_kingdom,fruit,apple,the apple,apple
+united_kingdom,fruit,apricot,the apricot,apricot
+united_kingdom,fruit,banana,the banana,banana
+united_kingdom,fruit,blueberry,the blueberry,blueberry
+united_kingdom,fruit,cherry,the cherry,cherry
+united_kingdom,fruit,chestnut,the chestnut,chestnut
+united_kingdom,fruit,coconut,the coconut,coconut
+united_kingdom,fruit,dates,the dates,dates
+united_kingdom,fruit,dragon_fruit,the dragon fruit,dragon_fruit
+united_kingdom,fruit,fig,the fig,fig
+united_kingdom,fruit,goji,the goji berry,goji
+united_kingdom,fruit,gooseberry,the gooseberry,gooseberry
+united_kingdom,fruit,grapefruit,the grapefruit,grapefruit
+united_kingdom,fruit,grapes,the grapes,grapes
+united_kingdom,fruit,guava,the guava,guava
+united_kingdom,fruit,kiwi,the kiwi,kiwi
+united_kingdom,fruit,kumquat,the kumquat,kumquat
+united_kingdom,fruit,lemon,the lemon,lemon
+united_kingdom,fruit,lime,the lime,lime
+united_kingdom,fruit,mango,the mango,mango
+united_kingdom,fruit,melon,the melon,melon
+united_kingdom,fruit,orange,the orange,orange
+united_kingdom,fruit,papaya,the papaya,papaya
+united_kingdom,fruit,passion_fruit,the passion fruit,passion_fruit
+united_kingdom,fruit,peach,the peach,peach
+united_kingdom,fruit,pear,the pear,pear
+united_kingdom,fruit,persimmion,the persimmion,persimmion
+united_kingdom,fruit,pineapple,the pineapple,pineapple
+united_kingdom,fruit,plum,the plum,plum
+united_kingdom,fruit,quince,the quince,quince
+united_kingdom,fruit,rambutan,the rambutan,rambutan
+united_kingdom,fruit,rasberry,the rasberry,rasberry
+united_kingdom,fruit,strawberry,the strawberry,strawberry
+united_kingdom,fruit,watermelon,the watermelon,watermelon
+united_kingdom,vegetables,asparagus,the asparagus,asparagus
+united_kingdom,vegetables,aubergine,the aubergine,aubergine
+united_kingdom,vegetables,avocado,the avocado,avocado
+united_kingdom,vegetables,basil,the basil,basil
+united_kingdom,vegetables,beetroot,the beetroot,beetroot
+united_kingdom,vegetables,broccoli,the broccoli,broccoli
+united_kingdom,vegetables,brussel_sprouts,the brussel sprouts,brussel_sprouts
+united_kingdom,vegetables,cabbage,the cabbage,cabbage
+united_kingdom,vegetables,caper,the caper,caper
+united_kingdom,vegetables,carrot,the carrot,carrot
+united_kingdom,vegetables,cauliflower,the cauliflower,cauliflower
+united_kingdom,vegetables,celery,the celery,celery
+united_kingdom,vegetables,chili_pepper,the chili pepper,chili_pepper
+united_kingdom,vegetables,corn,the corn,corn
+united_kingdom,vegetables,courgette,the courgette,courgette
+united_kingdom,vegetables,cucumber,the cucumber,cucumber
+united_kingdom,vegetables,dill,the dill,dill
+united_kingdom,vegetables,garlic,the garlic,garlic
+united_kingdom,vegetables,ginger,the ginger,ginger
+united_kingdom,vegetables,horseradish,the horseradish,horseradish
+united_kingdom,vegetables,kohlrabi,the kohlrabi,kohlrabi
+united_kingdom,vegetables,leek,the leek,leek
+united_kingdom,vegetables,olives,the olives,olives
+united_kingdom,vegetables,parsley,the parsley,parsley
+united_kingdom,vegetables,peas,the peas,peas
+united_kingdom,vegetables,potato,the potato,potato
+united_kingdom,vegetables,pumpkin,the pumpkin,pumpkin
+united_kingdom,vegetables,radish,the radish,radish
+united_kingdom,vegetables,red_pepper,the red pepper,red_pepper
+united_kingdom,vegetables,rhubarb,the rhubarb,rhubarb
+united_kingdom,vegetables,rocket,the rocket,rocket
+united_kingdom,vegetables,spinach,the spinach,spinach
+united_kingdom,vegetables,squash,the squash,squash
+united_kingdom,vegetables,sweet_potato,the sweet potato,sweet_potato
+united_kingdom,vegetables,tomato,the tomato,tomato
+united_kingdom,vegetables,turnip,the turnip,turnip
+united_kingdom,vegetables,white_garlic,the white garlic,white_garlic
+united_kingdom,animals,anteater,the anteater,anteater
+united_kingdom,animals,baboon,the baboon,baboon
+united_kingdom,animals,bear,the bear,bear
+united_kingdom,animals,bee,the bee,bee
+united_kingdom,animals,beetle,the beetle,beetle
+united_kingdom,animals,boar,the boar,boar
+united_kingdom,animals,bison,the bison,bison
+united_kingdom,animals,bullfinch,the bullfinch,bullfinch
+united_kingdom,animals,butterfly,the butterfly,butterfly
+united_kingdom,animals,capybara,the capybara,capybara
+united_kingdom,animals,cat,the cat,cat
+united_kingdom,animals,centipede,the centipede,centipede
+united_kingdom,animals,chameleon,the chameleon,chameleon
+united_kingdom,animals,chimpanzee,the chimpanzee,chimpanzee
+united_kingdom,animals,crab,the crab,crab
+united_kingdom,animals,crane,the crane,crane
+united_kingdom,animals,crocodile,the crocodile,crocodile
+united_kingdom,animals,deer,the deer,deer
+united_kingdom,animals,dog,the dog,dog
+united_kingdom,animals,dolphin,the dolphin,dolphin
+united_kingdom,animals,dragonfly,the dragonfly,dragonfly
+united_kingdom,animals,duck,the duck,duck
+united_kingdom,animals,eagle,the eagle,eagle
+united_kingdom,animals,elephant,the elephant,elephant
+united_kingdom,animals,fennec,the fennec,fennec
+united_kingdom,animals,fly,the fly,fly
+united_kingdom,animals,fox,the fox,fox
+united_kingdom,animals,frog,the frog,frog
+united_kingdom,animals,giraffe,the giraffe,giraffe
+united_kingdom,animals,goat,the goat,goat
+united_kingdom,animals,goldfish,the goldfish,goldfish
+united_kingdom,animals,guinea_pig,the guinea pig,guinea_pig
+united_kingdom,animals,hedgehog,the hedgehog,hedgehog
+united_kingdom,animals,hippopotamus,the hippopotamus,hippopotamus
+united_kingdom,animals,horse,the horse,horse
+united_kingdom,animals,hyena,the hyena,hyena
+united_kingdom,animals,kangaroo,the kangaroo,kangaroo
+united_kingdom,animals,koala,the koala,koala
+united_kingdom,animals,ladybird,the ladybird,ladybird
+united_kingdom,animals,lemur,the lemur,lemur
+united_kingdom,animals,lion,the lion,lion
+united_kingdom,animals,llama,the llama,llama
+united_kingdom,animals,mink,the mink,mink
+united_kingdom,animals,mite,the mite,mite
+united_kingdom,animals,mole,the mole,mole
+united_kingdom,animals,moose,the moose,moose
+united_kingdom,animals,mosquito,the mosquito,mosquito
+united_kingdom,animals,moth,the moth,moth
+united_kingdom,animals,mouse,the mouse,mouse
+united_kingdom,animals,orca,the orca,orca
+united_kingdom,animals,ostrich,the ostrich,ostrich
+united_kingdom,animals,owl,the owl,owl
+united_kingdom,animals,parrot,the parrot,parrot
+united_kingdom,animals,penguin,the penguin,penguin
+united_kingdom,animals,pig,the pig,pig
+united_kingdom,animals,pigeon,the pigeon,pigeon
+united_kingdom,animals,pike,the pike,pike
+united_kingdom,animals,piranha,the piranha,piranha
+united_kingdom,animals,platypus,the platypus,platypus
+united_kingdom,animals,pufferfish,the pufferfish,pufferfish
+united_kingdom,animals,puffin,the puffin,puffin
+united_kingdom,animals,rabbit,the rabbit,rabbit
+united_kingdom,animals,raccoon,the raccoon,raccoon
+united_kingdom,animals,rooster,the rooster,rooster
+united_kingdom,animals,salmon,the salmon,salmon
+united_kingdom,animals,sea_urchin,the sea urchin,sea_urchin
+united_kingdom,animals,seal,the seal,seal
+united_kingdom,animals,shark,the shark,shark
+united_kingdom,animals,sheep,the sheep,sheep
+united_kingdom,animals,prawn,the prawn,prawn
+united_kingdom,animals,silverfish,the silverfish,silverfish
+united_kingdom,animals,skunk,the skunk,skunk
+united_kingdom,animals,sloth,the sloth,sloth
+united_kingdom,animals,snake,the snake,snake
+united_kingdom,animals,spider,the spider,spider
+united_kingdom,animals,squid,the squid,squid
+united_kingdom,animals,panda_bear,the panda,panda_bear
+united_kingdom,animals,squirrel,the squirrel,squirrel
+united_kingdom,animals,starfish,the starfish,starfish
+united_kingdom,animals,swan,the swan,swan
+united_kingdom,animals,swordfish,the swordfish,swordfish
+united_kingdom,animals,tiger,the tiger,tiger
+united_kingdom,animals,tuna,the tuna,tuna
+united_kingdom,animals,turtle,the turtle,turtle
+united_kingdom,animals,wasp,the wasp,wasp
+united_kingdom,animals,wolf,the wolf,wolf
+united_kingdom,professions,artist,the artist,artist
+united_kingdom,professions,astronaut,the astronaut,astronaut
+united_kingdom,professions,athlete,the athlete,athlete
+united_kingdom,professions,basketball_player,the basketball player,basketball_player
+united_kingdom,professions,butler,the butler,butler
+united_kingdom,professions,cabin_crew,the flight attendent,cabin_crew
+united_kingdom,professions,captain,the captain,captain
+united_kingdom,professions,chef,the chef,chef
+united_kingdom,professions,clown,the clown,clown
+united_kingdom,professions,cook,the cook,cook
+united_kingdom,professions,courier,the courier,courier
+united_kingdom,professions,detective,the detective,detective
+united_kingdom,professions,diver,the diver,diver
+united_kingdom,professions,doctor,the doctor,doctor
+united_kingdom,professions,engineer,the engineer,engineer
+united_kingdom,professions,farmer,the farmer,farmer
+united_kingdom,professions,firefighter,the firefighter,firefighter
+united_kingdom,professions,hunter,the hunter,hunter
+united_kingdom,professions,judge,the judge,judge
+united_kingdom,professions,lumberjack,the lumberjack,lumberjack
+united_kingdom,professions,maid,the maid,maid
+united_kingdom,professions,mechanic,the mechanic,mechanic
+united_kingdom,professions,nun,the nun,nun
+united_kingdom,professions,nurse,the nurse,nurse
+united_kingdom,professions,office_worker,the office worker,office_worker
+united_kingdom,professions,photographer,the photographer,photographer
+united_kingdom,professions,pilot,the pilot,pilot
+united_kingdom,professions,police_officer,the police officer,police_officer
+united_kingdom,professions,postman,the postman,postman
+united_kingdom,professions,priest,the priest,priest
+united_kingdom,professions,race_car_driver,the race car driver,race_car_driver
+united_kingdom,professions,sailor,the sailor,sailor
+united_kingdom,professions,scientist,the scientist,scientist
+united_kingdom,professions,secretary,the secretary,secretary
+united_kingdom,professions,singer,the singer,singer
+united_kingdom,professions,software_developer,the software developer,software_developer
+united_kingdom,professions,soldier,the soldier,soldier
+united_kingdom,professions,student,the student,student
+united_kingdom,professions,surgeon,the surgeon,surgeon
+united_kingdom,professions,taxi_driver,the taxi driver,taxi_driver
+united_kingdom,professions,teacher,the teacher,teacher
+united_kingdom,professions,telemarketer,the telemarketer,telemarketer
+united_kingdom,professions,tour_guide,the tour guide,tour_guide
+united_kingdom,professions,waiter,the waiter,waiter
+united_kingdom,professions,welder,the welder,welder
+united_kingdom,professions,wrestler,the wrestler,wrestler
+united_kingdom,transport,airplane,the airplane,airplane
+united_kingdom,transport,bike,the bike,bike
+united_kingdom,transport,bin_truck,the bin truck,bin_truck
+united_kingdom,transport,boat,the boat,boat
+united_kingdom,transport,bus,the bus,bus
+united_kingdom,transport,cable_car,the cable car,cable_car
+united_kingdom,transport,camper_van,the campervan,camper_van
+united_kingdom,transport,car,the car,car
+united_kingdom,transport,cargo_ship,the cargo ship,cargo_ship
+united_kingdom,transport,cement_truck,the cement truck,cement_truck
+united_kingdom,transport,cruise_ship,the cruise ship,cruise_ship
+united_kingdom,transport,drone,the drone,drone
+united_kingdom,transport,dump_truck,the dump truck,dump_truck
+united_kingdom,transport,firetruck,the firetruck,firetruck
+united_kingdom,transport,forklift,the forklift,forklift
+united_kingdom,transport,helicopter,the helicopter,helicopter
+united_kingdom,transport,hot_air_balloon,the hot air balloon,hot_air_balloon
+united_kingdom,transport,hovercraft,the hovercraft,hovercraft
+united_kingdom,transport,jet_ski,the jet ski,jet_ski
+united_kingdom,transport,monorail,the monorail,monorail
+united_kingdom,transport,motorbike,the motorbike,motorbike
+united_kingdom,transport,quad,the quad,quad
+united_kingdom,transport,racing_car,the racing car,racing_car
+united_kingdom,transport,rocket_ship,the rocketship,rocket_ship
+united_kingdom,transport,sailboat,the sailboat,sailboat
+united_kingdom,transport,scooter,the scooter,scooter
+united_kingdom,transport,sidecar,the sidecar,sidecar
+united_kingdom,transport,steam_engine,the steam engine,steam_engine
+united_kingdom,transport,submarine,the submarine,submarine
+united_kingdom,transport,tanker,the tanker,tanker
+united_kingdom,transport,taxi,the taxi,taxi
+united_kingdom,transport,train,the train,train
+united_kingdom,transport,tram,the tram,tram
+united_kingdom,transport,truck,the truck,truck
+united_kingdom,transport,van,the van,van
+united_kingdom,transport,yacht,the yacht,yacht
+united_kingdom,household,air_conditioning,the air-conditioning,air_conditioning
+united_kingdom,household,armchair,the armchair,armchair
+united_kingdom,household,bathtub,the bathtub,bathtub
+united_kingdom,household,bed,the bed,bed
+united_kingdom,household,bedside_table,bedside table,bedside_table
+united_kingdom,household,blender,the blender,blender
+united_kingdom,household,bookcase,the bookcase,bookcase
+united_kingdom,household,chair,the chair,chair
+united_kingdom,household,chest_of_drawers,the chest of drawers,chest_of_drawers
+united_kingdom,household,coat_rack,the coat rack,coat_rack
+united_kingdom,household,coffee_machine,the coffee machine,coffee_machine
+united_kingdom,household,coffee_table,the coffee table,coffee_table
+united_kingdom,household,couch,the couch,couch
+united_kingdom,household,desk_lamp,the desk lamp,desk_lamp
+united_kingdom,household,dishwasher,the dishwasher,dishwasher
+united_kingdom,household,door,the door,door
+united_kingdom,household,dresser,the dresser,dresser
+united_kingdom,household,extractor_hood,the extractor fan,extractor_hood
+united_kingdom,household,fan,the fan,fan
+united_kingdom,household,fireplace,the fireplace,fireplace
+united_kingdom,household,fridge,the fridge,fridge
+united_kingdom,household,garage,the garage,garage
+united_kingdom,household,dresser,the hanging lamp,hanging_lamp
+united_kingdom,household,heater,the heater,heater
+united_kingdom,household,hoover,the hoover,hoover
+united_kingdom,household,iron,the iron,iron
+united_kingdom,household,juicer,the juicer,juicer
+united_kingdom,household,kettle,the kettle,kettle
+united_kingdom,household,kitchen_table,the kitchen table,kitchen_table
+united_kingdom,household,lamp,the lamp,lamp
+united_kingdom,household,light_bulb,the light bulb,light_bulb
+united_kingdom,household,microwave,the microwave,microwave
+united_kingdom,household,mixer,the mixer,mixer
+united_kingdom,household,oven,the oven,oven
+united_kingdom,household,radiator,the radiator,radiator
+united_kingdom,household,shower,the shower,shower
+united_kingdom,household,sink,the sink,sink
+united_kingdom,household,stairs,the stairs,stairs
+united_kingdom,household,stool,the stool,stool
+united_kingdom,household,stove,the stove,stove
+united_kingdom,household,tap,the tap,tap
+united_kingdom,household,television,the television,television
+united_kingdom,household,toilet,the toilet,toilet
+united_kingdom,household,wardrobe,the wardrobe,wardrobe
+united_kingdom,household,washing_machine,the washing machine,washing_machine
+united_kingdom,household,water_heater,the water heater,water_heater
+united_kingdom,household,window,the window,window
