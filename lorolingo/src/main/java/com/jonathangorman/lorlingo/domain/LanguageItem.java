@@ -1,5 +1,4 @@
-package com.jonathangorman.lorlingo.com.jonathangorman.lorlingo.domain;
-
+package com.jonathangorman.lorlingo.domain;
 import java.util.Locale;
 
 /*
@@ -45,7 +44,6 @@ public class LanguageItem {
     public void setTtsAvailable(boolean ttsAvailable) {
         this.ttsAvailable = ttsAvailable;
     }
-
 
     public Locale getLocale() {
         return locale;

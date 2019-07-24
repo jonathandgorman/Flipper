@@ -27,5 +27,9 @@
         android:title="@string/credit_action_button_text"
         app:showAsAction="never" />
 
-
+    <item
+        android:id="@+id/adjust_speech_rate"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="Adjust text speech rate"
+        app:showAsAction="never" />
 </menu>

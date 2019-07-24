@@ -2,8 +2,10 @@ package com.jonathangorman.lorlingo.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -14,7 +16,6 @@ import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.util.Log;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
@@ -23,6 +24,7 @@ import com.google.android.gms.ads.reward.RewardedVideoAd;
 import com.google.android.gms.ads.reward.RewardedVideoAdListener;
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.action.InfoDisplayActivity;
+import com.jonathangorman.lorlingo.tts.TTSManager;
 
 /*
 * Base activity from which all other activities extends from.
@@ -36,6 +38,7 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
     private final String TEST_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917";
     private final String AD_UNIT_ID = "ca-app-pub-2251083820126124/8019699240";
     private final String AD_UNIT_ACCOUNT = "ca-app-pub-2251083820126124~2763503135";
+    protected TTSManager ttsManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +53,14 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
         {
             loadRewardedVideoAd();
         }
+
+        // Check TTS engine is available before starting
+        this.ttsManager = new TTSManager(this);
+        if(this.ttsManager.getInstalledTTSEngines().isEmpty())
+        {
+            Toast.makeText(this, "No TTS engine has been detected - please install a TTS to use the application correctly", Toast.LENGTH_LONG);
+        }
+
     }
 
     // called when the options menu is created
@@ -77,6 +88,24 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
             case R.id.credit_action:
                 actionInfoIntent.putExtra("INFOTYPE", "credit"); // adapter position is removed from the list and added to intent
                 this.startActivity(actionInfoIntent);
+                return true;
+            case R.id.adjust_speech_rate:
+                SharedPreferences sharedPrefs = getSharedPreferences("SPEECH_PREFERENCES", Context.MODE_PRIVATE);
+                float currSpeechRate = sharedPrefs.getFloat("SPEECH_RATE",  Context.MODE_PRIVATE);
+                if (currSpeechRate == TTSManager.NORMAL_SPEECH_RATE)
+                {
+                    sharedPrefs.edit().putFloat("SPEECH_RATE", TTSManager.HALF_SPEECH_RATE).apply();
+                    this.ttsManager = new TTSManager(this);
+                    this.ttsManager.setSpeechRate(TTSManager.HALF_SPEECH_RATE);
+                    Toast.makeText(this, "Speech rate halved.", Toast.LENGTH_LONG).show();
+                }
+                else
+                {
+                    sharedPrefs.edit().putFloat("SPEECH_RATE", TTSManager.NORMAL_SPEECH_RATE).apply();
+                    this.ttsManager = new TTSManager(this);
+                    this.ttsManager.setSpeechRate(TTSManager.NORMAL_SPEECH_RATE);
+                    Toast.makeText(this, "Speech rate doubled.", Toast.LENGTH_LONG).show();
+                }
                 return true;
             case R.id.coffee_action:
                 createAlertDialog();
@@ -161,5 +190,9 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
     public void onRewarded(RewardItem rewardItem) { }
     @Override
     public void onRewardedVideoCompleted() {
+    }
+
+    public TTSManager getTtsManager() {
+        return ttsManager;
     }
 }

@@ -1,9 +1,9 @@
 package com.jonathangorman.lorlingo.tts;
 
 import android.content.Context;
+import android.content.ContextWrapper;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.Voice;
-import android.util.Log;
 
 import java.util.List;
 import java.util.Locale;
@@ -17,10 +17,15 @@ public class TTSManager implements TextToSpeech.OnInitListener {
     private TextToSpeech tts;
     private boolean ttsInitialised = false;
 
+    public static final float HALF_SPEECH_RATE = 0.5f;
+    public static final float DOUBLE_SPEECH_RATE = 2.0f;
+    public static final float NORMAL_SPEECH_RATE = 1.0f;
+
     public TTSManager(Context context)
     {
         this.context = context;
         this.tts = new TextToSpeech(context, this);
+        this.setSpeechRate(context.getSharedPreferences("SPEECH_PREFERENCES", ContextWrapper.MODE_PRIVATE).getFloat("SPEECH_RATE", NORMAL_SPEECH_RATE));
     }
 
     @Override
@@ -48,5 +53,30 @@ public class TTSManager implements TextToSpeech.OnInitListener {
 
     public boolean isTtsInitialised() {
         return ttsInitialised;
+    }
+
+    public void setSpeechRate(float rate)
+    {
+        this.tts.setSpeechRate(rate);
+    }
+
+    public void setHalfSpeechRate()
+    {
+        this.tts.setSpeechRate(HALF_SPEECH_RATE);
+    }
+
+    public void setNormalSpeechRate()
+    {
+        this.tts.setSpeechRate(HALF_SPEECH_RATE);
+    }
+
+    public void setDoubleSpeechRate()
+    {
+        this.tts.setSpeechRate(DOUBLE_SPEECH_RATE);
+    }
+
+    public TextToSpeech getTTS()
+    {
+        return this.tts;
     }
 }

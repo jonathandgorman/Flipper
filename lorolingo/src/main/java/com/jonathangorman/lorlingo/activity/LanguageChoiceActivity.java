@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.jonathangorman.lorlingo.R;
 import com.jonathangorman.lorlingo.adapter.LanguageChoiceAdapter;
-import com.jonathangorman.lorlingo.com.jonathangorman.lorlingo.domain.LanguageItem;
+import com.jonathangorman.lorlingo.domain.LanguageItem;
 import com.jonathangorman.lorlingo.tts.TTSManager;
 
 import java.util.ArrayList;
@@ -17,8 +17,6 @@ import java.util.Locale;
 public class LanguageChoiceActivity extends BaseActivity  {
 
     private static final String TAG = LanguageChoiceActivity.class.getName();
-
-    private TTSManager ttsManager;
     private LanguageChoiceAdapter adapter;
     private RecyclerView recyclerView;
     private ArrayList<LanguageItem> languageItemList = new ArrayList<LanguageItem>();
@@ -29,13 +27,6 @@ public class LanguageChoiceActivity extends BaseActivity  {
         //Log.i(TAG, "ACTIVITY CREATE: Creating LanguageChoiceActivity");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language_choice);
-
-        // Check TTS engine is available before starting
-        ttsManager = new TTSManager(this);
-        if(ttsManager.getInstalledTTSEngines().isEmpty())
-        {
-            Toast.makeText(this, "No TTS engine has been detected - please install a TTS to use the application correctly", Toast.LENGTH_LONG);
-        }
 
         // initialise view lists
         initLanguageLists();

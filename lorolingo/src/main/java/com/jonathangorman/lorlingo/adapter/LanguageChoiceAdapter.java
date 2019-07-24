@@ -14,9 +14,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jonathangorman.lorlingo.R;
-import com.jonathangorman.lorlingo.com.jonathangorman.lorlingo.domain.LanguageItem;
 import com.jonathangorman.lorlingo.activity.CategoryChoiceActivity;
 import com.jonathangorman.lorlingo.activity.LanguageChoiceActivity;
+import com.jonathangorman.lorlingo.domain.LanguageItem;
 
 import java.util.ArrayList;
 import java.util.Locale;

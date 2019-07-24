@@ -1,11 +1,11 @@
 package com.jonathangorman.lorlingo.adapter;
 
 import android.content.Context;
+import android.content.ContextWrapper;
 import android.speech.tts.TextToSpeech;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,6 +50,7 @@ public class CardChoiceAdapter extends RecyclerView.Adapter<CardChoiceAdapter.Vi
             // if the view is clicked the name should be returned and spoken via TTS
             speechText = cardItemList.get(getAdapterPosition()).getAudioString();
             tts = new TextToSpeech(context, this);
+            tts.setSpeechRate(context.getSharedPreferences("SPEECH_PREFERENCES", ContextWrapper.MODE_PRIVATE).getFloat("SPEECH_RATE", 1.0f));
             Toast.makeText(context, speechText, Toast.LENGTH_SHORT).show();
         }
 

@@ -7,7 +7,6 @@ import android.app.Activity;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
-
 import com.jonathangorman.lorlingo.R;
 
 public class InfoDisplayActivity extends Activity {
