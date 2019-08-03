@@ -238,7 +238,7 @@ spain;professions;singer;la cantante;singer
 spain;professions;software_developer;el desarrollador de software;software_developer
 spain;professions;soldier;la soldado;soldier
 spain;professions;student;la estudiante;student
-spain;professions;surgeon;el cirujano/ la cirujana;surgeon
+spain;professions;surgeon;el cirujano;surgeon
 spain;professions;taxi_driver;el taxista;taxi_driver
 spain;professions;teacher;el maestro;teacher
 spain;professions;telemarketer;el vendedor por teléfono;telemarketer
@@ -304,7 +304,7 @@ spain;household;fan;el ventilador;fan
 spain;household;fireplace;la chimenea;fireplace
 spain;household;fridge;la nevera;fridge
 spain;household;garage;el garaje;garage
-spain;household;dresser;la lámpara colgante;hanging_lamp
+spain;household;hanging_lamp;la lámpara colgante;hanging_lamp
 spain;household;heater;el calentador;heater
 spain;household;hoover;la aspiradora;hoover
 spain;household;iron;el hierro;iron

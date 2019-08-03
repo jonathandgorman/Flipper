@@ -17,32 +17,32 @@ portugal;numbers;seventy;setenta;seventy;
 portugal;numbers;eighty;oitenta;eighty;
 portugal;numbers;ninety;noventa;ninety;
 portugal;numbers;one_hundred;cem;one_hundred;
-portugal;alphabet;letter-a;A;letter_a;
-portugal;alphabet;letter-b;B;letter_b;
-portugal;alphabet;letter-c;C;letter_c;
-portugal;alphabet;letter-d;D;letter_d;
-portugal;alphabet;letter-e;E;letter_e;
-portugal;alphabet;letter-f;F;letter_f;
-portugal;alphabet;letter-g;G;letter_g;
-portugal;alphabet;letter-h;H;letter_h;
-portugal;alphabet;letter-i;I;letter_i;
-portugal;alphabet;letter-j;J;letter_j;
-portugal;alphabet;letter-k;K;letter_k;
-portugal;alphabet;letter-l;L;letter_l;
-portugal;alphabet;letter-m;M;letter_m;
-portugal;alphabet;letter-n;N;letter_n;
-portugal;alphabet;letter-o;O;letter_o;
-portugal;alphabet;letter-p;P;letter_p;
-portugal;alphabet;letter-q;Q;letter_q;
-portugal;alphabet;letter-r;R;letter_r;
-portugal;alphabet;letter-s;S;letter_s;
-portugal;alphabet;letter-t;T;letter_t;
-portugal;alphabet;letter-u;U;letter_u;
-portugal;alphabet;letter-v;V;letter_v;
-portugal;alphabet;letter-w;W;letter_w;
-portugal;alphabet;letter-x;X;letter_x;
-portugal;alphabet;letter-y;Y;letter_y;
-portugal;alphabet;letter-z;Z;letter_z;
+portugal;alphabet;letter-a;a;letter_a;
+portugal;alphabet;letter-b;b;letter_b;
+portugal;alphabet;letter-c;c;letter_c;
+portugal;alphabet;letter-d;d;letter_d;
+portugal;alphabet;letter-e;e;letter_e;
+portugal;alphabet;letter-f;f;letter_f;
+portugal;alphabet;letter-g;g;letter_g;
+portugal;alphabet;letter-h;h;letter_h;
+portugal;alphabet;letter-i;i;letter_i;
+portugal;alphabet;letter-j;j;letter_j;
+portugal;alphabet;letter-k;k;letter_k;
+portugal;alphabet;letter-l;l;letter_l;
+portugal;alphabet;letter-m;m;letter_m;
+portugal;alphabet;letter-n;n;letter_n;
+portugal;alphabet;letter-o;o;letter_o;
+portugal;alphabet;letter-p;p;letter_p;
+portugal;alphabet;letter-q;q;letter_q;
+portugal;alphabet;letter-r;r;letter_r;
+portugal;alphabet;letter-s;s;letter_s;
+portugal;alphabet;letter-t;t;letter_t;
+portugal;alphabet;letter-u;u;letter_u;
+portugal;alphabet;letter-v;v;letter_v;
+portugal;alphabet;letter-w;w;letter_w;
+portugal;alphabet;letter-x;x;letter_x;
+portugal;alphabet;letter-y;y;letter_y;
+portugal;alphabet;letter-z;z;letter_z;
 portugal;fruit;apple;a maçã;apple
 portugal;fruit;apricot;o damasco;apricot
 portugal;fruit;banana;a banana;banana
@@ -50,8 +50,8 @@ portugal;fruit;blueberry;o mirtilo;blueberry
 portugal;fruit;cherry;a cereja;cherry
 portugal;fruit;chestnut;a castanha;chestnut
 portugal;fruit;coconut;o coco;coconut
-portugal;fruit;dates;as datas;dates
-portugal;fruit;dragon_fruit;a fruta do dragão;dragon_fruit
+portugal;fruit;dates;as tâmaras;dates
+portugal;fruit;dragon_fruit;a pitaia;dragon_fruit
 portugal;fruit;fig;o figo;fig
 portugal;fruit;goji;o fruto do goji;goji
 portugal;fruit;gooseberry;a groselha;gooseberry
@@ -59,7 +59,7 @@ portugal;fruit;grapefruit;a toranja;grapefruit
 portugal;fruit;grapes;as uvas;grapes
 portugal;fruit;guava;a goiaba;guava
 portugal;fruit;kiwi;o kiwi;kiwi
-portugal;fruit;kumquat;o kumquat;kumquat
+portugal;fruit;kumquat;a quincã;kumquat
 portugal;fruit;lemon;o limão;lemon
 portugal;fruit;lime;o limão;lime
 portugal;fruit;mango;a manga;mango
@@ -69,21 +69,21 @@ portugal;fruit;papaya;o mamão;papaya
 portugal;fruit;passion_fruit;o maracujá;passion_fruit
 portugal;fruit;peach;o pêssego;peach
 portugal;fruit;pear;a pêra;pear
-portugal;fruit;persimmion;o persimmion;persimmion
+portugal;fruit;persimmion;o caqui;persimmion
 portugal;fruit;pineapple;o abacaxi;pineapple
 portugal;fruit;plum;a ameixa;plum
 portugal;fruit;quince;o marmelo;quince
-portugal;fruit;rambutan;o rambutan;rambutan
+portugal;fruit;rambutan;o rambutão;rambutan
 portugal;fruit;rasberry;o rasberry;rasberry
 portugal;fruit;strawberry;o morango;strawberry
 portugal;fruit;watermelon;a melancia;watermelon
-portugal;vegetables;asparagus;os espargos;asparagus
+portugal;vegetables;asparagus;o aspargo;asparagus
 portugal;vegetables;aubergine;a beringela;aubergine
 portugal;vegetables;avocado;o abacate;avocado
 portugal;vegetables;basil;o manjericão;basil
 portugal;vegetables;beetroot;a beterraba;beetroot
 portugal;vegetables;broccoli;o brocólis;broccoli
-portugal;vegetables;brussel_sprouts;os couves de Bruxelas;brussel_sprouts
+portugal;vegetables;brussel_sprouts;os couves de bruxelas;brussel_sprouts
 portugal;vegetables;cabbage;o repolho;cabbage
 portugal;vegetables;caper;a alcaparra;caper
 portugal;vegetables;carrot;a cenoura;carrot
@@ -107,7 +107,7 @@ portugal;vegetables;pumpkin;a abóbora;pumpkin
 portugal;vegetables;radish;o rabanete;radish
 portugal;vegetables;red_pepper;a pimenta vermelha;red_pepper
 portugal;vegetables;rhubarb;o ruibarbo;rhubarb
-portugal;vegetables;rocket;o foguete;rocket
+portugal;vegetables;rocket;a rúcula;rocket
 portugal;vegetables;spinach;o espinafre;spinach
 portugal;vegetables;squash;a abóbora;squash
 portugal;vegetables;sweet_potato;a batata doce;sweet_potato
@@ -129,7 +129,7 @@ portugal;animals;centipede;a centopeia;centipede
 portugal;animals;chameleon;o camaleão;chameleon
 portugal;animals;chimpanzee;o chimpanzé;chimpanzee
 portugal;animals;crab;o caranguejo;crab
-portugal;animals;crane;o guindaste;crane
+portugal;animals;crane;o grou;crane
 portugal;animals;crocodile;o crocodilo;crocodile
 portugal;animals;deer;o veado;deer
 portugal;animals;dog;o cachorro;dog
@@ -138,13 +138,13 @@ portugal;animals;dragonfly;a libélula;dragonfly
 portugal;animals;duck;o pato;duck
 portugal;animals;eagle;a águia;eagle
 portugal;animals;elephant;o elefante;elephant
-portugal;animals;fennec;o fennec;fennec
+portugal;animals;fennec;o feneco;fennec
 portugal;animals;fly;o voo;fly
-portugal;animals;fox;a Raposa;fox
+portugal;animals;fox;a raposa;fox
 portugal;animals;frog;o sapo;frog
 portugal;animals;giraffe;a girafa;giraffe
 portugal;animals;goat;a cabra;goat
-portugal;animals;goldfish;o peixinho;goldfish
+portugal;animals;goldfish;o peixe-dourado;goldfish
 portugal;animals;guinea_pig;a cobaia;guinea_pig
 portugal;animals;hedgehog;o ouriço;hedgehog
 portugal;animals;hippopotamus;o hipopótamo;hippopotamus
@@ -154,7 +154,7 @@ portugal;animals;kangaroo;o canguru;kangaroo
 portugal;animals;koala;o coala;koala
 portugal;animals;ladybird;a joaninha;ladybird
 portugal;animals;lemur;o lêmure;lemur
-portugal;animals;lion;o Leão;lion
+portugal;animals;lion;o leão;lion
 portugal;animals;llama;o lhama;llama
 portugal;animals;mink;o vison;mink
 portugal;animals;mite;o ácaro;mite
@@ -175,14 +175,14 @@ portugal;animals;piranha;a piranha;piranha
 portugal;animals;platypus;o ornitorrinco;platypus
 portugal;animals;pufferfish;o baiacu;pufferfish
 portugal;animals;puffin;o papagaio;puffin
-portugal;animals;rabbit;o Coelho;rabbit
+portugal;animals;rabbit;o coelho;rabbit
 portugal;animals;raccoon;o guaxinim;raccoon
-portugal;animals;rooster;o Galo;rooster
+portugal;animals;rooster;o galo;rooster
 portugal;animals;salmon;o salmão;salmon
 portugal;animals;sea_urchin;o ouriço-do-mar;sea_urchin
 portugal;animals;seal;o selo;seal
 portugal;animals;shark;o tubarão;shark
-portugal;animals;sheep;as ovelhas;sheep
+portugal;animals;sheep;a ovelha;sheep
 portugal;animals;prawn;o camarão;prawn
 portugal;animals;silverfish;o peixe prateado;silverfish
 portugal;animals;skunk;o gambá;skunk
@@ -195,7 +195,7 @@ portugal;animals;squirrel;o esquilo;squirrel
 portugal;animals;starfish;a estrela do mar;starfish
 portugal;animals;swan;o cisne;swan
 portugal;animals;swordfish;o espadarte;swordfish
-portugal;animals;tiger;o Tigre;tiger
+portugal;animals;tiger;o tigre;tiger
 portugal;animals;tuna;o atum;tuna
 portugal;animals;turtle;a tartaruga;turtle
 portugal;animals;wasp;a vespa;wasp
@@ -205,7 +205,7 @@ portugal;professions;astronaut;o astronauta;astronaut
 portugal;professions;athlete;o atleta;athlete
 portugal;professions;basketball_player;o jogador de basquete;basketball_player
 portugal;professions;butler;o mordomo;butler
-portugal;professions;cabin_crew;o membro da tripulação de cabina;cabin_crew
+portugal;professions;cabin_crew;o pessoal de cabine;cabin_crew
 portugal;professions;captain;o capitão;captain
 portugal;professions;chef;o chefe;chef
 portugal;professions;clown;o palhaço;clown
@@ -258,7 +258,7 @@ portugal;transport;cargo_ship;o cargueiro;cargo_ship
 portugal;transport;cement_truck;o caminhão de cimento;cement_truck
 portugal;transport;cruise_ship;o navio de cruzeiro;cruise_ship
 portugal;transport;drone;o zangão;drone
-portugal;transport;dump_truck;o caminhão de lixo;dump_truck
+portugal;transport;dump_truck;o caminhão basculante;dump_truck
 portugal;transport;firetruck;o caminhão de bombeiros;firetruck
 portugal;transport;forklift;a empilhadeira;forklift
 portugal;transport;helicopter;o helicóptero;helicopter
@@ -304,7 +304,7 @@ portugal;household;fan;o fã;fan
 portugal;household;fireplace;a lareira;fireplace
 portugal;household;fridge;a geladeira;fridge
 portugal;household;garage;a garagem;garage
-portugal;household;dresser;a luminária pendurada;hanging_lamp
+portugal;household;hanging_lamp;a luminária pendurada;hanging_lamp
 portugal;household;heater;o aquecedor;heater
 portugal;household;hoover;o hoover;hoover
 portugal;household;iron;o ferro;iron
@@ -317,7 +317,7 @@ portugal;household;microwave;o microondas;microwave
 portugal;household;mixer;o misturador;mixer
 portugal;household;oven;o forno;oven
 portugal;household;radiator;o radiador;radiator
-portugal;household;shower;o banho;shower
+portugal;household;shower;o chuveiro;shower
 portugal;household;sink;a pia;sink
 portugal;household;stairs;as escadas;stairs
 portugal;household;stool;o banquinho;stool

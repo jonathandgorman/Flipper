@@ -97,14 +97,14 @@ public class BaseActivity extends Activity implements RewardedVideoAdListener {
                     sharedPrefs.edit().putFloat("SPEECH_RATE", TTSManager.HALF_SPEECH_RATE).apply();
                     this.ttsManager = new TTSManager(this);
                     this.ttsManager.setSpeechRate(TTSManager.HALF_SPEECH_RATE);
-                    Toast.makeText(this, "Speech rate halved.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, getString(R.string.speech_rate_halved), Toast.LENGTH_LONG).show();
                 }
                 else
                 {
                     sharedPrefs.edit().putFloat("SPEECH_RATE", TTSManager.NORMAL_SPEECH_RATE).apply();
                     this.ttsManager = new TTSManager(this);
                     this.ttsManager.setSpeechRate(TTSManager.NORMAL_SPEECH_RATE);
-                    Toast.makeText(this, "Speech rate doubled.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, getString(R.string.speech_rate_doubled), Toast.LENGTH_LONG).show();
                 }
                 return true;
             case R.id.coffee_action:

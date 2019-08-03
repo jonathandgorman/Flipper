@@ -57,9 +57,8 @@
 
     <string name="faq_text">
         <![CDATA[
-            <h6> ¿Qué es Lorolingo? </h6>
-            <p>
-	    Lorolingo es una aplicación de aprendizaje autónomo de idiomas, diseñada para ayudar a lxs niñxs a aprender vocabulario de un idioma extranjero.
+            <h6>¿Qué es Lorolingo? </h6>
+            <p>Lorolingo es una aplicación de aprendizaje autónomo de idiomas, diseñada para ayudar a lxs niñxs a aprender vocabulario de un idioma extranjero.
             La aplicación utiliza la capacidad natural de lxs niñxs para escuchar y distinguir los sonidos de idiomas extranjeros mediante la vinculación
             con objetos cotidianos.
             </p>
@@ -84,7 +83,7 @@
             La aplicación puede ser apoyada presionando el ícono de ❤️ en la aplicación y viendo un anuncio corto, o calificando la aplicación en Google Play Store.
             </p>
             <br/>
-            <h6> Tengo muchas ideas y quiero contribuir a mejorar lorolingo, ¿cómo puedo ayudar a mejorar la App? </h6>
+            <h6> Tengo muchas ideas y quiero contribuir a mejorar lorolingo, ¿cómo puedo ayudar a mejorar la app? </h6>
             <p>
             Las características tales como nuevas categorías, mejoras generales, etc., se pueden comunicar enviando un correo electrónico a:
             hellolorolingo@gmail.com
@@ -159,5 +158,17 @@
 
     <string name="tts_voice_data_installing_msg">
         Los datos TTS no están disponibles y se descargarán en segundo plano. Por favor, inténtalo de nuevo más tarde.
+    </string>
+
+    <string name = "adjust_speech_rate_button_text">
+        Ajustar velocidad de voz
+    </string>
+
+    <string name = "speech_rate_halved">
+        Velocidad de voz reducida a la mitad
+    </string>
+
+    <string name = "speech_rate_doubled">
+        La velocidad del habla se ha duplicado
     </string>
 </resources>

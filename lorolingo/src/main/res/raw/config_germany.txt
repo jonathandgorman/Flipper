@@ -1,4 +1,4 @@
-germany;numbers;one;ein;one;
+germany;numbers;one;eins;one;
 germany;numbers;two;zwei;two;
 germany;numbers;three;drei;three;
 germany;numbers;four;vier;four;
@@ -50,18 +50,18 @@ germany;fruit;blueberry;die Blaubeere;blueberry
 germany;fruit;cherry;die Kirsche;cherry
 germany;fruit;chestnut;die Kastanie;chestnut
 germany;fruit;coconut;die Kokosnuss;coconut
-germany;fruit;dates;die Daten;dates
+germany;fruit;dates;die Datteln;dates
 germany;fruit;dragon_fruit;die Drachenfrucht;dragon_fruit
-germany;fruit;fig;die fig;fig
+germany;fruit;fig;die Feige;fig
 germany;fruit;goji;die Goji-Beere;goji
 germany;fruit;gooseberry;die Stachelbeere;gooseberry
 germany;fruit;grapefruit;die Grapefruit;grapefruit
-germany;fruit;grapes;die Trauben;grapes
+germany;fruit;grapes;die Weintrauben;grapes
 germany;fruit;guava;die Guave;guava
-germany;fruit;kiwi;der Kiwi;kiwi
+germany;fruit;kiwi;die Kiwi;kiwi
 germany;fruit;kumquat;die Kumquat;kumquat
 germany;fruit;lemon;die Zitrone;lemon
-germany;fruit;lime;die kalk;lime
+germany;fruit;lime;die Limette;lime
 germany;fruit;mango;die Mango;mango
 germany;fruit;melon;die Melone;melon
 germany;fruit;orange;die Orange;orange
@@ -69,11 +69,11 @@ germany;fruit;papaya;die Papaya;papaya
 germany;fruit;passion_fruit;die Passionsfrucht;passion_fruit
 germany;fruit;peach;der Pfirsich;peach
 germany;fruit;pear;die Birne;pear
-germany;fruit;persimmion;die persimmion;persimmion
+germany;fruit;persimmion;die Kaki;persimmion
 germany;fruit;pineapple;die Ananas;pineapple
 germany;fruit;plum;die Pflaume;plum
 germany;fruit;quince;die Quitte;quince
-germany;fruit;rambutan;der Rambutan;rambutan
+germany;fruit;rambutan;die Rambutan;rambutan
 germany;fruit;rasberry;die Himbeere;rasberry
 germany;fruit;strawberry;die Erdbeere;strawberry
 germany;fruit;watermelon;die Wassermelone;watermelon
@@ -85,11 +85,11 @@ germany;vegetables;beetroot;die Rote Beete;beetroot
 germany;vegetables;broccoli;der Brokkoli;broccoli
 germany;vegetables;brussel_sprouts;der Rosenkohl;brussel_sprouts
 germany;vegetables;cabbage;der Kohl;cabbage
-germany;vegetables;caper;die Kapriole;caper
+germany;vegetables;caper;die Kaper;caper
 germany;vegetables;carrot;die Karotte;carrot
 germany;vegetables;cauliflower;der Blumenkohl;cauliflower
 germany;vegetables;celery;der Sellerie;celery
-germany;vegetables;chili_pepper;der Chili-Pfeffer;chili_pepper
+germany;vegetables;chili_pepper;die Chilischote;chili_pepper
 germany;vegetables;corn;der Mais;corn
 germany;vegetables;courgette;die Zucchini;courgette
 germany;vegetables;cucumber;die Gurke;cucumber
@@ -107,10 +107,10 @@ germany;vegetables;pumpkin;der Kürbis;pumpkin
 germany;vegetables;radish;der Rettich;radish
 germany;vegetables;red_pepper;der rote Pfeffer;red_pepper
 germany;vegetables;rhubarb;der Rhabarber;rhubarb
-germany;vegetables;rocket;die Rakete;rocket
+germany;vegetables;rocket;der Rucola;rocket
 germany;vegetables;spinach;der Spinat;spinach
 germany;vegetables;squash;der Kürbis;squash
-germany;vegetables;sweet_potato;die süße Kartoffel;sweet_potato
+germany;vegetables;sweet_potato;die Süßkartoffel;sweet_potato
 germany;vegetables;tomato;die Tomate;tomato
 germany;vegetables;turnip;die Rübe;turnip
 germany;vegetables;white_garlic;der weiße Knoblauch;white_garlic
@@ -123,13 +123,13 @@ germany;animals;boar;der Eber;boar
 germany;animals;bison;der Bison;bison
 germany;animals;bullfinch;der Gimpel;bullfinch
 germany;animals;butterfly;der Schmetterling;butterfly
-germany;animals;capybara;der capybara;capybara
+germany;animals;capybara;das Wasserschwein;capybara
 germany;animals;cat;die Katze;cat
 germany;animals;centipede;der Tausendfüßler;centipede
 germany;animals;chameleon;das Chamäleon;chameleon
 germany;animals;chimpanzee;der Schimpanse;chimpanzee
 germany;animals;crab;die Krabbe;crab
-germany;animals;crane;der Kran;crane
+germany;animals;crane;der Kranich;crane
 germany;animals;crocodile;das Krokodil;crocodile
 germany;animals;deer;das Reh;deer
 germany;animals;dog;der Hund;dog
@@ -138,7 +138,7 @@ germany;animals;dragonfly;die Libelle;dragonfly
 germany;animals;duck;die Ente;duck
 germany;animals;eagle;der Adler;eagle
 germany;animals;elephant;der Elefant;elephant
-germany;animals;fennec;die Fennek;fennec
+germany;animals;fennec;der Fennek;fennec
 germany;animals;fly;die Fliege;fly
 germany;animals;fox;der Fuchs;fox
 germany;animals;frog;der Frosch;frog
@@ -147,7 +147,7 @@ germany;animals;goat;die Ziege;goat
 germany;animals;goldfish;der Goldfisch;goldfish
 germany;animals;guinea_pig;das Meerschweinchen;guinea_pig
 germany;animals;hedgehog;der Igel;hedgehog
-germany;animals;hippopotamus;das Nilpferd;hippopotamus
+germany;animals;hippopotamus;das Flusspferd;hippopotamus
 germany;animals;horse;das Pferd;horse
 germany;animals;hyena;die Hyäne;hyena
 germany;animals;kangaroo;das Känguru;kangaroo
@@ -160,7 +160,7 @@ germany;animals;mink;der Nerz;mink
 germany;animals;mite;die Milbe;mite
 germany;animals;mole;der Maulwurf;mole
 germany;animals;moose;der Elch;moose
-germany;animals;mosquito;das Moskito;mosquito
+germany;animals;mosquito;die Stechmücke;mosquito
 germany;animals;moth;die Motte;moth
 germany;animals;mouse;die Maus;mouse
 germany;animals;orca;der Orca;orca
@@ -180,13 +180,13 @@ germany;animals;raccoon;der Waschbär;raccoon
 germany;animals;rooster;der Hahn;rooster
 germany;animals;salmon;der Lachs;salmon
 germany;animals;sea_urchin;der Seeigel;sea_urchin
-germany;animals;seal;die Dichtung;seal
+germany;animals;seal;die Robbe;seal
 germany;animals;shark;der Hai;shark
 germany;animals;sheep;das Schaf;sheep
 germany;animals;prawn;die Garnele;prawn
-germany;animals;silverfish;der Silberfischchen;silverfish
+germany;animals;silverfish;das Silberfischchen;silverfish
 germany;animals;skunk;das Stinktier;skunk
-germany;animals;sloth;die Trägheit;sloth
+germany;animals;sloth;das Faultier;sloth
 germany;animals;snake;die Schlange;snake
 germany;animals;spider;die Spinne;spider
 germany;animals;squid;der Tintenfisch;squid
@@ -197,7 +197,7 @@ germany;animals;swan;der Schwan;swan
 germany;animals;swordfish;der Schwertfisch;swordfish
 germany;animals;tiger;der Tiger;tiger
 germany;animals;tuna;der Thunfisch;tuna
-germany;animals;turtle;die schildkröte;turtle
+germany;animals;turtle;die Schildkröte;turtle
 germany;animals;wasp;die Wespe;wasp
 germany;animals;wolf;der Wolf;wolf
 germany;professions;artist;der Künstler;artist
@@ -207,13 +207,13 @@ germany;professions;basketball_player;der Basketballspieler;basketball_player
 germany;professions;butler;der Butler;butler
 germany;professions;cabin_crew;das Kabinenpersonal;cabin_crew
 germany;professions;captain;der Kapitän;captain
-germany;professions;chef;der Küchenchef;chef
+germany;professions;chef;der Koch;chef
 germany;professions;clown;der Clown;clown
 germany;professions;cook;die Köchin;cook
-germany;professions;courier;der Kurier;courier
+germany;professions;courier;der Bote;courier
 germany;professions;detective;der Detektiv;detective
 germany;professions;diver;der Taucher;diver
-germany;professions;doctor;der Doktor;doctor
+germany;professions;doctor;der Arzt;doctor
 germany;professions;engineer;der Ingenieur;engineer
 germany;professions;farmer;der Bauer;farmer
 germany;professions;firefighter;der Feuerwehrmann;firefighter
@@ -241,7 +241,7 @@ germany;professions;student;der Student;student
 germany;professions;surgeon;der Chirurg;surgeon
 germany;professions;taxi_driver;der Taxifahrer;taxi_driver
 germany;professions;teacher;der Lehrer;teacher
-germany;professions;telemarketer;der telemarketer;telemarketer
+germany;professions;telemarketer;der Telefonverkäufer;telemarketer
 germany;professions;tour_guide;der Reiseleiter;tour_guide
 germany;professions;waiter;der Kellner;waiter
 germany;professions;welder;der Schweißer;welder
@@ -252,10 +252,10 @@ germany;transport;bin_truck;der Müllwagen;bin_truck
 germany;transport;boat;das Boot;boat
 germany;transport;bus;der Bus;bus
 germany;transport;cable_car;die Seilbahn;cable_car
-germany;transport;camper_van;der Wohnmobil;camper_van
+germany;transport;camper_van;das Wohnmobil;camper_van
 germany;transport;car;das Auto;car
 germany;transport;cargo_ship;das Frachtschiff;cargo_ship
-germany;transport;cement_truck;der zement lkw;cement_truck
+germany;transport;cement_truck;der Mischwagen;cement_truck
 germany;transport;cruise_ship;das Kreuzfahrtschiff;cruise_ship
 germany;transport;drone;die Drohne;drone
 germany;transport;dump_truck;der Muldenkipper;dump_truck
@@ -286,13 +286,13 @@ germany;household;air_conditioning;die Klimaanlage;air_conditioning
 germany;household;armchair;der Sessel;armchair
 germany;household;bathtub;die Badewanne;bathtub
 germany;household;bed;das Bett;bed
-germany;household;bedside_table;Nachttisch;bedside_table
-germany;household;blender;der Mixer;blender
+germany;household;bedside_table;der Nachttisch;bedside_table
+germany;household;blender;der Standmixer;blender
 germany;household;bookcase;das Bücherregal;bookcase
 germany;household;chair;der Stuhl;chair
 germany;household;chest_of_drawers;die Kommode;chest_of_drawers
 germany;household;coat_rack;die Garderobe;coat_rack
-germany;household;coffee_machine;die kaffeemaschine;coffee_machine
+germany;household;coffee_machine;die Kaffeemaschine;coffee_machine
 germany;household;coffee_table;der Kaffeetisch;coffee_table
 germany;household;couch;die Couch;couch
 germany;household;desk_lamp;die Schreibtischlampe;desk_lamp
@@ -300,12 +300,12 @@ germany;household;dishwasher;die Geschirrspülmaschine;dishwasher
 germany;household;door;die Tür;door
 germany;household;dresser;die Kommode;dresser
 germany;household;extractor_hood;die Dunstabzugshaube;extractor_hood
-germany;household;fan;der Fan;fan
+germany;household;fan;der Ventilator;fan
 germany;household;fireplace;der Kamin;fireplace
 germany;household;fridge;der Kühlschrank;fridge
 germany;household;garage;die Garage;garage
-germany;household;dresser;die hängelampe;hanging_lamp
-germany;household;heater;die Heizung;heater
+germany;household;hanging_lamp;die hängelampe;hanging_lamp
+germany;household;heater;der Heizstrahler;heater
 germany;household;hoover;der Staubsauger;hoover
 germany;household;iron;das Bügeleisen;iron
 germany;household;juicer;der Entsafter;juicer
@@ -314,13 +314,13 @@ germany;household;kitchen_table;der Küchentisch;kitchen_table
 germany;household;lamp;die Lampe;lamp
 germany;household;light_bulb;die Glühbirne;light_bulb
 germany;household;microwave;die Mikrowelle;microwave
-germany;household;mixer;der Mischer;mixer
-germany;household;oven;der Ofen;oven
+germany;household;mixer;der Mixer;mixer
+germany;household;oven;der Backofen;oven
 germany;household;radiator;der Heizkörper;radiator
 germany;household;shower;die Dusche;shower
 germany;household;sink;das Waschbecken;sink
 germany;household;stairs;die Treppe;stairs
-germany;household;stool;der Hocker;stool
+germany;household;stool;der Barhocker;stool
 germany;household;stove;der Ofen;stove
 germany;household;tap;der Wasserhahn;tap
 germany;household;television;der Fernseher;television

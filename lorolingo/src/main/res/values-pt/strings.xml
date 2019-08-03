@@ -168,4 +168,16 @@
         Os dados do TTS não estão disponíveis e serão baixados em segundo plano. Por favor, tente novamente em alguns instantes
     </string>
 
+    <string name = "adjust_speech_rate_button_text">
+        Ajustar a taxa de fala
+    </string>
+
+    <string name = "speech_rate_halved">
+        Taxa de fala reduzida pela metade
+    </string>
+
+    <string name = "speech_rate_doubled">
+       Taxa de fala dobrou
+    </string>
+
 </resources>

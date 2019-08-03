@@ -138,7 +138,7 @@
     </string>
 
     <string name = "video_ad_not_loading">
-        "Ups ... l'anunci no es pot carregar ara, intenta-ho de nou més tard"
+        "Ups ... l\'anunci no es pot carregar ara, intenta-ho de nou més tard"
     </string>
 
     <string name = "ok_alert_button">
@@ -159,5 +159,17 @@
 
     <string name = "tts_voice_data_installing_msg">
         Les dades TTS no estan disponibles i es descarregaran en segon pla. Si us plau-ho a provar més tard.
+    </string>
+
+    <string name = "adjust_speech_rate_button_text">
+        Ajustar la velocitat de la veu
+    </string>
+
+    <string name = "speech_rate_halved">
+        Velocitat de la veu reduïda a la meitat.
+    </string>
+
+    <string name = "speech_rate_doubled">
+     La velocitat de la veu s\'ha duplicat
     </string>
 </resources>

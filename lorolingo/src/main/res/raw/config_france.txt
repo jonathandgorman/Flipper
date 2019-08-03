@@ -50,7 +50,7 @@ france;fruit;blueberry;la myrtille;blueberry
 france;fruit;cherry;la cerise;cherry
 france;fruit;chestnut;la châtaigne;chestnut
 france;fruit;coconut;la noix de coco;coconut
-france;fruit;dates;les dates;dates
+france;fruit;dates;les datte;dates
 france;fruit;dragon_fruit;le fruit du dragon;dragon_fruit
 france;fruit;fig;la figue;fig
 france;fruit;goji;la baie de goji;goji
@@ -76,7 +76,7 @@ france;fruit;quince;le coing;quince
 france;fruit;rambutan;le ramboutan;rambutan
 france;fruit;rasberry;la framboise;rasberry
 france;fruit;strawberry;la fraise;strawberry
-france;fruit;watermelon;le melon d'eau;watermelon
+france;fruit;watermelon;la pastèque;watermelon
 france;vegetables;asparagus;les asperges;asparagus
 france;vegetables;aubergine;l'aubergine;aubergine
 france;vegetables;avocado;l'avocat;avocado
@@ -90,7 +90,7 @@ france;vegetables;carrot;la carotte;carrot
 france;vegetables;cauliflower;le chou-fleur;cauliflower
 france;vegetables;celery;le céleri;celery
 france;vegetables;chili_pepper;le piment;chili_pepper
-france;vegetables;corn;le mais;corn
+france;vegetables;corn;le maïs;corn
 france;vegetables;courgette;la courgette;courgette
 france;vegetables;cucumber;le concombre;cucumber
 france;vegetables;dill;l'aneth;dill
@@ -107,7 +107,7 @@ france;vegetables;pumpkin;la citrouille;pumpkin
 france;vegetables;radish;le radis;radish
 france;vegetables;red_pepper;le poivron rouge;red_pepper
 france;vegetables;rhubarb;la rhubarbe;rhubarb
-france;vegetables;rocket;la fusée;rocket
+france;vegetables;rocket;la roquette;rocket
 france;vegetables;spinach;les épinards;spinach
 france;vegetables;squash;la courge;squash
 france;vegetables;sweet_potato;la patate douce;sweet_potato
@@ -121,7 +121,7 @@ france;animals;bee;l'abeille;bee
 france;animals;beetle;le scarabée;beetle
 france;animals;boar;le sanglier;boar
 france;animals;bison;le bison;bison
-france;animals;bullfinch;ERR;bullfinch
+france;animals;bullfinch;bouvreuil;bullfinch
 france;animals;butterfly;le papillon;butterfly
 france;animals;capybara;le capybara;capybara
 france;animals;cat;le chat;cat
@@ -157,11 +157,11 @@ france;animals;lemur;le lémurien;lemur
 france;animals;lion;le lion;lion
 france;animals;llama;le lama;llama
 france;animals;mink;le vison;mink
-france;animals;mite;l'acarien;mite
+france;animals;mite;le mite;mite
 france;animals;mole;la taupe;mole
 france;animals;moose;L'élan;moose
 france;animals;mosquito;le moustique;mosquito
-france;animals;moth;la mite;moth
+france;animals;moth;le papillon de nuit;moth
 france;animals;mouse;la souris;mouse
 france;animals;orca;l'orque;orca
 france;animals;ostrich;l'autruche;ostrich
@@ -205,12 +205,12 @@ france;professions;astronaut;l'astronaute;astronaut
 france;professions;athlete;l'athlète;athlete
 france;professions;basketball_player;le basketteur;basketball_player
 france;professions;butler;le majordome;butler
-france;professions;cabin_crew;le membre d'équipage de cabine;cabin_crew
+france;professions;cabin_crew;le membre d'équipage;cabin_crew
 france;professions;captain;le capitaine;captain
 france;professions;chef;le chef;chef
 france;professions;clown;le clown;clown
 france;professions;cook;le cuisinier;cook
-france;professions;courier;Le Courrier;courier
+france;professions;courier;Le coursier;courier
 france;professions;detective;Le détective;detective
 france;professions;diver;le plongeur;diver
 france;professions;doctor;le docteur;doctor
@@ -221,7 +221,7 @@ france;professions;hunter;le chasseur;hunter
 france;professions;judge;le juge;judge
 france;professions;lumberjack;le bûcheron;lumberjack
 france;professions;maid;la femme de chambre;maid
-france;professions;mechanic;la mécanique;mechanic
+france;professions;mechanic;la mécanicien;mechanic
 france;professions;nun;la religieuse;nun
 france;professions;nurse;l'infirmière;nurse
 france;professions;office_worker;l'employé de bureau;office_worker
@@ -230,12 +230,12 @@ france;professions;pilot;le pilote;pilot
 france;professions;police_officer;L'officier de police;police_officer
 france;professions;postman;le facteur;postman
 france;professions;priest;le prêtre;priest
-france;professions;race_car_driver;le pilote de la voiture de course;race_car_driver
+france;professions;race_car_driver;le pilote de voiture de course;race_car_driver
 france;professions;sailor;le marin;sailor
 france;professions;scientist;le scientifique;scientist
 france;professions;secretary;le secrétaire;secretary
 france;professions;singer;le chanteur;singer
-france;professions;software_developer;le développeur de logiciels;software_developer
+france;professions;software_developer;le développeur;software_developer
 france;professions;soldier;le soldat;soldier
 france;professions;student;l'étudiant;student
 france;professions;surgeon;le chirurgien;surgeon
@@ -245,7 +245,7 @@ france;professions;telemarketer;le télévendeur;telemarketer
 france;professions;tour_guide;le guide touristique;tour_guide
 france;professions;waiter;le serveur;waiter
 france;professions;welder;le soudeur;welder
-france;professions;wrestler;le lutteur;wrestler
+france;professions;wrestler;le catcheur;wrestler
 france;transport;airplane;l'avion;airplane
 france;transport;bike;le vélo;bike
 france;transport;bin_truck;le camion poubelle;bin_truck
@@ -255,7 +255,7 @@ france;transport;cable_car;le téléphérique;cable_car
 france;transport;camper_van;le camping-car;camper_van
 france;transport;car;la voiture;car
 france;transport;cargo_ship;le cargo;cargo_ship
-france;transport;cement_truck;le camion de ciment;cement_truck
+france;transport;cement_truck;le camion-toupie;cement_truck
 france;transport;cruise_ship;le bateau de croisière;cruise_ship
 france;transport;drone;le drone;drone
 france;transport;dump_truck;le camion benne;dump_truck
@@ -278,15 +278,15 @@ france;transport;submarine;le sous-marin;submarine
 france;transport;tanker;le pétrolier;tanker
 france;transport;taxi;le taxi;taxi
 france;transport;train;le train;train
-france;transport;tram;le tram;tram
+france;transport;tram;le tramway;tram
 france;transport;truck;le camion;truck
 france;transport;van;le van;van
 france;transport;yacht;le yacht;yacht
 france;household;air_conditioning;La climatisation;air_conditioning
 france;household;armchair;le fauteuil;armchair
-france;household;bathtub;le bain;bathtub
+france;household;bathtub;le baignoire;bathtub
 france;household;bed;le lit;bed
-france;household;bedside_table;table de chevet;bedside_table
+france;household;bedside_table;la table de fan;bedside_table
 france;household;blender;le mixeur;blender
 france;household;bookcase;la bibliothèque;bookcase
 france;household;chair;la chaise;chair
@@ -300,28 +300,28 @@ france;household;dishwasher;le lave-vaisselle;dishwasher
 france;household;door;la porte;door
 france;household;dresser;la commode;dresser
 france;household;extractor_hood;la hotte aspirante;extractor_hood
-france;household;fan;le fan;fan
+france;household;fan;le ventilateur;fan
 france;household;fireplace;la cheminée;fireplace
 france;household;fridge;le réfrigérateur;fridge
 france;household;garage;Le garage;garage
-france;household;dresser;la lampe suspendue;hanging_lamp
+france;household;hanging_lamp;la lampe suspendue;hanging_lamp
 france;household;heater;le radiateur;heater
 france;household;hoover;l'aspirateur;hoover
-france;household;iron;le fer;iron
+france;household;iron;le fer à repasser;iron
 france;household;juicer;le presse-agrumes;juicer
 france;household;kettle;la bouilloire;kettle
 france;household;kitchen_table;la table de la cuisine;kitchen_table
 france;household;lamp;la lampe;lamp
 france;household;light_bulb;l'ampoule;light_bulb
 france;household;microwave;le micro-onde;microwave
-france;household;mixer;le mixer;mixer
+france;household;mixer;le mixeur;mixer
 france;household;oven;le four;oven
 france;household;radiator;le radiateur;radiator
 france;household;shower;la douche;shower
 france;household;sink;l'évier;sink
 france;household;stairs;les escaliers;stairs
 france;household;stool;le tabouret;stool
-france;household;stove;le poêle;stove
+france;household;stove;le gazinière;stove
 france;household;tap;le robinet;tap
 france;household;television;la télévision;television
 france;household;toilet;les toilettes;toilet

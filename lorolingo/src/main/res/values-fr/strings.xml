@@ -188,4 +188,16 @@
     <string name="tts_voice_data_installing_msg">
         Les données TTS ne sont pas disponibles et seront téléchargées en arrière-plan. Merci de réessayer dans quelques instants
     </string>
+
+    <string name = "adjust_speech_rate_button_text">
+        Ajuster le débit de la parole
+    </string>
+
+    <string name = "speech_rate_halved">
+        Taux de parole réduit de moitié
+    </string>
+
+    <string name = "speech_rate_doubled">
+       Le taux de parole a doublé
+    </string>
 </resources>

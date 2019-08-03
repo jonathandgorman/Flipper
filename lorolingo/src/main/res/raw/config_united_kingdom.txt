@@ -304,7 +304,7 @@ united_kingdom;household;fan;the fan;fan
 united_kingdom;household;fireplace;the fireplace;fireplace
 united_kingdom;household;fridge;the fridge;fridge
 united_kingdom;household;garage;the garage;garage
-united_kingdom;household;dresser;the hanging lamp;hanging_lamp
+united_kingdom;household;hanging_lamp;the hanging lamp;hanging_lamp
 united_kingdom;household;heater;the heater;heater
 united_kingdom;household;hoover;the hoover;hoover
 united_kingdom;household;iron;the iron;iron

@@ -161,4 +161,16 @@
     <string name="tts_voice_data_installing_msg">
         I dati TTS non sono disponibili e verranno scaricati in background. Riprova tra qualche istante
     </string>
+
+    <string name = "adjust_speech_rate_button_text">
+        Regola la velocità del parlato
+    </string>
+
+    <string name = "speech_rate_halved">
+        Velocità del parlato dimezzata
+    </string>
+
+    <string name = "speech_rate_doubled">
+       La frequenza vocale è raddoppiata
+    </string>
 </resources>

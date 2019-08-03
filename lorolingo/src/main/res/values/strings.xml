@@ -161,4 +161,16 @@
     <string name = "tts_voice_data_installing_msg">
         TTS data is not available and will be downloaded in the background. Please try again in a few moments
     </string>
+
+    <string name = "adjust_speech_rate_button_text">
+        Adjust speech rate
+    </string>
+
+    <string name = "speech_rate_halved">
+        Speech rate halved
+    </string>
+
+    <string name = "speech_rate_doubled">
+      Speech rate doubled
+    </string>
 </resources>

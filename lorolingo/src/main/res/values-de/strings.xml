@@ -161,4 +161,17 @@
         <string name = "tts_voice_data_installing_msg">
         TTS-Daten sind nicht verfügbar und werden im Hintergrund heruntergeladen. Bitte versuchen Sie es in einigen Augenblicken noch einmal
     </string>
+
+    <string name = "adjust_speech_rate_button_text">
+        Passen Sie die Sprachrate an
+    </string>
+
+    <string name = "speech_rate_halved">
+        Sprachrate halbiert
+    </string>
+
+    <string name = "speech_rate_doubled">
+        Sprachrate verdoppelt
+    </string>
+
 </resources>

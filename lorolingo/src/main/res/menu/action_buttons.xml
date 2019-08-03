@@ -30,6 +30,6 @@
     <item
         android:id="@+id/adjust_speech_rate"
         android:icon="@drawable/ic_info_black_24dp"
-        android:title="Adjust text speech rate"
+        android:title="@string/adjust_speech_rate_button_text"
         app:showAsAction="never" />
 </menu>

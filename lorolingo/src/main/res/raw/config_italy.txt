@@ -50,9 +50,9 @@ italy;fruit;blueberry;il mirtillo;blueberry
 italy;fruit;cherry;la ciliegia;cherry
 italy;fruit;chestnut;la castagna;chestnut
 italy;fruit;coconut;la noce di cocco;coconut
-italy;fruit;dates;gli appuntamenti;dates
+italy;fruit;dates;i datteri;dates
 italy;fruit;dragon_fruit;il frutto del drago;dragon_fruit
-italy;fruit;fig;la fig;fig
+italy;fruit;fig;il fico;fig
 italy;fruit;goji;la bacca di goji;goji
 italy;fruit;gooseberry;l'uva spina;gooseberry
 italy;fruit;grapefruit;il pompelmo;grapefruit
@@ -61,7 +61,7 @@ italy;fruit;guava;la guava;guava
 italy;fruit;kiwi;il kiwi;kiwi
 italy;fruit;kumquat;il kumquat;kumquat
 italy;fruit;lemon;il limone;lemon
-italy;fruit;lime;la calce;lime
+italy;fruit;lime;il lime;lime
 italy;fruit;mango;il mango;mango
 italy;fruit;melon;il melone;melon
 italy;fruit;orange;l'arancia;orange
@@ -69,12 +69,12 @@ italy;fruit;papaya;la papaia;papaya
 italy;fruit;passion_fruit;il frutto della passione;passion_fruit
 italy;fruit;peach;la pesca;peach
 italy;fruit;pear;la pera;pear
-italy;fruit;persimmion;la persistenza;persimmion
+italy;fruit;persimmion;il caco;persimmion
 italy;fruit;pineapple;l'ananas;pineapple
 italy;fruit;plum;la prugna;plum
 italy;fruit;quince;la mela cotogna;quince
 italy;fruit;rambutan;il rambutan;rambutan
-italy;fruit;rasberry;il rasberry;rasberry
+italy;fruit;rasberry;il lampone;rasberry
 italy;fruit;strawberry;la fragola;strawberry
 italy;fruit;watermelon;il cocomero;watermelon
 italy;vegetables;asparagus;gli asparagi;asparagus
@@ -90,7 +90,7 @@ italy;vegetables;carrot;la carota;carrot
 italy;vegetables;cauliflower;il cavolfiore;cauliflower
 italy;vegetables;celery;il sedano;celery
 italy;vegetables;chili_pepper;il peperoncino;chili_pepper
-italy;vegetables;corn;il Corno;corn
+italy;vegetables;corn;il mais;corn
 italy;vegetables;courgette;la zucchina;courgette
 italy;vegetables;cucumber;il cetriolo;cucumber
 italy;vegetables;dill;l'aneto;dill
@@ -107,13 +107,13 @@ italy;vegetables;pumpkin;la zucca;pumpkin
 italy;vegetables;radish;il ravanello;radish
 italy;vegetables;red_pepper;il peperone rosso;red_pepper
 italy;vegetables;rhubarb;il rabarbaro;rhubarb
-italy;vegetables;rocket;il razzo;rocket
+italy;vegetables;rocket;la rucola;rocket
 italy;vegetables;spinach;gli spinaci;spinach
-italy;vegetables;squash;lo squash;squash
+italy;vegetables;squash;la zucca;squash
 italy;vegetables;sweet_potato;la patata dolce;sweet_potato
 italy;vegetables;tomato;il pomodoro;tomato
 italy;vegetables;turnip;la rapa;turnip
-italy;vegetables;white_garlic;l'aglio bianco;white_garlic
+italy;vegetables;white_garlic;l'aglio;white_garlic
 italy;animals;anteater;il formichiere;anteater
 italy;animals;baboon;il babbuino;baboon
 italy;animals;bear;l'orso;bear
@@ -139,7 +139,7 @@ italy;animals;duck;l'anatra;duck
 italy;animals;eagle;l'Aquila;eagle
 italy;animals;elephant;l'elefante;elephant
 italy;animals;fennec;il fennec;fennec
-italy;animals;fly;il volo;fly
+italy;animals;fly;la mosca;fly
 italy;animals;fox;la volpe;fox
 italy;animals;frog;la rana;frog
 italy;animals;giraffe;la giraffa;giraffe
@@ -180,13 +180,13 @@ italy;animals;raccoon;il procione;raccoon
 italy;animals;rooster;il gallo;rooster
 italy;animals;salmon;il salmone;salmon
 italy;animals;sea_urchin;il riccio di mare;sea_urchin
-italy;animals;seal;il sigillo;seal
+italy;animals;seal;la foca;seal
 italy;animals;shark;lo squalo;shark
 italy;animals;sheep;la pecora;sheep
 italy;animals;prawn;il gambero;prawn
 italy;animals;silverfish;il pesce argentato;silverfish
 italy;animals;skunk;la puzzola;skunk
-italy;animals;sloth;il pigrizia;sloth
+italy;animals;sloth;il bradipo;sloth
 italy;animals;snake;il serpente;snake
 italy;animals;spider;il ragno;spider
 italy;animals;squid;il calamaro;squid
@@ -205,9 +205,9 @@ italy;professions;astronaut;l'astronauta;astronaut
 italy;professions;athlete;l'atleta;athlete
 italy;professions;basketball_player;il giocatore di basket;basketball_player
 italy;professions;butler;Il Maggiordomo;butler
-italy;professions;cabin_crew;il membro dell'equipaggio di cabina;cabin_crew
+italy;professions;cabin_crew;i membri dell'equipaggio di cabina;cabin_crew
 italy;professions;captain;il capitano;captain
-italy;professions;chef;il cuoco;chef
+italy;professions;chef;lo chef;chef
 italy;professions;clown;il pagliaccio;clown
 italy;professions;cook;il cuoco;cook
 italy;professions;courier;il Corriere;courier
@@ -233,7 +233,7 @@ italy;professions;priest;il prete;priest
 italy;professions;race_car_driver;il pilota di auto da corsa;race_car_driver
 italy;professions;sailor;il marinaio;sailor
 italy;professions;scientist;Lo scienziato;scientist
-italy;professions;secretary;la segretaria;secretary
+italy;professions;secretary;il segretario;secretary
 italy;professions;singer;il cantante;singer
 italy;professions;software_developer;lo sviluppatore del software;software_developer
 italy;professions;soldier;Il soldato;soldier
@@ -255,11 +255,11 @@ italy;transport;cable_car;la funivia;cable_car
 italy;transport;camper_van;il camper;camper_van
 italy;transport;car;l'auto;car
 italy;transport;cargo_ship;la nave da carico;cargo_ship
-italy;transport;cement_truck;il camion di cemento;cement_truck
+italy;transport;cement_truck;la betoniera;cement_truck
 italy;transport;cruise_ship;la nave da crociera;cruise_ship
 italy;transport;drone;il drone;drone
 italy;transport;dump_truck;l'autocarro con cassone ribaltabile;dump_truck
-italy;transport;firetruck;il firetruck;firetruck
+italy;transport;firetruck;il camion dei pompieri;firetruck
 italy;transport;forklift;il carrello elevatore;forklift
 italy;transport;helicopter;l'elicottero;helicopter
 italy;transport;hot_air_balloon;la mongolfiera;hot_air_balloon
@@ -269,7 +269,7 @@ italy;transport;monorail;la monorotaia;monorail
 italy;transport;motorbike;la moto;motorbike
 italy;transport;quad;il quad;quad
 italy;transport;racing_car;la macchina da corsa;racing_car
-italy;transport;rocket_ship;il rocketship;rocket_ship
+italy;transport;rocket_ship;il razzo spaziale;rocket_ship
 italy;transport;sailboat;la barca a vela;sailboat
 italy;transport;scooter;il motorino;scooter
 italy;transport;sidecar;il sidecar;sidecar
@@ -292,7 +292,7 @@ italy;household;bookcase;la libreria;bookcase
 italy;household;chair;la sedia;chair
 italy;household;chest_of_drawers;il cassettone;chest_of_drawers
 italy;household;coat_rack;l'appendiabiti;coat_rack
-italy;household;coffee_machine;la macchina del caffè;coffee_machine
+italy;household;coffee_machine;la caffettiera;coffee_machine
 italy;household;coffee_table;il tavolino da caffè;coffee_table
 italy;household;couch;il divano;couch
 italy;household;desk_lamp;la lampada da tavolo;desk_lamp
@@ -304,7 +304,7 @@ italy;household;fan;il fan;fan
 italy;household;fireplace;il caminetto;fireplace
 italy;household;fridge;il frigo;fridge
 italy;household;garage;il garage;garage
-italy;household;dresser;la lampada a sospensione;hanging_lamp
+italy;household;hanging_lamp;la lampada a sospensione;hanging_lamp
 italy;household;heater;Il termosifone;heater
 italy;household;hoover;l'aspirapolvere;hoover
 italy;household;iron;il ferro;iron
